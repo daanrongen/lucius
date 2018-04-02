@@ -7,7 +7,7 @@ In dit literatuuronderzoek beschrijf ik de urgentie van het probleem dat ik wil 
 
 > Hoe kun je inzicht bieden in de acties die kantoormedewerkers kunnen ondernemen om omgevings-stressoren tegen te gaan, zodat hun welzijn wordt geoptimaliseerd?
 
-Tevens beschrijf ik welke factoren de grootste invloed hebben op werknemers-welzijn wat betreft de fysieke werkomgeving. 
+Tevens beschrijf ik welke factoren de grootste invloed hebben op werknemers-welzijn wat betreft de fysieke werkomgeving.
 
 ## Inhoud
 
@@ -56,7 +56,10 @@ Satisfaction with acoustics and privacy was most strongly affected by workstatio
 
 In dit onderzoek zijn de grootste boosdoeners voor afname van productiviteit, toename van stress, afbreuk van concentratie, ontwikkeling van gezondheidsproblemen op de korte en lange termijn en verminderen van welzijn aan bod gekomen. Het draait natuurlijk om tevredenheid met de werkomgeving en het bewustzijn van de factoren die welzijn beïnvloeden. Het is belangrijk dat werknemers zich bewust zijn stressoren. Zowel in de hoeveelheid stressoren als het gewicht van elke stressor. In het onderstaande figuur is te zien hoe een toename aan de hoeveelheid stressoren een exponentiële afname kan veroorzaken in productiviteit.
 
-<img src='img/stressors.png' width='600px'></img>
+<p align='center'>
+  <img src='img/stressors.png' width='800px'></img>
+</p>
+
 Figuur: Hoeveelheid omgevings-stressoren ten opzichten van arbeidsproductiviteit
 
 In dit figuur is te zien hoe de arbeidsproductiviteit exponentieel afneemt vanaf de absentie van stressoren tot aan drie stressoren die tegelijkertijd het stresshormoon bij een kantoormedewerker ontwikkelen.
