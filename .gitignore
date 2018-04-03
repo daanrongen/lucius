@@ -1,6 +1,6 @@
 # Dependency directory
 .DS_Store
-research
+documents
 design-methods
 readme_old.md
 .gitignore
