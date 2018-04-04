@@ -3,9 +3,25 @@
 ## Introductie
 In dit literatuuronderzoek beschrijf ik de urgentie van het probleem dat ik wil oplossen met mijn afstudeerproject aan de studie _Communication &amp; Multimedia Design_ aan de Hogeschool van Amsterdam. De ontwerpvraag die ik hiervoor heb geformuleerd is als volgt:
 
-> Hoe kun je inzicht bieden in stressoren in de fysieke werkomgeving, zodat kantoormedewerkers acties kunnen ondernemen om hun welzijn te optimaliseren?
+> Hoe kun je inzicht bieden in stressoren in de fysieke werkomgeving, zodat kantoormedewerkers hun werkomgeving kunnen optimaliseren, zodat hun welzijn toeneemt?
+
+De onderzoeksvragen die ik geforumuleerd heb op basis van de ontwerpvraag zijn als volgt:
+* Wat maken omgevingsfactoren in de kantooromgeving tot stressoren?
+* Wat zijn de voornaamste omgevingsstressoren in een kantooromgeving?
+* Wat zijn de invloeden van deze stressoren op het welzijn van de
+kantoormedewerker?
+* In hoeverre kunnen stressoren individueel verschillen per medewerker?
 
 Tevens beschrijf ik welke factoren de grootste invloed hebben op werknemers-welzijn wat betreft de fysieke werkomgeving.
+
+Om het theoretische kader van het onderzoek te concretiseren naar een praktische toepassing, heb ik de volgende design challenges geformuleerd:
+
+- [ ] Hoe kun je omgevingsfactoren inzichtelijk maken door middel van digitale technologie zodat deze informatie systematisch gebruikt kan worden?
+- [ ] Hoe kun je connotaties toekennen aan omgevingsfactoren, zodat het gewicht van een potentiële stressor uitgedrukt kan worden?
+- [ ] Hoe kun je omgevingsstressoren inzichtelijk maken en gelijkertijd respecteren dat kantoormedewerkers verschillende standaarden van comfort hebben?
+- [ ] Hoe kun je inzicht bieden in stressoren, zodat kantoormedewerkers het comfort van hun werkomgeving kunnen optimaliseren?
+- [ ] Hoe kun je kantoormedewerkers van inzichten over hun werkomgeving voorzien, zodat ze een actie kunnen nemen die zowel in het belang van het individu als van het collectief is?
+
 
 ## Inhoud
 
