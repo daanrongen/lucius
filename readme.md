@@ -29,6 +29,9 @@ Om het theoretische kader van het onderzoek te concretiseren naar een praktische
   * [3.4 Ergonomie](#ergonomie)
   * [3.5 Fysieke Omgevings-stressoren](#fysieke-omgevings-stressoren)
 * [4. Bevindingen Veldonderzoek](#bevindingen-veldonderzoek)
+  * [4.1 Sensordata Werkomgeving](#sensordata-werkomgeving)
+  * [4.2 Het Aflezen van Informatie](#het-aflezen-van-informatie)
+  * [4.3 Actie Ondernemen](#actie-ondernemen)
 
 ## Inleiding
 In Nederland werken ruim 2.3 miljoen mensen in een kantooromgeving (Dhr Stijnenbosch, M. H. 2015, [Ontwikkelingen op de Kantorenmarkt in Nederland](https://www.google.nl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwi4g_uY8IzaAhWjMewKHXhPAaIQFgguMAE&url=https%3A%2F%2Fwww.nvm.nl%2F-%2Fmedia%2Ffiles%2Fnvmopenbaar%2Fmarktinformatie%2Fbusiness%2Fkantoren-in-cijfers-2015.pdf&usg=AOvVaw1F0l3c7wuodttkmsOWBN7J)). Dat is bijna eenderde van de complete beroepsbevolking van Nederland (CBS, 13-02-2015, [Beroepsbevolking Nederland](https://www.cbs.nl/nl-nl/achtergrond/2017/06/bevolking-15-tot-75-jaar)). Alhoewel het ziekteverzuim van de gemiddelde Nederlandse kantoormedewerker lager ligt dan bij andere sectoren, is het alsnog niet de meest gezonde werkomgeving om langdurig in te werken. Dit heeft te maken met de hoeveelheid stressoren die veroorzaakt worden in de werkomgeving. Stressoren zijn impulsen waarbij het vrijkomen van het stresshormoon wordt bevorderd (Ontstressen.net, n.d. [Wat zijn stressoren?](https://ontstressen.net/wat-zijn-stressoren/)). Deze impulsen kunnen onderverdeeld worden in fysiologische stressoren, zoals kou, pijn en lawaai, en psychologische stressoren zoals nare herinneringen of slechte relaties met mensen om ons heen. Het is dan ook niet gek dat sinds het begin van de eenentwintigste eeuw de leus _"stress op het werk is beroepsziekte nummer één"_ steeds bekender is geworden. Meer dan een miljoen Nederlandse kantoormedewerkers kampt met burn-out klachten en 36% van al het werk-gerelateerde ziekteverzuim wordt veroorzaakt door stress. Van al deze medewerkers die kampen met stress, vormt de groep jonge medewerkers (leeftijd 25 tot 35 jaar) de grootste groep (TNO, n.d. [Factsheet Werkstress](http://www.monitorarbeid.tno.nl/publicaties/factsheet-werkstress)). Buiten het feit dat het een grote kostenpost is voor bedrijven en dat het bijzonder vervelend is voor de medewerkers op het werk, kan stress van het werken ook nog langdurige effecten met zich meebrengen die later in, of zelfs na het beroepsleven, consequenties hebben op de gezondheid van de kantoormedewerker.
@@ -166,42 +169,42 @@ Na het literatuuronderzoek ben ik bij B. Amsterdam, in gebouw B3, in gesprek geg
 
 > "Je werkt full-time in een kantooromgeving waar je geen ramen open kunt zetten, de verwarming centraal geregeld wordt en veel planten hebt staan. Er komt een bedrijf langs dat sensoren ophangt in elke ruimte. Ze zijn volledig transparant in hoe de technologie van de sensoren werkt. De sensoren zouden hypothetisch gezien alle natuurkundige en klimatologische omstandigheden kunnen meten."
 
-<details><summary>Bevindingen omgevingsdata</summary>
+### Sensordata Werkomgeving
+<details><summary>Lees de voornaamste bevindingen</summary>
   </br>
   <p>
-  Het valt me op dat de respondenten niet erg creatief durven te zijn met het bedenken van omgevings-sensoren. Populaire antwoorden waren: temperatuur, CO2, luchtvochtigheid en punten als "luchtvervuiling" en "zuurstofgehaltes", die onder Air Quality vallen. Uniekere antwoorden waren: lichtintensiteit, lichtkleur, lichtverdeling, geluid en akoestiek, de klimatologische omstandigheden om een plant mee te verzorgen, het aantal mensen op een plek (reuring) en ergonomie (zithouding). De informatie dient volgens bijna alle respondenten voornamelijk visueel te worden weergegeven. Sommigen geven aan grafieken te willen zien waarin waarden over tijd worden weergegeven met connotaties welke waarden goed en slecht zijn. Anderen geven aan dat ze graag "meters" of spectra willen zien, waarop wordt weergegeven wat de huidige waarde is op een horizontale as, en direct gerelativeerd kan worden met wenselijke en onwenselijke waarden.
+  Het valt me op dat de respondenten niet erg creatief durven te zijn met het bedenken van sensoren die omgevingsstressoren kunnen meten. Populaire antwoorden waren: temperatuur, CO2, luchtvochtigheid en metingen als "luchtvervuiling" en "zuurstofgehaltes", die onder luchtkwaliteit vallen. Uniekere antwoorden waren: lichtintensiteit, lichtkleur, lichtverdeling, geluid en akoestiek, de klimatologische omstandigheden om een plant mee te verzorgen, het aantal mensen op een plek (occupancy, reuring) en ergonomie (zithouding). Het valt me echter wel op dat ze spontaan zoveel stressoren kunnen noemen. Toen ik vroeg of ze zelf ook last hebben van de door hen eerder genoemde stressoren, bevestigden ze dit.
+  </br>
+  </br>
+  De informatie dient volgens bijna alle respondenten voornamelijk visueel te worden weergegeven. Sommigen geven aan grafieken te willen zien waarin waarden over tijd worden weergegeven met connotaties welke waarden goed en slecht zijn. Anderen geven aan dat ze graag "meters" of spectra willen zien, waarop wordt weergegeven wat de huidige waarde is op een horizontale as, en direct gerelativeerd kan worden met wenselijke en onwenselijke waarden.
   </p>
 </details>
-</br>
-<details><summary>Bevindingen m.b.t. het aflezen van informatie</summary>
+
+### Het Aflezen van Informatie
+<details><summary>Lees de voornaamste bevindingen</summary>
   </br>
   <p>
-  De respondenten konden de eerder genoemde omgevingsfactoren die gemeten worden door de sensor niet allemaal uitdrukken in eenheden. Toen ik vroeg waar ze de informatie zouden willen terugzien, kreeg ik heel veel reacties. Nadat ik ze allemaal had uitgeschreven, spotte ik interessante trends, de reacties vielen op te delen in vier categorieën:
-  </br>
-  </br>
-  **1. Real-time omgeving naar device:** Informatie die door middel van een notificatie (real-time) naar de gebruiker wordt gestuurd. Deze respondenten vinden het een eng idee als ze zich in een ongezond klimaat bevinden en vinden het prettig om direct een melding te krijgen als ze iets kunnen doen om hun omgevings-stressoren af te zwakken en hun werkomgeving te optimaliseren. Deze notificatie moet zowel op desktop als mobile kunnen werken.
-  </br>
-  **2.Web-dashboard (passief):** Een web-dashboard waar gebruikers naar toe kunnen om grafieken te zien waarin klimaat-trends zichtbaar zijn. Hier ziet de gebruiker dan de huidige waarde, en of deze goed of slecht is, maar ook hoe deze waarden zich hebben ontwikkelt over de afgelopen tijdsperiode. Hiermee kunnen ze in één oogopslag zien of deze waarden vaker voorkomen of niet. De respondenten hebben aangegeven hier wekelijks of twee-wekelijks
-  </br>
-  **3. Centrale monitor:** Één scherm of een paar schermen (monitoren) in de kantooromgeving die als een dashboard fungeren. Als de gebruiker langs het scherm lopen kunnen ze in één oogopslag de huidige status van de werkomgeving zien.
-  </br>
-  **4. Decentrale nudge:** Op verschillende plekken in het kantoor specifieke bronnen kunnen raadplegen. Oftewel, bij elke afzonderlijke context een corresponderende output. De temperatuur-waarden zouden dan op andere plekken gezien kunnen worden dan de lichtintensiteit-waarden.
+  De respondenten konden de eerder genoemde omgevingsfactoren die gemeten worden door de sensor niet allemaal uitdrukken in eenheden. De respondenten bevestigden ook dat ze zelf niet "precies weten wanneer iets goed is". Toen ik vroeg waar ze de informatie zouden willen terugzien, kreeg ik heel veel reacties. Nadat ik ze allemaal had uitgeschreven, spotte ik interessante trends, de reacties vielen op te delen in vier categorieën:
+  <h4>1. Real-time omgeving naar device:</h4> Informatie die door middel van een notificatie (real-time) naar de gebruiker wordt gestuurd. Deze respondenten vinden het een eng idee als ze zich in een ongezond klimaat bevinden en vinden het prettig om direct een melding te krijgen als ze iets kunnen doen om hun omgevings-stressoren af te zwakken en hun werkomgeving te optimaliseren. Deze notificatie moet zowel op desktop als mobile kunnen werken.
+  <h4>2.Web-dashboard (passief):</h4> Een web-dashboard waar gebruikers naar toe kunnen om grafieken te zien waarin klimaat-trends zichtbaar zijn. Hier ziet de gebruiker dan de huidige waarde, en of deze goed of slecht is, maar ook hoe deze waarden zich hebben ontwikkelt over de afgelopen tijdsperiode. Hiermee kunnen ze in één oogopslag zien of deze waarden vaker voorkomen of niet. De respondenten hebben aangegeven hier wekelijks of twee-wekelijks
+  <h4>3. Centrale monitor:</h4> Één beeldscherm of een paar beeldschermen in de kantooromgeving die als een dashboard fungeren. Als kantoormedewerkers langs het scherm lopen kunnen ze in één oogopslag de huidige status van de werkomgeving zien.
+  <h4>4. Decentrale nudge:</h4> Op verschillende plekken in het kantoor specifieke bronnen kunnen raadplegen. Oftewel, bij elke afzonderlijke context een corresponderende output. De temperatuur-waarden zouden dan op andere plekken gezien kunnen worden dan de lichtintensiteit-waarden.
   </p>
 </details>
-</br>
-<details><summary>Bevindingen over de behoefte om in actie te komen om omgevingscomfort te verbeteren</summary>
+
+### Actie Ondernemen
+<details><summary>Lees de voornaamste bevindingen</summary>
   </br>
   <p>
   *"Stel dat je op de manier die je net hebt genoemd een "slechte" omgevings-waarde zou zien. Heb je de behoefte om direct actie te ondernemen om deze te verhelpen of te verminderen?"*
   </br>
   </br>
-  Alle respondenten hebben aangegeven dat ze direct actie zouden ondernemen op het moment dat ze vanuit hun omgeving feedback krijgen dat omgevings-stressoren significant zijn, of binnenkort zullen zijn. De acties die ondernomen zouden worden verschillen echter:
-  </br>
-  </br>
-  **1. Passief (via superior):** Een deel van de respondenten geeft aan actie te ondernemen door naar een manager of ander verantwoordelijk persoon te stappen om een melding of klacht door te geven. Ze hebben het idee dat ze zelf niet in staat zijn om het probleem aan te pakken. Sommigen denken wel de capaciteit te hebben om de stressor aan te pakken, maar vinden dat zij alsnog niet het aangewezen persoon zijn om deze actie te verrichten.
-  </br>
-  **2. Passief (verplaatsing):** Een ander deel van de respondenten heeft aangegeven om zich te verplaatsen van de plek waar een stressor plaatsvindt of zal plaatsvinden. De reden dat deze respondenten dat de meest logische keuze vinden, is omdat ze er erg in geloven dat veel stressoren subjectief zijn. Het is dan niet ondenkbaar dat het individu in kwestie als enige last heeft van deze stressor. De respondenten zeggen: "In plaats van de omgeving aanpassen, ook van toepassing op anderen, lijkt het me beter om zelf een omgeving met minder stressoren op te zoeken".
-  </br>
-  **3. Actief:** Vijf van de veertien ondervraagden geeft aan actie te ondernemen. Een deel hiervan geeft aan dat ze hierbij ook juist de sociale context interessant vinden. "Samen verantwoordelijk zijn voor een aangename werkomgeving" is een doel dat veel respondenten willen bewerkstelligen. Sommigen geven echter wel aan dat ze graag eerst willen overleggen met de rest van de medewerkers of de stressoren unaniem worden ervaren.
+  Alle respondenten hebben aangegeven dat ze direct actie zouden ondernemen op het moment dat ze vanuit hun omgeving feedback krijgen dat omgevingsstressoren significant zijn, of binnenkort zullen zijn. De acties die ondernomen zouden worden verschillen echter:
+  <h4>1. Passief (via superior):</h4> Een deel van de respondenten geeft aan actie te ondernemen door naar een manager of ander verantwoordelijk persoon te stappen om een melding of klacht door te geven. Ze hebben het idee dat ze zelf niet in staat zijn om het probleem aan te pakken. Sommigen denken wel de capaciteit te hebben om de stressor aan te pakken, maar vinden dat zij alsnog niet het aangewezen persoon zijn om deze actie te verrichten.
+  <h4>2. Passief (verplaatsing):</h4> Een ander deel van de respondenten heeft aangegeven om zich te verplaatsen van de plek waar een stressor plaatsvindt of zal plaatsvinden. De reden dat deze respondenten dat de meest logische keuze vinden, is omdat ze er erg in geloven dat veel stressoren subjectief zijn. Het is dan niet ondenkbaar dat het individu in kwestie als enige last heeft van deze stressor. De respondenten zeggen: "In plaats van de omgeving aanpassen, dat ook van toepassing is op anderen, lijkt het me beter om zelf een omgeving met minder stressoren op te zoeken".
+  <h4>3. Actief:</h4> Vijf van de veertien ondervraagden geeft aan zelfstandig actie te ondernemen. Een deel hiervan geeft aan dat ze hierbij ook juist de sociale context interessant vinden. "Samen verantwoordelijk zijn voor een aangename werkomgeving" is een doel dat veel respondenten willen bewerkstelligen. Sommigen geven echter wel aan dat ze graag eerst willen overleggen met de rest van de medewerkers of de stressoren unaniem worden ervaren.
   </p>
 </details>
+
+### Conclusie
+Teruggrijpend naar het literatuuronderzoek weet ik dat fysieke stressoren omtrent licht, geluid, klimaat en ergonomie de grootste invloeden op productiviteit, concentratie, learning-curve, tevredenheid met de werkomgeving, stress, en uiteindelijk welzijn hebben. In de interviews tijdens het veldonderzoek wordt bevestigd dat deze meetpunten interessant zijn voor kantoormedewerkers. Sterker nog: kantoormedewerkers zijn zich bewust van wanneer een stressor actief is. Ze kunnen de stressor ook definiëren en zijn in staat om aan te geven in hoeverre ze last hebben van deze stressor. Kantoormedewerkers kunnen echter niet aangeven in hoeverre ze elke factor in de fysieke omgeving ingesteld willen hebben. Deze zijn moeilijk in te schatten. Kantoormedewerkers hebben verschillende standaarden van comfort, maar hebben moeite met deze standaarden uitdrukken.
