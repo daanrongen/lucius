@@ -24,8 +24,12 @@ Om het theoretische kader van het onderzoek te concretiseren naar een praktische
   * [2.2 Toekomstvisie](#toekomstvisie)
 * [3. Literatuuronderzoek](#literatuuronderzoek)
   * [3.1 Licht](#licht)
+    * [3.1.1 Lichtkleur](#lichtkleur)
+    * [3.1.2 Lichtintensiteit](#lichtintensiteit)
   * [3.2 Geluid](#geluid)
   * [3.3 Klimaat](#klimaat)
+    * [3.3.1 Thermisch Comfort](#thermisch-comfort)
+    * [3.3.2 Luchtkwaliteit](#luchtkwaliteit)
   * [3.4 Ergonomie](#ergonomie)
   * [3.5 Fysieke Omgevings-stressoren](#fysieke-omgevings-stressoren)
 * [4. Bevindingen Veldonderzoek](#bevindingen-veldonderzoek)
@@ -196,7 +200,7 @@ Na het literatuuronderzoek ben ik bij B. Amsterdam, in gebouw B3, in gesprek geg
 <details><summary>Lees de voornaamste bevindingen</summary>
   </br>
   <p>
-  *"Stel dat je op de manier die je net hebt genoemd een "slechte" omgevings-waarde zou zien. Heb je de behoefte om direct actie te ondernemen om deze te verhelpen of te verminderen?"*
+  <i>"Stel dat je op de manier die je net hebt genoemd een "slechte" omgevings-waarde zou zien. Heb je de behoefte om direct actie te ondernemen om deze te verhelpen of te verminderen?"</i>
   </br>
   </br>
   Alle respondenten hebben aangegeven dat ze direct actie zouden ondernemen op het moment dat ze vanuit hun omgeving feedback krijgen dat omgevingsstressoren significant zijn, of binnenkort zullen zijn. De acties die ondernomen zouden worden verschillen echter:
