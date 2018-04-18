@@ -1,4 +1,4 @@
-# Onderzoek Afstudeerproject
+# Afstudeerproject
 Door Daan Rongen, afstudeerstudent major Technology Design, minor Intelligent Environments, focus op design-ethiek, UX design en media-filosofie.
 
 ## Introductie
@@ -15,23 +15,26 @@ Om het theoretische kader van het onderzoek te concretiseren naar een praktische
 - [ ] Hoe kun je kantoormedewerkers van inzichten over hun werkomgeving voorzien, zodat ze een actie kunnen ondernemen die zowel in het belang van het individu als van het collectief is?
 - [ ] Hoe kun je middels een (externe) technologie kantoormedewerkers helpen het comfort van hun werkomgeving te optimaliseren, waarbij alsnog de workflow die bij een full-time kantoorbaan hoort gerespecteerd wordt?
 
-
 ## Inhoud
 
 * [1. Inleiding](#inleiding)
 * [2. Opdrachtgever](#opdrachtgever)
   * [2.1 Huidige Product](#huidige-product)
   * [2.2 Toekomstvisie](#toekomstvisie)
-* [3. Literatuuronderzoek](#literatuuronderzoek)
-  * [3.1 Licht](#licht)
-  * [3.2 Geluid](#geluid)
-  * [3.3 Klimaat](#klimaat)
-  * [3.4 Ergonomie](#ergonomie)
-  * [3.5 Fysieke Omgevings-stressoren](#fysieke-omgevings-stressoren)
-* [4. Bevindingen Veldonderzoek](#bevindingen-veldonderzoek)
-  * [4.1 Sensordata Werkomgeving](#sensordata-werkomgeving)
-  * [4.2 Het Aflezen van Informatie](#het-aflezen-van-informatie)
-  * [4.3 Actie Ondernemen](#actie-ondernemen)
+* [3. Plan van Aanpak](#plan-van-aanpak)
+  * [3.1 Scope](#scope)
+  * [3.2 Milestones](#milestones)
+  * [3.3 Planning](#planning)
+* [4. Literatuuronderzoek](#literatuuronderzoek)
+  * [4.1 Licht](#licht)
+  * [4.2 Geluid](#geluid)
+  * [4.3 Klimaat](#klimaat)
+  * [4.4 Ergonomie](#ergonomie)
+  * [4.5 Fysieke Omgevings-stressoren](#fysieke-omgevings-stressoren)
+* [5. Bevindingen Veldonderzoek](#bevindingen-veldonderzoek)
+  * [5.1 Sensordata Werkomgeving](#sensordata-werkomgeving)
+  * [5.2 Het Aflezen van Informatie](#het-aflezen-van-informatie)
+  * [5.3 Actie Ondernemen](#actie-ondernemen)
 
 ## Inleiding
 In Nederland werken ruim 2.3 miljoen mensen in een kantooromgeving (Dhr Stijnenbosch, M. H. 2015, [Ontwikkelingen op de Kantorenmarkt in Nederland](https://www.google.nl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwi4g_uY8IzaAhWjMewKHXhPAaIQFgguMAE&url=https%3A%2F%2Fwww.nvm.nl%2F-%2Fmedia%2Ffiles%2Fnvmopenbaar%2Fmarktinformatie%2Fbusiness%2Fkantoren-in-cijfers-2015.pdf&usg=AOvVaw1F0l3c7wuodttkmsOWBN7J)). Dat is bijna eenderde van de complete beroepsbevolking van Nederland (CBS, 13-02-2015, [Beroepsbevolking Nederland](https://www.cbs.nl/nl-nl/achtergrond/2017/06/bevolking-15-tot-75-jaar)). Alhoewel het ziekteverzuim van de gemiddelde Nederlandse kantoormedewerker lager ligt dan bij andere sectoren, is het alsnog niet de meest gezonde werkomgeving om langdurig in te werken. Dit heeft te maken met de hoeveelheid stressoren die veroorzaakt worden in de werkomgeving. Stressoren zijn impulsen waarbij het vrijkomen van het stresshormoon wordt bevorderd (Ontstressen.net, n.d. [Wat zijn stressoren?](https://ontstressen.net/wat-zijn-stressoren/)). Deze impulsen kunnen onderverdeeld worden in fysiologische stressoren, zoals kou, pijn en lawaai, en psychologische stressoren zoals nare herinneringen of slechte relaties met mensen om ons heen. Het is dan ook niet gek dat sinds het begin van de eenentwintigste eeuw de leus _"stress op het werk is beroepsziekte nummer één"_ steeds bekender is geworden. Meer dan een miljoen Nederlandse kantoormedewerkers kampt met burn-out klachten en 36% van al het werk-gerelateerde ziekteverzuim wordt veroorzaakt door stress. Van al deze medewerkers die kampen met stress, vormt de groep jonge medewerkers (leeftijd 25 tot 35 jaar) de grootste groep (TNO, n.d. [Factsheet Werkstress](http://www.monitorarbeid.tno.nl/publicaties/factsheet-werkstress)). Buiten het feit dat het een grote kostenpost is voor bedrijven en dat het bijzonder vervelend is voor de medewerkers op het werk, kan stress van het werken ook nog langdurige effecten met zich meebrengen die later in, of zelfs na het beroepsleven, consequenties hebben op de gezondheid van de kantoormedewerker.
@@ -71,6 +74,23 @@ Healthy Workers zet zich in om werknemerswelzijn te meten en te verbeteren bij g
   In de komende jaren wilt Healthy Workers vooral veel groeien.
   </p>
 </details>
+
+## Plan van Aanpak
+<div align='center'>
+  <img src='img/doublediamond.jpg' height='320px'></img>
+</div>
+</br>
+Figuur: Double Diamond, afkomstig van [medium.com/digital-experience-design](https://medium.com/digital-experience-design/how-to-apply-a-design-thinking-hcd-ux-or-any-creative-process-from-scratch-b8786efbf812)
+
+Om het plan van aanpak in een vorm te gieten heb ik gekozen voor de Double Diamond. Persoonlijk vind ik dat de Double Diamond een fijne projectstructuur biedt door de nadruk op divergentie en convergentie. Allereerst wordt er in de ‘Discover-fase’ gebriefd en worden de design challenges geformuleerd. Dit onderdeel van het project staat in het teken van zowel literatuur- als veldonderzoek om zoveel mogelijk informatie te vergaren. Vervolgens worden de bevindingen uit deze onderzoeksfase gesorteerd en worden er thema’s gevormd en nog belangrijker, opportunity areas gedefinieerd. Het Definition proces wordt afgesloten met een concrete ontwerpvraag (How Might We?). Met een solide fundament aan voorkennis en kansgebieden kan er gebrainstormd worden waarbij juist op divergerende wijze zo veel mogelijk concepten worden bedacht. Deze moeten natuurlijk allemaal gevalideerd te worden bij de doelgroep. Tot slot gaat de ‘Deliver-fase’ van start, waarbij het ontwerp een constante ‘build, test, iterate’-loop ondergaat totdat de testen valideren dat het ontwerp succesvol is. Hierna kan het uiteindelijke ontwerp wat opgeknapt worden en kan er gewerkt worden naar de oplevering van een high-fidelity delivery.
+
+### Scope en Stakeholders
+Waar liggen de grenzen van dit afstudeerproject?
+
+### Milestones
+
+### Planning
+
 
 ## Literatuuronderzoek
 
@@ -207,4 +227,4 @@ Na het literatuuronderzoek ben ik bij B. Amsterdam, in gebouw B3, in gesprek geg
 </details>
 
 ### Conclusie
-Teruggrijpend naar het literatuuronderzoek weet ik dat fysieke stressoren omtrent licht, geluid, klimaat en ergonomie de grootste invloeden op productiviteit, concentratie, learning-curve, tevredenheid met de werkomgeving, stress, en uiteindelijk welzijn hebben. In de interviews tijdens het veldonderzoek wordt bevestigd dat deze meetpunten interessant zijn voor kantoormedewerkers. Sterker nog: kantoormedewerkers zijn zich bewust van wanneer een stressor actief is. Ze kunnen de stressor ook definiëren en zijn in staat om aan te geven in hoeverre ze last hebben van deze stressor. Kantoormedewerkers kunnen echter niet aangeven in hoeverre ze elke factor in de fysieke omgeving ingesteld willen hebben. Deze zijn moeilijk in te schatten. Kantoormedewerkers hebben verschillende standaarden van comfort, maar hebben moeite met deze standaarden uitdrukken.
+Teruggrijpend naar het literatuuronderzoek weet ik dat fysieke stressoren omtrent licht, geluid, klimaat en ergonomie de grootste invloeden op productiviteit, concentratie, learning-curve, tevredenheid met de werkomgeving, stress, en uiteindelijk welzijn hebben. In de interviews tijdens het veldonderzoek wordt bevestigd dat deze meetpunten interessant zijn voor kantoormedewerkers. Sterker nog: kantoormedewerkers zijn zich bewust van wanneer een stressor actief is. Ze kunnen de stressor ook definiëren en zijn in staat om aan te geven in hoeverre ze last hebben van deze stressor. Kantoormedewerkers kunnen echter niet aangeven in hoeverre ze elke factor in de fysieke omgeving ingesteld willen hebben. Deze zijn moeilijk in te schatten. Er zijn verschillende manieren mogelijk om de informatie over deze omgevingsfactoren naar de gebruiker te brengen, het hangt af van workflow, urgentie en in hoeverre de kantoormedewerker actie kan ondernemen om comfort te optimaliseren. Kantoormedewerkers hebben verschillende standaarden van comfort, maar hebben moeite met deze standaarden uitdrukken. Tot slot zijn niet alle kantoormedewerkers evenveel gebaat bij een oplossing waarbij ze zelf actie moeten ondernemen. Er zijn ook kantoormedewerkers die wel meer comfort willen, maar dat hun werkgever hiervoor zorgt en er zijn kantoormedewerkers die moeite hebben met inschatten of zij de enigen zijn die de omgevingsstressor ervaren, en om deze reden het probleem uit de weg gaan door zich te verplaatsen.
