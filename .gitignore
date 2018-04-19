@@ -3,4 +3,5 @@
 documents
 design-methods
 readme_old.md
-.gitignore
+log/db
+log/node_modules
