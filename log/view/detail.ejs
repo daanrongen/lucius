@@ -1,0 +1,12 @@
+<span><%= data.dateAdded %></span>
+<h2><%= data.title %></h2>
+
+<% for (var tag = 0; tag < data.tags.length; tag++) { %>
+  <span class="tags"><%= data.tags[tag] %></span>
+<% } %>
+
+<h3>Doel</h3>
+<div class="content">
+  <p><%= data.goal %></p>
+  <img src="https://dummyimage.com/600x400/000/fff">
+</div>

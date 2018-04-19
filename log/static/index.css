@@ -1,0 +1,168 @@
+:root {
+  --main-color: #FEFEFE;
+  --text-color: #1A1919;
+  --accent-color: #FFCB49;
+}
+
+header {
+  width: 100vw;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 3em;
+  color: var(--text-color);
+  font-family: 'IBM Plex Mono';
+  margin: 0px 0px 0px 40px;
+  text-transform: lowercase;
+}
+
+header a {
+  background-color: var(--text-color);
+  margin: 0px 80px 0px 0px;
+  text-decoration: none;
+  color: var(--main-color);
+  width: 3em;
+  font-size: 1.6em;
+  text-align: center;
+  padding: 12px;
+  border-radius: 120px;
+  transition: 0.2s;
+  font-family: 'IBM Plex Mono';
+  text-transform: uppercase;
+}
+
+header a span:last-child {
+  display: none;
+}
+
+header a:hover {
+  background-color: var(--accent-color);
+  transition: 0.2s;
+  width: 8em;
+}
+
+header a:hover span:last-child {
+  display: inline;
+}
+
+header a:hover span:first-child {
+  display: none;
+}
+
+body {
+  background-color: var(--main-color);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body #carousel {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+#planningItem {
+  width: 520px;
+  height: 600px;
+  margin-right: 40px;
+  border: 2px solid var(--text-color);
+  border-radius: 4px;
+  padding: 20px;
+  text-decoration: none;
+  color: var(--text-color);
+  flex: 0 0 auto;
+}
+
+#planningItem span, .logEntry span {
+  font-family: 'Avenir Next';
+  font-size: 0.625em;
+  text-transform: uppercase;
+  color: var(--text-color);
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+#planningItem h2, .logEntry h2 {
+  font-family: 'IBM Plex Sans';
+  font-size: 2em;
+  color: var(--text-color);
+  font-weight: bold;
+  margin: 6px 0px 6px 0px;
+}
+
+#planningItem table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+#planningItem table td {
+  border-right: 1px solid var(--text-color);
+  font-family: 'IBM Plex Sans';
+  font-size: 0.8em;
+  text-transform: lowercase;
+  width: 25%;
+  padding: 5px 0px 5px 0px;
+}
+
+#planningItem table th {
+  border-bottom: 1px solid var(--text-color);
+  font-family: 'IBM Plex Sans';
+  font-size: 0.8em;
+  text-transform: lowercase;
+  padding: 0px 0px 5px 0px;
+}
+
+.logEntry {
+  width: 360px;
+  height: 600px;
+  margin-right: 40px;
+  border: 2px solid var(--text-color);
+  border-radius: 4px;
+  padding: 20px;
+  text-decoration: none;
+  color: var(--text-color);
+  flex: 0 0 auto;
+}
+
+.logEntry .tags {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  font-weight: 500;
+  padding: 3px;
+}
+
+.logEntry h3 {
+  border-top: 2px dashed var(--text-color);
+  margin: 16px 0px 8px 0px;
+  padding: 12px 0px 0px 0px;
+  font-family: 'Avenir Next';
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+}
+
+.logEntry .content {
+  font-family: 'IBM Plex Sans';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75%;
+}
+
+.logEntry p {
+  margin: 0px 0px 0px 0px;
+  font-size: 1em;
+  max-width: 360px;
+}
+
+.logEntry img {
+  max-width: 100%;
+}

@@ -2,10 +2,74 @@
 
 <header>
   <h1>Ontwerpbiografie</h1>
+  <a href='add'>
+    <span>+</span>
+    <span>Add</span>
+  </a>
 </header>
 
 <body>
-  
+
+  <div id="carousel">
+
+    <div id="planningItem">
+      <span>Laatste update: maandag 16 april</span>
+      <h2>Project Planning</h2>
+      <table>
+        <tr>
+          <th></th>
+          <th>apr</th>
+          <th>mei</th>
+          <th>jun</th>
+          <th>jul</th>
+          <th>aug</th>
+          <th>sep</th>
+          <th>okt</th>
+        </tr>
+        <tr>
+          <td>Literatuur</td>
+          <div class="progressionBar"><div id="progressionOne"></div></div>
+        </tr>
+        <tr>
+          <td>Themas</td>
+          <div class="progressionBar"><div id="progressionTwo"></div></div>
+        </tr>
+        <tr>
+          <td>Veldonderzoek</td>
+          <div class="progressionBar"><div id="progressionThree"></div></div>
+        </tr>
+        <tr>
+          <td>Eerste ontwerp</td>
+          <div class="progressionBar"><div id="progressionFour"></div></div>
+        </tr>
+        <tr>
+          <td>Eerste test</td>
+          <div class="progressionBar"><div id="progressionFive"></div></div>
+        </tr>
+      </table>
+    </div>
+
+    <% for (var index = 0; index < data.length; index++) { %>
+
+    <a href="/<%= data[index]._id %>" class="logEntry">
+      <span><%= data[index].dateAdded %></span>
+      <h2><%= data[index].title %></h2>
+
+      <% for (var tag = 0; tag < data[index].tags.length; tag++) { %>
+        <span class="tags"><%= data[index].tags[tag] %></span>
+      <% } %>
+
+      <h3>Doel</h3>
+      <div class="content">
+        <p><%= data[index].goal %></p>
+        <img src="https://dummyimage.com/600x400/000/fff">
+      </div>
+    </a>
+
+    <% } %>
+
+  </div>
+
 </body>
 
 <%- include('tail.ejs') %>
