@@ -1,6 +1,10 @@
 # Afstudeerproject
 Door Daan Rongen, afstudeerstudent major Technology Design, minor Intelligent Environments, focus op design-ethiek, UX design en media-filosofie.
 
+<div width='720px' align='center'>
+  <img src='img/header.png'>
+</div>
+
 ## Introductie
 In dit afstudeerverslag beschrijf ik de urgentie van het probleem dat ik wil oplossen met mijn afstudeerproject aan de studie _Communication &amp; Multimedia Design_ aan de Hogeschool van Amsterdam in opdracht van HR-tech startup Healthy Workers. De ontwerpvraag die ik hiervoor heb geformuleerd is als volgt:
 
