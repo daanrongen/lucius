@@ -1,0 +1,31 @@
+{
+  "name": "log",
+  "version": "1.0.0",
+  "description": "log for my dissertation project",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server",
+    "lint:js": "xo",
+    "lint:css": "stylelint static/index.css"
+  },
+  "author": "Daan Rongen",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "xo": "^0.20.3"
+  },
+  "xo": {
+    "space": true,
+    "esnext": false,
+    "rules": {
+      "semi": [
+        "error",
+        "never"
+      ],
+      "guard-for-in": "off"
+    }
+  }
+}
