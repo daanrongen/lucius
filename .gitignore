@@ -5,3 +5,5 @@ design-methods
 readme_old.md
 log/db
 log/node_modules
+log/static/img
+log/.env
