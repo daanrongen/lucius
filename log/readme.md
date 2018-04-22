@@ -18,7 +18,7 @@
 
 First clone the repository from GitHub:
 ``` git
-$ git clone https://github.com/daanrongen/be-assessment-2
+$ git clone https://github.com/daanrongen/delta/tree/master/log
 ```
 
 If you haven't installed brew and MongoDB yet, first install [Homebrew](https://brew.sh/) and install and start MongoDB:
