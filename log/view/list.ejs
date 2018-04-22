@@ -1,14 +1,18 @@
 <%- include('head.ejs') %>
 
-<header>
-  <h1>Ontwerpbiografie</h1>
-  <a href='add'>
-    <span>+</span>
-    <span>Add</span>
-  </a>
-</header>
+<% var months = ['apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt'] %>
 
-<body>
+<% var tasks = ['literatuur', 'themas', 'veldonderzoek', 'eerste ontwerp', 'eerste test'] %>
+
+<body id="listBody">
+
+  <header id="listHeader">
+    <h1>Ontwerpbiografie</h1>
+    <a href='add'>
+      <span>+</span>
+      <span>Add</span>
+    </a>
+  </header>
 
   <div id="carousel">
 
@@ -18,34 +22,20 @@
       <table>
         <tr>
           <th></th>
-          <th>apr</th>
-          <th>mei</th>
-          <th>jun</th>
-          <th>jul</th>
-          <th>aug</th>
-          <th>sep</th>
-          <th>okt</th>
+          <% for (var month = 0; month < months.length; month++) { %>
+          <th><%= months[month] %></th>
+          <% } %>
         </tr>
+
+        <% for (var task = 0; task < tasks.length; task++) { %>
+
         <tr>
-          <td>Literatuur</td>
-          <div class="progressionBar"><div id="progressionOne"></div></div>
+          <td><%= tasks[task] %></td>
+          <td colspan="<%= months.length %>"><div class="progressionBar"><div></div></div></td>
         </tr>
-        <tr>
-          <td>Themas</td>
-          <div class="progressionBar"><div id="progressionTwo"></div></div>
-        </tr>
-        <tr>
-          <td>Veldonderzoek</td>
-          <div class="progressionBar"><div id="progressionThree"></div></div>
-        </tr>
-        <tr>
-          <td>Eerste ontwerp</td>
-          <div class="progressionBar"><div id="progressionFour"></div></div>
-        </tr>
-        <tr>
-          <td>Eerste test</td>
-          <div class="progressionBar"><div id="progressionFive"></div></div>
-        </tr>
+
+        <% } %>
+
       </table>
     </div>
 
@@ -62,7 +52,7 @@
       <h3>Doel</h3>
       <div class="content">
         <p><%= data[index].goal %></p>
-        <img src="https://dummyimage.com/600x400/000/fff">
+        <img src="img/<%= data[index]._id %>.png">
       </div>
     </a>
 

@@ -1,0 +1,36 @@
+<%- include('head.ejs') %>
+
+<body class="detailBody">
+
+  <header class="detailHeader">
+    <a href="/">⟵</a>
+    <span>Voeg nieuwe log toe</span>
+    <h2>Vul hier alle informatie in</h2>
+  </header>
+
+  <form action='/add' method='POST'>
+    <label>
+      <h3>Titel van de taak</h3>
+      <input type='text' name='title' required autofocus>
+    </label>
+    <label>
+      <h3>Doel van de opdracht</h3>
+      <input type='text' name='goal' required>
+    </label>
+    <label id="tags">
+      <h3>Tags</h3>
+      <input type='text' name='tagOne' required>
+      <input type='text' name='tagTwo'>
+      <input type='text' name='tagThree'>
+      <input type='text' name='tagFour'>
+    </label>
+    <label>
+      <h3>Schrijf hier de inhoud</h3>
+      <textarea name="text" cols="40" rows="5"></textarea required>
+    </label>
+    <input type='submit' value='Voeg toe'>
+  </form>
+
+</body>
+
+<%- include('tail.ejs') %>

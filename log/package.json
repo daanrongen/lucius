@@ -11,6 +11,8 @@
   "author": "Daan Rongen",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "date-and-time": "^0.6.2",
     "dotenv": "^5.0.1",
     "ejs": "^2.5.9",
     "express": "^4.16.3",

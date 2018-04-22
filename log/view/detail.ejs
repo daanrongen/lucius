@@ -1,12 +1,22 @@
-<span><%= data.dateAdded %></span>
-<h2><%= data.title %></h2>
+<%- include('head.ejs') %>
 
-<% for (var tag = 0; tag < data.tags.length; tag++) { %>
-  <span class="tags"><%= data.tags[tag] %></span>
-<% } %>
+<body class="detailBody">
 
-<h3>Doel</h3>
-<div class="content">
-  <p><%= data.goal %></p>
-  <img src="https://dummyimage.com/600x400/000/fff">
-</div>
+  <header class="detailHeader">
+    <a href="/">⟵</a>
+    <span><%= data.dateAdded %></span>
+    <h2><%= data.title %></h2>
+
+    <% for (var tag = 0; tag < data.tags.length; tag++) { %>
+      <span class="tags"><%= data.tags[tag] %></span>
+    <% } %>
+  <header>
+
+    <div class="content">
+      <p><%= data.text %></p>
+      <img src="img/<%= data._id %>.png">
+    </div>
+
+</body>
+
+<%- include('tail.ejs') %>

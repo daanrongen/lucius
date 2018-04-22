@@ -2,17 +2,22 @@
   --main-color: #FEFEFE;
   --text-color: #1A1919;
   --accent-color: #FFCB49;
+  --passive-color: #E6DDDB;
 }
 
-header {
+*::-moz-selection {
+  background: var(--passive-color);
+}
+
+#listHeader {
   width: 100vw;
-  height: 140px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header h1 {
+#listHeader h1 {
   font-size: 3em;
   color: var(--text-color);
   font-family: 'IBM Plex Mono';
@@ -20,7 +25,7 @@ header h1 {
   text-transform: lowercase;
 }
 
-header a {
+#listHeader a {
   background-color: var(--text-color);
   margin: 0px 80px 0px 0px;
   text-decoration: none;
@@ -35,42 +40,44 @@ header a {
   text-transform: uppercase;
 }
 
-header a span:last-child {
+#listHeader a span:last-child {
   display: none;
 }
 
-header a:hover {
+#listHeader a:hover {
   background-color: var(--accent-color);
   transition: 0.2s;
   width: 8em;
 }
 
-header a:hover span:last-child {
+#listHeader a:hover span:last-child {
   display: inline;
 }
 
-header a:hover span:first-child {
+#listHeader a:hover span:first-child {
   display: none;
 }
 
-body {
+#listBody, .detailBody {
   background-color: var(--main-color);
   margin: 0;
   display: flex;
   flex-direction: column;
 }
 
-body #carousel {
+#listBody #carousel {
   display: flex;
   flex-direction: row;
   margin-left: 40px;
   flex-wrap: nowrap;
   overflow-x: auto;
+  overflow-y: hidden;
+  padding: 1em 0px 1em 0px;
 }
 
 #planningItem {
   width: 520px;
-  height: 600px;
+  height: 560px;
   margin-right: 40px;
   border: 2px solid var(--text-color);
   border-radius: 4px;
@@ -80,7 +87,11 @@ body #carousel {
   flex: 0 0 auto;
 }
 
-#planningItem span, .logEntry span {
+#planningItem:hover {
+  cursor: not-allowed;
+}
+
+#planningItem span, .logEntry span, .detailHeader span {
   font-family: 'Avenir Next';
   font-size: 0.625em;
   text-transform: uppercase;
@@ -89,7 +100,7 @@ body #carousel {
   font-weight: bold;
 }
 
-#planningItem h2, .logEntry h2 {
+#planningItem h2, .logEntry h2, .detailHeader h2 {
   font-family: 'IBM Plex Sans';
   font-size: 2em;
   color: var(--text-color);
@@ -102,7 +113,7 @@ body #carousel {
   width: 100%;
 }
 
-#planningItem table td {
+#planningItem table tr td:first-of-type {
   border-right: 1px solid var(--text-color);
   font-family: 'IBM Plex Sans';
   font-size: 0.8em;
@@ -119,9 +130,37 @@ body #carousel {
   padding: 0px 0px 5px 0px;
 }
 
+#planningItem .progressionBar {
+  background-color: var(--passive-color);
+  margin: 0 auto;
+  width: 95%;
+  height: 8px;
+  border-radius: 4px;
+}
+
+#planningItem .progressionBar div {
+  height: 8px;
+  border-radius: 4px;
+  background-color: var(--accent-color);
+}
+
+#planningItem tr:nth-of-type(2) .progressionBar > div, #planningItem tr:nth-of-type(3) .progressionBar > div {
+  width: 12%;
+}
+
+#planningItem tr:nth-of-type(4) .progressionBar > div {
+  width: 8%;
+  margin-left: 4%;
+}
+
+#planningItem tr:nth-of-type(5) .progressionBar > div, #planningItem tr:nth-of-type(6) .progressionBar > div {
+  width: 8%;
+  margin-left: 6%;
+}
+
 .logEntry {
   width: 360px;
-  height: 600px;
+  height: 560px;
   margin-right: 40px;
   border: 2px solid var(--text-color);
   border-radius: 4px;
@@ -129,9 +168,21 @@ body #carousel {
   text-decoration: none;
   color: var(--text-color);
   flex: 0 0 auto;
+  transition: 0.3s;
 }
 
-.logEntry .tags {
+.logEntry:hover {
+  transition: 0.3s;
+  animation: pulse 0.3s forwards;
+  border: 2px solid var(--accent-color);
+  background-color: var(--accent-color);
+}
+
+.logEntry:active {
+  animation: shrink 0.1s forwards;
+}
+
+.logEntry .tags, .detailHeader .tags {
   background-color: var(--accent-color);
   color: var(--main-color);
   font-weight: 500;
@@ -154,7 +205,7 @@ body #carousel {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 75%;
+  height: 66%;
 }
 
 .logEntry p {
@@ -165,4 +216,107 @@ body #carousel {
 
 .logEntry img {
   max-width: 100%;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  } 80% {
+    transform: scale(1.04);
+  } 100% {
+    transform: scale(1.03);
+  }
+}
+
+@keyframes shrink {
+  from {
+    transform: scale(1);
+  } to {
+    transform: scale(0.95);
+  }
+}
+
+.detailBody {
+  font-family: 'IBM Plex Sans';
+}
+
+.detailBody a {
+  color: var(--text-color);
+  font-size: 3em;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+.detailBody a:hover {
+  color: var(--accent-color);
+  transition: 0.3s;
+}
+
+.detailHeader {
+  margin: 8px 0px 0px 40px;
+}
+
+.detailBody .content {
+  margin: 24px 40px 12px 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.detailBody p {
+  width: 32em;
+  margin: 0;
+}
+
+.detailBody img {
+  width: 60%;
+}
+
+form {
+  margin: 12px 40px 0px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  display: block;
+  width: 40em;
+  font-size: 2em;
+  border: none;
+  margin: 12px 0px 12px 0px;
+  font-family: 'IBM Plex Sans';
+}
+
+form h3 {
+  font-size: 1em;
+}
+
+form > input {
+  background-color: var(--text-color);
+  color: var(--main-color);
+  width: 8em;
+  font-size: 1.2em;
+  padding: 12px;
+  border-radius: 120px;
+  transition: 0.2s;
+  font-family: 'IBM Plex Mono';
+  text-transform: uppercase;
+}
+
+form > input:hover {
+  background-color: var(--accent-color);
+  transition: 0.2s;
+}
+
+form #tags input {
+  width: 8em;
+  display: inline;
+  border: 1px solid var(--accent-color);
+  font-family: 'Avenir Next';
+  font-size: 0.625em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  padding: 6px;
 }
