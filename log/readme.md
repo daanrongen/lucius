@@ -67,3 +67,26 @@ To start the server run:
 ``` bash
 $ npm server
 ```
+
+## Tree view of contents
+
+``` note
+├── log
+|  ├── db
+|  ├── node_modules
+|  ├── package-lock.json
+|  ├── package.json
+|  ├── readme.md
+|  ├── server
+|  |  └── index.js
+|  ├── static
+|  |  ├── img
+|  |  └── index.css
+|  └── view
+|     ├── detail.ejs
+|     ├── error.ejs
+|     ├── form.ejs
+|     ├── head.ejs
+|     ├── list.ejs
+|     └── tail.ejs
+```
