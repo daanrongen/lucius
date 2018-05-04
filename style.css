@@ -1,0 +1,68 @@
+:root {
+  --black: #1A1919;
+  --white: #FEFEFE;
+  --yellow: #FFCB49;
+  --red: #E77174;
+  --cyan: #3DB7BD;
+  --blue: #2E7FC1;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--black);
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#deltaIcon {
+  height: 220px;
+  margin-top: 5vh;
+}
+
+#authorInformation {
+  width: 100vw;
+  max-height: 20vh;
+  /* background-color: var(--red); */
+}
+
+#authorInformation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 50px;
+}
+
+#authorInformation ul li {
+  color: var(--white);
+  font-family: 'IBM Plex Mono';
+  font-size: 0.75em;
+  font-weight: 300;
+  width: 515px;
+}
+
+#authorInformation ul li:first-of-type, #authorInformation ul li:nth-of-type(3) {
+  margin-bottom: 12px;
+}
+
+.redText {
+  color: var(--red);
+}
+
+.yellowText {
+  color: var(--yellow);
+}
+
+.cyanText {
+  color: var(--cyan);
+}
+
+.blueText {
+  color: var(--blue);
+}
