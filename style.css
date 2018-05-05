@@ -12,27 +12,48 @@
 body {
   margin: 0;
   width: 100vw;
-  height: 100vh;
   background-color: var(--black);
 }
 
 header {
   display: flex;
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
 }
 
+h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 800;
+  font-size: 2.25em;
+  margin-bottom: 12px;
+  color: var(--white);
+}
+
+p {
+  font-family: 'Avenir Next';
+  font-weight: normal;
+  font-size: 0.875em;
+  width: 32em;
+  color: var(--white);
+  line-height: 18px;
+  margin: 0 4em 0 0;
+}
+
+p:last-of-type {
+  margin: 0 0 0 0;
+}
+
 #deltaIcon {
   height: 220px;
-  margin-top: 5vh;
 }
 
 #authorInformation {
   width: 100vw;
   max-height: 20vh;
-  /* background-color: var(--red); */
+  position: absolute;
+  bottom: 50px;
 }
 
 #authorInformation ul {
@@ -66,4 +87,141 @@ header {
 
 .blueText {
   color: var(--blue);
+}
+
+.largeText {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  width: 816px;
+  color: var(--white);
+  font-family: 'Avenir Next';
+}
+
+#introduction, #ontwerpvraag, #concept {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#introduction h1, #ontwerpvraag h1, #concept h1 {
+  width: 952px;
+  margin-top: 100px;
+}
+
+.splitPaneText {
+  display: flex;
+  flex-direction: row;
+}
+
+#ontwerpvraag > span {
+  margin-top: 4em;
+}
+
+#ontwerpvraag > span > span:hover {
+  cursor: pointer;
+}
+
+#ontwerpvraag #stressoren:hover {
+  background-color: var(--yellow);
+  color: var(--white);
+  transition: 0.2s;
+}
+
+#ontwerpvraag #kantoormedewerkers:hover {
+  background-color: var(--red);
+  color: var(--white);
+  transition: 0.2s;
+}
+
+#ontwerpvraag #webapp:hover {
+  background-color: var(--cyan);
+  color: var(--white);
+  transition: 0.2s;
+}
+
+#ontwerpvraag #comfort:hover {
+  background-color: var(--blue);
+  color: var(--white);
+  transition: 0.2s;
+}
+
+.designChallenge {
+  width: 816px;
+  margin-top: 4em;
+}
+
+.designChallenge h3 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: normal;
+  font-size: 0.875em;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.designChallenge ul {
+  list-style: none;
+  padding: 0;
+}
+
+.designChallenge ul li {
+  font-family: 'Avenir Next';
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1.125em;
+  width: 512px;
+  margin-bottom: 1em;
+}
+
+#selectItem {
+  width: 952px;
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+  margin-top: 2em;
+}
+
+#selectItem ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#selectItem ul li {
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline;
+  font-weight: lighter;
+  transition: 0.2s;
+}
+
+#concept ul .active, #selectItem ul li:hover {
+  font-weight: normal;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#selectItem ul li:first-of-type:hover {
+  color: var(--yellow);
+}
+
+#selectItem ul li:last-of-type:hover {
+  color: var(--red);
+}
+
+#fysiekActive, #webappActive {
+  display: flex;
+  justify-content: space-between;
+  width: 952px;
+}
+
+#fysiekActive svg {
+  margin: 2em 0 0 8em;
+}
+
+#fysiekActive p, #webappActive p {
+  margin-top: 2em;
 }
