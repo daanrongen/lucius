@@ -2,8 +2,8 @@ var onderzoeksvraag = [stressoren, kantoormedewerkers, webapp, comfort]
 var designChallenge = [oorzaak, doelgroep, technologie, doel]
 var fysiekVisual = document.getElementById('fysiekActive')
 var webappVisual = document.getElementById('webappActive')
-var buttonOne = document.getElementById('buttoneOne')
-var buttonTwo = document.getElementById('buttoneTwo')
+var buttonOne = document.getElementById('buttonOne')
+var buttonTwo = document.getElementById('buttonTwo')
 
 for (var i = 0; i < designChallenge.length; i++) {
   designChallenge[i].style.visibility = 'collapse'
@@ -56,13 +56,21 @@ onderzoeksvraag[3].addEventListener('click', function (event) {
 webappVisual.style.visibility = 'collapse'
 
 buttonOne.addEventListener('click', function (event) {
-  fysiekVisual.style.visibility = 'visibile'
-  webappVisual.style.visibility = 'collapse'
-  // console.log(fysiekVisual.style.visibility, webappVisual.style.visibility)
+  console.log('click', event.target.id)
+  if (fysiekVisual.style.visibility === 'collapse') {
+    fysiekVisual.style.visibility = 'visible'
+    webappVisual.style.visibility = 'collapse'
+  } else if (fysiekVisual.style.visibility === 'visible') {
+    fysiekVisual.style.visibility = 'visible'
+  }
 })
 
 buttonTwo.addEventListener('click', function (event) {
-  fysiekVisual.style.visibility = 'collapse'
-  webappVisual.style.visibility = 'visible'
-  // console.log(fysiekVisual.style.visibility, webappVisual.style.visibility)
+  console.log('click', event.target.id)
+  if (webappVisual.style.visibility === 'collapse') {
+    webappVisual.style.visibility = 'visible'
+    fysiekVisual.style.visibility = 'collapse'
+  } else if (webappVisual.style.visibility === 'visible') {
+    webappVisual.style.visibility = 'visible'
+  }
 })
