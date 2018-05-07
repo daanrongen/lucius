@@ -38,12 +38,15 @@ body {
   margin: 0;
   width: 100vw;
   background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   justify-content: center;
   align-items: center;
 }
@@ -82,12 +85,12 @@ p:last-of-type {
 
 #deltaIcon {
   height: 220px;
+  margin-top: 10vh;
 }
 
 #authorInformation {
+  height: 20vh;
   width: 100vw;
-  max-height: 20vh;
-  position: absolute;
   bottom: 50px;
 }
 
@@ -110,6 +113,7 @@ p:last-of-type {
 
 #introduction, #ontwerpvraag, #concept, footer {
   height: 100vh;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,7 +162,7 @@ p:last-of-type {
 }
 
 .designChallenge {
-  width: 816px;
+  width: 952px;
   margin-top: 4em;
 }
 
@@ -229,7 +233,7 @@ p:last-of-type {
 }
 
 #fysiekActive svg {
-  margin: 2em 0 0 8em;
+  margin: 2em 0 0 0;
 }
 
 #fysiekActive p, #webappActive p {
@@ -241,8 +245,8 @@ p:last-of-type {
 }
 
 #webappActive img {
-  max-height: 430px;
-  margin: 2em 7em 0 0;
+  max-height: 340px;
+  margin: 2em 8.5em 0 0;
 }
 
 footer {
@@ -253,10 +257,120 @@ footer svg {
   margin-top: 10.3em;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1080px) {
+
+  body {
+    width: 100vw;
+  }
+
+  header {
+    height: 75vh;
+  }
 
   #authorInformation {
-    max-width: 80vw;
+    height: 25vh;
+    font-size: 1.125em;
+  }
+
+  #authorInformation, #introduction, #ontwerpvraag, #concept, footer {
+    width: 100vw;
+  }
+
+  #introduction, #ontwerpvraag, #concept, footer {
+    min-height: 100vh;
+    height: 100%;
+  }
+
+  #introduction div, #introduction h1, #ontwerpvraag div, #ontwerpvraag h1, .largeText, #concept div, #concept h1, footer div, footer h1 {
+    width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 414px) {
+
+  header {
+    height: 65vh;
+  }
+
+  #authorInformation {
+    height: 35vh;
+  }
+
+  #authorInformation ul {
+    padding: 0;
+    margin-left: 20px;
+  }
+
+  #authorInformation ul li {
+    width: 90vw;
+  }
+
+  .splitPaneText {
+    flex-direction: column;
+  }
+
+  #introduction div, #introduction h1, #introduction div p, #ontwerpvraag div, #ontwerpvraag h1, #ontwerpvraag div p, .largeText, #concept div, #concept h1, footer div, footer h1 {
+    width: 90vw;
+    height: auto;
+    padding: 0;
+  }
+
+  #introduction h1, #ontwerpvraag h1, #concept h1, footer h1 {
+    margin-top: 20px;
+    height: 47px;
+  }
+
+  #introduction p, #ontwerpvraag p {
+    font-size: 0.8em;
+    line-height: 16px;
+  }
+
+  #ontwerpvraag > span {
+    margin-top: 40px;
+  }
+
+  .largeText {
+    width: 90vw;
+    font-size: 1.125em;
+    line-height: 22px;
+    margin-top: 0;
+  }
+
+  .designChallenge {
+    margin-top: 40px;
+  }
+
+  .designChallenge ul li, #concept p, footer p {
+    width: 90vw;
+    font-size: 0.875em;
+  }
+
+  #selectItem, #concept div > p {
+    margin-top: 8px;
+  }
+
+  #fysiekActive, #webappActive {
+    flex-direction: column;
+  }
+
+  #fysiekActive svg, #webappActive img {
+    order: -1;
+  }
+
+  #fysiekActive svg {
+    width: 100%;
+  }
+
+  #webappActive img {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+
+  footer p:first-of-type {
+    margin-bottom: 12px;
   }
 
 }
