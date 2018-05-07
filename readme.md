@@ -1,12 +1,15 @@
 # Design Brief
 Door Daan Rongen, afstudeerstudent major Technology Design, minor Intelligent Environments, focus op IoT-design en design-ethiek.
 
+Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/delta/)
+
 ![header](img/delta-header.png)
 
 ## Inhoud
 * [Introductie](#introductie)
 * [Conclusie literatuur- en veldonderzoek](#conclusie-literatuur--en-veldonderzoek)
 * [Ontwerpvraag](#ontwerpvraag)
+* [Planning en Deliverables](#planning-en-deliverables)
 
 ## Introductie
 In deze design brief beschrijf ik de urgentie van het probleem dat ik wil oplossen met mijn afstudeerproject aan de studie Communication & Multimedia Design aan de Hogeschool van Amsterdam in opdracht van HR-tech startup Healthy Workers. Het project valt te beschrijven als een intelligente welzijns-interventie dat ergonomie in de werkomgeving verbetert en inzichtelijk maakt met een kruk waar tevens omgevingsensoren modulair op aangesloten kunnen worden om inzicht te krijgen in potentiële stressoren, waarbij verschillen in standaarden van comfort per werknemer gerespecteerd worden.
@@ -43,3 +46,6 @@ Om het theoretisch kader van het onderzoek en de bevindingen uit het veldonderzo
 5. Hoe kun je inzicht bieden in omgevingsstressoren, zodat kantoormedewerkers het comfort van hun werkomgeving kunnen optimaliseren?
 
 6. Hoe kun je connotaties toekennen aan omgevingsfactoren, zodat verschillen in standaarden van comfort gerespecteerd worden?
+
+## Planning en Deliverables
+![planning](img/delta-planning.png)
