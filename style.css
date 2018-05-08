@@ -9,6 +9,37 @@
   --blue: #2E7FC1;
 }
 
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  left: 50px;
+  top: 110px;
+  width: 200px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+}
+
 .redText {
   color: var(--red);
 }
@@ -253,8 +284,9 @@ footer {
   height: 100vh;
 }
 
-footer svg {
-  margin-top: 10.3em;
+footer img {
+  margin-top: 2em;
+  width: 952px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -289,6 +321,26 @@ footer svg {
 
 @media screen and (max-width: 414px) {
 
+  nav {
+    width: 100vw;
+    height: 20px;
+    left: 0;
+    top: 0;
+  }
+
+  nav ul {
+    padding: 20px 0px 20px 20px;
+    background-color: var(--black);
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li:last-of-type {
+    display: none;
+  }
+
   header {
     height: 65vh;
   }
@@ -317,7 +369,7 @@ footer svg {
   }
 
   #introduction h1, #ontwerpvraag h1, #concept h1, footer h1 {
-    margin-top: 20px;
+    margin-top: 60px;
     height: 47px;
   }
 
@@ -346,6 +398,10 @@ footer svg {
     font-size: 0.875em;
   }
 
+  #concept {
+    margin-bottom: 4em;
+  }
+
   #selectItem, #concept div > p {
     margin-top: 8px;
   }
@@ -369,8 +425,8 @@ footer svg {
     margin-bottom: 8px;
   }
 
-  footer p:first-of-type {
-    margin-bottom: 12px;
+  footer {
+    display: none;
   }
 
 }
