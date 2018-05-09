@@ -1,7 +1,7 @@
-# Design Brief
+# Delta
 Door Daan Rongen, afstudeerstudent major Technology Design, minor Intelligent Environments, focus op IoT-design en design-ethiek.
 
-Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/delta/)
+Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/delta/) en lees de [design brief](img/design-brief-compressed.pdf) voor het volledige literatuuronderzoek en ontwerpproces.
 
 ![header](img/delta-header.png)
 
