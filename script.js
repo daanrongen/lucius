@@ -10,6 +10,16 @@ var webappVisual = document.getElementById('webappActive')
 var buttonOne = document.getElementById('buttonOne')
 var buttonTwo = document.getElementById('buttonTwo')
 
+navContainer[0].style.display = 'none'
+
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > window.innerHeight) {
+   navContainer[0].style.display = 'block'
+  } else if (window.pageYOffset < window.innerHeight) {
+    navContainer[0].style.display = 'none'
+  }
+})
+
 navElementOne.addEventListener('click', function (event) {
   document.querySelector('#introduction').scrollIntoView({
   behavior: 'smooth'
@@ -66,8 +76,44 @@ navElementFour.addEventListener('click', function (event) {
   }
 })
 
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > window.innerHeight - 0.2 * window.innerHeight && window.pageYOffset < 1.5 * window.innerHeight) {
+    navElementOne.style.textDecoration = 'underline'
+  } else (
+    navElementOne.style.textDecoration = 'none'
+  )
+})
+
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > 1.8 * window.innerHeight && window.pageYOffset < 2.5 * window.innerHeight) {
+    navElementTwo.style.textDecoration = 'underline'
+  } else (
+    navElementTwo.style.textDecoration = 'none'
+  )
+})
+
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > 2.8 * window.innerHeight && window.pageYOffset < 3.5 * window.innerHeight - 100) {
+    navElementThree.style.textDecoration = 'underline'
+  } else (
+    navElementThree.style.textDecoration = 'none'
+  )
+})
+
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > 3.8 * window.innerHeight) {
+    navElementFour.style.textDecoration = 'underline'
+  } else (
+    navElementFour.style.textDecoration = 'none'
+  )
+})
+
 for (var i = 0; i < designChallenge.length; i++) {
   designChallenge[i].style.display = 'none'
+}
+
+if (window.innerWidth < 414) {
+  designChallenge[0].style.display = 'block'
 }
 
 onderzoeksvraag[0].addEventListener('click', function (event) {

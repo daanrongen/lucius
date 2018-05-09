@@ -16,7 +16,6 @@
 nav {
   position: fixed;
   left: 50px;
-  top: 110px;
   width: 200px;
 }
 
@@ -24,6 +23,7 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  width: 140px;
 }
 
 nav ul li {
@@ -34,6 +34,12 @@ nav ul li {
   letter-spacing: 0.5px;
   margin-bottom: 12px;
   text-decoration: none;
+}
+
+nav ul li:nth-child(5) {
+  border-top: 1px dashed lightgrey;
+  margin-top: 2em;
+  padding-top: 2em;
 }
 
 nav ul li:hover {
@@ -54,6 +60,17 @@ nav ul li:hover {
 
 .blueText {
   color: var(--blue);
+}
+
+.extra {
+  color: lightgrey;
+  font-weight: lighter;
+  font-size: 0.75em;
+}
+
+.extra a {
+  text-decoration: none;
+  color: lightgrey;
 }
 
 .largeText {
@@ -136,6 +153,10 @@ p:last-of-type {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.75em;
   width: 515px;
+}
+
+#authorInformation ul li:first-of-type {
+  font-size: 1em;
 }
 
 #authorInformation ul li:first-of-type, #authorInformation ul li:nth-of-type(3) {
@@ -289,6 +310,12 @@ footer img {
   width: 952px;
 }
 
+@media screen and (min-width: 1080px) {
+  nav {
+    top: 110px;
+  }
+}
+
 @media screen and (max-width: 1080px) {
 
   body {
@@ -322,22 +349,31 @@ footer img {
 @media screen and (max-width: 414px) {
 
   nav {
+    background-color: var(--black);
     width: 100vw;
-    height: 20px;
+    height: 32px;
     left: 0;
-    top: 0;
+    bottom: 0;
   }
 
   nav ul {
-    padding: 20px 0px 20px 20px;
-    background-color: var(--black);
+    padding: 8px 0px 0px 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
   }
 
   nav ul li {
     display: inline;
+    font-size: 0.875em;
   }
 
-  nav ul li:last-of-type {
+  nav ul li:nth-child(4) {
+    display: none;
+  }
+
+  .extra {
     display: none;
   }
 
@@ -368,13 +404,8 @@ footer img {
     padding: 0;
   }
 
-  #introduction h1, #ontwerpvraag h1, #concept h1, footer h1 {
-    margin-top: 60px;
-    height: 47px;
-  }
-
   #introduction p, #ontwerpvraag p {
-    font-size: 0.8em;
+    font-size: 0.875em;
     line-height: 16px;
   }
 
