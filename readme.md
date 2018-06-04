@@ -3,7 +3,7 @@ Door Daan Rongen, afstudeerstudent major Technology Design, minor Intelligent En
 
 Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/delta/) en lees de [design brief](img/design-brief-compressed.pdf) voor het volledige literatuuronderzoek en ontwerpproces.
 
-![header](img/delta-header.png)
+![header](docs/img/delta-header.png)
 
 ## Inhoud
 * [Introductie](#introductie)
@@ -43,4 +43,4 @@ Om het theoretisch kader van het onderzoek en de bevindingen uit het veldonderzo
 
 
 ## Planning en Deliverables
-![planning](img/delta-planning.png)
+![planning](docs/img/delta-planning.png)
