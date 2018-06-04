@@ -1,9 +1,6 @@
 # Dependency directory
 .DS_Store
 documents
-design-methods
-readme_old.md
-log/db
-log/node_modules
-log/static/img
-log/.env
+.env
+node_modules
+db
