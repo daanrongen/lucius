@@ -1,28 +1,26 @@
 'use strict'
 
-const express = require('express')
-const session = require('express-session')
-const mongo = require('mongodb')
+import routes from '../src/routes/crm-routes'
 
+const express = require('express')
+const mongoose = require('mongoose')
+const bodyParser = require('body-parser')
+
+const app = express()
 const port = 4000
 
-require('dotenv').config()
+mongoose.Promise = global.Promise
+mongoose.connect('mongodb://localhost/CRMdb')
 
-express()
-  .use(express.static('static'))
-  .use(session({
-    secret: 'secret',
-    resave: false,
-    saveUninitialized: false
-  }))
-  .get('/', all)
+app.use(bodyParser.urlencoded({extended: true}))
+app.use(bodyParser.json())
+
+routes(app)
+
+app.get('/', all)
   .listen(port, console.log('listening on localhost:', port))
 
 function all(req, res) {
   res.status(200)
-  // if (err) {
-  //   console.log('id:', err.id, 'title:', err.title, 'description:', err.description)
-  // } else {
   res.send('Node and Express server is running on port ' + port)
-  // }
 }
