@@ -21,11 +21,11 @@ Hieronder zijn twee schermen te zien van de web-app van Healthy Workers. Deze we
 /documents/images/huidig-product.png
 
 ## Het Probleem
-Het probleem omtrent gezondheidsklachten en verminderd welzijn op het kantoor is een probleem dat speelt bij vier stakeholders in het algemeen, dit zijn: 
+Het probleem omtrent gezondheidsklachten en verminderd welzijn op het kantoor is een probleem dat speelt bij vier stakeholders in het algemeen, dit zijn:
 - De (full-time) kantoormedewerkers;
 - De directie van een corporate bedrijf;
 - Healthy Workers (en haar partners);
-- Gezondheidsinstanties als zorgverzekeraars die ziekteverzuim vergoeden. 
+- Gezondheidsinstanties als zorgverzekeraars die ziekteverzuim vergoeden.
 
 Van deze vier is de laatste stakeholder voornamelijk op maatschappelijk niveau relevant en is niet specifiek aan mijn project gekoppeld.
 
@@ -49,7 +49,7 @@ Om de stressoren in de kantooromgeving in kaart te kunnen brengen heb ik een lit
 ### Literatuur
 
 #### Ergonomie
-Ergonomie wordt officieel gedefinieerd als de wetenschappelijke studie van de mens in relatie tot haar fysieke omgeving. Het is afgeleid van de Griekse woorden 'ergon' (werk) en 'nomos' (wet) en dient de veiligheid en gezondheid van mensen die arbeid verrichten te waarborgen. Zoals in de inleiding vermeld werd, is er een toename in het aantal kantoormedewerkers. Deze kantoormedewerkers hebben gemeen dat ze hun werk zittend verrichten en aan een bureau zitten met een computer. 
+Ergonomie wordt officieel gedefinieerd als de wetenschappelijke studie van de mens in relatie tot haar fysieke omgeving. Het is afgeleid van de Griekse woorden 'ergon' (werk) en 'nomos' (wet) en dient de veiligheid en gezondheid van mensen die arbeid verrichten te waarborgen. Zoals in de inleiding vermeld werd, is er een toename in het aantal kantoormedewerkers. Deze kantoormedewerkers hebben gemeen dat ze hun werk zittend verrichten en aan een bureau zitten met een computer.
 
 Door te lang in een ergonomisch-onverantwoordelijke houding te zitten ontwikkelen mensen muskoskeletal disorders (MSD's), ook wel skeletvergroeiingen. MSD's vormen de grooste categorie van werkgerelateerd letsel. Er vindt een toename plaats in het aantal werknemers met pre-existing MSD's op het moment dat ze het werkveld betreden. In 1995 was het percentage werkers met een MSD 21%, in 2000 was dit 35% en in 2015 48% (Middlesworth, n.d). Een van de meest aannemelijke verklaringen van deze toename is de hoeveelheid beeldschermen op het werk, gecombineerd met de grootte van deze beeldschermen en de hoeveelheid tijd dat we achter deze beeldschermen zitten. MSD's zijn echter te voorkomen. In de eerste helft van de twintigste eeuw heeft er veel onderzoek plaatsgevonden naar ergonomie in de werkomgeving. Op basis van deze onderzoeken is de "ergonomisch-verantwoordelijke zithouding" vastgesteld. Waarbij werkers met een rechte rug en rechte nek in hun stoel zitten. Dit remt wel de ontwikkeling van MSD's, maar voedt weer een volgend probleem.
 
@@ -59,10 +59,10 @@ De Schotse epidemioloog Jerry Morris ontdekte een significante corrolatie tussen
 Onder klimaat in de kantooromgeving beschouw ik binnentemperatuur (°C), luchtvochtigheid (%), de hoeveelheid CO₂-luchtdeeltjes in de lucht in vergelijking tot een miljoen luchtdeeltjes (ppm) en de hoeveelheid tVOC, vluchtige organische componenten, in vergelijking tot een miljard luchtdeeltjes (ppb). Deze vier onderwerpen kunnen gecategoriseerd worden onder thermisch comfort en luchtkwaliteit.
 
 Een decennium geleden is geconcludeerd dat bij een temperatuur van 22 °C optimale productiviteit behaald kan worden (Helsinki Univeristy of Technology, 2006). Inmiddels zijn wetenschappers zich er van bewust dat objectieve binnentemperatuur weinig van waarde is. Het gaat natuurlijk om het comfort dat een individu haalt uit de ruimtelijke temperatuur. Gevoelstemperatuur, of thermisch comfort, is een indicator die aangeeft in hoeverre een individu de luchttemperatuur aangenaam vindt. Dit thermisch comfort is onderhevig aan zes variabelen. Van deze zes variabelen zijn er vier van invloed door de omgeving, en objectief te benaderen. Deze zijn: de lucht-temperatuur, stralings-temperatuur, luchtsnelheid en de luchtvochtigheid.
- 
+
 De overige twee variabelen zijn echter erg persoonlijk, dit zijn de hoeveelheid isolatie dat door de gedragen kleding wordt geboden en de metabolische warmte van het individu, die ook weer afhankelijk is van geslacht, gewicht, leeftijd, fitheid en mate van vermoeidheid (Health and Safety Executive, n.d.). In een recenter onderzoek naar binnenklimaten in gebouwen is gebleken dat de omringende lucht-temperatuur nauwelijks samenhangt met de uitvoering van werk en dat juist de gepercipieerde thermische tevredenheid wel een significante correlatie heeft met work performance. Daarbij komt ook dat het bieden van controle over thermische factoren in de werkomgeving positief werkt op de productiviteit en het welzijn van de werknemer (Tanabe, S, Masaoki, H & Naoe, N, 2015).
 
-Luchtkwaliteit in binnenomgevingen kunnen gemeten worden aan de hand van CO₂-waarden. CO₂ wordt uitgedrukt in ppm (parts per million). In een recent experiment is gebleken dat kantoormedewerkers 50% slechter scoren bij het verrichten van cognitieve acties bij een CO₂-waarde boven de 1000 ppm, dan bij een waarde van 500 ppm (Brueck, 2017). Ook verschijnen er symptomen van vermoeidheid, hoofdpijn en gebrek aan concentratie bij CO₂-waarden boven de 1000 ppm. Kantoormedewerkers kunnen zelfs last krijgen van misselijkheid en duizeligheid bij CO₂-waarden boven de 1600 ppm. De ventilatiekracht en daarmee inherent de hoeveelheid CO₂ in de binnenlucht speelt een grote factor binnen het beruchte "Sick Building Syndrome" (SBS). De symptomen van het SBS zijn funest voor de productiviteit van het bedrijf en het welzijn van haar werknemers (Mens en Gezondheid, 2015). 
+Luchtkwaliteit in binnenomgevingen kunnen gemeten worden aan de hand van CO₂-waarden. CO₂ wordt uitgedrukt in ppm (parts per million). In een recent experiment is gebleken dat kantoormedewerkers 50% slechter scoren bij het verrichten van cognitieve acties bij een CO₂-waarde boven de 1000 ppm, dan bij een waarde van 500 ppm (Brueck, 2017). Ook verschijnen er symptomen van vermoeidheid, hoofdpijn en gebrek aan concentratie bij CO₂-waarden boven de 1000 ppm. Kantoormedewerkers kunnen zelfs last krijgen van misselijkheid en duizeligheid bij CO₂-waarden boven de 1600 ppm. De ventilatiekracht en daarmee inherent de hoeveelheid CO₂ in de binnenlucht speelt een grote factor binnen het beruchte "Sick Building Syndrome" (SBS). De symptomen van het SBS zijn funest voor de productiviteit van het bedrijf en het welzijn van haar werknemers (Mens en Gezondheid, 2015).
 
 #### Licht
 Licht bestaat uit een kleurenspectrum en elke lichtkleur in dit spectrum wordt uitgedrukt in kelvin (K). Het iconische kleurenspectrum kennen we van de regenboog en de album cover van Pink Floyd's Dark Side of the Moon. De menselijke biologische klok is zodanig geëvolueerd dat we een bepaalde afhankelijkheid hebben opgebouwd naar deze kleuren in het lichtspectrum. Onze klok is zo ingesteld dat de mens in de ochtend kleurtemperaturen van 2700K prefereren, dit zijn voornamelijk rode en oranje kleurtinten. Aan het einde van de ochtend is het van belang om een mens bloot te stellen aan witte en blauwe kleurtinten vanaf 4000K en naarmate de middag begint de kleurtinten richting de 6500K te laten veranderen. Dit resulteert in een toename van alertheid en het behoud van concentratie. Richting het einde van de middag zijn gele en oranje kleurtinten wenselijk, deze bevorderen prestatie. Aan het einde van een dag, voordat het donker wordt, heeft de mens weer behoefte aan rode lichtkleuren om tot ontspanning te kunnen komen (SLE, 2017). Het negeren van de behoefte aan deze ritmes, en dus hele dagen lang blootgesteld worden aan een non-dynamische lichtbron, brengt het melatonine-huishouden uit balans. Een van de bekendste symptomen van een verstoorde melatonine-huishouding is depressie. Voor veel wetenschappers is dit ook de verklaring van het fenomeen “winterdepressie".
@@ -80,12 +80,12 @@ Na het literatuuronderzoek ben ik bij B. Amsterdam in gesprek gegaan met kantoor
 In totaal heb ik 14 respondenten geïnterviewd.
 
 #### Sensordata Werkomgeving
-Het is me opgevallen dat de respondenten niet erg creatief durven te zijn met het bedenken van sensoren die omgevingsstressoren kunnen meten. Populaire antwoorden waren: temperatuur, CO₂, luchtvochtigheid en metingen als "luchtvervuiling" en "zuurstofgehaltes", die onder luchtkwaliteit vallen. Uniekere antwoorden waren: lichtintensiteit, lichtkleur, lichtverdeling, geluid en akoestiek, de klimatologische omstandigheden om een plant mee te verzorgen, het aantal mensen op een plek (occupancy, reuring) en ergonomie (zithouding). Toen ik vroeg of ze zelf ook last hebben van de door hen eerder genoemde stressoren, bevestigden ze dit. 
+Het is me opgevallen dat de respondenten niet erg creatief durven te zijn met het bedenken van sensoren die omgevingsstressoren kunnen meten. Populaire antwoorden waren: temperatuur, CO₂, luchtvochtigheid en metingen als "luchtvervuiling" en "zuurstofgehaltes", die onder luchtkwaliteit vallen. Uniekere antwoorden waren: lichtintensiteit, lichtkleur, lichtverdeling, geluid en akoestiek, de klimatologische omstandigheden om een plant mee te verzorgen, het aantal mensen op een plek (occupancy, reuring) en ergonomie (zithouding). Toen ik vroeg of ze zelf ook last hebben van de door hen eerder genoemde stressoren, bevestigden ze dit.
 
 De informatie dient volgens bijna alle respondenten voornamelijk visueel te worden weergegeven. Sommigen geven aan grafieken te willen zien waarin waarden over tijd worden weergegeven met labels over welke waarden goed en slecht zijn. Anderen geven aan dat ze graag "meters" of spectra willen zien, waarop wordt weergegeven wat de huidige waarde is op een horizontale as, en direct gerelativeerd kan worden met wenselijke en onwenselijke waarden.
 
 #### Actie Ondernemen
-“Stel dat je op de manier die je net hebt genoemd een "slechte" omgevingswaarde zou zien. Heb je de behoefte om direct actie te ondernemen om deze te verhelpen of te verminderen?" 
+“Stel dat je op de manier die je net hebt genoemd een "slechte" omgevingswaarde zou zien. Heb je de behoefte om direct actie te ondernemen om deze te verhelpen of te verminderen?"
 
 Alle respondenten hebben aangegeven dat ze actie zouden ondernemen op het moment dat ze vanuit hun omgeving feedback krijgen dat er omgevingsstressoren aanwezig zijn, of binnenkort zullen zijn. De acties die ondernomen zouden worden verschillen echter:
 
@@ -99,9 +99,9 @@ Vijf respondenten hebben aangegeven zich te verplaatsen van de plek waar een str
 Vijf van de veertien ondervraagden geven aan zelfstandig actie te ondernemen. Een deel hiervan geeft aan dat ze hierbij ook juist de sociale context interessant vinden. "Samen verantwoordelijk zijn voor een aangename werkomgeving" is een doel dat ze willen bewerkstelligen. Sommigen geven echter wel aan dat ze graag eerst willen overleggen met de rest van de medewerkers of de stressoren unaniem worden ervaren.
 
 ### Conclusie
-Teruggrijpend naar het literatuuronderzoek weet ik dat fysieke stressoren omtrent ergonomie, klimaat, licht en geluid de grootste invloeden op productiviteit, concentratie, learning-curve, tevredenheid met de werkomgeving, stress, en uiteindelijk welzijn hebben. In de interviews tijdens het veldonderzoek wordt bevestigd dat deze meetpunten interessant zijn voor kantoormedewerkers. Sterker nog: kantoormedewerkers zijn zich bewust van wanneer een stressor actief is. Ze kunnen de stressor ook definiëren en zijn in staat om aan te geven in hoeverre ze last hebben van deze stressor. Kantoormedewerkers kunnen echter niet aangeven in hoeverre ze elke factor in de fysieke omgeving ingesteld willen hebben. Deze zijn moeilijk in te schatten. 
+Teruggrijpend naar het literatuuronderzoek weet ik dat fysieke stressoren omtrent ergonomie, klimaat, licht en geluid de grootste invloeden op productiviteit, concentratie, learning-curve, tevredenheid met de werkomgeving, stress, en uiteindelijk welzijn hebben. In de interviews tijdens het veldonderzoek wordt bevestigd dat deze meetpunten interessant zijn voor kantoormedewerkers. Sterker nog: kantoormedewerkers zijn zich bewust van wanneer een stressor actief is. Ze kunnen de stressor ook definiëren en zijn in staat om aan te geven in hoeverre ze last hebben van deze stressor. Kantoormedewerkers kunnen echter niet aangeven in hoeverre ze elke factor in de fysieke omgeving ingesteld willen hebben. Deze zijn moeilijk in te schatten.
 
-Er zijn verschillende manieren mogelijk om de informatie over deze omgevingsfactoren naar de gebruiker te brengen, het hangt af van workflow, urgentie en in hoeverre de kantoormedewerker actie kan ondernemen om comfort te optimaliseren. Kantoormedewerkers hebben verschillende standaarden van comfort, maar hebben moeite met deze standaarden uit te drukken. 
+Er zijn verschillende manieren mogelijk om de informatie over deze omgevingsfactoren naar de gebruiker te brengen, het hangt af van workflow, urgentie en in hoeverre de kantoormedewerker actie kan ondernemen om comfort te optimaliseren. Kantoormedewerkers hebben verschillende standaarden van comfort, maar hebben moeite met deze standaarden uit te drukken.
 
 Tot slot zijn niet alle kantoormedewerkers evenveel gebaat bij een oplossing waarbij ze zelf actie moeten ondernemen. Er zijn kantoormedewerkers die wel meer comfort willen, maar vinden dat hun werkgever hiervoor moet zorgen. Ook zijn er kantoormedewerkers die moeite hebben met inschatten of zij de enigen zijn die de omgevingsstressor ervaren, en om deze reden het probleem uit de weg gaan door zich te verplaatsen.
 
@@ -164,15 +164,25 @@ Hypothese 1:
 Hypothese 2:
 > **Kantoormedewerkers attenderen hun collega’s op hun zitgedrag als dit aantoonbaar ergonomisch-onverantwoord begint te worden.**
 
+## Experiment 1: Inzichten Zitgedrag
 Op het kantoor van FONK Amsterdam heb ik een vrijwilliger gevonden wiens zitgedrag ik mag bestuderen tussen maandag 4 juni en vrijdag 8 juni. Tussen 09:00 uur 's ochtends en 18:00 uur 's avonds zal ik bijhouden op welke momenten hij zit en hoe lang hij zit. Aan het einde van de werkdag gaan we gezamenlijk de inzichten doornemen. Ik zal hem dan de volgende vragen stellen:
 1. Wat kun je mij vertellen over het onderstaande figuur? (*Usability vraag*)
 2. Wat gaat er door je heen als je deze inzichten bekijkt?
 3. Heb je de behoefte om deze inzichten vanaf nu elke dag te ontvangen?
+4. Wat zou je nog meer willen zien in dit figuur met betrekking tot het zitgedrag dat je vandaag vertoond hebt?
+
+
+### Maandag 4 juni
+- Zitpercentage: 72%
+- Ben vond het zitpercentage hoger dan verwacht, hij dacht dat hij meer had gestaan dan dat.
+- Ben geeft aan dat hij zich bewust is van de vermindering in bloedcirculatie bij een sedentaire houding en zegt soms behoefte te hebben aan wat sport op het midden van de werkdag.
+- Ben geeft ook aan dat hij regelmatig timers gebruikt om regelmatig geattendeerd te worden op zijn zitgedrag. Hij zegt echter dat deze timers 'altijd ongelegen afgaan' en dat hij de tool daarom uit zet.
+
 
 ## Concept UX
 
 ### Job Stories
-Alan Klement uitte zijn kritiek op de *User Stories*-methode die tot op heden vaak werd gebruikt door UX-ontwerpers op een inventarisatie van eisen te maken. User Stories zijn te vaag en bestaan uit te veel assumpties. 
+Alan Klement uitte zijn kritiek op de *User Stories*-methode die tot op heden vaak werd gebruikt door UX-ontwerpers op een inventarisatie van eisen te maken. User Stories zijn te vaag en bestaan uit te veel assumpties.
 
 Een User Story ziet er als volgt uit:
 > "As a (*persona*), I want to (*action*), So that (*expected outcome*)"
