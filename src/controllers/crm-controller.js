@@ -3,6 +3,7 @@
 import {UsersSchema} from '../models/crm-model'
 
 const mongoose = require('mongoose')
+const session = require('express-session')
 
 const User = mongoose.model('Users', UsersSchema)
 
@@ -33,7 +34,11 @@ export const getUserById = (req, res) => {
     if (err) {
       res.send(err)
     } else {
-      res.json(user)
+      res.format({
+        json: () => res.json({user}),
+        html: () => res.render('index.ejs', {user, session: req.session})
+      })
+      console.log(session)
     }
   })
 }
