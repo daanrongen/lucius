@@ -1,6 +1,6 @@
 'use strict'
 
-import {addNewUser, getUsers, getUserById, updateUser, deleteUser} from '../controllers/crm-controller'
+import {addNewUser, getUsers, getUserById, updateUser, deleteUser, getData, addNewValue, getDataByUserId} from '../controllers/crm-controller'
 
 const routes = app => {
   app.route('/')
@@ -14,11 +14,20 @@ const routes = app => {
     }, getUsers)
     .post(addNewUser)
 
+  app.route('/fsr')
+    .get((req, res, next) => {
+      next()
+    }, getData)
+    .post(addNewValue)
+
   app.route('/users/:userId')
     .get(getUserById)
 
     .put(updateUser)
     .delete(deleteUser)
+
+  app.route('/fsr/:userId')
+    .get(getDataByUserId)
 }
 
 export default routes

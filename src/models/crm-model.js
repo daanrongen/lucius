@@ -1,15 +1,30 @@
 const mongoose = require('mongoose')
 
-// const Schema = mongoose.Schema
-
 const {Schema} = mongoose
 
 export const UsersSchema = new Schema({
   username: {
-    type: String
+    type: String,
+    required: true,
+    unique: true
   },
   password: {
-    type: String
+    type: String,
+    required: true
+  },
+  dateAdded: {
+    type: Date,
+    default: Date.now
+  }
+})
+
+export const fsrSchema = new Schema({
+  userId: {
+    type: String,
+    required: true
+  },
+  fsrValue: {
+    type: Boolean
   },
   dateAdded: {
     type: Date,

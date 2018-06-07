@@ -1,12 +1,13 @@
-import {UsersSchema} from '../models/crm-model'
+import {UsersSchema, fsrSchema} from '../models/crm-model'
 
 const mongoose = require('mongoose')
 
 const User = mongoose.model('users', UsersSchema)
+const Value = mongoose.model('fsrData', fsrSchema)
 
+// API for User Database
 export const addNewUser = (req, res) => {
   const newUser = new User(req.body)
-  console.log(newUser)
   newUser.save((err, user) => {
     if (err) {
       res.send(err)
@@ -51,6 +52,38 @@ export const deleteUser = (req, res) => {
       res.send(err)
     } else {
       res.json({message: 'succesfully deleted user'})
+    }
+  })
+}
+
+// API for FSR Database
+export const getData = (req, res) => {
+  Value.find({}, (err, data) => {
+    if (err) {
+      res.send(err)
+    } else {
+      res.json(data)
+    }
+  })
+}
+
+export const addNewValue = (req, res) => {
+  const newValue = new Value(req.body)
+  console.log(newValue)
+  newValue.save((err, data) => {
+    if (err) {
+      res.send(err)
+    }
+    res.json(data)
+  })
+}
+
+export const getDataByUserId = (req, res) => {
+  Value.find({}, (err, data) => {
+    if (err) {
+      res.send(err)
+    } else {
+      res.json(data)
     }
   })
 }
