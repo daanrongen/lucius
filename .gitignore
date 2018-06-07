@@ -4,3 +4,4 @@ documents
 .env
 node_modules
 db
+public
