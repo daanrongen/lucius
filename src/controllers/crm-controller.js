@@ -1,21 +1,17 @@
-'use strict'
-
 import {UsersSchema} from '../models/crm-model'
 
 const mongoose = require('mongoose')
-const session = require('express-session')
 
-const User = mongoose.model('Users', UsersSchema)
+const User = mongoose.model('users', UsersSchema)
 
-export const register = (req, res) => {
+export const addNewUser = (req, res) => {
   const newUser = new User(req.body)
-
+  console.log(newUser)
   newUser.save((err, user) => {
     if (err) {
       res.send(err)
-    } else {
-      res.json(user)
     }
+    res.json(user)
   })
 }
 
@@ -34,11 +30,7 @@ export const getUserById = (req, res) => {
     if (err) {
       res.send(err)
     } else {
-      res.format({
-        json: () => res.json({user}),
-        html: () => res.render('index.ejs', {user, session: req.session})
-      })
-      console.log(session)
+      res.json(user)
     }
   })
 }

@@ -1,19 +1,15 @@
-'use strict'
-
 const mongoose = require('mongoose')
 
-const Schema = mongoose.Schema
+// const Schema = mongoose.Schema
+
+const {Schema} = mongoose
 
 export const UsersSchema = new Schema({
   username: {
-    type: String,
-    required: true,
-    unique: true,
-    trim: true
+    type: String
   },
   password: {
-    type: String,
-    required: true
+    type: String
   },
   dateAdded: {
     type: Date,
