@@ -1,7 +1,6 @@
-# Dependency directory
 .DS_Store
 documents
 .env
 node_modules
-db
 public
+WiFiWebClient/arduino_secrets.h
