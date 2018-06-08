@@ -1,15 +1,17 @@
 # Veldonderzoek
 
 	Daan Rongen
-	Afstudeerstudent Communication & Multimedia Design, minor Intelligent Environments, focus op IoT-design en design-ethiek.
-	
+	Afstudeerstudent Communication & Multimedia Design,
+	minor Intelligent Environments, 
+	focus op IoT-design en design-ethiek.
+		
 	Onder begeleiding van: Harold Konickx
 	In opdracht van: Healthy Workers
 	Onder supervisie van: Niels de Keizer & Boy Lokhoff
 
 ------------------------------
 <div align="center">
-item 1 || item 2 || item 3 || item 4
+<a href="https://github.com/daanrongen/delta/blob/master/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/veldonderzoek.md">veldonderzoek</a>
 </div>
 ------------------------------
 
