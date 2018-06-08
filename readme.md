@@ -13,11 +13,11 @@ Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/
 
 ![Huidige productoplossing Delta](docs/img/delta-header.png)
 
-------------------------------
+---
 <div align="center">
 <a href="https://github.com/daanrongen/delta/blob/master/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/veldonderzoek.md">veldonderzoek</a>
 </div>
-------------------------------
+---
 
 
 ## Inhoud

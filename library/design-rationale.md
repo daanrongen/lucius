@@ -9,11 +9,11 @@
 	In opdracht van: Healthy Workers
 	Onder supervisie van: Niels de Keizer & Boy Lokhoff
 
-------------------------------
+---
 <div align="center">
-<a href="https://github.com/daanrongen/delta/blob/master/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/veldonderzoek.md">veldonderzoek</a>
+<a href="https://github.com/daanrongen/delta/blob/master/library//design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/veldonderzoek.md">veldonderzoek</a>
 </div>
-------------------------------
+---
 
 In de **design rationale** beschrijf ik de belangrijkste (ontwerp)keuzes en beslissingen die ik heb genomen gedurende het ontwerpproces van mijn afstudeerproject.
 
@@ -52,14 +52,11 @@ Wat betreft de omgevingsmetingen, weet ik ook dat elke kantoormedewerker andere 
 
 De Buoy van de Enrichers is van origine al een kruk dat perfect in de potentiële oplossing past aangezien het een zeer ergonomisch-verantwoord product is. Deze ergonomische kwaliteit is echter niet meetbaar, noch inzichtelijk. Middels een gyroscoop kan de ‘sedentary movement’ gemeten worden en door een knop in het zitvlak kan de zit-duratie uitgelezen worden. Om omgevingsfactoren te kunnen meten, zal de kruk voorzien worden van een component waarop de sensoren modulair geplaatst kunnen worden. Welzijn in de werkomgeving staat, zoals eerder benoemd in dit document, op fysiologische en psychologische factoren. De werkomgeving moet comfortabel zijn en de werkcultuur dient aangenaam te zijn. In dit ontwerp geven de LED’s een visuele indicatie van het zitgedrag. Het doel is dat de collega’s van de zittende kantoormedewerker hem/haar herinneren even te gaan staan als dat nodig is. Het toont collegialiteit en een ‘menselijke’ nudge is een stuk vriendelijker en meer context-aware dan een computer-notificatie.
 
-<div align="center">
-/docs/img/delta-header.png
-</div>
-
 ### Huidige oplossingsrichting: Web-app
 - De web-app is standaard voorzien van persoonlijke ergonomische inzichten. Door sensoren op de Buoy te plaatsen kunnen andere omgevingsfactoren gemeten worden. Metingen kunnen op persoonlijk- en afdelingsniveau bekeken worden.
 - In deze visualisatie kunnen kantoormedewerkers hun zitgedrag tijdens de werkdag bekijken. Zodra de medewerker gaat zitten wordt de gyroscoop uitgelezen en analyseert het de *in-chair-movement*, deze worden met kleurconnotaties weergegeven op een klok. Het getal in het midden van de cirkel staat voor het percentage van de tijd waarop de kantoormedewerker heeft gezeten, vergeleken met de gehele werkdag.
 
+
 <div align="center">
-/documents/images/interface-webapp.png
+![](/images/delta-header.png)
 </div>

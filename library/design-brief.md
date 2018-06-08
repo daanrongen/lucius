@@ -9,12 +9,11 @@
 	In opdracht van: Healthy Workers
 	Onder supervisie van: Niels de Keizer & Boy Lokhoff
 
-------------------------------
+---
 <div align="center">
-<a href="https://github.com/daanrongen/delta/blob/master/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/veldonderzoek.md">veldonderzoek</a>
+<a href="https://github.com/daanrongen/delta/blob/master/library/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/veldonderzoek.md">veldonderzoek</a>
 </div>
-------------------------------
-
+---
 
 In deze **design brief** beschrijf ik de achtergrond van mijn afstudeeropdracht. Hierin worden de eisen van de opdrachtgever, het huidige product van de opdrachtgever en de context van de eindgebruiker beschreven.
 
@@ -28,7 +27,7 @@ Healthy Workers zet zich in om werknemerswelzijn te meten en te verbeteren bij g
 Hieronder zijn twee schermen te zien van de web-app van Healthy Workers. Deze web-app, speciaal voor de werknemers, wordt de Employee Companion genoemd. In het linkerscherm is de home-page van de huidige web-app te zien. De plant symboliseert persoonlijke groei. Het getal op de pot geeft aan hoe veel weken de gebruiker de web-app gebruikt. Bovenin het linkerscherm is te zien dat de luchtkwaliteit 'alpenfris' is. Als hierop wordt geklikt, gaat de gebruiker naar het rechterscherm, het klimaatoverzicht. Hier zien de kantoormedewerkers de informatie die real-time van de geplaatste sensoren komt. Healthy Workers heeft in het afgelopen halfjaar drie pilots bij corporate bedrijven uitgevoerd. Deze vonden plaats bij Uitvoeringsinstituut Werknemersverzekeringen (UWV), een van de grootste accounting-firma’s PriceWaterhouseCoopers (PWC) en bloemen- conglomeraat Royal FloraHolland. Tijdens deze pilots is het huidige product uitvoerig getest.
 
 <div align="center">
-/documents/images/huidig-product.png
+![Huidige Webapp Healthy Workers](/images/huidig-product.png)
 </div>
 
 ## Het Probleem

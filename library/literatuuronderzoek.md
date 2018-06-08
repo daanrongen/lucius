@@ -9,11 +9,11 @@
 	In opdracht van: Healthy Workers
 	Onder supervisie van: Niels de Keizer & Boy Lokhoff
 
-------------------------------
+---
 <div align="center">
-<a href="https://github.com/daanrongen/delta/blob/master/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/veldonderzoek.md">veldonderzoek</a>
+<a href="https://github.com/daanrongen/delta/blob/master/library/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/veldonderzoek.md">veldonderzoek</a>
 </div>
-------------------------------
+---
 
 
 In dit **literatuuronderzoek** beschrijf ik de belangrijkste bevindingen uit mijn onderzoek naar fysieke stressoren in kantooromgevingen.
@@ -58,3 +58,26 @@ Licht bestaat uit knipperingen. De hoeveelheid Herz (Hz) bepaald de constantheid
 
 ### Geluid
 Geluid is de oscillatie van druk dat wordt overgedragen door een 'medium'. Dit medium kan een vaste, vloeibare of gasvorm hebben. Het bekendste medium waar deze trillingen doorheen reizen is zuurstof in gasvorm. Geluid heeft altijd een verzender, medium en ontvanger. In een scenario waar een kantoormedewerker geconcentreerd zit te werken, en er een collega muziek wilt luisteren is de speaker de verzender, zuurstof het medium en het oor van de medewerker de ontvanger. Afhankelijk van het volume dat de speaker uitzendt, de afstand tussen de verzender en de ontvanger, de hoeveelheid geluidsabsorptie die in de ruimte plaatsvindt en eventuele gehoorbescherming die de ontvanger draagt, wordt de concentratie van de medewerker wel of niet doorbroken. Geluid is een van de grootste stoorzenders in een kantooromgeving. Het meest wenselijke geluidsniveau is echter een punt waar veel medewerkers van mening verschillen. Het is echter wel gebleken dat "ergernis" door geluid de meest significante afname in werk-productiviteit draagt. Op het moment dat er sprake is van ergernis door geluid, spreekt men van "noise pollution". Dit is het resultaat van een slechte verhouding tussen verzender, medium en ontvanger in het omgevingsgeluid. Noise pollution op kantoren zorgt voor een flinke afname in productiviteit, zwakkere learning curves, moeite van het opnemen van nieuwe informatie, moeite met het ophalen van geheugen en het afbreken van concentratie. Geluid wordt uitgedrukt in decibel (dB), maar er is een gestandaardiseerd equivalent voor het menselijk oor en dat is dBA. Het geadviseerde geluidsniveau voor in kantoren, gebaseerd op optimale productiviteit en concentratie, is 45 dBA. Het gemiddelde geluidsniveau in kantoren in Nederland is echter 54 dBA (Mize, 2016).
+
+## Bronnenlijst
+1. Dhr Stijnenbosch, M. H. 2015, Ontwikkelingen op de Kantorenmarkt in Nederland, geraadpleegd op 28-03-2018, verkregen via: https://www.google.nl/url? sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwi4g_uY8IzaAhWjMewKHXhPAaIQFgguMAE&url=https%3A%2F% 2Fwww.nvm.nl%2F-%2Fmedia%2Ffiles%2Fnvmopenbaar%2Fmarktinformatie%2Fbusiness%2Fkantoren-in- cijfers-2015.pdf&usg=AOvVaw1F0l3c7wuodttkmsOWBN7J
+2. CBS, 13-02-2015, Beroepsbevolking Nederland, geraadpleegd op 28-03-2018, verkregen via: https://www.cbs.nl/nl-nl/ achtergrond/2017/06/bevolking-15-tot-75-jaar
+3. Van Agteren, 08-01-2018, De kantoortuin is funest voor de mentale gezondheid, geraadpleegd op 3-05-2018, verkregen via: https://www.ad.nl/ad-werkt/enlsquo-de-kantoortuin-is-funest-voor-de-mentale-gezondheidenrsquo~ad51b0a3/
+4. Ontstressen.net, n.d. Wat zijn stressoren? geraadpleegd op 28-03-2018, verkregen via: https://ontstressen.net/wat-zijn- stressoren/
+5. TNO, n.d. Factsheet Werkstress. geraadpleegd op 29-03-2018, verkregen via: http://www.monitorarbeid.tno.nl/publicaties/ factsheet-werkstress
+6. Klees, 11-10-2017, Zieke werknemer kost 200 tot 400 euro per dag, geraadpleegd op 28-04-2018, verkregen via: https:// www.mkbservicedesk.nl/10218/zieke-werknemer-kost-200-tot-400-euro.htm
+7. Smid, E, 6-06-2016, Stress in relatie tot de fysieke werkomgeving, geraadpleegd op 28-04-2018, verkregen via: https:// www.google.com/url? sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwjbr9G15uHaAhWNLFAKHWziClUQFgg6MAI&url=https%3A%2F% 2Fwww.hanze.nl%2Fassets%2Fkc- noorderruimte%2FDocuments%2FPublic%2FAfstudeerverslagen%2520bNR%2520juli%25202016%2FOnderzoeksrapport%2 520Erik%2520Smid.pdf&usg=AOvVaw29W8lbW0Z2gL5B_7ShT1sb
+8. Fogg, B. J., n.d., Fogg’s Behaviour Model, geraadpleegd op 30-03-2018, verkregen via: http:// www.growthengineering.co.uk/bj-foggs-behavior-model/
+9. Middlesworth, M, n.d. The Definition and Causes of MSDs, geraadpleegd op 03-04-2018, verkregen via: http://ergo- plus.com/musculoskeletal-disorders-msd/
+10. Pandey, A, Usman, S, % Sushil, G, 01-08-2016 Continuous Dose-Response Association Between Sedentary Time and Risk for Cardiovascular Disease, geraadpleegd op 03-04-2018, verkregen via: https://jamanetwork.com/journals/jamacardiology/ fullarticle/2533676#Introduction
+11. UMC Utrecht, n.d. Zitten is het Nieuwe Roken, geraadpleegd op 03-04-2018, verkregen via: https://www.umcutrecht.nl/nl/ Ziekenhuis/Ervaringen-van-patienten/Hoegaathet/Hoegaathet-maart-2015-sporten-en-bewegen/Zitten-is-het-nieuwe-roken 12. Helsinki Univeristy of Technology, 2006, The Optimal Office Temperature, geraadpleegd op 30-03-2018, via: https:// www.pgi.com/blog/2016/05/the-optimal-office-temperature-for-workplace-productivity/
+13. Health and Safety Executive, n.d., Thermal Comfort: The Six Basic Factors, geraadpleegd op 30-03-2018, verkregen via: http://www.hse.gov.uk/temperature/thermal/factors.htm#metabolic
+14. Tanabe, S, Masaoki, H &amp; Naoe, N, 23-09-2015, Workplace Productivity and Individual Thermal Satisfaction, geraadpleegd op 02-04-2018, verkregen via: https://www.sciencedirect.com/science/article/pii/S036013231500089X
+15. Climate Central, 27-09-2016, The World Passes 400 PPM Threshold. Permanently, geraadpleegd op 02-04-2018, verkregen via: http://www.climatecentral.org/news/world-passes-400-ppm-threshold-permanently-20738
+16. Australian Government, 01-07-2007, Department of the Environment and Energy: Total Volatile Organic Compounds, geraadpleegd op 03-04-2018, verkregen via: http://www.npi.gov.au/resource/total-volatile-organic-compounds
+17. Brueck, H, 10-11-2017, The Air You Breathe in your Office Can Have Major Impacts on your Performance, geraadpleeegd op 03-04-2018, verkregen via: https://www.businessinsider.nl/office-air-co2-levels-making-workers-tired-2017-11/? international=true&r=US
+18. Mens en Gezondheid, 26-10-2015, Oorzaken en Symptomen Sick Building Syndrome, geraadpleegd op 03-04-2018, verkregen via: https://mens-en-gezondheid.infonu.nl/aandoeningen/101550-oorzaken-en-symptomen-sick-building- syndrome.html
+19. SLE, 2017, Human Centric Lighting for Offices, geraadpleegd op 04-05-2018, verkregen via: http://www.sleprojects.com/ human-centric-office
+20. Lumeco Light Solutions, n.d. Luxwaarden voor verschillende toepassingen. geraadpleegd op 29-03-2018, verkregen via: https://lumeco.nl/lux-en-lumen/
+21. Mize, C, 11-05-2016. The Optimal Office Temperature, geraadpleegd op 29-03-2018, verkregen via: https://www.pgi.com/ blog/2016/05/the-optimal-office-temperature-for-workplace-productivity/
+22. Leder, S et al, 23-02-2015, Effects of office environment on employee satisfaction: a new analysis, geraadpleegd op 03-04-2018, verkregen via: https://www.tandfonline.com/doi/abs/10.1080/09613218.2014.1003176
