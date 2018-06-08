@@ -53,7 +53,7 @@ Ergonomie wordt officieel gedefinieerd als de wetenschappelijke studie van de me
 
 Door te lang in een ergonomisch-onverantwoordelijke houding te zitten ontwikkelen mensen muskoskeletal disorders (MSD's), ook wel skeletvergroeiingen. MSD's vormen de grooste categorie van werkgerelateerd letsel. Er vindt een toename plaats in het aantal werknemers met pre-existing MSD's op het moment dat ze het werkveld betreden. In 1995 was het percentage werkers met een MSD 21%, in 2000 was dit 35% en in 2015 48% (Middlesworth, n.d). Een van de meest aannemelijke verklaringen van deze toename is de hoeveelheid beeldschermen op het werk, gecombineerd met de grootte van deze beeldschermen en de hoeveelheid tijd dat we achter deze beeldschermen zitten. MSD's zijn echter te voorkomen. In de eerste helft van de twintigste eeuw heeft er veel onderzoek plaatsgevonden naar ergonomie in de werkomgeving. Op basis van deze onderzoeken is de "ergonomisch-verantwoordelijke zithouding" vastgesteld. Waarbij werkers met een rechte rug en rechte nek in hun stoel zitten. Dit remt wel de ontwikkeling van MSD's, maar voedt weer een volgend probleem.
 
-De Schotse epidemioloog Jerry Morris ontdekte een significante corrolatie tussen ‘sedentair werk’ en de ontwikkeling van dodelijke hart- en vaatziekten. Door langdurig in dezelfde positie te zitten op een stoel, worden de bloedwegen aan de achterkant van de bovenbenen afgekneld door het zitoppervlak. Hierdoor neemt de druk op de bloedvaten toe, wat vervolgens kan leiden tot cardiovascular diseases, ookwel hart- en vaatziekten (Pandey, A, Usman, S, & Sushil, G, 2016). "Zitten is het nieuwe roken", wordt zelfs toegegeven door het UMC Utrecht. Er zijn nieuwe onderzoeken gedaan naar ergonomie op de werkomgeving en de uitspraken van het begin van de twintigste eeuw zijn deels gerectificeerd: ergonomisch zitten is goed, dynamisch zitten is beter. Het is daarom essentieel om een ergonomisch-verantwoordelijke zithouding aan te nemen tijdens het werk, maar gelijkertijd aan zo veel mogelijk beweging toe te komen.
+De Schotse epidemioloog Jerry Morris ontdekte een significante correlatie tussen ‘sedentair werk’ en de ontwikkeling van dodelijke hart- en vaatziekten. Door langdurig in dezelfde positie te zitten op een stoel, worden de bloedwegen aan de achterkant van de bovenbenen afgekneld door het zitoppervlak. Hierdoor neemt de druk op de bloedvaten toe, wat vervolgens kan leiden tot cardiovascular diseases, ook wel hart- en vaatziekten (Pandey, A, Usman, S, & Sushil, G, 2016). "Zitten is het nieuwe roken", wordt zelfs toegegeven door het UMC Utrecht. Er zijn nieuwe onderzoeken gedaan naar ergonomie op de werkomgeving en de uitspraken van het begin van de twintigste eeuw zijn deels gerectificeerd: ergonomisch zitten is goed, dynamisch zitten is beter. Het is daarom essentieel om een ergonomisch-verantwoordelijke zithouding aan te nemen tijdens het werk, maar gelijkertijd aan zo veel mogelijk beweging toe te komen.
 
 #### Klimaat
 Onder klimaat in de kantooromgeving beschouw ik binnentemperatuur (°C), luchtvochtigheid (%), de hoeveelheid CO₂-luchtdeeltjes in de lucht in vergelijking tot een miljoen luchtdeeltjes (ppm) en de hoeveelheid tVOC, vluchtige organische componenten, in vergelijking tot een miljard luchtdeeltjes (ppb). Deze vier onderwerpen kunnen gecategoriseerd worden onder thermisch comfort en luchtkwaliteit.
@@ -134,7 +134,7 @@ Tegen het einde van het afstudeerproject wens ik op de volgende aspecten tevrede
 ## Productvisie
 
 #### Wat weet ik tot nu toe?
-Door het literatuur- en veldonderzoek weet ik dat het comfort van de fysieke werkomgeving essentieel is voor het welzijn van de kantoormedewerker. Kantoormedewerkers ontwikkelen op den duur mentale problemen door stress en lichamelijke klachten door hun zitgedrag. Om inzicht te krijgen in het comfort van de werkomgeving dienen er ergonomische en omgevings-metingen verricht te worden. Het is van groot belang dat kantoormedewerkers aan veel beweging toekomen terwijl ze werken, ergonomisch zitten is goed maar dynamisch zitten is immers beter. Een stoel waarbij van nature al in een ergonomisch-verantwoorde zithouding aangenomen wordt zou ideaal zijn. Het belang is echter dat kantoormedewerkers inzicht kunnen krijgen in hun sedentary movement: de hoeveelheid beweging die tijdens het zitten plaatsvindt.
+Door het literatuur- en veldonderzoek weet ik dat het comfort van de fysieke werkomgeving essentieel is voor het welzijn van de kantoormedewerker. Kantoormedewerkers ontwikkelen op den duur mentale problemen door stress en lichamelijke klachten door hun zitgedrag. Om inzicht te krijgen in het comfort van de werkomgeving dienen er ergonomische en omgevingsmetingen verricht te worden. Het is van groot belang dat kantoormedewerkers aan veel beweging toekomen terwijl ze werken, ergonomisch zitten is goed maar dynamisch zitten is immers beter. Een stoel waarbij van nature al in een ergonomisch-verantwoorde zithouding aangenomen wordt zou ideaal zijn. Het belang is echter dat kantoormedewerkers inzicht kunnen krijgen in hun sedentary movement: de hoeveelheid beweging die tijdens het zitten plaatsvindt.
 
 Wat betreft de omgevingsmetingen, weet ik ook dat elke kantoormedewerker andere standaarden van comfort heeft. Om inzicht te krijgen dit comfort, dienen de omgevingsstressoren individueel geanalyseerd te worden. Kantoor-medewerkers weten bijvoorbeeld wel of ze de temperatuur (te) warm of (te) koud vinden, maar ze hebben moeite met inschatten wat hun gewenste temperatuur zou zijn. Zodra een omgevingsstressor actief is, komen kantoormedewerkers graag in actie om deze tegen te gaan. De actie die ze nemen hangt echter af van of iedereen deze stressor ervaart, of dat het slechts door een kleine groep wordt ervaren. Het management wil graag inzicht in de omgevingsstressoren om te kunnen analyseren welke interventies de grootste toename in welzijn zullen realiseren.
 
@@ -147,7 +147,7 @@ Wat betreft de omgevingsmetingen, weet ik ook dat elke kantoormedewerker andere 
 
 De Buoy van de Enrichers is van origine al een kruk dat perfect in de potentiële oplossing past aangezien het een zeer ergonomisch-verantwoord product is. Deze ergonomische kwaliteit is echter niet meetbaar, noch inzichtelijk. Middels een gyroscoop kan de ‘sedentary movement’ gemeten worden en door een knop in het zitvlak kan de zit-duratie uitgelezen worden. Om omgevingsfactoren te kunnen meten, zal de kruk voorzien worden van een component waarop de sensoren modulair geplaatst kunnen worden. Welzijn in de werkomgeving staat, zoals eerder benoemd in dit document, op fysiologische en psychologische factoren. De werkomgeving moet comfortabel zijn en de werkcultuur dient aangenaam te zijn. In dit ontwerp geven de LED’s een visuele indicatie van het zitgedrag. Het doel is dat de collega’s van de zittende kantoormedewerker hem/haar herinneren even te gaan staan als dat nodig is. Het toont collegialiteit en een ‘menselijke’ nudge is een stuk vriendelijker en meer context-aware dan een computer-notificatie.
 
-/documents/images/buoy-schets.png
+/docs/img/delta-header.png
 
 #### Huidige oplossingsrichting: Web-app
 - De web-app is standaard voorzien van persoonlijke ergonomische inzichten. Door sensoren op de Buoy te plaatsen kunnen andere omgevingsfactoren gemeten worden. Metingen kunnen op persoonlijk- en afdelingsniveau bekeken worden.
@@ -175,8 +175,28 @@ Op het kantoor van FONK Amsterdam heb ik een vrijwilliger gevonden wiens zitgedr
 ### Maandag 4 juni
 - Zitpercentage: 72%
 - Ben vond het zitpercentage hoger dan verwacht, hij dacht dat hij meer had gestaan dan dat.
-- Ben geeft aan dat hij zich bewust is van de vermindering in bloedcirculatie bij een sedentaire houding en zegt soms behoefte te hebben aan wat sport op het midden van de werkdag.
+- Ben geeft aan dat hij zich bewust is van de vermindering in bloedcirculatie bij een sedentaire houding en zegt soms behoefte te hebben aan wat sport op het midden van de werkdag, hij doet dit echter nooit.
 - Ben geeft ook aan dat hij regelmatig timers gebruikt om regelmatig geattendeerd te worden op zijn zitgedrag. Hij zegt echter dat deze timers 'altijd ongelegen afgaan' en dat hij de tool daarom uit zet.
+
+### Dinsdag 5 juni
+- Zitpercentage: 76%
+- Ben zag direct het verschil tussen zijn zitgedrag op dinsdag en zijn zitgedrag van maandag. Hij zei dat hij maandag vaak langer zat, en vervolgens langer stond, terwijl hij op dinsdag over de hele dag vaak in periodes van 20 tot 40 minuten zat, en dan even stond.
+- Ben gaf aan de dinsdag, ondanks dat hij percentueel meer heeft gezeten, een aangenamere dag vond wat betreft zitgedrag.
+- Toen ik vroeg wat Ben graag nog meer zou willen zien in de visualisatie zei hij dat hij behoefte had aan een feature waarmee hij kon zien wanneer hij "te lang" zit. Ik heb hier onderzoek naar gedaan en het blijkt dat kantoormedewerkers na 30 minuten zitten even kort dienen te staan.
+
+### Woensdag 6 juni
+- Zitpercentage: 76%
+- Ben ging met last van zijn nek naar huis. Hij gaf aan dat dit werd veroorzaakt door zijn werk achter de computer. 
+- Bij het opmaken van de data-visualisatie implementeerde ik de feature waarmee zichtbaar wordt dat er langer dan 30 minuten is gezeten. Ben zag direct dat ik "te lang zitten had toegevoegd" en hij zei dat hij zijn zitgedrag van de dinsdag nog steeds het meest wenselijk vond.
+- Hij gaf aan niet erg tevreden te zijn over zijn zitgedrag van woensdag, mede door de last van zijn nek.
+- Ben is om 12:20 gaan boksen in de boksruimte bij FONK.
+
+### Donderdag 7 juni
+- Zitpercentage: 82%
+- 
+
+/documents/images/observatie-1-bengroot.png
+
 
 
 ## Concept UX
