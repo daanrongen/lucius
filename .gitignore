@@ -3,4 +3,4 @@ documents
 .env
 node_modules
 public
-WiFiWebClient/arduino_secrets.h
+HttpClient/wifi_secrets.h
