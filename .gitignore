@@ -2,5 +2,5 @@
 documents
 .env
 node_modules
-public
 HttpClient/wifi_secrets.h
+.babelrc
