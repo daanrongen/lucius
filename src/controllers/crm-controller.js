@@ -3,7 +3,7 @@ import {UsersSchema, fsrSchema} from '../models/crm-model'
 const mongoose = require('mongoose')
 
 const User = mongoose.model('users', UsersSchema)
-const Value = mongoose.model('fsrData', fsrSchema)
+const Value = mongoose.model('fsrdatas', fsrSchema)
 
 // API for User Database
 export const addNewUser = (req, res) => {
@@ -69,21 +69,10 @@ export const getData = (req, res) => {
 
 export const addNewValue = (req, res) => {
   const newValue = new Value(req.body)
-  console.log(newValue)
   newValue.save((err, data) => {
     if (err) {
       res.send(err)
     }
     res.json(data)
-  })
-}
-
-export const getDataByUserId = (req, res) => {
-  Value.find({}, (err, data) => {
-    if (err) {
-      res.send(err)
-    } else {
-      res.json(data)
-    }
   })
 }
