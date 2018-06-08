@@ -10,9 +10,11 @@
 	Onder supervisie van: Niels de Keizer & Boy Lokhoff
 
 ---
+
 <div align="center">
 <a href="https://github.com/daanrongen/delta/blob/master/library//design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/veldonderzoek.md">veldonderzoek</a>
 </div>
+
 ---
 
 In de **design rationale** beschrijf ik de belangrijkste (ontwerp)keuzes en beslissingen die ik heb genomen gedurende het ontwerpproces van mijn afstudeerproject.
@@ -58,5 +60,5 @@ De Buoy van de Enrichers is van origine al een kruk dat perfect in de potentiël
 
 
 <div align="center">
-![](/images/delta-header.png)
+![Huidige Oplossingsrichting, mockup](/images/delta-header.png)
 </div>

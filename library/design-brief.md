@@ -10,9 +10,11 @@
 	Onder supervisie van: Niels de Keizer & Boy Lokhoff
 
 ---
+
 <div align="center">
 <a href="https://github.com/daanrongen/delta/blob/master/library/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/veldonderzoek.md">veldonderzoek</a>
 </div>
+
 ---
 
 In deze **design brief** beschrijf ik de achtergrond van mijn afstudeeropdracht. Hierin worden de eisen van de opdrachtgever, het huidige product van de opdrachtgever en de context van de eindgebruiker beschreven.
