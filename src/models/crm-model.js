@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 
 const {Schema} = mongoose
+// Use Mongoose Passport for password encryption
 
 export const UsersSchema = new Schema({
   username: {

@@ -37,13 +37,18 @@ export const getUserById = (req, res) => {
 }
 
 export const updateUser = (req, res) => {
-  User.findOneAndUpdate({_id: req.params.userId}, req.body, {new: true}, (err, user) => {
-    if (err) {
-      res.send(err)
-    } else {
-      res.json(user)
+  User.findOneAndUpdate(
+    {_id: req.params.userId},
+    req.body,
+    {new: true},
+    (err, user) => {
+      if (err) {
+        res.send(err)
+      } else {
+        res.json(user)
+      }
     }
-  })
+  )
 }
 
 export const deleteUser = (req, res) => {
