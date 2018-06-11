@@ -21,6 +21,7 @@ In dit **veldverslag** beschrijf ik de belangrijkste bevindingen uit mijn onderz
 
 {{TOC}}
 
+###### 17-04-2018
 ## Interview kantoormedewerkers B.Amsterdam
 Na het literatuuronderzoek ben ik bij B. Amsterdam in gesprek gegaan met kantoormedewerkers. Mijn doel was om tijdens een één-op-één gesprek meer te weten te komen over wat voor data kantoormedewerkers zouden willen ontvangen over hun (fysieke) werkomgeving en of ze bereid zijn in actie te komen om hun werkomgeving te verbeteren. Ik had ze het volgende scenario voorgelegd:
 
@@ -28,6 +29,7 @@ Na het literatuuronderzoek ben ik bij B. Amsterdam in gesprek gegaan met kantoor
 
 In totaal heb ik 14 respondenten geïnterviewd.
 
+###### 19-04-2018
 ### Sensordata Werkomgeving
 Het is mij opgevallen dat de respondenten niet erg creatief durven te zijn met het bedenken van sensoren die omgevingsstressoren kunnen meten. Populaire antwoorden waren: temperatuur, CO₂, luchtvochtigheid en metingen als "luchtvervuiling" en "zuurstofgehaltes", die onder luchtkwaliteit vallen. Uniekere antwoorden waren: lichtintensiteit, lichtkleur, lichtverdeling, geluid en akoestiek, de klimatologische omstandigheden om een plant mee te verzorgen, het aantal mensen op een plek (occupancy, reuring) en ergonomie (zithouding). Toen ik vroeg of ze zelf ook last hebben van de door hen eerder genoemde stressoren, bevestigden ze dit.
 
@@ -52,6 +54,7 @@ Er zijn verschillende manieren mogelijk om de informatie over deze omgevingsfact
 
 Tot slot zijn niet alle kantoormedewerkers evenveel gebaat bij een oplossing waarbij ze zelf actie moeten ondernemen. Er zijn kantoormedewerkers die wel meer comfort willen, maar vinden dat hun werkgever hiervoor moet zorgen. Ook zijn er kantoormedewerkers die moeite hebben met inschatten of zij de enigen zijn die de omgevingsstressor ervaren, en om deze reden het probleem uit de weg gaan door zich te verplaatsen.
 
+###### 30-05-2018
 ## Concept Validatie
 Startend op 4 juni begin ik met het valideren van de huidige oplossing-richting. Het concept leunt nu op twee hypothesen, deze zijn:
 
@@ -61,6 +64,7 @@ Hypothese 1:
 Hypothese 2:
 > **Kantoormedewerkers attenderen hun collega’s op hun zitgedrag als dit aantoonbaar ergonomisch-onverantwoord begint te worden.**
 
+###### 04-06-2018
 ### Experiment 1: Inzichten Zitgedrag
 Op het kantoor van FONK Amsterdam heb ik een vrijwilliger gevonden wiens zitgedrag ik mag bestuderen tussen maandag 4 juni en vrijdag 8 juni. Tussen 09:00 uur 's ochtends en 18:00 uur 's avonds zal ik bijhouden op welke momenten hij zit en hoe lang hij zit. Aan het einde van de werkdag gaan we gezamenlijk de inzichten doornemen. Ik zal hem dan de volgende vragen stellen:
 1. Wat kun je mij vertellen over het onderstaande figuur? (*Usability vraag*)
@@ -90,6 +94,45 @@ Op het kantoor van FONK Amsterdam heb ik een vrijwilliger gevonden wiens zitgedr
 
 #### Donderdag 7 juni
 - Zitpercentage: 82%
+- Ben gaf in de ochtend al aan dat hij verwacht veel te zitten deze dag.
+- 
 
+#### Vrijdag 8 juni
+- Zitpercentage: --%;
+- Ben was afwezig op vrijdag, ik zal op maandag 11 juni met hem afspreken om een selectie aan vragen te stellen over dit onderzoek: zie onderstaande tabel.
+
+###### 12-06-2018
+#### Medewerker Interview (Ben Groot, FONK)
+
+| Vraag | Antwoord |
+|:--|:--|
+| Zijn de resultaten van dit onderzoek verrassend voor jou? Waarom wel of niet? |  |
+| Zou je deze inzichten vaker willen ontvangen? Waarom wel of niet? |  |
+| Welke trend(s) zie je in de inzichten? |  |
+| Is zitgedrag iets waar je aan wilt werken tijdens kantooruren? Zo ja, hoe zou je dit aanpakken? |  |
+| Heb je het idee dat deze inzichten helpen bij het stimuleren van betere ergonomie in kantooromgevingen? |  |
+| Wie zouden deze inzichten mogen zien van jou? Wees specifiek in hoe vaak deze partijen inzichten mogen bekijken. |  |
+
+
+###### 13-06-2018
+#### Conclusie
 
 ![Observatie 1, Ben Groot](images/observatie-1-bengroot.png)
+
+###### 11-06-2018
+## Expert Interview (Mariska van de Kaa, Vita 2 Move)
+
+Doel van het interview:
+
+Inzichten krijgen in welke meetpunten het meest belangrijk zijn voor het verbeteren van fysieke activiteit in de kantooromgeving. Mijn huidige literatuuronderzoek stelt het volgende:
+
+	Steeds meer werkenden werken in een sedentaire sector, voornamelijk in kantooromgevingen, zowel dit absolute als relatieve getal zal naar schatting blijven stijgen. Er is een significante correlatie tussen sedentair werk en de ontwikkeling van hart- en vaatziekten. De muskoskeletal disorders (skeletvergroeiingen) die ontstaan door het langdurig werken in een ergonomisch-onverantwoorde zithouding vormt de grootste oorzaak van werk-gerelateerd letsel in kantooromgevingen. Skeletvergroeiingen zijn te voorkomen door ergonomische interventies zoals betere bureaustoelen, bureaus, muizen, toetsenborden, etc. Langdurig in een sedentaire houding zitten reduceert de fysieke activiteit van het individu tot het minimum, dit heeft invloed op de bloedsomloop. De gemiddelde kantoormedewerker spendeert dagelijks 77,0% van haar werktijd en 63,2% van haar niet-werktijd zittend. Vandaar: "ergonomisch zitten is goed, dynamisch zitten is beter". De fysieke activiteit van de kantoormedewerker dient toe te nemen. Dit kan middels verschillende interventie-soorten. Tot nu toe heeft het inspelen op de technologische "Quantified Self"-trend het beste resultaat opgeleverd. Hoe kun je fysieke activiteit inzichtelijk maken voor kantoormedewerkers die full-time bij een corporate bedrijf werken, door middel van een web-app die verbonden is met een IoT-device, om fysiek welzijn in de werkomgeving te optimaliseren?
+
+| Vraag | Antwoord |
+|:--|:--|
+| Wat kun je me vertellen over het "dynamisch zitten" en in hoeverre biedt het een oplossing voor full-time kantoormedewerkers? |  |
+| Waarin kunnen we fysieke activiteit uitdrukken? En wat zijn hier de 'benchmarks' van? |  |
+| In hoeverre is het belangrijk om 24-uurs metingen te verrichten als het aankomt op het kwantificeren van fysieke activiteit? |  |
+| Wat voor metingen dienen verricht te worden om fysieke activiteit gedurende de werkdag inzichtelijk te maken? |  |
+| Staan het nastreven van fysieke activiteit en productiviteit elkaar in de weg?  |  |
+| Is het mogelijk om voldoende (dagelijkse) fysieke activiteit te behalen uit het dynamisch zitten op de werkplek? |  |
