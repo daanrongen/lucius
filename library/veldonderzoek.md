@@ -106,27 +106,32 @@ Op het kantoor van FONK Amsterdam heb ik een vrijwilliger gevonden wiens zitgedr
 
 | Vraag | Antwoord |
 |:--|:--|
-| Zijn de resultaten van dit onderzoek verrassend voor jou? Waarom wel of niet? |  |
-| Zou je deze inzichten vaker willen ontvangen? Waarom wel of niet? |  |
-| Welke trend(s) zie je in de inzichten? |  |
-| Is zitgedrag iets waar je aan wilt werken tijdens kantooruren? Zo ja, hoe zou je dit aanpakken? |  |
-| Heb je het idee dat deze inzichten helpen bij het stimuleren van betere ergonomie in kantooromgevingen? |  |
-| Wie zouden deze inzichten mogen zien van jou? Wees specifiek in hoe vaak deze partijen inzichten mogen bekijken. |  |
+| Zijn de resultaten van dit onderzoek verrassend voor jou? Waarom wel of niet? | Nee, ik had al verwacht dat mijn zitpercentages rond de 80% zouden zitten. Ik zie wel dat het op maandag wat lager lag, maar de rest van de week ligt het rond  de 80%. |
+| Zou je deze inzichten vaker willen ontvangen? Waarom wel of niet? | Niet elke dag, dat is te frequent. Maar aan het einde van de week of maand een overzicht zou waardevol zijn. |
+| Welke trend(s) zie je in de inzichten? | De percentages worden steeds hoger naarmate de week vordert en de velden zijn vaker rood naarmate de week vordert. Dit komt omdat ik aan het begin van de week veel meetings heb en later op de week steeds meer geconcentreerd aan het werk ben. |
+| Is zitgedrag iets waar je aan wilt werken tijdens kantooruren? Zo ja, hoe zou je dit aanpakken? | Het is zeker iets waar ik aan wil werken. Ik gebruikte voorheen een timer-notificatie om me te helpen herinneren dat ik regelmatig pauze moet nemen, maar deze gebruik ik niet meer omdat de timers altijd ongelegen kwamen. |
+| Heb je het idee dat deze inzichten helpen bij het stimuleren van betere ergonomie in kantooromgevingen? | Deze inzichten hebben me getoond dat ik vaak te lang zit, dus daar zal ik nu meer op letten. Maar het heeft me niet per se gestimuleerd om meer te bewegen op een dag. |
+| Wie zouden deze inzichten mogen zien van jou? Wees specifiek in hoe vaak deze partijen inzichten mogen bekijken. | Mij zou het niet veel uitmaken wie deze inzichten zien. Ik kan me prima voorstellen dat anderen liever niet hebben dat collega's of werkgevers de data kunnen bekijken. |
 
 
-###### 13-06-2018
+###### 12-06-2018
 #### Conclusie
 
 ![Observatie 1, Ben Groot](images/observatie-1-bengroot.png)
 
-###### 11-06-2018
+###### 13-06-2018
+## Expert Feedback (Marc Apon, Lead UX FONK)
+
+> "Actionable Data" is data, afkomstig uit een Quantified Self toepassing, waarbij de gebruiker kiest voor een aanpassing in zijn/haar gedrag. In het scenario van Ben Groot is te zien dat hij soms te lang zit. Ben verklaarde zelf dat soms een 'te lange zit' tijdens een meeting met collega's en/of een klant plaatsvindt. Het is dan moeilijk om ervoor te kiezen om te gaan staan om te lang zitten te voorkomen. Als hij echter te lang achter zijn werkplek zit, heeft hij wel de mogelijkheid om te gaan staan. De data met betrekking tot zit-inzichten tijdens een meeting zijn niet actionable. Met andere woorden, actionable data is een inzicht waarop gehandeld kan worden. Je zou kunnen stellen dat bij user-centred design het product is afgestemd op het tonen van zo veel mogelijk actionable data.
+
+###### 19-06-2018
 ## Expert Interview (Mariska van de Kaa, Vita 2 Move)
 
 Doel van het interview:
 
 Inzichten krijgen in welke meetpunten het meest belangrijk zijn voor het verbeteren van fysieke activiteit in de kantooromgeving. Mijn huidige literatuuronderzoek stelt het volgende:
 
-	Steeds meer werkenden werken in een sedentaire sector, voornamelijk in kantooromgevingen, zowel dit absolute als relatieve getal zal naar schatting blijven stijgen. Er is een significante correlatie tussen sedentair werk en de ontwikkeling van hart- en vaatziekten. De muskoskeletal disorders (skeletvergroeiingen) die ontstaan door het langdurig werken in een ergonomisch-onverantwoorde zithouding vormt de grootste oorzaak van werk-gerelateerd letsel in kantooromgevingen. Skeletvergroeiingen zijn te voorkomen door ergonomische interventies zoals betere bureaustoelen, bureaus, muizen, toetsenborden, etc. Langdurig in een sedentaire houding zitten reduceert de fysieke activiteit van het individu tot het minimum, dit heeft invloed op de bloedsomloop. De gemiddelde kantoormedewerker spendeert dagelijks 77,0% van haar werktijd en 63,2% van haar niet-werktijd zittend. Vandaar: "ergonomisch zitten is goed, dynamisch zitten is beter". De fysieke activiteit van de kantoormedewerker dient toe te nemen. Dit kan middels verschillende interventie-soorten. Tot nu toe heeft het inspelen op de technologische "Quantified Self"-trend het beste resultaat opgeleverd. Hoe kun je fysieke activiteit inzichtelijk maken voor kantoormedewerkers die full-time bij een corporate bedrijf werken, door middel van een web-app die verbonden is met een IoT-device, om fysiek welzijn in de werkomgeving te optimaliseren?
+> Steeds meer werkenden werken in een sedentaire sector, voornamelijk in kantooromgevingen, zowel dit absolute als relatieve getal zal naar schatting blijven stijgen. Er is een significante correlatie tussen sedentair werk en de ontwikkeling van hart- en vaatziekten. De muskoskeletal disorders (skeletvergroeiingen) die ontstaan door het langdurig werken in een ergonomisch-onverantwoorde zithouding vormt de grootste oorzaak van werk-gerelateerd letsel in kantooromgevingen. Skeletvergroeiingen zijn te voorkomen door ergonomische interventies zoals betere bureaustoelen, bureaus, muizen, toetsenborden, etc. Langdurig in een sedentaire houding zitten reduceert de fysieke activiteit van het individu tot het minimum, dit heeft invloed op de bloedsomloop. De gemiddelde kantoormedewerker spendeert dagelijks 77,0% van haar werktijd en 63,2% van haar niet-werktijd zittend. Vandaar: "ergonomisch zitten is goed, dynamisch zitten is beter". De fysieke activiteit van de kantoormedewerker dient toe te nemen. Dit kan middels verschillende interventie-soorten. Tot nu toe heeft het inspelen op de technologische "Quantified Self"-trend het beste resultaat opgeleverd. Hoe kun je fysieke activiteit inzichtelijk maken voor kantoormedewerkers die full-time bij een corporate bedrijf werken, door middel van een web-app die verbonden is met een IoT-device, om fysiek welzijn in de werkomgeving te optimaliseren?
 
 | Vraag | Antwoord |
 |:--|:--|
