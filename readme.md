@@ -23,9 +23,33 @@ Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/
 
 
 ## Inhoud
+* [To Do List](#to-do-list)
 * [Introductie](#introductie)
 * [Ontwerpvraag](#ontwerpvraag)
 * [Planning en Deliverables](#planning-en-deliverables)
+
+## To Do List
+- [ ] Design Brief:
+	- [ ] Update oplossingsrichting Design Brief
+	- [ ] Update literatuuronderzoek Design Brief
+	- [ ] Update conceptschetsen Design Brief
+- [ ] README:
+	- [ ] Update Introduction met nieuwe bevindingen
+- [ ] GitHub Pages:
+	- [ ] Update Design Challenge
+	- [ ] Update oplossingsrichting
+- [ ] Literatuuronderzoek:
+	- [x] Uitschrijven interview Mariska van der Kaa
+- [ ] Feedback Frenzy:
+	- [ ] Inventarisatie Poster Feedback Frenzy
+	- [ ] Opzet Poster Feedback Frenzy (Design)
+- [ ] Prototype:
+	- [x] Node Server
+	- [ ] Database Users
+	- [ ] Database FSR Data
+	- [ ] Arduino FSR
+	- [ ] Web App Frontend
+	- [ ] Buoy
 
 ## Introductie
 In Nederland werken ruim 2.3 miljoen mensen in een kantooromgeving (Stijnenbosch, 2015). Dat is bijna eenderde van de complete beroepsbevolking van Nederland (CBS, 2015). Alhoewel het ziekteverzuim van de gemiddelde Nederlandse kantoormedewerker lager ligt dan bij andere sectoren, is het alsnog niet de meest gezonde werkomgeving om langdurig in te werken. Sterker nog, de kantoortuin is funest voor de mentale gezondheid (van Agteren, 2018). Dit heeft te maken met de hoeveelheid stressoren die aanwezig zijn in de werkomgeving. Stressoren zijn impulsen waarbij het vrijkomen van het stresshormoon wordt bevorderd (Ontstressen.net, n.d.). Deze impulsen kunnen onderverdeeld worden in fysiologische stressoren, zoals kou, (rug)pijn en lawaai, en psychologische stressoren zoals nare herinneringen of slechte relaties met mensen om ons heen. Meer dan een miljoen Nederlandse kantoormedewerkers kampen met burn-out klachten en 36% van al het werk-gerelateerde ziekteverzuim wordt veroorzaakt door stress. Van al deze medewerkers die kampen met stress, vormt de groep jonge medewerkers (leeftijd 25 tot 35 jaar) de grootste groep (TNO, n.d.). Buiten het feit dat het een grote kostenpost is voor bedrijven en dat het bijzonder vervelend is voor de medewerkers, kunnen gevolgen van een ongezonde werk-omgeving ook nog langdurige effecten met zich meebrengen die later in, of zelfs na het beroepsleven, consequenties hebben op zowel de mentale als fysieke gezondheid van de kantoormedewerker. Het is dan ook niet gek dat sinds het begin van de eenentwintigste eeuw de leus "stress op het werk is beroepsziekte nummer één" steeds bekender is geworden.
@@ -49,7 +73,6 @@ Om het theoretisch kader van het onderzoek en de bevindingen uit het veldonderzo
 **3. Hoe kun je zitgedrag inzichtelijk maken door middel van digitale technologie zodat deze informatie systematisch gebruikt kan worden?**
 
 **4. Hoe kun je omgevingsstressoren meetbaar maken met een IoT-device waarbij de sensor-componenten modulair opgebouwd kunnen worden?**
-
 
 ## Planning en Deliverables
 ![planning](docs/img/delta-planning.png)
