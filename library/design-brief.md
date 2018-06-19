@@ -66,7 +66,7 @@ Om het theoretisch kader van het onderzoek en de bevindingen uit het veldonderzo
 ## Focus
 Met mijn minor in Intelligent Environments en een focus op IoT-design wil ik mijzelf uitdagen om binnen dit afstudeerproject het ontwerp van een fysiek IoT-product te realiseren dat middels sensoren informatie uit de (werk)omgeving kan halen. Aangezien sensoren een fysieke vorm hebben was ik in eerste instantie van plan om hier een mooie casing voor te ontwerpen. De casing zou middels actuatoren nog een interactie-laag zou hebben als toegevoegde waarde voor de kantoormedewerker. Wat voor vorm de sensor-casing zou aannemen wist ik echter nog niet.
 
-Tijdens het literatuuronderzoek stuitte ik op de bevindingen met betrekking tot muskoskeletal disorders en cardiovascular diseases, allebei afkomstig van slechte ergonomische omstandigheden in de werkomgeving. De sensor-casing heeft een vorm gekregen: de vorm van een stoel. Middels een slimme IoT-werkstoel, uitgerust met sensoren en actuatoren, en een mobiele web-app die communiceert met deze stoel, wil ik het comfort van de werkomgeving optimaliseren.
+Tijdens het literatuuronderzoek stuitte ik op de bevindingen met betrekking tot musculoskeletal disorders en cardiovascular diseases, allebei afkomstig van slechte ergonomische omstandigheden in de werkomgeving. De sensor-casing heeft een vorm gekregen: de vorm van een stoel. Middels een slimme IoT-werkstoel, uitgerust met sensoren en actuatoren, en een mobiele web-app die communiceert met deze stoel, wil ik het comfort van de werkomgeving optimaliseren.
 
 Tegen het einde van het afstudeerproject wens ik op de volgende aspecten tevreden te zijn met mijn werk:
 
