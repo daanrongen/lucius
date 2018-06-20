@@ -29,23 +29,23 @@ Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/
 * [Planning en Deliverables](#planning-en-deliverables)
 
 ## To Do List
-- [ ] Design Brief:
-	- [ ] Update oplossingsrichting Design Brief
+- [x] Design Brief:
+	- [x] Update oplossingsrichting Design Brief
 	- [x] Update literatuuronderzoek Design Brief
-	- [ ] Update conceptschetsen Design Brief
+	- [x] Update conceptschetsen Design Brief
 - [x] README:
 	- [x] Update Introduction met nieuwe bevindingen
-- [ ] GitHub Pages:
-	- [ ] Update Design Challenge
-	- [ ] Update oplossingsrichting
-- [ ] Literatuuronderzoek:
+- [x] GitHub Pages:
+	- [x] Update Design Challenge
+	- [x] Update oplossingsrichting
+- [x] Literatuuronderzoek:
 	- [x] Uitschrijven interview Mariska van der Kaa
 - [ ] Feedback Frenzy:
 	- [ ] Inventarisatie Poster Feedback Frenzy
 	- [ ] Opzet Poster Feedback Frenzy (Design)
 - [ ] Prototype:
 	- [x] Node Server
-	- [ ] Database Users
+	- [x] Database Users
 	- [ ] Database FSR Data
 	- [ ] Arduino FSR
 	- [ ] Web App Frontend
