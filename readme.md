@@ -38,6 +38,7 @@ Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/
 - [x] GitHub Pages:
 	- [x] Update Design Challenge
 	- [x] Update oplossingsrichting
+	- [x] Social Media Preview Cards
 - [x] Literatuuronderzoek:
 	- [x] Uitschrijven interview Mariska van der Kaa
 - [ ] Feedback Frenzy:
