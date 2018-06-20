@@ -31,10 +31,10 @@ Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/
 ## To Do List
 - [ ] Design Brief:
 	- [ ] Update oplossingsrichting Design Brief
-	- [ ] Update literatuuronderzoek Design Brief
+	- [x] Update literatuuronderzoek Design Brief
 	- [ ] Update conceptschetsen Design Brief
-- [ ] README:
-	- [ ] Update Introduction met nieuwe bevindingen
+- [x] README:
+	- [x] Update Introduction met nieuwe bevindingen
 - [ ] GitHub Pages:
 	- [ ] Update Design Challenge
 	- [ ] Update oplossingsrichting
@@ -52,27 +52,29 @@ Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/
 	- [ ] Buoy
 
 ## Introductie
-In Nederland werken ruim 2.3 miljoen mensen in een kantooromgeving (Stijnenbosch, 2015). Dat is bijna eenderde van de complete beroepsbevolking van Nederland (CBS, 2015). Alhoewel het ziekteverzuim van de gemiddelde Nederlandse kantoormedewerker lager ligt dan bij andere sectoren, is het alsnog niet de meest gezonde werkomgeving om langdurig in te werken. Sterker nog, de kantoortuin is funest voor de mentale gezondheid (van Agteren, 2018). Dit heeft te maken met de hoeveelheid stressoren die aanwezig zijn in de werkomgeving. Stressoren zijn impulsen waarbij het vrijkomen van het stresshormoon wordt bevorderd (Ontstressen.net, n.d.). Deze impulsen kunnen onderverdeeld worden in fysiologische stressoren, zoals kou, (rug)pijn en lawaai, en psychologische stressoren zoals nare herinneringen of slechte relaties met mensen om ons heen. Meer dan een miljoen Nederlandse kantoormedewerkers kampen met burn-out klachten en 36% van al het werk-gerelateerde ziekteverzuim wordt veroorzaakt door stress. Van al deze medewerkers die kampen met stress, vormt de groep jonge medewerkers (leeftijd 25 tot 35 jaar) de grootste groep (TNO, n.d.). Buiten het feit dat het een grote kostenpost is voor bedrijven en dat het bijzonder vervelend is voor de medewerkers, kunnen gevolgen van een ongezonde werk-omgeving ook nog langdurige effecten met zich meebrengen die later in, of zelfs na het beroepsleven, consequenties hebben op zowel de mentale als fysieke gezondheid van de kantoormedewerker. Het is dan ook niet gek dat sinds het begin van de eenentwintigste eeuw de leus "stress op het werk is beroepsziekte nummer één" steeds bekender is geworden.
+In Nederland werken ruim 2.3 miljoen mensen in een kantooromgeving (Stijnenbosch, 2015). Dat is bijna eenderde van de complete beroepsbevolking van Nederland (CBS, 2015). Het percentage Nederlanders dat in een kantooromgeving werkt zal naar schatting blijven stijgen, dit komt voornamelijk door de sterke groei van de diensten-economie. Alhoewel het ziekteverzuim van de gemiddelde Nederlandse kantoormedewerker lager ligt dan bij andere sectoren, is het alsnog niet de meest gezonde werkomgeving om langdurig in te werken. Sterker nog, de kantoortuin is funest voor de gezondheid (van Agteren, 2018). Het interieur van de kantooromgeving is ontworpen om kantoormedewerkers zo efficiënt mogelijk werk te laten verrichten. Een comfortabele bureaustoel waarin uren geconcentreerd gewerkt kan worden, een bureau met een computer en alle andere voorzieningen die benodigd zijn voor het werk, dat is de werkplek van een kantoormedewerker. Deze werkwijze is lucratief voor het bedrijf. De werknemer komt echter aan steeds minder fysieke activiteit toe, dit resulteert in gezondheidsproblemen (Pandey, Usman, & Sushil, 2016).
 
-MKB heeft in samenwerking met Menzis een ‘bedrijfs-gezondheidscheck’ ontwikkeld en laat deze afleggen bij talloze bedrijven. Het doel van de check is om alle bedrijven te laten streven naar gezond en fit personeel en aan te moedigen om te investeren in de gezondheid van de werknemers. Voor de directie van deze bedrijven is het namelijk een win-win om hun personeel zo gezond mogelijk te houden: een toename in productiviteit en een afname in ziekteverzuim. Naast de bedrijfsgezondheidscheck maakt MKB namelijk ook berekeningen hoeveel een zieke werknemer kost per dag voor het bedrijf. Bij hun berekeningen staat het gemiddelde op €410 per dag per zieke werknemer (Klees, 2017). Al met al is het dus bijzonder lucratief om te investeren in welzijn. Het probleem ligt echter bij maatwerk. Welzijn is complex en kan alleen verbeterd worden als er eerst kritisch wordt gekeken naar wat er daadwerkelijk fout gaat in de werkomgeving. Zoals eerder genoemd vertakken de impulsen die invloed hebben op welzijn zich in fysiologische en psychologische stressoren. Beide vertakkingen vergen twee compleet verschillende maatregelen.
+MKB heeft in samenwerking met Menzis een ‘bedrijfs-gezondheidscheck’ ontwikkeld en laat deze afleggen bij talloze bedrijven. Het doel van de check is om alle bedrijven te laten streven naar gezond en fit personeel en aan te moedigen om te investeren in de gezondheid van de werknemers. Voor de directie van deze bedrijven is het namelijk een win-win om hun personeel zo gezond mogelijk te houden: een toename in productiviteit en een afname in ziekteverzuim. Naast de bedrijfsgezondheidscheck maakt MKB namelijk ook berekeningen hoeveel een zieke werknemer kost per dag voor het bedrijf. Bij hun berekeningen staat het gemiddelde op €410 per dag per zieke werknemer (Klees, 2017). Al met al is het dus bijzonder lucratief om te investeren in welzijn. Het probleem is echter dat gezondheid complex is en niet opgelost kan worden met *quick fix*-interventies.
 
-Er hebben in de afgelopen decennia veel onderzoeken plaatsgevonden naar welzijn van werknemers in een kantooromgeving. De eerdergenoemde fysiologische stressoren worden voornamelijk veroorzaakt door factoren uit de fysieke werkomgeving. In het meest recente psychologie-onderzoek van de Hanzehogeschool Groningen is gebleken dat voornamelijk de factoren ergonomie, klimaat, licht en geluid de grootste invloed hebben op fysiologische stressoren in de kantooromgeving (Smid, 2016). Het blijkt dat indirecte omgevingsstressoren als klimaat, licht en geluid invloeden hebben op de capabiliteit om cognitieve acties te verrichten, vermoeidheid, alertheid, concentratie en het melatonine-huishouden van de kantoormedewerker. Directe fysieke stressoren, zoals ergonomie, dragen bij aan skeletvergroeiingen en de ontwikkeling van hart- en vaatziekten bij langdurig gebrek aan fysieke activiteit en het aannemen van een ergonomisch onverantwoorde zithouding.
+De gemiddelde kantoormedewerker zit 10,1 uur op een dag (RIVM, 2015). Op een werkdag spendeert de kantoormedewerker 77,0% van de tijd zittend terwijl dit op een niet-werkdag 63,1% is (Thorp et al, 2012). Dit bevestigt de zitcultuur die heerst op kantoren. Te lang in een ergonomisch-onverantwoorde zithouding zitten draagt bij aan de ontwikkeling van musculoskeletal disorders (Middlesworth, n.d). Fysieke inactiviteit op de lange termijn draagt bij aan de ontwikkeling van hart- en vaatziekten (Morris, 1958). Valt de "zit-epidemie", zoals het wordt genoemd, op te lossen met *quick fixes* zoals het zit-sta-bureau en de zitbal? Of ligt de oplossing in een gedragsverandering van het personeelsbestand om een ergonomisch-verantwoordelijke werkhouding aan te leren?
 
 ## Ontwerpvraag
 Op basis van de bevindingen uit zowel het literatuuronderzoek als het veldonderzoek heb ik de volgende ontwerpvraag geformuleerd:
 
-> **Hoe kun je fysieke activiteit inzichtelijk maken voor kantoormedewerkers die full-time bij een corporate bedrijf werken, door middel van een web-app die verbonden is met een IoT-device, om fysiek welzijn in de werkomgeving te optimaliseren?**
+> **Hoe kun je fysieke activiteit inzichtelijk maken bij full-time-kantoormedewerkers door middel van een web-app die verbonden is met een IoT-device zodat zij leren dynamisch te werken om fysiek welzijn in de werkomgeving te optimaliseren.**
 
 ### Design Challenges
 Om het theoretisch kader van het onderzoek en de bevindingen uit het veldonderzoek te concretiseren naar een praktische toepassing, heb ik de volgende design challenges opgesteld:
 
-**1. Hoe kun je middels een ergonomische interventie MSD's en CVD's afzwakken en zitgedrag inzichtelijk maken?**
-
-**2. Hoe kun je ergonomisch-verantwoord zitgedrag aanmoedigen zonder de workflow van de kantoormedewerker te verstoren?**
-
-**3. Hoe kun je zitgedrag inzichtelijk maken door middel van digitale technologie zodat deze informatie systematisch gebruikt kan worden?**
-
-**4. Hoe kun je omgevingsstressoren meetbaar maken met een IoT-device waarbij de sensor-componenten modulair opgebouwd kunnen worden?**
+| Design Challenge |
+|:--|
+| Hoe kun je zitgedrag inzichtelijk maken door middel van digitale technologie zodat deze informatie systematisch gebruikt kan worden? |
+| Hoe kun je middels een ergonomische interventie musculoskeletal disorders afzwakken en zitgedrag inzichtelijk maken? |
+| Hoe kun je middels een ergonomische interventie gedrag aanleren waardoor hart- en vaatziekten afzwakken? |
+| Hoe kun je ergonomisch-verantwoord zitgedrag stimuleren zonder de workflow van de kantoormedewerker te verstoren? |
+| Hoe kun je fysieke activiteit inzichtelijk maken zodat kantoormedewerkers weten of ze aan voldoende beweging toekomen? |
+| Hoe kun je kantoormedewerkers dynamisch werken aanleren zodat ze vaker wisselen tussen staan, zitten en bewegen op werk? |
+| Hoe kun je kantoormedewerkers attenderen op hun ergonomie wanneer deze onverantwoord wordt, zonder hun workflow te verstoren? |
 
 ## Planning en Deliverables
 ![planning](docs/img/delta-planning.png)
