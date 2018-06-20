@@ -22,35 +22,38 @@ In dit **literatuuronderzoek** beschrijf ik de belangrijkste bevindingen uit mij
 
 {{TOC}}
 
-## Literatuuronderzoek
-Om de stressoren in de kantooromgeving in kaart te kunnen brengen heb ik een literatuuronderzoek gedaan. De onderzoeksvragen die ik geformuleerd zijn als volgt:
+## Ergonomie
 
-- Wat is ergonomie?
-- In hoeverre heeft ergonomie invloed op onze gezondheid?
-- Wat veroorzaakt de gezondheidsproblemen in kantooromgevingen?
-- Waar liggen de oplossingen?
+* [Wat is ergonomie?](#wat-is-ergonomie?)
+* [In hoeverre heeft ergonomie invloed op onze gezondheid?](#in-hoeverre-heeft-ergonomie-invloed-op-onze-gezondheid?)
+* [Wat veroorzaakt de gezondheidsproblemen in kantooromgevingen?](#wat-veroorzaakt-de-gezondheidsproblemen-in-kantooromgevingen?)
+* [Waar liggen de oplossingen?](#waar-liggen-de-oplossingen?)
 
-### Ergonomie
-
-#### Wat is ergonomie?
+### Wat is ergonomie?
 Ergonomie wordt officieel gedefinieerd als de wetenschappelijke studie van de mens in relatie tot haar fysieke omgeving. Het is afgeleid van de Griekse woorden 'ergon' (werk) en 'nomos' (wet) en dient de veiligheid en gezondheid van mensen die arbeid verrichten te waarborgen. Het percentage Nederlanders dat in een kantooromgeving werkt zal naar schatting blijven stijgen, dit komt voornamelijk door de sterke groei van de diensten-economie.
 
-#### In hoeverre heeft ergonomie invloed op onze gezondheid? 
+### In hoeverre heeft ergonomie invloed op onze gezondheid? 
 Bij een test waar 6.329 Amerikaanse participanten gemiddeld 13,9 uur per dag een 'Actigraph' hebben gedragen om fysieke activiteit mee te monitoren, is gebleken dat volwassenen gemiddeld 54,9% van de dag zitten (7,7 uur per dag) (Matthews et al, 2008). Bij een ander onderzoek van het RIVM is aangetoond dat de gemiddelde kantoormedewerker 10,1 uur op een dag zit (RIVM, 2015). Kantoormedewerkers brengen op een werkdag gemiddeld 77,0% van de tijd zittend door, terwijl ze op werkdagen buiten werktijden 63,1% van de tijd zitten. Op niet-werkdagen zit dezelfde groep gemiddeld 62,9% van de tijd. In de kantooromgeving wordt langdurige sedentaire tijd als normaal beschouwd, sterker nog, de omgeving is hier volledig op ingesteld. Bij toekomstige werkomgevingen zouden voorschriften en initiatieven om gezondheid te bevorderen omtrent sedentaire beroepen aangemoedigd moeten worden (Thorp et al, 2012).
 
-#### Wat veroorzaakt de gezondheidsproblemen in kantooromgevingen? 
+### Wat veroorzaakt de gezondheidsproblemen in kantooromgevingen? 
 Door te lang in een ergonomisch-onverantwoordelijke houding te zitten ontwikkelen mensen musculoskeletal disorders (MSD's), ook wel skeletvergroeiingen. MSD's vormen de grooste categorie van werkgerelateerd letsel. Er vindt een toename plaats in het aantal werknemers met pre-existing MSD's op het moment dat ze het werkveld betreden. In 1995 was het percentage werkers met een MSD 21%, in 2000 was dit 35% en in 2015 48% (Middlesworth, n.d). MSD's zijn echter te voorkomen. In de eerste helft van de twintigste eeuw heeft er veel onderzoek plaatsgevonden naar ergonomie in de werkomgeving. Op basis van deze onderzoeken is de "ergonomisch-verantwoordelijke zithouding" vastgesteld. Waarbij werkers met een rechte rug en rechte nek in hun stoel zitten. Dit remt wel de ontwikkeling van MSD's, maar voedt weer een volgend probleem.
 
 De Schotse epidemioloog Jerry Morris onderzocht de correlatie tussen ‘sedentair werk’ en de ontwikkeling van dodelijke hart- en vaatziekten. Bij een onderzoek naar de doodsoorzaken van 3.800 Britse mannen die het grootste deel van hun leven full-time werkten, ontdekte Morris een significante correlatie tussen vermindering of absentie van fysieke activiteit en de ontwikkeling van gezondheidsproblemen (Morris, 1958). Door langdurig in dezelfde positie te zitten op een stoel, worden de bloedwegen aan de achterkant van de bovenbenen afgekneld door het zitoppervlak. Hierdoor neemt de druk op de bloedvaten toe, wat vervolgens kan leiden tot cardiovascular diseases, ook wel hart- en vaatziekten (Pandey, Usman, & Sushil, 2016). "Zitten is het nieuwe roken", stelt het UMC Utrecht. Er zijn nieuwe onderzoeken gedaan naar ergonomie op de werkomgeving en de uitspraken van het begin van de twintigste eeuw zijn deels gerectificeerd: ergonomisch zitten is goed, dynamisch zitten is beter. Het is daarom belangrijk om een ergonomisch-verantwoordelijke zithouding aan te nemen tijdens het werk, maar nog belangrijker om aan zo veel mogelijk fysieke activiteit toe te komen.
 
 Ergonomie leeft altijd, niet alleen tijdens werkuren. Factoren als de hoeveelheid slaap en overige beweging buiten het kantoor dragen allemaal bij aan de algehele fitheid van het individu. Het is daarom belangrijk om slaapritmes, zitgedrag (SED) en zowel lichte (LPA) als gemiddelde tot zware fysieke activiteit (MVPA) te meten en inzichtelijk te maken. Technologische apparaten kunnen momenteel niet accuraat genoeg de menselijke activiteit over de gehele dag meten. In de toekomst dient elke 'quantified self' fitness-technologie te streven naar 24-uurs metingen (Rosenberger, 2016).
 
-#### Waar liggen de oplossingen?
+### Waar liggen de oplossingen?
 Meten en verbeteren gaan hand in hand. De gemeten data dient gekoppeld te worden aan interventies. In de Verenigde Staten hebben er onderzoeken plaatsgevonden naar interventies die de toename van MVPA in kantooromgevingen stimuleren. Gedragsinterventies kunnen gecategoriseerd worden in werkplekinterventies, mediale interventies en omgevingsinterventies (Marcus, 2006). 
 
 Op kantoren in de Verenigde Staten zijn fitness-toepassingen geplaatst. Deze interventie toonde echter niet erg doeltreffend te zijn en werden voornamelijk gebruikt door de kantoormedewerkers die aangaven al veel te sporten of andere redenen hadden om meer te bewegen (Marshall, 2004). Het plaatsen van fitness-apparaten in een kantoor is een voorbeeld van een werkplekinterventie. Bij een Canadese organisatie werden de kantoormedewerkers van vijf kantoorafdelingen voorzien van stappentellers en dagelijkse inzichten in hun loopgedrag. Van alle kantoormedewerkers heeft 59% elke dag hun inzichten bekeken. Slechts het tonen van de loopinzichten zorgde er voor dat de kantoormedewerkers in vier weken tijd van gemiddeld 7.029 stappen per dag naar 10.480 stappen per dag zijn gegaan (Catherine, 2005). Het gebruiken van een online dienst die haar data haalt uit gedragen stappentellers is een voorbeeld van een mediale interventie. Tot slot is een interventie waarmee aangemoedigd wordt om de trap te gebruiken in plaats van de lift of roltrap een voorbeeld van een omgevingsinterventie. Omgevingsinterventies zijn vaak complex en hangen samen met veel variabelen waardoor het moeilijk is om te valideren of deze interventie-vorm goed werkt.
 
 Aangezien er gesteld kan worden dat er een zitcultuur heerst op de kantooromgeving en menselijk gedrag voor een groot deel beïnvloedbaar is door de omgeving, dienen er grotere maatregelen getroffen te worden. De mediale interventie komt het beste uit de test, maar is erg afhankelijk van menselijk gedrag. Een mediale interventie meet en toont gedrag, maar de verbetering moet vanuit intrinsieke motivatie van de gebruiker komen.
+
+## Gedragsontwerp
+
+### Lechner's ASE-model
+
+/images/ase-model-fitbit.png
 
 
 ## Bronnenlijst
