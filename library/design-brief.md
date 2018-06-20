@@ -128,8 +128,20 @@ Hoe de Health-app een oplossing biedt voor kantoormedewerkers is dat het kan ton
 Waar de Health-app echter de plank misslaat is het gebrek aan nauwkeurigheid en dat de data niet *actionable* genoeg is. De data biedt voornamelijk inzichten in de totale hoeveelheid gelopen stappen per dag, over een periode van bijvoorbeeld een maand. Een kantoormedewerker zou niet snel een inschatting kunnen maken hoeveel beweging er nog in hetzelfde uur zou moeten plaatsvinden.
 
 ### Herman Miller Live OS
+Herman Miller is een grote partij in het ontwerpen van kantoormeubilair. Ze ontwerpen onder andere zit-sta-bureaus en bureaustoelen. Met de Live OS kunnen kantoormedewerkers profielen bijhouden met daarin instellingen van de hoogte van hun zit-sta-bureaus en andere voorkeuren. De zit-sta-bureaus houden vervolgens metrische data bij die bij de werkgevers in een dashboard zichtbaar zijn.
 
+Het sterke aan dit product is dat het gepersonaliseerde werkomgevingen bevordert. Een flex-werkomgeving waarbij een kantoormedewerker naar een willekeurige werkplek kan gaan en middels zijn app al zijn ergonomische voorkeuren kan 'inladen' is efficiënt en schaalbaar.
 
-### BMA Ergonomics Axia
+Het voornaamste minpunt is dat de data van werknemers naar werkgevers gaat. En dat werkgevers in een dashboard alle data van werknemers kunnen bekijken. Het creëert een panopticon-effect en hierdoor draagt het niet bij aan de intrinsieke motivatie voor gedragsverandering.
+
+### BMA Ergonomics Axia Smart Active
+BMA Ergonomics ontwikkelde de Axia Smart Active bureaustoel met hetzelfde doel: het stimuleren van dynamisch werken bij kantoormedewerkers. De stoel registreert zittijd en is gekoppeld aan de smartphone van de gebruiker om notificaties te geven wanneer de gebruiker te lang zit. Aan het einde van de dag ontvangt de gebruiker een overzicht waarin de totale zittijd zit. De applicatie toont hoeveel minuten er gezeten is, hoeveel minuten er gestaan is en hoe veel pauzes er hebben plaatsgevonden op de werkdag. 
+
+De stoel gebruikt smartphone-notificaties om zitritmes van de gebruiker te doorbreken. Ook heeft de smartphone-app een reward-systeem waarbij complimenten worden gegeven als de gebruiker ergonomisch-verantwoord gedrag vertoond.
+
+De smartphone-notificaties zijn wellicht niet omnipresent genoeg en breekt daardoor de workflow van de kantoormedewerker. Ook ontbreekt er een sociaal element waardoor er niet wordt gewerkt naar de vermindering van de zitcultuur in de kantooromgeving. Tot slot wordt er in de pauzes van de gebruiker niet gemeten of er gestaan of bewogen wordt, er valt dus geen oordeel te vellen over fysieke activiteit.
 
 ### Huidige oplossingsrichting
+Een kruk die een frequente en efficiënte afwisseling tussen zitten en niet-zitten aanmoedigt. De kruk heeft een bolling aan de onderkant waardoor het behouden van balans een vereiste is. Hierdoor zit de gebruiker met een gestrekte rug en beide voeten op de vloer, dit stimuleert de ergonomisch-verantwoorde zitpositie en remt musculoskeletal disorders. In het zitoppervlakte van de kruk zit een sensor die registreert of de gebruiker zit. Deze data wordt gebruikt om zitduur te registreren. Onder de zitting van de kruk zit een gyroscoopsensor en accelerometer, deze registreren *in-chair-movement*.
+
+De data is zichtbaar in een web-app. Hierop kan de gebruiker de duur van de drie fasen (zitten, staan, bewegen) over de werkdag bekijken. De inzichten dienen bewustzijn te stimuleren en tijdig aan te geven wanneer het zitgedrag ergonomisch-onverantwoord begint te raken middels connotaties aan de data. Ook zal de web-app een functie krijgen waarin het gemiddelde van alle collega's te zien zijn. De data in de app dient actionable te zijn zodat de gebruiker weet wat hij/zij kan doen om betere resultaten te krijgen. Tot slot kan de gebruiker zijn zitgedrag op de langere termijn kunnen bestuderen op progressie.
