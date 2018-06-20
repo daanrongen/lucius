@@ -31,28 +31,7 @@ In totaal heb ik 14 respondenten geïnterviewd.
 
 ###### 19-04-2018
 ### Sensordata Werkomgeving
-Het is mij opgevallen dat de respondenten niet erg creatief durven te zijn met het bedenken van sensoren die omgevingsstressoren kunnen meten. Populaire antwoorden waren: temperatuur, CO₂, luchtvochtigheid en metingen als "luchtvervuiling" en "zuurstofgehaltes", die onder luchtkwaliteit vallen. Uniekere antwoorden waren: lichtintensiteit, lichtkleur, lichtverdeling, geluid en akoestiek, de klimatologische omstandigheden om een plant mee te verzorgen, het aantal mensen op een plek (occupancy, reuring) en ergonomie (zithouding). Toen ik vroeg of ze zelf ook last hebben van de door hen eerder genoemde stressoren, bevestigden ze dit.
-
-De informatie dient volgens bijna alle respondenten voornamelijk visueel te worden weergegeven. Sommigen geven aan grafieken te willen zien waarin waarden over tijd worden weergegeven met labels over welke waarden goed en slecht zijn. Anderen geven aan dat ze graag "meters" of spectra willen zien, waarop wordt weergegeven wat de huidige waarde is op een horizontale as, en direct gerelativeerd kan worden met wenselijke en onwenselijke waarden.
-
-### Actie Ondernemen
-“Stel dat je op de manier die je net hebt genoemd een "slechte" omgevingswaarde zou zien. Heb je de behoefte om direct actie te ondernemen om deze te verhelpen of te verminderen?"
-
-Alle respondenten hebben aangegeven dat ze actie zouden ondernemen op het moment dat ze vanuit hun omgeving feedback krijgen dat er omgevingsstressoren aanwezig zijn, of binnenkort zullen zijn. De acties die ondernomen zouden worden verschillen echter:
-
-**1. Passief (via superior):**
-Vier van de veertien respondenten geven aan actie te ondernemen door naar een manager of ander verantwoordelijk persoon te stappen om een melding of klacht door te geven. Ze hebben het idee dat ze zelf niet in staat zijn om het probleem aan te pakken. Sommigen denken wel de capaciteit te hebben om de stressor te verhelpen, maar vinden dat zij alsnog niet het aangewezen persoon zijn om deze actie te verrichten.
-
-**2. Passief (verplaatsing):**
-Vijf respondenten hebben aangegeven zich te verplaatsen van de plek waar een stressor plaatsvindt of zal plaatsvinden. De reden dat deze respondenten dat de meest logische keuze vinden, is omdat ze er erg in geloven dat veel stressoren subjectief zijn. Het is dan niet ondenkbaar dat het individu in kwestie als enige last heeft van deze stressor. De respondenten menen dat In plaats van de omgeving aanpassen, dat ook van toepassing is op anderen, het ze beter lijkt om zelf een omgeving met minder stressoren op te zoeken.
-
-**3. Actief:**
-Vijf van de veertien ondervraagden geven aan zelfstandig actie te ondernemen. Een deel hiervan geeft aan dat ze hierbij ook juist de sociale context interessant vinden. "Samen verantwoordelijk zijn voor een aangename werkomgeving" is een doel dat ze willen bewerkstelligen. Sommigen geven echter wel aan dat ze graag eerst willen overleggen met de rest van de medewerkers of de stressoren unaniem worden ervaren.
-
-### Conclusie
-Er zijn verschillende manieren mogelijk om de informatie over deze omgevingsfactoren naar de gebruiker te brengen, het hangt af van workflow, urgentie en in hoeverre de kantoormedewerker actie kan ondernemen om comfort te optimaliseren. Kantoormedewerkers hebben verschillende standaarden van comfort, maar hebben moeite met deze standaarden uit te drukken.
-
-Tot slot zijn niet alle kantoormedewerkers evenveel gebaat bij een oplossing waarbij ze zelf actie moeten ondernemen. Er zijn kantoormedewerkers die wel meer comfort willen, maar vinden dat hun werkgever hiervoor moet zorgen. Ook zijn er kantoormedewerkers die moeite hebben met inschatten of zij de enigen zijn die de omgevingsstressor ervaren, en om deze reden het probleem uit de weg gaan door zich te verplaatsen.
+De respondenten durven niet erg creatief te zijn met het bedenken van sensormetingen. Wat betreft de werkomgeving werd er vooral gesproken over temperatuur, CO₂, luchtvochtigheid en metingen als "luchtvervuiling" en "zuurstofgehaltes", die onder luchtkwaliteit vallen. Uniekere antwoorden waren: lichtintensiteit, lichtkleur, lichtverdeling, geluid en akoestiek, de klimatologische omstandigheden om een plant mee te verzorgen, het aantal mensen op een plek (occupancy, reuring) en ergonomie (zithouding). Toen ik vroeg of ze zelf ook last hebben van de door hen eerder genoemde stressoren, bevestigden ze dit. De informatie dient volgens bijna alle respondenten voornamelijk visueel te worden weergegeven. Sommigen geven aan grafieken te willen zien waarin waarden over tijd worden weergegeven met labels over welke waarden goed en slecht zijn.
 
 ###### 30-05-2018
 ## Concept Validatie
@@ -77,10 +56,11 @@ Op het kantoor van FONK Amsterdam heb ik een vrijwilliger gevonden wiens zitgedr
 - Zitpercentage: 72%
 - Ben vond het zitpercentage hoger dan verwacht, hij dacht dat hij meer had gestaan dan dat.
 - Ben geeft aan dat hij zich bewust is van de vermindering in bloedcirculatie bij een sedentaire houding en zegt soms behoefte te hebben aan wat sport op het midden van de werkdag, hij doet dit echter nooit.
-- Ben geeft ook aan dat hij regelmatig timers gebruikt om regelmatig geattendeerd te worden op zijn zitgedrag. Hij zegt echter dat deze timers 'altijd ongelegen afgaan' en dat hij de tool daarom uit zet.
+- Ben geeft ook aan dat hij regelmatig timers gebruikt om geattendeerd te worden op zijn zitgedrag. Hij zegt echter dat deze timers 'altijd ongelegen afgaan' en dat hij de tool daarom uit zet.
 
 #### Dinsdag 5 juni
 - Zitpercentage: 76%
+- Ben heeft op dinsdag iets meer gezeten dan op maandag. Dit ligt er voornamelijk aan dat op maandag ochtend de "Monday Morning Presentation" is bij FONK, waarbij collega's presentaties houden voor elkaar. Ben staat altijd tijdens deze presentaties, wat resulteert in een sta-periode van bijna anderhalf uur in de ochtend.
 - Ben zag direct het verschil tussen zijn zitgedrag op dinsdag en zijn zitgedrag van maandag. Hij zei dat hij maandag vaak langer zat, en vervolgens langer stond, terwijl hij op dinsdag over de hele dag vaak in periodes van 20 tot 40 minuten zat, en dan even stond.
 - Ben gaf aan de dinsdag, ondanks dat hij percentueel meer heeft gezeten, een aangenamere dag vond wat betreft zitgedrag.
 - Toen ik vroeg wat Ben graag nog meer zou willen zien in de visualisatie zei hij dat hij behoefte had aan een feature waarmee hij kon zien wanneer hij "te lang" zit. Ik heb hier onderzoek naar gedaan en het blijkt dat kantoormedewerkers na 30 minuten zitten even kort dienen te staan.
@@ -90,16 +70,16 @@ Op het kantoor van FONK Amsterdam heb ik een vrijwilliger gevonden wiens zitgedr
 - Ben ging met last van zijn nek naar huis. Hij gaf aan dat dit werd veroorzaakt door zijn werk achter de computer. 
 - Bij het opmaken van de data-visualisatie implementeerde ik de feature waarmee zichtbaar wordt dat er langer dan 30 minuten is gezeten. Ben zag direct dat ik "te lang zitten had toegevoegd" en hij zei dat hij zijn zitgedrag van de dinsdag nog steeds het meest wenselijk vond.
 - Hij gaf aan niet erg tevreden te zijn over zijn zitgedrag van woensdag, mede door de last van zijn nek.
-- Ben is om 12:20 gaan boksen in de boksruimte bij FONK.
+- Ben is om 12:20 gaan boksen in de boksruimte bij FONK. Hij gaf aan dat hij hierna aangenamer kon werken.
 
 #### Donderdag 7 juni
 - Zitpercentage: 82%
 - Ben gaf in de ochtend al aan dat hij verwacht veel te zitten deze dag.
-- 
+- Hij gaf aan dat naarmate het einde van de week dichterbij komt, hij meer werk heeft en stress ondervindt. De meeste deadlines zijn altijd op het einde van de week.
 
 #### Vrijdag 8 juni
 - Zitpercentage: --%;
-- Ben was afwezig op vrijdag, ik zal op maandag 11 juni met hem afspreken om een selectie aan vragen te stellen over dit onderzoek: zie onderstaande tabel.
+- Ben was afwezig op vrijdag, ik zal op dinsdag 12 juni met hem afspreken om een selectie aan vragen te stellen over dit onderzoek: zie onderstaande tabel.
 
 ###### 12-06-2018
 #### Medewerker Interview (Ben Groot, FONK)
@@ -122,7 +102,7 @@ Op het kantoor van FONK Amsterdam heb ik een vrijwilliger gevonden wiens zitgedr
 ###### 13-06-2018
 ## Expert Feedback (Marc Apon, Lead UX FONK)
 
-> "Actionable Data" is data, afkomstig uit een Quantified Self toepassing, waarbij de gebruiker kiest voor een aanpassing in zijn/haar gedrag. In het scenario van Ben Groot is te zien dat hij soms te lang zit. Ben verklaarde zelf dat soms een 'te lange zit' tijdens een meeting met collega's en/of een klant plaatsvindt. Het is dan moeilijk om ervoor te kiezen om te gaan staan om te lang zitten te voorkomen. Als hij echter te lang achter zijn werkplek zit, heeft hij wel de mogelijkheid om te gaan staan. De data met betrekking tot zit-inzichten tijdens een meeting zijn niet actionable. Met andere woorden, actionable data is een inzicht waarop gehandeld kan worden. Je zou kunnen stellen dat bij user-centred design het product is afgestemd op het tonen van zo veel mogelijk actionable data.
+> "Actionable Data" is data, afkomstig uit een Quantified Self toepassing, waarbij de gebruiker de mogelijkheid heeft om te kiezen voor een aanpassing in zijn/haar gedrag. In het scenario van Ben Groot is te zien dat hij soms te lang zit. Ben verklaarde zelf dat soms een 'te lange zit' tijdens een meeting met collega's en/of een klant plaatsvindt. Het is dan moeilijk om ervoor te kiezen om te gaan staan om te lang zitten te voorkomen. Als hij echter te lang achter zijn werkplek zit, heeft hij wel de mogelijkheid om te gaan staan. De data met betrekking tot zit-inzichten tijdens een meeting zijn niet actionable. Met andere woorden, actionable data is een inzicht waarop gehandeld kan worden. Je zou kunnen stellen dat bij user-centred design het product is afgestemd op het tonen van zo veel mogelijk actionable data.
 
 ###### 19-06-2018
 ## Expert Interview (Mariska van de Kaa, Vita 2 Move)
