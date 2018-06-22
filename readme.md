@@ -42,8 +42,8 @@ Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/
 - [x] Literatuuronderzoek:
 	- [x] Uitschrijven interview Mariska van der Kaa
 - [ ] Feedback Frenzy:
-	- [ ] Inventarisatie Poster Feedback Frenzy
-	- [ ] Opzet Poster Feedback Frenzy (Design)
+	- [x] Inventarisatie Poster Feedback Frenzy
+	- [ ] Poster Feedback Frenzy (Design)
 - [ ] Prototype:
 	- [x] Node Server
 	- [x] Database Users
