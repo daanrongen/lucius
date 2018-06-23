@@ -1,4 +1,4 @@
-# Interview Mariska van der Kaa
+# Interview Mariska van de Kaa
 
 	Daan Rongen
 	Afstudeerstudent Communication & Multimedia Design,
@@ -9,7 +9,7 @@
 	In opdracht van: Healthy Workers
 	Onder supervisie van: Niels de Keizer & Boy Lokhoff
 
-In dit document staan de notities en uitwerkingen van het interview met Mariska van der Kaa over fysieke activiteit in de kantooromgeving.
+In dit document staan de notities en uitwerkingen van het interview met Mariska van de Kaa over fysieke activiteit in de kantooromgeving.
 
 ###### 12-06-2018
 ## Voorbereiding
@@ -29,7 +29,7 @@ In dit document staan de notities en uitwerkingen van het interview met Mariska 
 
 **Q: Je focust je voornamelijk op de ergonomie van full-time kantoormedewerkers. Wat kun je me vertellen over deze groep? Wat zijn eigenschappen van de kantoormedewerkers?**
 
-A: Ze zitten ontzettend lang. Er zijn net nieuwe cijfers van TNO naar buiten gekomen waaruit blijkt dat de gemiddelde Nederlander op een doordeweekse dag 10,1 uur zit. Dat is heel erg veel. Als je kantoormedewerkers zelf vraagt naar hun zitgedrag komen ze bij hun rekensom vaak uit op 12 uur, waarvan 4 uur thuis en 8 uur op werk. Op den duur ontwikkelen ze bijna allemaal klachten. 8 op de 10 kantoormedewerkers krijgt ooit last van nek-, schouder-, rug- of armklachten. De werkomgeving en hun werkhouding spelen hier een essentiële rol in. Ook de factor werkdruk begint steeds vaker een factor te worden, maar dit blijkt telkens een onderschoven kindje in de werkomgeving. Steeds meer medewerkers durven hierover te praten maar de oplossingen vanuit het management zitten vaak in 'quick fixes' en te weinig lange termijn oplossingen.
+A: Ze zitten ontzettend lang. Er zijn net nieuwe cijfers van TNO naar buiten gekomen waaruit blijkt dat de gemiddelde Nederlander op een doordeweekse dag 10,1 uur zit. Dat is heel erg veel. Als je kantoormedewerkers zelf vraagt naar hun zitgedrag komen ze bij hun schatting vaak uit op 6 tot 8 uur. De professionals meten echter dat er 12 uur wordt gezeten, waarvan 4 uur thuis en 8 uur op werk. Op den duur ontwikkelen ze bijna allemaal klachten. 8 op de 10 kantoormedewerkers krijgt ooit last van nek-, schouder-, rug- of armklachten. De werkomgeving en hun werkhouding spelen hier een essentiële rol in. Ook de factor werkdruk begint steeds vaker een factor te worden, er wordt steeds meer aandacht geschonken aan het oplossen van dit probleem. Een ergonomisch-verantwoordelijke werkhouding echter, blijkt telkens een onderschoven kindje. Medewerkers praten hier nog steeds niet vaak over, omdat ze de link niet zo snel leggen tussen hun werkomgeving en de klachten. Ze merken hooguit op dat ze niet lekker zitten. Steeds meer medewerkers durven hierover te praten maar de oplossingen vanuit het management zitten vaak in 'quick fixes' en te weinig lange termijn oplossingen.
 
 **Q: Tijdens mijn onderzoek las ik dat de gemiddelde kantoormedewerker 77,0% van de werkdag zittend doorbrengt, en op een niet-werkdag 63,2% van de tijd zit. Zou je kunnen stellen dat er een zitcultuur heerst op kantoren? En ligt de oorzaak van het probleem wellicht bij een fundamenteel principe van hoe de kantoormedewerker haar werk uitvoert?**
 
@@ -47,7 +47,7 @@ A: Daar ligt precies de onwetendheid. Medewerkers in fysiek-intensieve sectoren 
 
 A: Het is allereerst belangrijk om een onderscheid te maken tussen dynamisch zitten en dynamisch werken. Dynamisch zitten houdt in dat de bureaustoel de inzittende volgt in zijn/haar zithouding, waarbij dynamisch werken meer is gefocust op de afwisseling tussen zitten, staan en bewegen tijdens de werkdag. Onder dynamisch werken vallen bijvoorbeeld de zit-sta-bureaus, wiebelkrukken en desk-bikes. Uit de tests die ik heb gedaan viel het me juist op dat het dynamisch zitten niet bevorderend werkt omdat kantoormedewerkers juist minder vaak zijn geneigd om uit hun stoel te komen. De oplossing ligt in het aanleren van gedrag waarbij op een efficiënte manier zitten, staan en bewegen voortdurend wordt afgewisseld over de werkdag. 
 
-**Q: Nou weten dat de fysieke activiteit van een kantoormedewerker minimaal is in sedentaire houding. De fysieke activiteit vindt plaats bij beweging. Wat is dan nog de rol van het staand werken? Een kantoormedewerker komt alsnog niet aan beweging tijdens het stilstaan.**
+**Q: Nou weten we dat de fysieke activiteit van een kantoormedewerker minimaal is in zittende houding. De fysieke activiteit vindt plaats bij beweging. Wat is dan nog de rol van het staand werken? Een kantoormedewerker komt alsnog niet aan beweging tijdens het stilstaan.**
 
 A: Daarom instrueer ik mijn patiënten ook om niet langer dan een halfuur achter een zit-sta-bureau te staan. Staan, op zich, is ook heel statisch. Het voordeel dat staand werken met zich meebrengt is dat je gemakkelijker kunt overgaan naar een beweging dan dat je dit vanuit een zittende houding doet. Als een kantoormedewerker zichzelf aanleert om regelmatige af te wisselen tussen zitten en staan, is deze kantoormedewerker ook eerder geneigd om vanuit een staande positie af te wisselen naar beweging. Als je staat en de telefoon gaat, zul je eerder ijsberen tijdens het telefoongesprek, om een voorbeeld te noemen.
 
@@ -61,7 +61,7 @@ A: We drukken het uit in METs (*Metabolic Equivalent of Task*), dit staat voor d
 
 **Q: De ene kantoormedewerker gaat met het openbaar vervoer naar werk, terwijl zijn collega eerder opstaat om te gaan hardlopen en gaat vervolgens met de fiets naar werk. Ze verrichten vervolgens allebei hun werk zittend. Dien je bij het ergonomisch advies rekening te houden met de fysieke activiteit die opgedaan is buiten de werkdag om, waarbij er coulanter omgegaan wordt met zituren? Of spreek je ze allebei op dezelfde manier aan op hun zitgedrag?**
 
-A: Het TNO (Toegepast Natuurwetenschappelijk Onderzoek) heeft aangetoond dat één uur sporten niet kan compenseren voor 8 uur zitten. Dit heeft er voornamelijk mee te maken dat je lichaam 8 uur lang non-actief is en dit is schadelijk. De ergonomische metingen dienen verricht te worden tussen het begin van de werkdag en het einde van de werkdag, hier valt veel meer winst te behalen. Als je nagaat dat een kantoormedewerker zo'n 80% van de dag zit en 5% van de dag actief is, is het veel logischer om het probleem aan te pakken in die 80% van de dag.
+A: Het TNO (Toegepast Natuurwetenschappelijk Onderzoek) heeft aangetoond dat één uur sporten niet kan compenseren voor 8 uur zitten. Dit heeft er voornamelijk mee te maken dat je lichaam 8 uur lang non-actief is en dit is schadelijk. De ergonomische metingen dienen verricht te worden tussen het begin van de werkdag en het einde van de werkdag, hier valt veel meer winst te behalen. Als je nagaat dat een kantoormedewerker zo'n 66% van de dag zit en 29% van de dag lichte tot matige fysieke activiteit heeft, is het veel logischer om het probleem aan te pakken gedurende de werkdag, want daar zit het grootste deel van de zitactiviteit.
 
 **Q: Kantoormedewerkers moeten dus een afwisseling tussen zitten, staan en bewegen aanleren. Wat voor soort metingen moeten we verrichten om de ergonomie op het kantoor te kunnen beoordelen en verbeteren?**
 
@@ -73,7 +73,7 @@ A: Ja, de one-size-fits-all mentaliteit gaat hier niet op. Ieder mens is zo ande
 
 **Q: Mensen hebben gedrag, en gedrag bestaat uit ritmes. Als een kantoormedewerker elke dag van 09:00u tot 11:00u zit, zal hij/zij gewend zijn om tijdens dit moment geconcentreerd te werken. In hoeverre staan het nastreven van fysieke activiteit en productiviteit elkaar in de weg?**
 
-A: Ik denk dat deze twee elkaar helemaal niet in de weg staan. Sterker nog, het zou zelfs bevorderend kunnen werken als je het custom-made houdt. Een gemiddelde spanningsboog is 45 minuten. Voor je gevoel kan dit veel langer zijn, maar mensen zijn er niet voor gemaakt om altijd optimaal te pieken. Heel veel medewerkers zitten anderhalf uur lang te werken, waarvan ze dus maar de helft van de tijd echt geconcentreerd zijn. Als je dit anderhalf uur in tweeën zou breken met een lichte pauze tussendoor, heeft de kantoormedewerker twee keer een spanningsboog van 45 minuten én beweging gehad. Deze beweging hoeft namelijk niet een grote wandeling te zijn, het halen van een kop koffie of een toilet-bezoek zou al voldoende beweging moeten zijn. Een onderbreking van de *flow* hoeft niet per se te betekenen dat productiviteit wordt afgebroken.
+A: Ik denk dat deze twee elkaar helemaal niet in de weg staan. Sterker nog, het zou zelfs bevorderend kunnen werken als je het custom-made houdt. Een gemiddelde spanningsboog is 45 minuten. Voor je gevoel kan dit veel langer zijn, maar mensen zijn er niet voor gemaakt om altijd optimaal te pieken. Heel veel medewerkers zitten anderhalf uur lang te werken, waarvan ze dus maar de helft van de tijd echt geconcentreerd zijn. Als je dit anderhalf uur in tweeën zou breken met een lichte pauze tussendoor, heeft de kantoormedewerker twee keer een spanningsboog van 45 minuten én beweging gehad. Deze beweging hoeft namelijk niet een grote wandeling te zijn, het halen van een kop koffie of een toilet-bezoek zou al voldoende beweging moeten zijn om weer geconcentreerd te kunnen werken. Een onderbreking van de *flow* hoeft niet per se te betekenen dat productiviteit wordt afgebroken.
 
 **Q: Een oplossing zou dus zijn om een meting te verrichten waarbij de duur van het zitten, staan en bewegen in kaart gebracht worden. Deze inzichten worden vervolgens gedeeld met kantoormedewerkers zodat ze bewustzijn opdoen. Geloof je er in dat er puur door bewustzijn en inzichten een gedragsverandering gerealiseerd kan worden of moet er extra hulp bij komen?**
 
