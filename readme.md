@@ -40,7 +40,9 @@ Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/
 	- [x] Update oplossingsrichting
 	- [x] Social Media Preview Cards
 - [x] Literatuuronderzoek:
-	- [x] Uitschrijven interview Mariska van der Kaa
+	- [x] Uitschrijven interview Mariska van de Kaa
+	- [x] Valideren bij Mariska van de Kaa
+	- [x] Update interview op basis van feedback
 - [ ] Feedback Frenzy:
 	- [x] Inventarisatie Poster Feedback Frenzy
 	- [ ] Poster Feedback Frenzy (Design)
