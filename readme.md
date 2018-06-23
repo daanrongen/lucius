@@ -11,7 +11,7 @@
 
 Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/delta/) en lees de [design brief](img/design-brief-compressed.pdf) voor het volledige literatuuronderzoek en ontwerpproces.
 
-![Huidige productoplossing Delta](docs/img/delta-header.png)
+![Huidige productoplossing Delta](library/images/delta-header.png)
 
 ---
 
