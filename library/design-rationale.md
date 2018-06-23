@@ -34,9 +34,10 @@ Alan Klement stelde een alternatief voor: de Job Story. Deze zou er als volgt ui
 > "When (*situation*), I want to (*motivation*), So I can (*expected outcome*)"
 
 Om dus een inventarisatie te maken van de wensen van full-time kantoormedewerkers omtrent een ergonomische interventie heb ik de volgende reeks aan job stories opgesteld:
-1. Wanneer ik lange werkdagen maak op kantoor, wil ik inzichten krijgen in mijn zitgedrag, zodat ik aan het einde van de dag kan zien of mijn fysieke activiteit voldoende is geweest.
-2. Wanneer ik geconcentreerd aan het werk ben en niet bewust ben van mijn ergonomisch-onverantwoorde zitgedrag, wil ik *ubiquitous* hierop geattendeerd worden, zodat ik op tijd mijn zitgedrag kan verbeteren.
-3. Wanneer ik voor een langere periode mijn zitgedrag heb gemeten, wil ik mijn metingen over een langere periode bekijken, zodat ik kan zien of ik beter zitgedrag aanleer.
+1. Wanneer ik op werk ben, wil ik mijn huidige zitgedrag kunnen zien, zodat ik weet of mijn ergonomische status nog toereikend is.
+2. Wanneer ik voor een langere periode bezig ben met dynamisch werken, wil ik mijn voortgang kunnen zien, zodat ik weet of ik progressie behaal.
+3. Wanneer mijn zitgedrag uitstekend begint te worden, wil ik een beloning voor mijn gedrag, zodat ik gemotiveerd blijf om het gedrag voort te zetten.
+4. Wanneer ik merk dat mijn collega's minder goed zitgedrag vertonen, wil ik ze stimuleren om meer dynamisch te werken, zodat ik het dynamisch werken meer terug zie in de werkcultuur.
 
 ## Productvisie
 
