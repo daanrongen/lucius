@@ -43,6 +43,10 @@ Volg de progressie op [daanrongen.github.io/delta](https://daanrongen.github.io/
 	- [x] Uitschrijven interview Mariska van de Kaa
 	- [x] Valideren bij Mariska van de Kaa
 	- [x] Update interview op basis van feedback
+- [x] UX / UI Design:
+	- [x] Crazy Eight voor Social Influence
+	- [x] Implementeer concept in UI
+	- [x] Iteratie 3 met nieuw sociaal element
 - [ ] Feedback Frenzy:
 	- [x] Inventarisatie Poster Feedback Frenzy
 	- [ ] Poster Feedback Frenzy (Design)
