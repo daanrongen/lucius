@@ -25,6 +25,3 @@ De poster biedt een combinatie van grafische en tekstuele informatie over mijn l
 > Maak een poster met informatie zodat iemand zonder voorkennis snel je project kan begrijpen. Probeer zo veel mogelijk te visualiseren en zo min mogelijk met tekst te doen. Toon de context voorzover noodzakelijk is, de probleemsituatie, je design challenge/ hoofdvraag, je doelgroep en eventuele andere belangrijke stakeholders (bijvoorbeeld in de vorm van een persona), je productvisie. Het kan nuttig zijn om gebruik te maken van korte scenario's, storyboards, emotional journey, customer journey of nog andere modellen.
 
 ### Prototype (Digitaal)
-- [ ] hello
-- [x] hello
-- [ ] dunnit 
