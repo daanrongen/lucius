@@ -12,7 +12,7 @@ import {
 
 const routes = app => {
   app.route('/').get((req, res) => {
-    res.send('<h1>hello world</h1>')
+    res.render('welcome.ejs')
   })
 
   app
