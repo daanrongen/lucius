@@ -12,7 +12,7 @@ import {
 
 const routes = app => {
   app.route('/').get((req, res) => {
-    res.render('welcome.ejs')
+    res.render('index.ejs')
   })
 
   app
