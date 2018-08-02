@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans');
 
 :root {
-  --black: #1A1919;
-  --white: #FEFEFE;
-  --yellow: #FFCB49;
-  --red: #E77174;
-  --cyan: #3DB7BD;
-  --blue: #2E7FC1;
+  --black: #1a1919;
+  --white: #fefefe;
+  --yellow: #ffcb49;
+  --red: #e77174;
+  --cyan: #3db7bd;
+  --blue: #2e7fc1;
 }
 
-*, *::after, *::before {
-	box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 nav {
@@ -159,11 +161,15 @@ p:last-of-type {
   font-size: 1em;
 }
 
-#authorInformation ul li:first-of-type, #authorInformation ul li:nth-of-type(3) {
+#authorInformation ul li:first-of-type,
+#authorInformation ul li:nth-of-type(3) {
   margin-bottom: 12px;
 }
 
-#introduction, #ontwerpvraag, #concept, footer {
+#introduction,
+#ontwerpvraag,
+#concept,
+footer {
   height: 100vh;
   width: 80vw;
   display: flex;
@@ -171,7 +177,10 @@ p:last-of-type {
   align-items: center;
 }
 
-#introduction h1, #ontwerpvraag h1, #concept h1, footer h1 {
+#introduction h1,
+#ontwerpvraag h1,
+#concept h1,
+footer h1 {
   width: 952px;
   margin-top: 100px;
 }
@@ -264,7 +273,8 @@ p:last-of-type {
   transition: 0.2s;
 }
 
-#concept ul .active, #selectItem ul li:hover {
+#concept ul .active,
+#selectItem ul li:hover {
   font-weight: normal;
   transition: 0.2s;
   cursor: pointer;
@@ -278,7 +288,8 @@ p:last-of-type {
   color: var(--red);
 }
 
-#fysiekActive, #webappActive {
+#fysiekActive,
+#webappActive {
   display: flex;
   justify-content: space-between;
   width: 952px;
@@ -286,9 +297,12 @@ p:last-of-type {
 
 #fysiekActive svg {
   margin: 2em 0 0 0;
+  margin: 0 auto;
+  margin-top: 2em;
 }
 
-#fysiekActive p, #webappActive p {
+#fysiekActive p,
+#webappActive p {
   margin-top: 2em;
 }
 
@@ -317,7 +331,6 @@ footer img {
 }
 
 @media screen and (max-width: 1080px) {
-
   body {
     width: 100vw;
   }
@@ -331,23 +344,36 @@ footer img {
     font-size: 1.125em;
   }
 
-  #authorInformation, #introduction, #ontwerpvraag, #concept, footer {
+  #authorInformation,
+  #introduction,
+  #ontwerpvraag,
+  #concept,
+  footer {
     width: 100vw;
   }
 
-  #introduction, #ontwerpvraag, #concept, footer {
+  #introduction,
+  #ontwerpvraag,
+  #concept,
+  footer {
     min-height: 100vh;
     height: 100%;
   }
 
-  #introduction div, #introduction h1, #ontwerpvraag div, #ontwerpvraag h1, .largeText, #concept div, #concept h1, footer div, footer h1 {
+  #introduction div,
+  #introduction h1,
+  #ontwerpvraag div,
+  #ontwerpvraag h1,
+  .largeText,
+  #concept div,
+  #concept h1,
+  footer div,
+  footer h1 {
     width: 90%;
   }
-
 }
 
 @media screen and (max-width: 414px) {
-
   nav {
     background-color: var(--black);
     width: 100vw;
@@ -361,7 +387,7 @@ footer img {
     width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around
+    justify-content: space-around;
   }
 
   nav ul li {
@@ -398,13 +424,24 @@ footer img {
     flex-direction: column;
   }
 
-  #introduction div, #introduction h1, #introduction div p, #ontwerpvraag div, #ontwerpvraag h1, #ontwerpvraag div p, .largeText, #concept div, #concept h1, footer div, footer h1 {
+  #introduction div,
+  #introduction h1,
+  #introduction div p,
+  #ontwerpvraag div,
+  #ontwerpvraag h1,
+  #ontwerpvraag div p,
+  .largeText,
+  #concept div,
+  #concept h1,
+  footer div,
+  footer h1 {
     width: 90vw;
     height: auto;
     padding: 0;
   }
 
-  #introduction p, #ontwerpvraag p {
+  #introduction p,
+  #ontwerpvraag p {
     font-size: 0.875em;
     line-height: 16px;
   }
@@ -424,7 +461,9 @@ footer img {
     margin-top: 40px;
   }
 
-  .designChallenge ul li, #concept p, footer p {
+  .designChallenge ul li,
+  #concept p,
+  footer p {
     width: 90vw;
     font-size: 0.875em;
   }
@@ -433,15 +472,18 @@ footer img {
     margin-bottom: 4em;
   }
 
-  #selectItem, #concept div > p {
+  #selectItem,
+  #concept div > p {
     margin-top: 8px;
   }
 
-  #fysiekActive, #webappActive {
+  #fysiekActive,
+  #webappActive {
     flex-direction: column;
   }
 
-  #fysiekActive svg, #webappActive img {
+  #fysiekActive svg,
+  #webappActive img {
     order: -1;
   }
 
@@ -459,5 +501,4 @@ footer img {
   footer {
     display: none;
   }
-
 }
