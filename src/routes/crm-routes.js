@@ -15,26 +15,30 @@ const routes = app => {
     res.render('index.ejs')
   })
 
-  app
-    .route('/users')
-    .get((req, res, next) => {
-      next()
-    }, getUsers)
-    .post(addNewUser)
+  app.route('/register').get((req, res) => {
+    res.render('register.ejs')
+  })
 
-  app
-    .route('/fsr')
-    .get((req, res, next) => {
-      next()
-    }, getData)
-    .post(addNewValue)
-
-  app
-    .route('/users/:userId')
-    .get(getUserById)
-
-    .put(updateUser)
-    .delete(deleteUser)
+  // app
+  //   .route('/users')
+  //   .get((req, res, next) => {
+  //     next()
+  //   }, getUsers)
+  //   .post(addNewUser)
+  //
+  // app
+  //   .route('/fsr')
+  //   .get((req, res, next) => {
+  //     next()
+  //   }, getData)
+  //   .post(addNewValue)
+  //
+  // app
+  //   .route('/users/:userId')
+  //   .get(getUserById)
+  //
+  //   .put(updateUser)
+  //   .delete(deleteUser)
 }
 
 export default routes
