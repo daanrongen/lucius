@@ -47,3 +47,7 @@ Vanaf juli tot september ben ik bezig met het ontwikkelen van een testbaar proto
 1. Kantoormedewerkers zijn geïnteresseerd in de zitinzichten en zullen streven naar progressie in hun zitgedrag.
 2. Kantoormedewerkers zullen elkaar attenderen op het zitgedrag als deze onverantwoord begint te worden en ook zullen ze het waarderen als ze hier zelf op geattendeerd worden tijdens hun werk.
 3. De Buoy van de Enrichers biedt meer in-chair-movement dan de conventionele bureaustoel.
+
+
+## Internet of Things
+De mobiele web-applicatie is real-time verbonden met de kruk. In de backend wordt de data die door de app verwerkt en wordt gevisualiseerd voor de gebruiker. Ook biedt de LED-strip een gamification-element. Naast de tijdsduur en in-chair-movement tonen de LEDs de gemiddelde zittijd van de gebruiker en het gemiddelde van al zijn collega's. De appplicatie is voorzien van een feature om de LEDs (tijdelijk) uit te zetten, mocht de gebruiker geen behoefte hebben aan het culturele aspect van het product. 

@@ -5,8 +5,6 @@ import routes from '../src/routes/crm-routes'
 const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
-const multer = require('multer')
-const upload = multer({dest: 'static/uploads/'})
 
 const app = express()
 const port = 4000
