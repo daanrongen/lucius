@@ -3,3 +3,4 @@ documents
 node_modules
 HttpClient/wifi_secrets.h
 .babelrc
+webpack.config.js
