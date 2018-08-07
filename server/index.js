@@ -2,16 +2,13 @@
 
 const express = require('express')
 
-const app = express()
-const port = 4000
-
-app
-  .use(express.static('src'))
-  .set('view engine', 'ejs')
-  .set('views', 'view')
+express()
+  .use(express.static('static'))
+  // .set('view engine', 'ejs')
+  // .set('views', 'view')
   .get('/', all)
-  .listen(port, console.log('listening on localhost:', port))
+  .listen(4000, console.log('listening on localhost:4000'))
 
 function all(req, res) {
-  res.render('index.ejs')
+  res.render('index.html')
 }

@@ -1,21 +1,22 @@
 {
   "name": "delta",
   "version": "1.0.0",
-  "description":
-    "dissertation project for university of applied sciences of Amsterdam",
-  "main": "server/index.js",
+  "description": "dissertation project for university of applied sciences of Amsterdam",
+  "main": "src/index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "start-nodemon": "nodemon server/index.js --exec babel-node -e js",
-    "start-webpack": "./node_modules/.bin/webpack-dev-server"
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "nodemon": "nodemon server/index.js --exec babel-node -e js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daanrongen/delta.git"
   },
-  "keywords": ["delta"],
+  "keywords": [
+    "delta"
+  ],
   "author": "Daan Rongen",
   "license": "ISC",
   "bugs": {
@@ -27,8 +28,8 @@
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
-    "mongodb": "^3.0.10",
-    "mongoose": "^5.1.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
     "xo": "^0.21.1"
   },
   "xo": {
@@ -36,11 +37,12 @@
     "semicolon": false
   },
   "devDependencies": {
-    "babel-cli": "6.18.0",
+    "babel-cli": "^6.18.0",
     "babel-loader": "^6.2.5",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
+    "json-loader": "^0.5.4",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
   }
