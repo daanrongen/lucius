@@ -1,6 +1,5 @@
 .DS_Store
 documents
-.env
 node_modules
 HttpClient/wifi_secrets.h
 .babelrc
