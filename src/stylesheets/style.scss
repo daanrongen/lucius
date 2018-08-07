@@ -1,0 +1,26 @@
+$black: #1a1919;
+$white: #fefefe;
+$yellow: #ffcb49;
+$green: #45b188;
+$orange: #fc7a57;
+$red: #e77174;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Avenir Next';
+}
+
+.hello {
+  background-color: $black;
+  color: $white;
+}
+
+.goodbye {
+  background-color: $black;
+  color: $white;
+}
