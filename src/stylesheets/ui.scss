@@ -1,0 +1,54 @@
+$black: #1a1919;
+$white: #fefefe;
+$yellow: #ffcb49;
+$green: #45b188;
+$orange: #fc7a57;
+$red: #e77174;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Avenir Next';
+}
+
+.hello {
+  background-color: $black;
+  color: $white;
+}
+
+.goodbye {
+  background-color: $black;
+  color: $white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seated-behaviour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span {
+  color: $white;
+  font-family: 'Avenir Next';
+  font-size: 2em;
+  // background-color: $yellow;
+}
+
+div > span:last-of-type {
+  margin-left: 16px;
+}

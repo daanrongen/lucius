@@ -1,6 +1,6 @@
 import React from 'react'
 import text from './titles.json'
-import './stylesheets/style.scss'
+import './stylesheets/ui.scss'
 
 export const hello = (
   <h1 id="title" className="hello">
