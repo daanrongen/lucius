@@ -1,8 +1,7 @@
 {
   "name": "delta",
   "version": "1.0.0",
-  "description":
-    "dissertation project for university of applied sciences of Amsterdam",
+  "description": "dissertation project for university of applied sciences of Amsterdam",
   "main": "src/index.js",
   "directories": {
     "doc": "docs"
@@ -15,7 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/daanrongen/delta.git"
   },
-  "keywords": ["delta"],
+  "keywords": [
+    "delta"
+  ],
   "author": "Daan Rongen",
   "license": "ISC",
   "bugs": {

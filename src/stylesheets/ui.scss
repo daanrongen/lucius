@@ -12,23 +12,13 @@ $red: #e77174;
 }
 
 h1 {
-  font-family: 'Avenir Next';
-}
-
-.hello {
-  background-color: $black;
-  color: $white;
-}
-
-.goodbye {
-  background-color: $black;
-  color: $white;
+  font-family: "Avenir Next";
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: $black;
+  // background-color: $black;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -44,7 +34,7 @@ body {
 
 span {
   color: $white;
-  font-family: 'Avenir Next';
+  font-family: "Avenir Next";
   font-size: 2em;
 }
 
