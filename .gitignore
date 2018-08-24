@@ -1,6 +1,7 @@
 .DS_Store
 documents
 node_modules
+HttpClient
 HttpClient/wifi_secrets.h
 .babelrc
 webpack.config.js

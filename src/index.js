@@ -1,17 +1,11 @@
-import React from 'react'
-import { render } from 'react-dom'
-import './stylesheets/ui.scss'
-import { SkiDayCount } from './components/SkiDayCount'
+import React from "react";
+import { render } from "react-dom";
+import "./stylesheets/ui.scss";
+import { SkiDayCount } from "./components/SkiDayCount";
 
-window.React = React
+window.React = React;
 
-
-render(
-	<SkiDayCount />,
-	document.getElementById('react-container')
-)
-
-
+render(<SkiDayCount />, document.getElementById("react-container"));
 
 // render(
 // 	<SkiDayList days={
