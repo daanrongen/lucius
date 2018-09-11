@@ -5,3 +5,4 @@ HttpClient
 HttpClient/wifi_secrets.h
 .babelrc
 webpack.config.js
+package-lock.json

@@ -1,43 +1,15 @@
-$black: #1a1919;
+$black: #131313;
 $white: #fefefe;
-$yellow: #ffcb49;
-$green: #45b188;
-$orange: #fc7a57;
-$red: #e77174;
+$yellow: #fcba04;
+$green: #49fe7e;
+$red: #fe4a49;
+$blue: #232ed1;
+$turqouise: #41d3bd;
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
-}
-
-h1 {
-  font-family: "Avenir Next";
-}
-
-body {
   margin: 0;
   padding: 0;
-  // background-color: $black;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.seated-behaviour {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-span {
-  color: $white;
-  font-family: "Avenir Next";
-  font-size: 2em;
-}
-
-div > span:last-of-type {
-  margin-left: 16px;
 }

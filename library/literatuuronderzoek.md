@@ -49,6 +49,10 @@ Op kantoren in de Verenigde Staten zijn fitness-toepassingen geplaatst. Deze int
 
 Aangezien er gesteld kan worden dat er een zitcultuur heerst op de kantooromgeving en menselijk gedrag voor een groot deel beïnvloedbaar is door de omgeving, dienen er grotere maatregelen getroffen te worden. De mediale interventie komt het beste uit de test, maar is erg afhankelijk van menselijk gedrag. Een mediale interventie meet en toont gedrag, maar de verbetering moet vanuit intrinsieke motivatie van de gebruiker komen.
 
+Jasper:
+
+- Vroeger was er een balans tussen fysieke activiteit tussen arbeid en 's avonds rusten en nu is die balans weg want we zitten op werk en daarna zitten we thuis
+
 ## Gedragsontwerp
 
 ### Lechner's ASE-model
