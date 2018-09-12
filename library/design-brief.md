@@ -1,18 +1,17 @@
 # Design Brief
 
-	Daan Rongen
-	Afstudeerstudent Communication & Multimedia Design,
-	minor Intelligent Environments, 
-	focus op IoT-design en design-ethiek.
-		
-	Onder begeleiding van: Harold Konickx
-	In opdracht van: Healthy Workers
-	Onder supervisie van: Niels de Keizer & Boy Lokhoff
+Daan Rongen
+Afstudeerstudent Communication & Multimedia Design,
+minor Intelligent Environments, focus op IoT-design en design-ethiek.
+
+Onder begeleiding van: Harold Konickx
+In samenwerking met: Healthy Workers
+Met dank aan: Govert Flint, Nick Rovroy en Niels de Keizer
 
 ---
 
 <div align="center">
-<a href="https://github.com/daanrongen/delta/blob/master/library/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/veldonderzoek.md">veldonderzoek</a>
+<a href="https://github.com/daanrongen/momentum/blob/master/library/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/momentum/blob/master/library/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/momentum/blob/master/library/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/momentum/blob/master/library/veldonderzoek.md">veldonderzoek</a>
 </div>
 
 ---
@@ -57,11 +56,11 @@ Healthy Workers zet zich in om het welzijn van kantoormedewerkers meetbaar en ve
 ## Onderzoek
 
 ### Literatuuronderzoek
-Steeds meer werkenden werken in een sedentaire sector, voornamelijk in kantooromgevingen. Het percentage Nederlanders dat in een kantooromgeving werkt zal naar schatting blijven stijgen, dit komt voornamelijk door de sterke groei van de diensten-economie. De gemiddelde kantoormedewerker zit 10,1 uur op een dag (RIVM, 2015). Kantoormedewerkers brengen op een werkdag gemiddeld 77,0% van de tijd zittend door, terwijl ze op werkdagen buiten werktijden 63,1% van de tijd zitten. Op niet-werkdagen zit dezelfde groep gemiddeld 62,9% van de tijd. 
+Steeds meer werkenden werken in een sedentaire sector, voornamelijk in kantooromgevingen. Het percentage Nederlanders dat in een kantooromgeving werkt zal naar schatting blijven stijgen, dit komt voornamelijk door de sterke groei van de diensten-economie. De gemiddelde kantoormedewerker zit 10,1 uur op een dag (RIVM, 2015). Kantoormedewerkers brengen op een werkdag gemiddeld 77,0% van de tijd zittend door, terwijl ze op werkdagen buiten werktijden 63,1% van de tijd zitten. Op niet-werkdagen zit dezelfde groep gemiddeld 62,9% van de tijd.
 
-Door te lang in een ergonomisch-onverantwoordelijke houding te zitten ontwikkelen mensen musculoskeletal disorders, ook wel skeletvergroeiingen. Musculoskeletal disorders vormen de grooste categorie van werkgerelateerd letsel. Er vindt een toename plaats in het aantal werknemers met pre-existing MSD's op het moment dat ze het werkveld betreden. In 1995 was het percentage werkers met een MSD 21%, in 2000 was dit 35% en in 2015 48% (Middlesworth, n.d). 
+Door te lang in een ergonomisch-onverantwoordelijke houding te zitten ontwikkelen mensen musculoskeletal disorders, ook wel skeletvergroeiingen. Musculoskeletal disorders vormen de grooste categorie van werkgerelateerd letsel. Er vindt een toename plaats in het aantal werknemers met pre-existing MSD's op het moment dat ze het werkveld betreden. In 1995 was het percentage werkers met een MSD 21%, in 2000 was dit 35% en in 2015 48% (Middlesworth, n.d).
 
-Ook is er een significante correlatie tussen sedentair werk en de ontwikkeling van hart- en vaatziekten. De Schotse epidemioloog Jerry Morris onderzocht de correlatie tussen ‘sedentair werk’ en de ontwikkeling van dodelijke hart- en vaatziekten. Bij een onderzoek naar de doodsoorzaken van 3.800 Britse mannen die het grootste deel van hun leven full-time werkten, ontdekte Morris een significante correlatie tussen vermindering of absentie van fysieke activiteit en de ontwikkeling van gezondheidsproblemen (Morris, 1958). Langdurig in een sedentaire houding zitten reduceert de fysieke activiteit van het individu tot het minimum, dit heeft invloed op de bloedsomloop. 
+Ook is er een significante correlatie tussen sedentair werk en de ontwikkeling van hart- en vaatziekten. De Schotse epidemioloog Jerry Morris onderzocht de correlatie tussen ‘sedentair werk’ en de ontwikkeling van dodelijke hart- en vaatziekten. Bij een onderzoek naar de doodsoorzaken van 3.800 Britse mannen die het grootste deel van hun leven full-time werkten, ontdekte Morris een significante correlatie tussen vermindering of absentie van fysieke activiteit en de ontwikkeling van gezondheidsproblemen (Morris, 1958). Langdurig in een sedentaire houding zitten reduceert de fysieke activiteit van het individu tot het minimum, dit heeft invloed op de bloedsomloop.
 
 De fysieke activiteit van de kantoormedewerker dient toe te nemen. Dit kan middels verschillende interventie-soorten. Tot nu toe heeft het inspelen op de technologische "Quantified Self"-trend het beste resultaat opgeleverd, deze toepassing valt onder mediale interventies. Aangezien er gesteld kan worden dat er een zitcultuur heerst op de kantooromgeving en menselijk gedrag voor een groot deel beïnvloedbaar is door de omgeving, dienen er grotere maatregelen getroffen te worden. Een mediale interventie meet en toont gedrag, maar de verbetering moet vanuit intrinsieke motivatie van de gebruiker komen.
 
@@ -70,9 +69,9 @@ Kantoormedewerkers geven aan dat ze informatie over hun werkomgeving het liefst 
 
 "Actionable Data" is data, afkomstig uit een Quantified Self toepassing, waarbij de gebruiker de mogelijkheid heeft om te kiezen voor een aanpassing in zijn/haar gedrag. Met andere woorden, actionable data is een inzicht waarop gehandeld kan worden. Je zou kunnen stellen dat bij user-centred design het product is afgestemd op het tonen van zo veel mogelijk actionable data.
 
-8 op de 10 kantoormedewerkers ontwikkelt vroeg of laat nek-, schouder-, rug- of armklachten. Dit probleem is moeilijk op te lossen omdat er een zitcultuur heerst in kantooromgevingen. Gedrag en omgeving gaan hand-in-hand en de kantooromgeving is ontworpen om zittend werk te verrichten. Medewerkers in fysiek-intensieve sectoren hebben dynamische belasting op hun lichaam, waarbij kantoormedewerkers statische belasting ondergaan. Bij statische belasting worden de spieren evengoed belast maar worden niet bewogen. De kantoormedewerker moet niet dynamisch zitten, dat bevordert het blijven zitten alleen maar. 
+8 op de 10 kantoormedewerkers ontwikkelt vroeg of laat nek-, schouder-, rug- of armklachten. Dit probleem is moeilijk op te lossen omdat er een zitcultuur heerst in kantooromgevingen. Gedrag en omgeving gaan hand-in-hand en de kantooromgeving is ontworpen om zittend werk te verrichten. Medewerkers in fysiek-intensieve sectoren hebben dynamische belasting op hun lichaam, waarbij kantoormedewerkers statische belasting ondergaan. Bij statische belasting worden de spieren evengoed belast maar worden niet bewogen. De kantoormedewerker moet niet dynamisch zitten, dat bevordert het blijven zitten alleen maar.
 
-De oplossing ligt in het aanleren van dynamisch werken, waarbij op een efficiënte manier zitten, staan en bewegen voortdurend wordt afgewisseld over de werkdag. Staan, op zich, is namelijk ook heel statisch. Het voordeel dat staand werken met zich meebrengt is dat je gemakkelijker kunt overgaan naar een beweging dan dat je dit vanuit een zittende houding doet. Er wordt geadviseerd om tussen de 4 en 6 zituren op een werkdag aan te houden, afgewisseld met 2 tot 4 uur aan beweging. De ergonomische metingen dienen verricht te worden tussen het begin van de werkdag en het einde van de werkdag, hier valt de meeste winst te behalen. Door te letten op de duur van elke activiteit of inactiviteit is het mogelijk om patronen herkennen. De one-size-fits-all mentaliteit gaat hier niet op. De inzichten moeten individueel naar de medewerker gecommuniceerd worden. 
+De oplossing ligt in het aanleren van dynamisch werken, waarbij op een efficiënte manier zitten, staan en bewegen voortdurend wordt afgewisseld over de werkdag. Staan, op zich, is namelijk ook heel statisch. Het voordeel dat staand werken met zich meebrengt is dat je gemakkelijker kunt overgaan naar een beweging dan dat je dit vanuit een zittende houding doet. Er wordt geadviseerd om tussen de 4 en 6 zituren op een werkdag aan te houden, afgewisseld met 2 tot 4 uur aan beweging. De ergonomische metingen dienen verricht te worden tussen het begin van de werkdag en het einde van de werkdag, hier valt de meeste winst te behalen. Door te letten op de duur van elke activiteit of inactiviteit is het mogelijk om patronen herkennen. De one-size-fits-all mentaliteit gaat hier niet op. De inzichten moeten individueel naar de medewerker gecommuniceerd worden.
 
 Bij het werken naar een oplossing moet er kritisch gekeken worden naar of er een gedragsverandering plaatsvindt. De data vormt zich namelijk naar het gedrag, het gedrag moet zich niet naar de data vormen. Het is niet de bedoeling dat kantoormedewerkers een prestatie gaan najagen. Lechner stelt met het ASE-model dat gedragsverandering ontstaat bij intentie. Intentie is afhankelijk van drie factoren: Attitude, Social influence, Efficacy. Vervolgens komt het persoon in kwestie in aanraking met mogelijke barrières en het wel of niet beheersen van benodigde vaardigheden, dit is competentie. Als dit slaagt resulteert het in gedrag, maar dan is het nog de vraag hoe lang het persoon in kwestie dit gedrag zal behouden. Dat hangt af van beloningen of straffen.
 
@@ -135,7 +134,7 @@ Het sterke aan dit product is dat het gepersonaliseerde werkomgevingen bevordert
 Het voornaamste minpunt is dat de data van werknemers naar werkgevers gaat. En dat werkgevers in een dashboard alle data van werknemers kunnen bekijken. Het creëert een panopticon-effect en hierdoor draagt het niet bij aan de intrinsieke motivatie voor gedragsverandering.
 
 ### BMA Ergonomics Axia Smart Active
-BMA Ergonomics ontwikkelde de Axia Smart Active bureaustoel met hetzelfde doel: het stimuleren van dynamisch werken bij kantoormedewerkers. De stoel registreert zittijd en is gekoppeld aan de smartphone van de gebruiker om notificaties te geven wanneer de gebruiker te lang zit. Aan het einde van de dag ontvangt de gebruiker een overzicht waarin de totale zittijd zit. De applicatie toont hoeveel minuten er gezeten is, hoeveel minuten er gestaan is en hoe veel pauzes er hebben plaatsgevonden op de werkdag. 
+BMA Ergonomics ontwikkelde de Axia Smart Active bureaustoel met hetzelfde doel: het stimuleren van dynamisch werken bij kantoormedewerkers. De stoel registreert zittijd en is gekoppeld aan de smartphone van de gebruiker om notificaties te geven wanneer de gebruiker te lang zit. Aan het einde van de dag ontvangt de gebruiker een overzicht waarin de totale zittijd zit. De applicatie toont hoeveel minuten er gezeten is, hoeveel minuten er gestaan is en hoe veel pauzes er hebben plaatsgevonden op de werkdag.
 
 De stoel gebruikt smartphone-notificaties om zitritmes van de gebruiker te doorbreken. Ook heeft de smartphone-app een reward-systeem waarbij complimenten worden gegeven als de gebruiker ergonomisch-verantwoord gedrag vertoond.
 
@@ -146,4 +145,4 @@ Een kruk die een frequente en efficiënte afwisseling tussen zitten en niet-zitt
 
 De data is zichtbaar in een web-app. Hierop kan de gebruiker de duur van de drie fasen (zitten, staan, bewegen) over de werkdag bekijken. De inzichten dienen bewustzijn te stimuleren en tijdig aan te geven wanneer het zitgedrag ergonomisch-onverantwoord begint te raken middels connotaties aan de data. Ook zal de web-app een functie krijgen waarin het gemiddelde van alle collega's te zien zijn. De data in de app dient actionable te zijn zodat de gebruiker weet wat hij/zij kan doen om betere resultaten te krijgen. Tot slot kan de gebruiker zijn zitgedrag op de langere termijn kunnen bestuderen op progressie.
 
-/images/delta-header.png
+/images/momentum-header.png

@@ -1,18 +1,17 @@
 # Veldonderzoek
 
-	Daan Rongen
-	Afstudeerstudent Communication & Multimedia Design,
-	minor Intelligent Environments, 
-	focus op IoT-design en design-ethiek.
-		
-	Onder begeleiding van: Harold Konickx
-	In opdracht van: Healthy Workers
-	Onder supervisie van: Niels de Keizer & Boy Lokhoff
+Daan Rongen
+Afstudeerstudent Communication & Multimedia Design,
+minor Intelligent Environments, focus op IoT-design en design-ethiek.
+
+Onder begeleiding van: Harold Konickx
+In samenwerking met: Healthy Workers
+Met dank aan: Govert Flint, Nick Rovroy en Niels de Keizer
 
 ---
 
 <div align="center">
-<a href="https://github.com/daanrongen/delta/blob/master/library/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/veldonderzoek.md">veldonderzoek</a>
+<a href="https://github.com/daanrongen/momentum/blob/master/library/design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/momentum/blob/master/library/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/momentum/blob/master/library/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/momentum/blob/master/library/veldonderzoek.md">veldonderzoek</a>
 </div>
 
 ---
@@ -67,7 +66,7 @@ Op het kantoor van FONK Amsterdam heb ik een vrijwilliger gevonden wiens zitgedr
 
 #### Woensdag 6 juni
 - Zitpercentage: 76%
-- Ben ging met last van zijn nek naar huis. Hij gaf aan dat dit werd veroorzaakt door zijn werk achter de computer. 
+- Ben ging met last van zijn nek naar huis. Hij gaf aan dat dit werd veroorzaakt door zijn werk achter de computer.
 - Bij het opmaken van de data-visualisatie implementeerde ik de feature waarmee zichtbaar wordt dat er langer dan 30 minuten is gezeten. Ben zag direct dat ik "te lang zitten had toegevoegd" en hij zei dat hij zijn zitgedrag van de dinsdag nog steeds het meest wenselijk vond.
 - Hij gaf aan niet erg tevreden te zijn over zijn zitgedrag van woensdag, mede door de last van zijn nek.
 - Ben is om 12:20 gaan boksen in de boksruimte bij FONK. Hij gaf aan dat hij hierna aangenamer kon werken.
@@ -114,6 +113,8 @@ Inzichten krijgen in welke meetpunten het meest belangrijk zijn voor het verbete
 > Steeds meer werkenden werken in een sedentaire sector, voornamelijk in kantooromgevingen, zowel dit absolute als relatieve getal zal naar schatting blijven stijgen. Er is een significante correlatie tussen sedentair werk en de ontwikkeling van hart- en vaatziekten. De musculoskeletal disorders (skeletvergroeiingen) die ontstaan door het langdurig werken in een ergonomisch-onverantwoorde zithouding vormt de grootste oorzaak van werk-gerelateerd letsel in kantooromgevingen. Skeletvergroeiingen zijn te voorkomen door ergonomische interventies zoals betere bureaustoelen, bureaus, muizen, toetsenborden, etc. Langdurig in een sedentaire houding zitten reduceert de fysieke activiteit van het individu tot het minimum, dit heeft invloed op de bloedsomloop. De gemiddelde kantoormedewerker spendeert dagelijks 77,0% van haar werktijd en 63,2% van haar niet-werktijd zittend. Vandaar: "ergonomisch zitten is goed, dynamisch zitten is beter". De fysieke activiteit van de kantoormedewerker dient toe te nemen. Dit kan middels verschillende interventie-soorten. Tot nu toe heeft het inspelen op de technologische "Quantified Self"-trend het beste resultaat opgeleverd. Hoe kun je fysieke activiteit inzichtelijk maken voor kantoormedewerkers die full-time bij een corporate bedrijf werken, door middel van een web-app die verbonden is met een IoT-device, om fysiek welzijn in de werkomgeving te optimaliseren?
 
 ### Belangrijkste learnings
-Het [complete interview](https://github.com/daanrongen/delta/blob/master/library/interview.md) is uitgeschreven. 
+Het [complete interview](https://github.com/daanrongen/momentum/blob/master/library/interview.md) is uitgeschreven.
 
 > De Nederlandse kantoormedewerker zit gemiddeld 10,1 uur op een werkdag. 8 op de 10 kantoormedewerkers ontwikkelt vroeg of laat nek-, schouder-, rug- of armklachten. Dit probleem is moeilijk op te lossen omdat er een zitcultuur heerst in kantooromgevingen. Gedrag en omgeving gaan hand-in-hand en de kantooromgeving is ontworpen om zittend werk te verrichten. Medewerkers in fysiek-intensieve sectoren hebben dynamische belasting op hun lichaam, waarbij kantoormedewerkers statische belasting ondergaan. Bij statische belasting worden de spieren evengoed belast maar worden niet bewogen. De kantoormedewerker moet niet dynamisch zitten, dat bevordert het blijven zitten alleen maar. De oplossing ligt in het aanleren van dynamisch werken, waarbij op een efficiënte manier zitten, staan en bewegen voortdurend wordt afgewisseld over de werkdag. Staan, op zich, is namelijk ook heel statisch. Het voordeel dat staand werken met zich meebrengt is dat je gemakkelijker kunt overgaan naar een beweging dan dat je dit vanuit een zittende houding doet. Ik adviseer zelf om tussen de 4 en 6 zituren op een werkdag aan te houden, afgewisseld met 2 tot 4 uur aan beweging. De ergonomische metingen dienen verricht te worden tussen het begin van de werkdag en het einde van de werkdag, hier valt veel meer winst te behalen. Door te letten op de duur van elke activiteit of inactiviteit kun je uiteindelijk patronen herkennen. De one-size-fits-all mentaliteit gaat hier niet op. De inzichten moeten individueel naar de medewerker gecommuniceerd worden. Bij het werken naar een oplossing moet er kritisch gekeken worden naar of er een gedragsverandering plaatsvindt. De data vormt zich namelijk naar het gedrag, het gedrag moet zich niet naar de data vormen. Het is niet de bedoeling dat kantoormedewerkers een prestatie gaan najagen.
+
+###### 12-09-2018

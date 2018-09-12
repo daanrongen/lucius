@@ -1,13 +1,12 @@
 # Interview Mariska van de Kaa
 
-	Daan Rongen
-	Afstudeerstudent Communication & Multimedia Design,
-	minor Intelligent Environments, 
-	focus op IoT-design en design-ethiek.
-		
-	Onder begeleiding van: Harold Konickx
-	In opdracht van: Healthy Workers
-	Onder supervisie van: Niels de Keizer & Boy Lokhoff
+Daan Rongen
+Afstudeerstudent Communication & Multimedia Design,
+minor Intelligent Environments, focus op IoT-design en design-ethiek.
+
+Onder begeleiding van: Harold Konickx
+In samenwerking met: Healthy Workers
+Met dank aan: Govert Flint, Nick Rovroy en Niels de Keizer
 
 In dit document staan de notities en uitwerkingen van het interview met Mariska van de Kaa over fysieke activiteit in de kantooromgeving.
 
@@ -45,7 +44,7 @@ A: Daar ligt precies de onwetendheid. Medewerkers in fysiek-intensieve sectoren 
 
 **Q: Kantoormedewerkers zitten dus lang en ondergaan statische belasting op hun spieren. Tijdens mijn onderzoek kwam ik regelmatig 'dynamisch zitten' tegen. Wat kun je me vertellen over dynamisch zitten en in hoeverre biedt dit een oplossing tegen de statische belasting van de kantoormedewerker?**
 
-A: Het is allereerst belangrijk om een onderscheid te maken tussen dynamisch zitten en dynamisch werken. Dynamisch zitten houdt in dat de bureaustoel de inzittende volgt in zijn/haar zithouding, waarbij dynamisch werken meer is gefocust op de afwisseling tussen zitten, staan en bewegen tijdens de werkdag. Onder dynamisch werken vallen bijvoorbeeld de zit-sta-bureaus, wiebelkrukken en desk-bikes. Uit de tests die ik heb gedaan viel het me juist op dat het dynamisch zitten niet bevorderend werkt omdat kantoormedewerkers juist minder vaak zijn geneigd om uit hun stoel te komen. De oplossing ligt in het aanleren van gedrag waarbij op een efficiënte manier zitten, staan en bewegen voortdurend wordt afgewisseld over de werkdag. 
+A: Het is allereerst belangrijk om een onderscheid te maken tussen dynamisch zitten en dynamisch werken. Dynamisch zitten houdt in dat de bureaustoel de inzittende volgt in zijn/haar zithouding, waarbij dynamisch werken meer is gefocust op de afwisseling tussen zitten, staan en bewegen tijdens de werkdag. Onder dynamisch werken vallen bijvoorbeeld de zit-sta-bureaus, wiebelkrukken en desk-bikes. Uit de tests die ik heb gedaan viel het me juist op dat het dynamisch zitten niet bevorderend werkt omdat kantoormedewerkers juist minder vaak zijn geneigd om uit hun stoel te komen. De oplossing ligt in het aanleren van gedrag waarbij op een efficiënte manier zitten, staan en bewegen voortdurend wordt afgewisseld over de werkdag.
 
 **Q: Nou weten we dat de fysieke activiteit van een kantoormedewerker minimaal is in zittende houding. De fysieke activiteit vindt plaats bij beweging. Wat is dan nog de rol van het staand werken? Een kantoormedewerker komt alsnog niet aan beweging tijdens het stilstaan.**
 
@@ -53,7 +52,7 @@ A: Daarom instrueer ik mijn patiënten ook om niet langer dan een halfuur achter
 
 **Q: Ijsberend rondlopen tijdens een telefoongesprek, dat doet men onbewust. Het zou dus ideaal zijn om die fysieke activiteit te stimuleren in het onderbewustzijn?**
 
-A: Ja, dat heet nudging. Zodra de afwisseling tussen zitten en staan is aangeleerd, merk je dat de zituren heel hard dalen. Omdat de kantoormedewerker vaak vanuit de staande positie overgaat in bewegen. 
+A: Ja, dat heet nudging. Zodra de afwisseling tussen zitten en staan is aangeleerd, merk je dat de zituren heel hard dalen. Omdat de kantoormedewerker vaak vanuit de staande positie overgaat in bewegen.
 
 **Q: Als men niet bewust bezig is met het nastreven van fysieke activiteit, dan is het van belang dat dit gemeten wordt. Waarin kunnen we fysieke activiteit uitdrukken en wat zijn de benchmarks?**
 

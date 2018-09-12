@@ -1,13 +1,12 @@
 # Feedback Frenzy
 
-	Daan Rongen
-	Afstudeerstudent Communication & Multimedia Design,
-	minor Intelligent Environments, 
-	focus op IoT-design en design-ethiek.
-		
-	Onder begeleiding van: Harold Konickx
-	In opdracht van: Healthy Workers
-	Onder supervisie van: Niels de Keizer & Boy Lokhoff
+Daan Rongen
+Afstudeerstudent Communication & Multimedia Design,
+minor Intelligent Environments, focus op IoT-design en design-ethiek.
+
+Onder begeleiding van: Harold Konickx
+In samenwerking met: Healthy Workers
+Met dank aan: Govert Flint, Nick Rovroy en Niels de Keizer
 
 In dit document beschrijf ik de opzet van de presentatie die zal plaatsvinden tijdens de Feedback Frenzy op dinsdag 3 juli.
 
@@ -60,4 +59,3 @@ Voor de Feedback Frenzy heb ik in het Makers Lab vlot een prototype ontwikkelt. 
 | Bruikbaarheid en Relevantie | *Het is een levensvatbaar product. Alleen is het wel een product dat persoonlijk is waardoor de kosten hoog kunnen oplopen. Zullen de ledjes in de kruk de medewerkers niet te veel afleiden?* |
 | Onderbouwing en Verantwoording | *De onderbouwing is goed. Het verschil tussen de soortgelijke producten is goed uitgelegd.* |
 | Verbeelding en Communicatiestijl | *Goed, maar het is wel een groot project. Een app ontwikkelen plus een fysiek product is volgens mij om in 5 maanden te testen te kort.* |
-

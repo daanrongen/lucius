@@ -1,13 +1,12 @@
 # Document Marsha Simon
 
-	Daan Rongen
-	Afstudeerstudent Communication & Multimedia Design,
-	minor Intelligent Environments, 
-	focus op IoT-design en design-ethiek.
-		
-	Onder begeleiding van: Harold Konickx
-	In opdracht van: Healthy Workers
-	Onder supervisie van: Niels de Keizer & Boy Lokhoff
+Daan Rongen
+Afstudeerstudent Communication & Multimedia Design,
+minor Intelligent Environments, focus op IoT-design en design-ethiek.
+
+Onder begeleiding van: Harold Konickx
+In samenwerking met: Healthy Workers
+Met dank aan: Govert Flint, Nick Rovroy en Niels de Keizer
 
 In dit document staat de content voor de mail naar Marsha Simon waarin een introductie en toelichting wordt gegeven van de doel van dit project ter aanmelding voor de Dutch Design Week.
 
@@ -50,4 +49,4 @@ Vanaf juli tot september ben ik bezig met het ontwikkelen van een testbaar proto
 
 
 ## Internet of Things
-De mobiele web-applicatie is real-time verbonden met de kruk. In de backend wordt de data die door de app verwerkt en wordt gevisualiseerd voor de gebruiker. Ook biedt de LED-strip een gamification-element. Naast de tijdsduur en in-chair-movement tonen de LEDs de gemiddelde zittijd van de gebruiker en het gemiddelde van al zijn collega's. De appplicatie is voorzien van een feature om de LEDs (tijdelijk) uit te zetten, mocht de gebruiker geen behoefte hebben aan het culturele aspect van het product. 
+De mobiele web-applicatie is real-time verbonden met de kruk. In de backend wordt de data die door de app verwerkt en wordt gevisualiseerd voor de gebruiker. Ook biedt de LED-strip een gamification-element. Naast de tijdsduur en in-chair-movement tonen de LEDs de gemiddelde zittijd van de gebruiker en het gemiddelde van al zijn collega's. De appplicatie is voorzien van een feature om de LEDs (tijdelijk) uit te zetten, mocht de gebruiker geen behoefte hebben aan het culturele aspect van het product.

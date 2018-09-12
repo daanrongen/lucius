@@ -1,18 +1,17 @@
 # Design Rationale
 
-	Daan Rongen
-	Afstudeerstudent Communication & Multimedia Design,
-	minor Intelligent Environments, 
-	focus op IoT-design en design-ethiek.
-		
-	Onder begeleiding van: Harold Konickx
-	In opdracht van: Healthy Workers
-	Onder supervisie van: Niels de Keizer & Boy Lokhoff
+Daan Rongen
+Afstudeerstudent Communication & Multimedia Design,
+minor Intelligent Environments, focus op IoT-design en design-ethiek.
+
+Onder begeleiding van: Harold Konickx
+In samenwerking met: Healthy Workers
+Met dank aan: Govert Flint, Nick Rovroy en Niels de Keizer
 
 ---
 
 <div align="center">
-<a href="https://github.com/daanrongen/delta/blob/master/library//design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/delta/blob/master/library/veldonderzoek.md">veldonderzoek</a>
+<a href="https://github.com/daanrongen/momentum/blob/master/library//design-brief.md">design-brief</a> || <a href="https://github.com/daanrongen/momentum/blob/master/library/design-rationale.md">design-rationale</a> || <a href="https://github.com/daanrongen/momentum/blob/master/library/literatuuronderzoek.md">literatuuronderzoek</a> || <a href="https://github.com/daanrongen/momentum/blob/master/library/veldonderzoek.md">veldonderzoek</a>
 </div>
 
 ---
@@ -61,5 +60,18 @@ De Buoy van de Enrichers is van origine al een kruk dat perfect in de potentiël
 
 
 <div align="center">
-![Huidige Oplossingsrichting, mockup](/images/delta-header.png)
+![Huidige Oplossingsrichting, mockup](/images/momentum-header.png)
 </div>
+
+###### 12-06-2018
+Volgorde user journey:
+
+|  | Wanneer ik | Wil ik | Zodat ik |
+|:--|:--|:--|:--|
+| 1 | Op werk ben | Weten  |  |
+| 2 |  |  |  |
+| 3 |  |  |  |
+| 4 |  |  |  |
+| 5 |  |  |  |
+| 6 |  |  |  |
+| 7 |  |  |  |
