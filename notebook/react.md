@@ -2,7 +2,7 @@
 
 ## Render React Components
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The `react-dom` package provides DOM-specific methods that can be used at the top level of your app and as an escape hatch to get outside of the React model if you need to. Most of your components should not need to use this module.
 
 ```JavaScript
 import React from "react";
@@ -19,7 +19,9 @@ ReactDOM.render(element, document.getElementById("root"));
 
 ## Ternary Operators
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The conditional (ternary) operator is the only JavaScript operator that takes three operands. This operator is frequently used as a shortcut for the `if` statement.
+
+If `condition` is `true`, the operator returns the value of `expr1`; otherwise, it returns the value of `expr2`.
 
 ```JavaScript
 import React from "react";
@@ -44,7 +46,7 @@ ReactDOM.render(img, document.getElementById("image"));
 
 ## Map array items and render dynamically
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+we use the `map()` function to take an `array` of `elements`. Below, we loop through the array using the JavaScript `map()` function. We return a `<li>` element for each item. Finally, we assign the resulting array of elements to `peopleLis`:
 
 ```JavaScript
 import React from "react";
@@ -116,8 +118,6 @@ ReactDOM.render(<MyComponentClass />, document.getElementById('root'))
 ```
 
 ## Variable Attributes in Components
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ```JavaScript
 import React from 'react'
@@ -363,4 +363,93 @@ ReactDOM.render(
   <Button text=""/>,
   document.getElementById('app')
 );
+```
+
+## Call this.setState() from another Function
+
+Let's walk through how a function wrapping `this.setState()` might work in practice. Here is how a `<Mood />`'s state would be set:
+
+1.  A user triggers an event (in this case a click event, triggered by clicking on a `<button></button>`).
+
+2.  The event from Step 1 is being listened for (in this case by the `onClick` attribute).
+
+3.  When this listened-for event occurs, it calls an event handler function (in this case, `this.toggleMood()`).
+
+4.  Inside of the body of the event handler, `this.setState()` is called.
+
+5.  The component's state is changed!
+
+Due to the way that event handlers are bound in JavaScript, `this.toggleMood()` loses its this when it is used. Therefore, the expressions `this.state.mood` and `this.setState` won't mean what they're supposed to... unless you have already bound the correct this to `this.toggleMood`.
+
+**Mood.js**
+
+```JavaScript
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+class Mood extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { mood: 'good' };
+    this.toggleMood = this.toggleMood.bind(this);
+  }
+
+  toggleMood() {
+    const newMood = this.state.mood == 'good' ? 'bad' : 'good';
+    this.setState({ mood: newMood });
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>I am feeling {this.state.mood}!</h1>
+        <button onClick={this.toggleMood}>
+          Click Me
+        </button>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<Mood />, document.getElementById('app'));
+```
+
+This reads the state of a button (eventlistener on click), and sets the background color of the page.
+
+**Toggle.js**
+
+```JavaScript
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const green = '#39D1B4';
+const yellow = '#FFD712';
+
+class Toggle extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = { color: green };
+    this.changeColor = this.changeColor.bind(this);
+  }
+
+  changeColor() {
+    const newColor = this.state.color == green ? yellow : green;
+    this.setState({ color: newColor });
+  }
+
+  render() {
+    return (
+      <div style={{background: this.state.color}}>
+        <h1>
+          Change my color
+        </h1>
+        <button onClick={this.changeColor}>
+  				Change color
+				</button>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<Toggle />, document.getElementById('app'));
 ```
