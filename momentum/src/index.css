@@ -1,3 +1,13 @@
+:root {
+  --black: #131313;
+  --white: #fefefe;
+  --blue: #232ed1;
+  --red: #fe4a49;
+  --green: #49fe7e;
+  --turquoise: #41d3bd;
+  --yellow: #fcba04;
+}
+
 *,
 *::after,
 *::before {
@@ -5,7 +15,14 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  /* background-color: var(--blue); */
+}
+
+#quickStatus > div {
+  width: 1em;
+  height: 1em;
 }
