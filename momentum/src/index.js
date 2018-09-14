@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Router, Link } from "@reach/router";
 
-import { NavMenu } from "./NavMenu.js";
-import { CurrentNav } from "./CurrentNav.js";
-import { Summary } from "./Summary.js";
+import { Menu } from "./components/Menu.js";
+import { Card } from "./components/Card.js";
+
 import "./index.css";
 import registerServiceWorker from "./registerServiceWorker";
 
@@ -11,16 +12,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <NavMenu />
-        <CurrentNav breadcrumb="personal insights" current="summary" />
-        <Summary
-          colorOne="var(--red)"
-          colorTwo="var(--green)"
-          colorThree="var(--green)"
-          seatedPercentageStatus="78%"
-          inChairMovementStatus="a lot"
-          sittingPostureStatus="great"
-        />
+        <Router>
+          <Menu path="menu" />
+          <Card path="/" cardName="summary" />
+          <Card path="sit-stand-variety" cardName="sit stand variety" />
+          <Card path="in-chair-movement" cardName="in chair movement" />
+          <Card path="sitting-posture" cardName="sitting posture" />
+        </Router>
       </div>
     );
   }
