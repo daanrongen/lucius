@@ -4,7 +4,7 @@ import { Router, Link } from "@reach/router";
 export class Menu extends React.Component {
   render() {
     return (
-      <div>
+      <nav>
         <ul>
           <li>
             <Link to="myProfile">my profile</Link>
@@ -19,7 +19,7 @@ export class Menu extends React.Component {
             <Link to="about">about</Link>
           </li>
         </ul>
-      </div>
+      </nav>
     );
   }
 }

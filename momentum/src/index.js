@@ -3,7 +3,11 @@ import ReactDOM from "react-dom";
 import { Router, Link } from "@reach/router";
 
 import { Menu } from "./components/Menu.js";
-import { Card } from "./components/Card.js";
+import { PageWrapper } from "./components/PageWrapper.js";
+import { Summary } from "./components/Summary.js";
+import { SitStandVariety } from "./components/SitStandVariety.js";
+import { InChairMovement } from "./components/InChairMovement.js";
+import { SittingPosture } from "./components/SittingPosture.js";
 
 import "./index.css";
 import registerServiceWorker from "./registerServiceWorker";
@@ -13,11 +17,13 @@ class App extends React.Component {
     return (
       <div>
         <Router>
-          <Menu path="menu" />
-          <Card path="/" cardName="summary" />
-          <Card path="sit-stand-variety" cardName="sit stand variety" />
-          <Card path="in-chair-movement" cardName="in chair movement" />
-          <Card path="sitting-posture" cardName="sitting posture" />
+          <Menu path="/menu" />
+          <PageWrapper path="/">
+            <Summary path="/" />
+            <SitStandVariety path="sit-stand-variety" />
+            <InChairMovement path="in-chair-movement" />
+            <SittingPosture path="sitting-posture" />
+          </PageWrapper>
         </Router>
       </div>
     );
