@@ -1,14 +1,12 @@
 import React from "react";
-import { Router, Link } from "@reach/router";
 import Breadcrumb from "./Breadcrumb.js";
-import { Menu } from "./Menu.js";
 
 export class PageWrapper extends React.Component {
   render() {
     return (
       <div>
         <header>
-          <Breadcrumb root="personal insights" currentPage="summary" />
+          <Breadcrumb root="personal insights" />
         </header>
         <main>{this.props.children}</main>
       </div>

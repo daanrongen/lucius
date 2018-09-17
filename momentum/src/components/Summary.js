@@ -1,28 +1,69 @@
 import React from "react";
-import { Router, Link } from "@reach/router";
+import { Link } from "@reach/router";
 
-const cardName = "bych";
+import structure from "./fileStructure.js";
+import data from "./data.js";
+import weekProgress from "../img/week-progress.svg";
 
-let Nav = props => (
-  <div>
-    <nav>
-      <Link to="../menu">personal insights</Link>
-    </nav>
-  </div>
-);
+const cardName = structure[0].name;
+const nextCard = structure[1].name;
 
 export class Summary extends React.Component {
   render() {
     return (
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
-          neque at mauris vulputate luctus eu vestibulum leo. Praesent nec
-          tristique nisi, nec congue nisi. Sed ac aliquet est. Donec iaculis
-          tincidunt dignissim. In egestas ullamcorper placerat. Cras sed
-          velitmi.
+      <article id={structure[0].url}>
+        <h1>{cardName}</h1>
+        <div id="quickStatusWrapper">
+          <div id="quickStatusOne" />
+          <div id="quickStatusTwo" />
+          <div id="quickStatusThree" />
+        </div>
+        <p id="summaryMain">
+          You’ve spent {data.percentageSeated} of today’s time seated, while
+          sitting you’ve moved {data.inChairMovementStatus}, your sitting
+          posture is {data.sittingPostureStatus}.
         </p>
-      </div>
+        <div class="adviceContainer">
+          <ul>
+            <li>
+              <h2>current advice</h2>
+            </li>
+            <li>{data.summaryAdvice}</li>
+            <li>
+              <h2>current sitting time</h2>
+            </li>
+            <li>{data.currentSittingTime} hrs</li>
+            <li>
+              <h2>seated percentage</h2>
+            </li>
+            <li>{data.percentageSeated}%</li>
+          </ul>
+        </div>
+        <div class="goalsContainer">
+          <ul>
+            <li>
+              <h2>your goals</h2>
+            </li>
+            <li>
+              <div id="goalOneCheckbox" />
+            </li>
+            <li>{data.userGoalOne}</li>
+            <li>
+              <div id="goalTwoCheckbox" />
+            </li>
+            <li>{data.userGoaltwo}</li>
+            <li>
+              <div id="goalThreeCheckbox" />
+            </li>
+            <li>{data.userGoalThree}</li>
+          </ul>
+        </div>
+        <div class="weekProgress">
+          <h2>this week's progress</h2>
+          <img src={weekProgress} alt="weekProgress" />
+        </div>
+        <Link to="../sit-stand-variety">{nextCard}</Link>
+      </article>
     );
   }
 }
