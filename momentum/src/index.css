@@ -8,8 +8,57 @@
   --yellow: #fcba04;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+}
+
+h2 {
+  font-family: "Avenir Next";
+  font-size: 0.625em;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  opacity: 0.6;
+  margin: 0 0 0.5em 0;
+}
+
+#quickStatusWrapper {
+  width: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+#quickStatusOne,
+#quickStatusTwo,
+#quickStatusThree {
+  width: 1em;
+  height: 1em;
+  background-color: var(--green);
+}
+
+#goalOneCheckbox,
+#goalTwoCheckbox,
+#goalThreeCheckbox {
+  width: 1em;
+  height: 1em;
+  background-color: var(--yellow);
+}
+
+#summary {
+  background-color: var(--white);
+}
+
+#sit-stand-variety {
+  background-color: var(--blue);
 }
