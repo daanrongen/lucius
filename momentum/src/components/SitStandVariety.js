@@ -18,6 +18,7 @@ export class SitStandVariety extends React.Component {
           You have been sitting for {data.timeSeated} hrs in total. Which is{" "}
           {data.percentageSeated}% of this workday.
         </p>
+        <h2>Sit-Stand Graph</h2>
         <img src={sitStandGraph} alt="sitStandGraph" />
         <div class="adviceContainer">
           <ul>

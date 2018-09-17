@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="355px" height="58px" viewBox="0 0 355 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="🌕-mobile-design:-iteration-four" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="physicalActivityTop" transform="translate(-20.000000, -313.000000)">
+            <g id="inChairMovement" transform="translate(20.000000, 288.000000)">
+                <g id="Group-4" transform="translate(0.000000, 25.000000)">
+                    <g id="x-axis-(time)" transform="translate(0.000000, 32.000000)">
+                        <path d="M0,7 L355,7" id="Path-3" stroke="#FEFEFE" stroke-width="2"></path>
+                        <text id="13:22" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#FEFEFE">
+                            <tspan x="0" y="25">13:22</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#FEFEFE" x="0" y="0" width="6" height="6"></rect>
+                        <text id="14:00" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#FEFEFE">
+                            <tspan x="140" y="25">14:00</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#FEFEFE" x="140" y="0" width="6" height="6"></rect>
+                        <text id="14:44" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#FEFEFE">
+                            <tspan x="301" y="25">14:44</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#FEFEFE" x="301" y="0" width="6" height="6"></rect>
+                    </g>
+                    <g id="data">
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" fill="#232ED1" x="1" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" fill="#232ED1" x="21" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" fill="#232ED1" x="41" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" fill="#232ED1" x="61" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" x="81" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" fill="#232ED1" x="101" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" fill="#232ED1" x="121" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" x="141" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" x="161" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" fill="#232ED1" x="181" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" fill="#232ED1" x="201" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" fill="#232ED1" x="221" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" x="241" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" fill="#232ED1" x="261" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" stroke="#232ED1" stroke-width="2" fill="#232ED1" x="281" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-10" fill="#FEFEFE" opacity="0.7" x="300" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

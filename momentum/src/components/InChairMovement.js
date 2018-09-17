@@ -3,7 +3,7 @@ import { Link } from "@reach/router";
 
 import structure from "./fileStructure.js";
 import data from "./data.js";
-import sitStandGraph from "../img/sit-stand-graph.svg";
+import inChairMovementGraph from "../img/in-chair-movement-graph.svg";
 
 const cardName = structure[2].name;
 const nextCard = structure[3].name;
@@ -14,38 +14,53 @@ export class InChairMovement extends React.Component {
       <article id={structure[2].url}>
         <h1>{cardName}</h1>
         <p id="inChairMovementMain">
-          You have been sitting for {data.timeSeated} hrs in total. Which is{" "}
-          {data.percentageSeated}% of this workday.
+          While sitting you have been moving {data.inChairMovementStatus}, your
+          Buoy detected sufficient movement {data.inChairMovement} of the time.
         </p>
+        <h2>In-chair movement graph</h2>
+        <img src={inChairMovementGraph} alt="inChairMovementGraph" />
+        <div class="legendICM">
+          <ul>
+            <li>
+              <div />
+            </li>
+            <li>sufficient movement</li>
+          </ul>
+          <ul>
+            <li>
+              <div />
+            </li>
+            <li>insufficient movement</li>
+          </ul>
+        </div>
         <div class="adviceContainer">
           <ul>
             <li>
               <h2>current advice</h2>
             </li>
-            <li>{data.sitStandVarietyAdvice}</li>
+            <li>{data.inChairMovementAdvice}</li>
             <li>
-              <h2>time spent in chair</h2>
+              <h2>current sitting time</h2>
             </li>
             <li>{data.timeSeated} hrs</li>
             <li>
-              <h2>time spent out of chair</h2>
+              <h2>in chair movement</h2>
             </li>
-            <li>{data.timeStanding} hrs</li>
+            <li>{data.inChairMovement}%</li>
           </ul>
         </div>
         <div class="scientificText">
-          <h3>Stand up for your health</h3>
+          <h3>The best posture is the next posture</h3>
           <p>
-            When you sit, blood flows slower and muscles burn less fat. By
-            flexing the muscles in your calves you stimulate the flow of
-            oxygenated blood through your body. This results in better
-            concentration and mental comfort. The example below shows a graph of
-            what a rhythmic sitting behaviour can look like. Find your own pace
-            and try to maintain these intervals.
+            The healthiest thing that you can do for your posture is to move as
+            much as possible and avoid maintaining any static posture for an
+            extended period of time. Spending too much time in the same sitting
+            posture can cause back- and neck problems.
           </p>
         </div>
         <span class="nextCardIntroduction">
-          Find out if you’ve been moving enough on the next card.
+          View your sitting posture on the next card and learn how to sit up
+          right!
         </span>
         <Link to="../sitting-posture">{nextCard}</Link>
       </article>

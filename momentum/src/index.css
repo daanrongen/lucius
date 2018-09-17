@@ -62,3 +62,13 @@ h2 {
 #sit-stand-variety {
   background-color: var(--blue);
 }
+
+#in-chair-movement {
+  background-color: var(--red);
+}
+
+#legendICM ul li div {
+  width: 0.5em;
+  height: 0.5em;
+  background-color: var(--blue);
+}
