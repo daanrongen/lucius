@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="335px" height="177px" viewBox="0 0 335 177" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="🌕-mobile-design:-iteration-four" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sitStandTop" transform="translate(-20.000000, -279.000000)">
+            <g id="sitStandGraph" transform="translate(20.000000, 256.000000)">
+                <g id="Group-2" transform="translate(0.000000, 23.000000)">
+                    <g id="grid" stroke="#FEFEFE" stroke-dasharray="1,4" stroke-linecap="square" stroke-linejoin="bevel">
+                        <path d="M335,26.5 L0,26.5" id="Line-2" opacity="0.2"></path>
+                        <path d="M335,52.5 L0,52.5" id="Line-2" opacity="0.2"></path>
+                        <path d="M335,79.5 L0,79.5" id="Line-2" opacity="0.4"></path>
+                        <path d="M335,106.5 L0,106.5" id="Line-2" opacity="0.2"></path>
+                        <path d="M335,132.5 L0,132.5" id="Line-2" opacity="0.2"></path>
+                        <path d="M32.5,0 L32.5,160" id="Line-2" opacity="0.2"></path>
+                        <path d="M63.5,0 L63.5,160" id="Line-2" opacity="0.2"></path>
+                        <path d="M93.5,0 L93.5,160" id="Line-2" opacity="0.2"></path>
+                        <path d="M123.5,0 L123.5,160" id="Line-2" opacity="0.2"></path>
+                        <path d="M154.5,0 L154.5,160" id="Line-2" opacity="0.2"></path>
+                        <path d="M184.5,0 L184.5,160" id="Line-2" opacity="0.2"></path>
+                        <path d="M215.5,0 L215.5,160" id="Line-2" opacity="0.2"></path>
+                        <path d="M245.5,0 L245.5,160" id="Line-2" opacity="0.2"></path>
+                        <path d="M276.5,0 L276.5,160" id="Line-2" opacity="0.2"></path>
+                        <path d="M306.5,0 L306.5,160" id="Line-2" opacity="0.2"></path>
+                    </g>
+                    <polyline id="Path-50" stroke="#49FE7E" stroke-width="2" points="0 106.5 45.1102699 106.5 45.1102699 52.5 60.722667 52.5 60.722667 106.5 96.0601546 106.5 96.0601546 52.5 103.2164 52.5 103.2164 106.5 178.2724 106.5 178.2724 52.5 215.866593 52.5 215.866593 106.5 259.765882 106.5 259.765882 52.5 272.270127 52.5 272.270127 106.5 335 106.5"></polyline>
+                    <g id="y-axis" transform="translate(0.000000, 47.000000)" fill="#FEFEFE">
+                        <rect id="Rectangle-28" x="0" y="0" width="6" height="6"></rect>
+                        <rect id="Rectangle-28" x="0" y="54" width="6" height="6"></rect>
+                    </g>
+                    <g id="x-axis-(time)" transform="translate(0.000000, 151.000000)">
+                        <text id="09:00" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#FEFEFE">
+                            <tspan x="0" y="25">09:00</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#FEFEFE" x="0" y="0" width="6" height="6"></rect>
+                        <text id="10:00" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#FEFEFE">
+                            <tspan x="63" y="25">10:00</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#FEFEFE" x="63" y="0" width="6" height="6"></rect>
+                        <path d="M0,7 L335,7" id="Path-3" stroke="#FEFEFE" stroke-width="2"></path>
+                        <text id="11:00" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#FEFEFE">
+                            <tspan x="123" y="25">11:00</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#FEFEFE" x="123" y="0" width="6" height="6"></rect>
+                        <text id="12:00" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#FEFEFE">
+                            <tspan x="184" y="25">12:00</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#FEFEFE" x="184" y="0" width="6" height="6"></rect>
+                        <text id="13:00" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#FEFEFE">
+                            <tspan x="245" y="25">13:00</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#FEFEFE" x="245" y="0" width="6" height="6"></rect>
+                        <text id="14:00" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#FEFEFE">
+                            <tspan x="306" y="25">14:00</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#FEFEFE" x="306" y="0" width="6" height="6"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

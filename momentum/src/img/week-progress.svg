@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="335px" height="58px" viewBox="0 0 335 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="summaryBottom" transform="translate(-20.000000, -448.000000)">
+            <g id="weeksProgress" transform="translate(20.000000, 426.000000)">
+                <g id="Group" transform="translate(0.000000, 22.000000)">
+                    <g id="x-axis-(time)" transform="translate(0.000000, 32.000000)">
+                        <path d="M0,7 L335,7" id="Path-3" stroke="#131313" stroke-width="2"></path>
+                        <text id="mon" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#131313">
+                            <tspan x="0" y="25">mon</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#131313" x="0" y="0" width="6" height="6"></rect>
+                        <text id="tue" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#131313">
+                            <tspan x="67" y="25">tue</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#131313" x="67" y="0" width="6" height="6"></rect>
+                        <text id="thur" font-family="IBMPlexSansCond-Bold, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="bold" fill="#131313">
+                            <tspan x="201" y="25">thur</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#131313" x="201" y="0" width="6" height="6"></rect>
+                        <text id="fri" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#131313">
+                            <tspan x="268" y="25">fri</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#131313" x="268" y="0" width="6" height="6"></rect>
+                        <text id="wed" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" fill="#131313">
+                            <tspan x="134" y="25">wed</tspan>
+                        </text>
+                        <rect id="Rectangle-28" fill="#131313" x="134" y="0" width="6" height="6"></rect>
+                    </g>
+                    <g id="data" stroke-width="2">
+                        <rect id="Rectangle-6" stroke="#232ED1" fill="#232ED1" transform="translate(142.000000, 8.000000) rotate(270.000000) translate(-142.000000, -8.000000) " x="135" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-6" stroke="#FE4A49" fill="#FE4A49" transform="translate(158.000000, 8.000000) rotate(270.000000) translate(-158.000000, -8.000000) " x="151" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-6" stroke="#41D3BD" fill="#41D3BD" transform="translate(174.000000, 8.000000) rotate(270.000000) translate(-174.000000, -8.000000) " x="167" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-6" stroke="#232ED1" transform="translate(209.000000, 8.000000) rotate(270.000000) translate(-209.000000, -8.000000) " x="202" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-6" stroke="#FE4A49" fill="#FE4A49" transform="translate(225.000000, 8.000000) rotate(270.000000) translate(-225.000000, -8.000000) " x="218" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-6" stroke="#41D3BD" fill="#41D3BD" transform="translate(241.000000, 8.000000) rotate(270.000000) translate(-241.000000, -8.000000) " x="234" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-6" stroke="#232ED1" transform="translate(8.000000, 8.000000) rotate(270.000000) translate(-8.000000, -8.000000) " x="1" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-6" stroke="#FE4A49" fill="#FE4A49" transform="translate(24.000000, 8.000000) rotate(270.000000) translate(-24.000000, -8.000000) " x="17" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-6" stroke="#41D3BD" fill="#41D3BD" transform="translate(40.000000, 8.000000) rotate(270.000000) translate(-40.000000, -8.000000) " x="33" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-6" stroke="#232ED1" transform="translate(75.000000, 8.000000) rotate(270.000000) translate(-75.000000, -8.000000) " x="68" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-6" stroke="#FE4A49" transform="translate(91.000000, 8.000000) rotate(270.000000) translate(-91.000000, -8.000000) " x="84" y="1" width="14" height="14"></rect>
+                        <rect id="Rectangle-6" stroke="#41D3BD" fill="#41D3BD" transform="translate(107.000000, 8.000000) rotate(270.000000) translate(-107.000000, -8.000000) " x="100" y="1" width="14" height="14"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
