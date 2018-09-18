@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "@reach/router";
+import { Breadcrumb } from "./Breadcrumb.js";
 
 import structure from "./fileStructure.js";
 import data from "./data.js";
@@ -12,6 +13,9 @@ export class Summary extends React.Component {
   render() {
     return (
       <article id={structure[0].url}>
+        <nav>
+          <Breadcrumb root={structure[0].root} />
+        </nav>
         <h1>{cardName}</h1>
         <div id="quickStatusWrapper">
           <div id="quickStatusOne" />
@@ -51,7 +55,7 @@ export class Summary extends React.Component {
             <li>
               <div id="goalTwoCheckbox" />
             </li>
-            <li>{data.userGoaltwo}</li>
+            <li>{data.userGoalTwo}</li>
             <li>
               <div id="goalThreeCheckbox" />
             </li>

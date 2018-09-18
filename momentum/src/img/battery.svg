@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="16px" viewBox="0 0 34 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="🌕-mobile-design:-iteration-four" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="buoySettings" transform="translate(-227.000000, -223.000000)">
+            <g id="battery" transform="translate(227.000000, 201.000000)">
+                <g id="Group" transform="translate(0.000000, 22.000000)">
+                    <path d="M1,1 L1,15 L31,15 L31,11 L33,11 L33,5 L31,5 L31,1 L1,1 Z" id="Rectangle-11" stroke="#49FE7E" stroke-width="2"></path>
+                    <rect id="Rectangle-12" fill="#49FE7E" x="3" y="3" width="23" height="10"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

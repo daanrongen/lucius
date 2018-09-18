@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>editButton</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="🌕-mobile-design:-iteration-four" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="profileOverview" transform="translate(-323.000000, -330.000000)" stroke-width="2">
+            <g id="userGoals" transform="translate(0.000000, 288.000000)">
+                <g id="sitStandGoal" transform="translate(0.000000, 22.000000)">
+                    <g id="editButton" transform="translate(323.000000, 20.000000)">
+                        <rect id="Rectangle-23" stroke="#FEFEFE" fill="#FEFEFE" x="1" y="1" width="30" height="30"></rect>
+                        <g id="Group-26" transform="translate(9.000000, 9.000000)" stroke="#232ED1">
+                            <polygon id="Path-54" stroke-linecap="square" stroke-linejoin="bevel" points="-1.8189894e-12 11.25 -1.8189894e-12 15 3.75 15 5.25 13.5 15 3.75 11.25 0 1.5 9.75"></polygon>
+                            <path d="M0.75,10.5 L4.5,14.25" id="Path-52"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

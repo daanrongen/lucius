@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "@reach/router";
+import { Breadcrumb } from "./Breadcrumb.js";
 
 import structure from "./fileStructure.js";
 import data from "./data.js";
@@ -13,6 +14,9 @@ export class SitStandVariety extends React.Component {
   render() {
     return (
       <article id={structure[1].url}>
+        <nav>
+          <Breadcrumb root="personal insights" />
+        </nav>
         <h1>{cardName}</h1>
         <p id="sitStandVarietyMain">
           You have been sitting for {data.timeSeated} hrs in total. Which is{" "}

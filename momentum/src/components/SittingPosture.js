@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "@reach/router";
+import { Breadcrumb } from "./Breadcrumb.js";
 
 import structure from "./fileStructure.js";
 import data from "./data.js";
@@ -11,6 +12,9 @@ export class SittingPosture extends React.Component {
   render() {
     return (
       <article id={structure[3].url}>
+        <nav>
+          <Breadcrumb root="personal insights" />
+        </nav>
         <h1>{cardName}</h1>
         <p id="sittingPostureMain">
           During the moments of insufficient movement, you maintain a{" "}

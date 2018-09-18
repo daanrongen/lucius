@@ -2,6 +2,12 @@ import TimeFormat from "hh-mm-ss";
 import unixTimestamp from "unix-timestamp";
 
 const data = {
+  username: "Daan Rongen",
+  workweek: "full-time",
+  buoyId: 4210,
+  connectionStatus: "connected",
+  battery: 80,
+  doNotDisturbMode: "deactivated",
   arrivedAtWork: "09:00",
   timePassed: "02:00",
   timeSeated: TimeFormat.fromS(272),
@@ -19,7 +25,7 @@ const data = {
   sittingPostureAdvice: "keep up the good work",
   buoyStatus: "red",
   userGoalOne: "sit less than 70% of the workday",
-  userGoaltwo: "have an in-chair movement up from 70%",
+  userGoalTwo: "have an in-chair movement up from 70%",
   userGoalThree: "maintain a good sitting posture"
 };
 

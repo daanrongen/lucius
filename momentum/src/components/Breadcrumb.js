@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "@reach/router";
 
-const Breadcrumb = props => {
-  return (
-    <div>
-      <Link to="/menu">{props.root}</Link>
-    </div>
-  );
-};
-
-export default Breadcrumb;
+export class Breadcrumb extends React.Component {
+  render() {
+    return (
+      <div>
+        <Link to="/menu">{this.props.root}</Link>
+      </div>
+    );
+  }
+}

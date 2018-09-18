@@ -7,13 +7,13 @@ export class Menu extends React.Component {
       <nav>
         <ul>
           <li>
-            <Link to="../myProfile">my profile</Link>
+            <Link to="../profile">profile</Link>
           </li>
           <li>
             <Link to="/">personal insights</Link>
           </li>
           <li>
-            <Link to="../buoySettings">buoy settings</Link>
+            <Link to="../buoy-settings">buoy settings</Link>
           </li>
           <li>
             <Link to="../about">about</Link>
