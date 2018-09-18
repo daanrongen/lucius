@@ -4,7 +4,7 @@ import { Link } from "@reach/router";
 export class Menu extends React.Component {
   render() {
     return (
-      <nav>
+      <nav id="menu">
         <ul>
           <li>
             <Link to="../profile">profile</Link>

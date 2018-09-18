@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ibm/plex": "^1.1.6",
     "@reach/router": "^1.1.1",
     "hh-mm-ss": "^1.2.0",
     "react": "^16.5.0",

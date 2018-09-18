@@ -3,7 +3,7 @@ import { Breadcrumb } from "./Breadcrumb.js";
 
 import data from "./data.js";
 import cancelButton from "../img/cancel-button.svg";
-import buoyVisual from "../img/buoy-status.svg";
+import buoyVisual from "../img/buoy-status.png";
 import batteryStatus from "../img/battery.svg";
 
 export class BuoySettings extends React.Component {
@@ -30,7 +30,7 @@ export class BuoySettings extends React.Component {
               <h2>led signal</h2>
             </li>
             <li>
-              <img src={buoyVisual} alt="buoy visual" />
+              <img id="buoyVisual" src={buoyVisual} alt="buoy visual" />
             </li>
             <li>
               <h2>battery</h2>

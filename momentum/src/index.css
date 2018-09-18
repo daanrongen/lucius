@@ -1,3 +1,5 @@
+@import "~@ibm/plex/css/ibm-plex.css";
+
 :root {
   --black: #131313;
   --white: #fefefe;
@@ -21,6 +23,16 @@ ul {
 
 body {
   background-color: var(--white);
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  margin: 0;
 }
 
 h2 {
@@ -33,10 +45,111 @@ h2 {
   margin: 0 0 0.5em 0;
 }
 
+#menu {
+  background-color: var(--black);
+  height: 100vh;
+}
+
+nav a {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+#summary,
+#sit-stand-variety,
+#in-chair-movement,
+#sitting-posture,
+#menu,
+#about {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#summary > article,
+#sit-stand-variety > article,
+#in-chair-movement > article,
+#sitting-posture > article,
+#menu ul,
+#about > article {
+  width: calc(100vw - 40px);
+  margin: 0;
+}
+
+#summary nav a,
+#sitting-posture nav a,
+#about nav a {
+  color: var(--black);
+}
+
+#menu ul {
+  padding-top: 20px;
+}
+
+#menu ul li a {
+  color: var(--white);
+}
+
+main article nav {
+  position: fixed;
+  width: 100%;
+  height: 128px;
+  padding-top: 20px;
+  background-color: var(--white);
+}
+
+main article nav a {
+  opacity: 0.5;
+  margin-bottom: 2px;
+}
+
+main > a {
+  position: fixed;
+  width: 100vw;
+  height: 96px;
+  bottom: 0;
+  border-radius: 32px 32px 0 0;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--white);
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 20px 0 0 20px;
+}
+
+main > a img {
+  float: right;
+  margin-right: 20px;
+}
+
+#summary > a {
+  background-color: var(--blue);
+}
+
+#sit-stand-variety > a {
+  background-color: var(--red);
+}
+
+#in-chair-movement > a {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+#sitting-posture > a {
+  background-color: var(--black);
+  border-radius: 0;
+}
+
 #quickStatusWrapper {
   width: 5em;
   display: flex;
   justify-content: space-between;
+  margin-top: 128px;
 }
 
 #quickStatusOne,
@@ -55,20 +168,32 @@ h2 {
   background-color: var(--yellow);
 }
 
-#summary {
-  background-color: var(--white);
-}
-
-#sit-stand-variety {
-  background-color: var(--blue);
-}
-
-#in-chair-movement {
-  background-color: var(--red);
-}
-
 #legendICM ul li div {
   width: 0.5em;
   height: 0.5em;
   background-color: var(--blue);
+}
+
+#buoyVisual {
+  max-width: 190px;
+}
+
+#about > div:first-child {
+  background-color: red;
+}
+
+#about .illustrationContainer {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQYlWNgYGD4z4AGhIWFMcSGBMDm8KHqGQA/pQSoX1IIMwAAAABJRU5ErkJggg==)
+    repeat;
+}
+
+#about p {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  color: var(--black);
+  font-size: 1.5em;
+  font-weight: normal;
+  width: calc(100vw - 40px);
 }
