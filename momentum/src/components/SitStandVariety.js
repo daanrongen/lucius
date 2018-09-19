@@ -6,6 +6,7 @@ import structure from "./fileStructure.js";
 import data from "./data.js";
 import sitStandGraph from "../img/sit-stand-graph.svg";
 import sitStandVarietyExample from "../img/sit-stand-variety-example.svg";
+import nextCardButton from "../img/button-to-icm.svg";
 
 const cardName = structure[1].name;
 const nextCard = structure[2].name;
@@ -20,8 +21,9 @@ export class SitStandVariety extends React.Component {
             <h1>{cardName}</h1>
           </nav>
           <p id="sitStandVarietyMain">
-            You have been sitting for {data.timeSeated} hrs in total. Which is{" "}
-            {data.percentageSeated}% of this workday.
+            You have been sitting for <span>{data.timeSeated} hrs</span> in
+            total. Which is <span>{data.percentageSeated}%</span> of this
+            workday.
           </p>
           <h2>Sit-Stand Graph</h2>
           <img src={sitStandGraph} alt="sitStandGraph" />
@@ -29,16 +31,16 @@ export class SitStandVariety extends React.Component {
             <ul>
               <li>
                 <h2>current advice</h2>
+                <span>{data.sitStandVarietyAdvice}</span>
               </li>
-              <li>{data.sitStandVarietyAdvice}</li>
               <li>
                 <h2>time spent in chair</h2>
+                <span>{data.timeSeated} hrs</span>
               </li>
-              <li>{data.timeSeated} hrs</li>
               <li>
                 <h2>time spent out of chair</h2>
+                <span>{data.timeStanding} hrs</span>
               </li>
-              <li>{data.timeStanding} hrs</li>
             </ul>
           </div>
           <div class="scientificText">
@@ -53,11 +55,14 @@ export class SitStandVariety extends React.Component {
             </p>
             <img src={sitStandVarietyExample} alt="sitStandVarietyExample" />
           </div>
-          <span class="nextCardIntroduction">
+          <p class="nextCardIntroduction">
             Find out if you’ve been moving enough on the next card.
-          </span>
+          </p>
         </article>
-        <Link to="../in-chair-movement">{nextCard}</Link>
+        <Link to="../in-chair-movement">
+          {nextCard}
+          <img src={nextCardButton} />
+        </Link>
       </main>
     );
   }

@@ -5,6 +5,7 @@ import { Breadcrumb } from "./Breadcrumb.js";
 import structure from "./fileStructure.js";
 import data from "./data.js";
 import inChairMovementGraph from "../img/in-chair-movement-graph.svg";
+import nextCardButton from "../img/button-to-sp.svg";
 
 const cardName = structure[2].name;
 const nextCard = structure[3].name;
@@ -19,8 +20,9 @@ export class InChairMovement extends React.Component {
             <h1>{cardName}</h1>
           </nav>
           <p id="inChairMovementMain">
-            While sitting you have been moving {data.inChairMovementStatus},
-            your Buoy detected sufficient movement {data.inChairMovement} of the
+            While sitting you have been moving{" "}
+            <span>{data.inChairMovementStatus}</span>, your Buoy detected
+            sufficient movement <span>{data.inChairMovement}%</span> of the
             time.
           </p>
           <h2>In-chair movement graph</h2>
@@ -28,31 +30,29 @@ export class InChairMovement extends React.Component {
           <div class="legendICM">
             <ul>
               <li>
-                <div />
+                <div id="goalOneCheckbox" />
+                <p>Sufficient movement</p>
               </li>
-              <li>sufficient movement</li>
-            </ul>
-            <ul>
               <li>
-                <div />
+                <div id="goalThreeCheckbox" />
+                <p>Insufficient movement</p>
               </li>
-              <li>insufficient movement</li>
             </ul>
           </div>
           <div class="adviceContainer">
             <ul>
               <li>
                 <h2>current advice</h2>
+                <span>{data.inChairMovementAdvice}</span>
               </li>
-              <li>{data.inChairMovementAdvice}</li>
               <li>
                 <h2>current sitting time</h2>
+                <span>{data.timeSeated} hrs</span>
               </li>
-              <li>{data.timeSeated} hrs</li>
               <li>
                 <h2>in chair movement</h2>
+                <span>{data.inChairMovement}%</span>
               </li>
-              <li>{data.inChairMovement}%</li>
             </ul>
           </div>
           <div class="scientificText">
@@ -64,12 +64,15 @@ export class InChairMovement extends React.Component {
               sitting posture can cause back- and neck problems.
             </p>
           </div>
-          <span class="nextCardIntroduction">
+          <p class="nextCardIntroduction">
             View your sitting posture on the next card and learn how to sit up
             right!
-          </span>
+          </p>
         </article>
-        <Link to="../sitting-posture">{nextCard}</Link>
+        <Link to="../sitting-posture">
+          {nextCard}
+          <img src={nextCardButton} />
+        </Link>
       </main>
     );
   }

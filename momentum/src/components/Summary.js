@@ -5,7 +5,7 @@ import { Breadcrumb } from "./Breadcrumb.js";
 import structure from "./fileStructure.js";
 import data from "./data.js";
 import weekProgress from "../img/week-progress.svg";
-import nextCardButton from "../img/next-card-button.svg";
+import nextCardButton from "../img/button-to-ssv.svg";
 
 const cardName = structure[0].name;
 const nextCard = structure[1].name;
@@ -52,15 +52,15 @@ export class Summary extends React.Component {
             <ul>
               <li>
                 <div id="goalOneCheckbox" />
-                <span>{data.userGoalOne}</span>
+                <p>{data.userGoalOne}</p>
               </li>
               <li>
                 <div id="goalTwoCheckbox" />
-                <span>{data.userGoalTwo}</span>
+                <p>{data.userGoalTwo}</p>
               </li>
               <li>
                 <div id="goalThreeCheckbox" />
-                <span>{data.userGoalThree}</span>
+                <p>{data.userGoalThree}</p>
               </li>
             </ul>
           </div>

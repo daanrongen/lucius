@@ -48,12 +48,14 @@ export class SittingPosture extends React.Component {
               sitting posture can cause back- and neck problems.
             </p>
           </div>
-          <span class="nextCardIntroduction">
+          <p class="nextCardIntroduction">
             That’s all for now. Good to see you are so enthousiastic about these
             insights!
-          </span>
+          </p>
         </article>
-        <Link to="../">back to top</Link>
+        <Link id="backToTop" to="../">
+          back to top
+        </Link>
       </main>
     );
   }

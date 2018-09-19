@@ -86,6 +86,11 @@ nav a {
   color: var(--black);
 }
 
+#sit-stand-variety nav a,
+#in-chair-movement nav a {
+  color: var(--white);
+}
+
 #menu ul {
   padding-top: 20px;
 }
@@ -99,7 +104,26 @@ main article nav {
   width: 100%;
   height: 128px;
   padding-top: 20px;
+}
+
+#summary,
+#summary article nav,
+#sitting-posture,
+#sitting-posture article nav {
   background-color: var(--white);
+  color: var(--black);
+}
+
+#sit-stand-variety,
+#sit-stand-variety article nav {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+#in-chair-movement,
+#in-chair-movement article nav {
+  background-color: var(--red);
+  color: var(--white);
 }
 
 main article nav a {
@@ -140,23 +164,28 @@ main > a img {
   color: var(--black);
 }
 
-#sitting-posture > a {
-  background-color: var(--black);
-  border-radius: 0;
-}
-
-#legendICM ul li div {
-  width: 0.5em;
-  height: 0.5em;
-  background-color: var(--blue);
-}
-
 #buoyVisual {
   max-width: 190px;
 }
 
-#about #illustrationContainerOne {
+#about #illustrationContainerOne,
+#quickStatusWrapper,
+#sit-stand-variety #sitStandVarietyMain,
+#in-chair-movement #inChairMovementMain,
+#sitting-posture #sittingPostureMain {
   margin-top: 128px;
+}
+
+.nextCardIntroduction {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.125em;
+  color: var(--white);
+  margin-top: 2em;
+  margin-bottom: calc(96px + 1em);
+}
+
+#sitting-posture .nextCardIntroduction {
+  color: var(--black);
 }
 
 #about .illustrationContainer {
@@ -214,7 +243,6 @@ main > a img {
   width: 5em;
   display: flex;
   justify-content: space-between;
-  margin-top: 128px;
 }
 
 #quickStatusOne,
@@ -238,7 +266,17 @@ main > a img {
   font-size: 2em;
 }
 
-#summaryMain span {
+#sitStandVarietyMain,
+#inChairMovementMain,
+#sittingPostureMain {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+#summaryMain span,
+#sitStandVarietyMain span,
+#inChairMovementMain span,
+#sittingPostureMain span {
   font-weight: bold;
 }
 
@@ -275,16 +313,42 @@ main > a img {
   font-weight: 500;
 }
 
-.goalsContainer ul {
+.scientificText {
+  width: 100%;
+}
+
+.scientificText h3,
+.scientificText p {
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 0.875em;
+  margin: 0;
+}
+
+.scientificText p {
+  opacity: 0.7;
+}
+
+.goalsContainer ul,
+#legendICM ul {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   margin: 0 0 1em 0;
 }
 
-.goalsContainer ul li {
+.goalsContainer ul li,
+#legendICM ul li {
   display: flex;
   margin-bottom: 1em;
+}
+
+.goalsContainer ul li p,
+#legendICM ul li p {
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-size: 0.875em;
+  font-weight: 500;
 }
 
 .goalsContainer ul li div {
@@ -312,4 +376,16 @@ main > a img {
 
 .weekProgress {
   margin-bottom: calc(96px + 2em);
+}
+
+#sit-stand-variety {
+  background-color: var(--blue);
+}
+
+#sit-stand-variety article > img {
+  margin-bottom: 1em;
+}
+
+.scientificText > img {
+  margin-top: 1em;
 }
