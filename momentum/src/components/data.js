@@ -13,20 +13,20 @@ const data = {
   timeSeated: TimeFormat.fromS(272),
   percentageSeated: 78,
   currentSittingTime: TimeFormat.fromS(84),
-  summaryAdvice: "stand up for 5 minutes",
+  summaryAdvice: "Stand up for 5 minutes",
   timeStanding: TimeFormat.fromS(54),
-  sitStandVarietyAdvice: "try to work in 50 min. sets",
+  sitStandVarietyAdvice: "Try to work in 50 min. sets",
   inChairMovement: 82,
   inChairMovementStatus: "a lot",
-  inChairMovementAdvice: "keep both feet placed on the floor",
+  inChairMovementAdvice: "Keep both feet placed on the floor",
   totalStaticSittingTime: TimeFormat.fromS(52),
   postureDeviation: "front-left",
   sittingPostureStatus: "great",
-  sittingPostureAdvice: "keep up the good work",
+  sittingPostureAdvice: "Keep up the good work",
   buoyStatus: "red",
-  userGoalOne: "sit less than 70% of the workday",
-  userGoalTwo: "have an in-chair movement up from 70%",
-  userGoalThree: "maintain a good sitting posture"
+  userGoalOne: "Sit less than 70% of the workday",
+  userGoalTwo: "Have an in-chair movement up from 70%",
+  userGoalThree: "Maintain a good sitting posture"
 };
 
 export default data;

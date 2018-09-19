@@ -12,7 +12,7 @@ export class About extends React.Component {
             <Breadcrumb root="about" />
             <h1>office environments</h1>
           </nav>
-          <div class="illustrationContainer">
+          <div class="illustrationContainer" id="illustrationContainerOne">
             <img
               src={illustrationOne}
               alt="illustration of person sitting on a chair"

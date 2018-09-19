@@ -25,43 +25,43 @@ export class Summary extends React.Component {
             <div id="quickStatusThree" />
           </div>
           <p id="summaryMain">
-            You’ve spent {data.percentageSeated} of today’s time seated, while
-            sitting you’ve moved {data.inChairMovementStatus}, your sitting
-            posture is {data.sittingPostureStatus}.
+            You’ve spent <span class="statusOne">{data.percentageSeated}%</span>{" "}
+            of today’s time seated, while sitting you’ve moved{" "}
+            <span class="statusTwo">{data.inChairMovementStatus}</span>, your
+            sitting posture is{" "}
+            <span class="statusThree">{data.sittingPostureStatus}</span>.
           </p>
           <div class="adviceContainer">
             <ul>
               <li>
                 <h2>current advice</h2>
+                <span>{data.summaryAdvice}</span>
               </li>
-              <li>{data.summaryAdvice}</li>
               <li>
                 <h2>current sitting time</h2>
+                <span>{data.currentSittingTime} hrs</span>
               </li>
-              <li>{data.currentSittingTime} hrs</li>
               <li>
                 <h2>seated percentage</h2>
+                <span>{data.percentageSeated}%</span>
               </li>
-              <li>{data.percentageSeated}%</li>
             </ul>
           </div>
           <div class="goalsContainer">
+            <h2>your goals</h2>
             <ul>
               <li>
-                <h2>your goals</h2>
-              </li>
-              <li>
                 <div id="goalOneCheckbox" />
+                <span>{data.userGoalOne}</span>
               </li>
-              <li>{data.userGoalOne}</li>
               <li>
                 <div id="goalTwoCheckbox" />
+                <span>{data.userGoalTwo}</span>
               </li>
-              <li>{data.userGoalTwo}</li>
               <li>
                 <div id="goalThreeCheckbox" />
+                <span>{data.userGoalThree}</span>
               </li>
-              <li>{data.userGoalThree}</li>
             </ul>
           </div>
           <div class="weekProgress">

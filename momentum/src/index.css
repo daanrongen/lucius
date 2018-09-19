@@ -42,7 +42,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 500;
   opacity: 0.6;
-  margin: 0 0 0.5em 0;
+  margin: 0 0 1em 0;
 }
 
 #menu {
@@ -110,7 +110,7 @@ main article nav a {
 main > a {
   position: fixed;
   width: 100vw;
-  height: 96px;
+  height: 4em;
   bottom: 0;
   border-radius: 32px 32px 0 0;
   font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
@@ -145,6 +145,71 @@ main > a img {
   border-radius: 0;
 }
 
+#legendICM ul li div {
+  width: 0.5em;
+  height: 0.5em;
+  background-color: var(--blue);
+}
+
+#buoyVisual {
+  max-width: 190px;
+}
+
+#about #illustrationContainerOne {
+  margin-top: 128px;
+}
+
+#about .illustrationContainer {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  height: 20em;
+  margin-top: 3em;
+  background-image: -webkit-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -moz-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -ms-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  -webkit-background-size: 12px 12px;
+  -moz-background-size: 12px 12px;
+  background-size: 12px 12px;
+}
+
+#about h1:not(:first-of-type) {
+  margin-top: 2em;
+}
+
+#about p {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  color: var(--black);
+  font-size: 1.5em;
+  font-weight: normal;
+  width: calc(100vw - 40px);
+}
+
 #quickStatusWrapper {
   width: 5em;
   display: flex;
@@ -157,7 +222,73 @@ main > a img {
 #quickStatusThree {
   width: 1em;
   height: 1em;
+}
+
+#quickStatusOne {
+  background-color: var(--red);
+}
+
+#quickStatusTwo,
+#quickStatusThree {
   background-color: var(--green);
+}
+
+#summaryMain {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 2em;
+}
+
+#summaryMain span {
+  font-weight: bold;
+}
+
+.statusOne {
+  color: var(--red);
+}
+
+.statusTwo,
+.statusThree {
+  color: var(--green);
+}
+
+.adviceContainer ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.adviceContainer ul li {
+  margin-bottom: 1em;
+}
+
+.adviceContainer ul li:first-of-type {
+  flex-basis: 100%;
+}
+
+.adviceContainer ul li:not(:first-of-type) {
+  flex-basis: 50%;
+}
+
+.adviceContainer ul li span {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+.goalsContainer ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 0 1em 0;
+}
+
+.goalsContainer ul li {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.goalsContainer ul li div {
+  margin-right: 1em;
 }
 
 #goalOneCheckbox,
@@ -165,35 +296,20 @@ main > a img {
 #goalThreeCheckbox {
   width: 1em;
   height: 1em;
-  background-color: var(--yellow);
 }
 
-#legendICM ul li div {
-  width: 0.5em;
-  height: 0.5em;
-  background-color: var(--blue);
+#goalOneCheckbox {
+  border: 2px solid var(--blue);
 }
 
-#buoyVisual {
-  max-width: 190px;
+#goalTwoCheckbox {
+  background-color: var(--red);
 }
 
-#about > div:first-child {
-  background-color: red;
+#goalThreeCheckbox {
+  background-color: var(--turquoise);
 }
 
-#about .illustrationContainer {
-  flex-basis: 100%;
-  display: flex;
-  justify-content: center;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQYlWNgYGD4z4AGhIWFMcSGBMDm8KHqGQA/pQSoX1IIMwAAAABJRU5ErkJggg==)
-    repeat;
-}
-
-#about p {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-  color: var(--black);
-  font-size: 1.5em;
-  font-weight: normal;
-  width: calc(100vw - 40px);
+.weekProgress {
+  margin-bottom: calc(96px + 2em);
 }
