@@ -1,5 +1,4 @@
 import TimeFormat from "hh-mm-ss";
-import unixTimestamp from "unix-timestamp";
 
 const data = {
   username: "Daan Rongen",

@@ -17,7 +17,6 @@
   },
   "devDependencies": {
     "hh-mm-ss": "^1.2.0",
-    "johnny-five": "^1.0.0",
-    "unix-timestamp": "^0.2.0"
+    "johnny-five": "^1.0.0"
   }
 }
