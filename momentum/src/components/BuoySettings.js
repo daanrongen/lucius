@@ -1,7 +1,7 @@
 import React from "react";
 import { Breadcrumb } from "./Breadcrumb.js";
 
-import data from "./data.js";
+import data from "../data.js";
 import cancelButton from "../img/cancel-button.svg";
 import buoyVisual from "../img/buoy-status.png";
 import batteryStatus from "../img/battery.svg";

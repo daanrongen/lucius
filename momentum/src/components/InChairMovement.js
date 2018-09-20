@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "@reach/router";
 import { Breadcrumb } from "./Breadcrumb.js";
 
-import structure from "./fileStructure.js";
-import data from "./data.js";
+import structure from "../fileStructure.js";
+import data from "../data.js";
 import inChairMovementGraph from "../img/in-chair-movement-graph.svg";
 import nextCardButton from "../img/button-to-sp.svg";
 

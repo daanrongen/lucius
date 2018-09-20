@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "@reach/router";
 import { Breadcrumb } from "./Breadcrumb.js";
 
-import data from "./data.js";
+import data from "../data.js";
 import profilePicture from "../img/profile-picture.jpg";
 import weekProgress from "../img/week-progress.svg";
 import editButton from "../img/edit-button.svg";

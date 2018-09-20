@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "@reach/router";
 import { Breadcrumb } from "./Breadcrumb.js";
 
-import structure from "./fileStructure.js";
-import data from "./data.js";
+import structure from "../fileStructure.js";
+import data from "../data.js";
 import weekProgress from "../img/week-progress.svg";
 import nextCardButton from "../img/button-to-ssv.svg";
 
