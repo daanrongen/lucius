@@ -20,6 +20,6 @@ new five.Board().on("ready", function() {
       presence = false;
     }
     console.log("time: ", time, "presence: ", presence);
-    // dataFile.write(presence);
+    dataFile.write(time.toString() + "," + presence.toString() + "\n");
   });
 });
