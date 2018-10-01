@@ -5,6 +5,7 @@ import { Breadcrumb } from "./Breadcrumb.js";
 import structure from "../fileStructure.js";
 import data from "../data.js";
 import weightDistribution from "../img/weight-distribution.svg";
+import nextCardButton from "../img/button-to-top.svg";
 
 const cardName = structure[3].name;
 
@@ -19,7 +20,7 @@ export class SittingPosture extends React.Component {
           </nav>
           <p id="sittingPostureMain">
             During the moments of insufficient movement, you maintain a{" "}
-            {data.sittingPostureStatus} sitting posture.
+            <span>{data.sittingPostureStatus}</span> sitting posture.
           </p>
           <h2>weight distribution</h2>
           <img src={weightDistribution} alt="weight distribution" />
@@ -27,16 +28,16 @@ export class SittingPosture extends React.Component {
             <ul>
               <li>
                 <h2>current advice</h2>
+                <span>{data.sittingPostureAdvice}</span>
               </li>
-              <li>{data.inChairMovementAdvice}</li>
               <li>
                 <h2>current sitting time</h2>
+                <span>{data.currentSittingTime} hrs</span>
               </li>
-              <li>{data.timeSeated} hrs</li>
               <li>
                 <h2>in chair movement</h2>
+                <span>{data.inChairMovement}%</span>
               </li>
-              <li>{data.inChairMovement}%</li>
             </ul>
           </div>
           <div class="scientificText">
@@ -55,6 +56,7 @@ export class SittingPosture extends React.Component {
         </article>
         <Link id="backToTop" to="../">
           back to top
+          <img src={nextCardButton} />
         </Link>
       </main>
     );

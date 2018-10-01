@@ -30,12 +30,12 @@ export class InChairMovement extends React.Component {
           <div class="legendICM">
             <ul>
               <li>
-                <div id="goalOneCheckbox" />
-                <p>Sufficient movement</p>
+                <div id="sufficientLegend" />
+                <p>sufficient movement</p>
               </li>
               <li>
-                <div id="goalThreeCheckbox" />
-                <p>Insufficient movement</p>
+                <div id="insufficientLegend" />
+                <p>insufficient movement</p>
               </li>
             </ul>
           </div>

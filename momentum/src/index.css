@@ -63,7 +63,9 @@ nav a {
 #in-chair-movement,
 #sitting-posture,
 #menu,
-#about {
+#about,
+#overview,
+#buoySettings {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -75,14 +77,18 @@ nav a {
 #in-chair-movement > article,
 #sitting-posture > article,
 #menu ul,
-#about > article {
+#about > article,
+#overview > article,
+#buoySettings > article {
   width: calc(100vw - 40px);
   margin: 0;
 }
 
 #summary nav a,
 #sitting-posture nav a,
-#about nav a {
+#about nav a,
+#overview nav a,
+#buoySettings nav a {
   color: var(--black);
 }
 
@@ -109,7 +115,10 @@ main article nav {
 #summary,
 #summary article nav,
 #sitting-posture,
-#sitting-posture article nav {
+#sitting-posture article nav,
+#overview,
+#overview article nav,
+#buoySettings article nav {
   background-color: var(--white);
   color: var(--black);
 }
@@ -172,7 +181,9 @@ main > a img {
 #quickStatusWrapper,
 #sit-stand-variety #sitStandVarietyMain,
 #in-chair-movement #inChairMovementMain,
-#sitting-posture #sittingPostureMain {
+#sitting-posture #sittingPostureMain,
+#userInformation,
+#buoyConnection {
   margin-top: 128px;
 }
 
@@ -186,6 +197,7 @@ main > a img {
 
 #sitting-posture .nextCardIntroduction {
   color: var(--black);
+  margin-bottom: 1em;
 }
 
 #about .illustrationContainer {
@@ -307,7 +319,8 @@ main > a img {
   flex-basis: 50%;
 }
 
-.adviceContainer ul li span {
+.adviceContainer ul li span,
+#userInformation span {
   font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.125em;
   font-weight: 500;
@@ -329,26 +342,57 @@ main > a img {
   opacity: 0.7;
 }
 
-.goalsContainer ul,
-#legendICM ul {
-  display: flex;
+.goalsContainer ul {
   flex-direction: column;
+}
+
+.goalsContainer ul,
+.legendICM ul {
+  display: flex;
   flex-wrap: nowrap;
   margin: 0 0 1em 0;
 }
 
+.legendICM ul {
+  margin-top: 1em;
+  flex-direction: row;
+}
+
 .goalsContainer ul li,
-#legendICM ul li {
+.legendICM ul li {
   display: flex;
   margin-bottom: 1em;
 }
 
 .goalsContainer ul li p,
-#legendICM ul li p {
+.legendICM ul li p {
   font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   font-size: 0.875em;
   font-weight: 500;
+}
+
+.legendICM #sufficientLegend,
+.legendICM #insufficientLegend {
+  width: 8px;
+  height: 8px;
+  margin-top: 6px;
+  margin-right: 0.5em;
+}
+
+.legendICM #sufficientLegend {
+  background-color: var(--blue);
+}
+
+.legendICM #insufficientLegend {
+  border: 2px solid var(--blue);
+  margin-left: 1em;
+}
+
+#backToTop {
+  background-color: var(--black);
+  border-radius: 0;
+  position: relative;
 }
 
 .goalsContainer ul li div {
@@ -388,4 +432,111 @@ main > a img {
 
 .scientificText > img {
   margin-top: 1em;
+}
+
+#userInformation {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100;
+}
+
+#userInformation img:first-of-type {
+  width: 128px;
+  height: 128px;
+  border: 2px solid var(--black);
+}
+
+#userInformation ul {
+  margin-left: 1em;
+}
+
+#userInformation li h2 {
+  margin: 0;
+}
+
+#userInformation li {
+  margin-bottom: 1em;
+}
+
+#userInformation .editButtonWhite {
+  margin-top: 6em;
+  margin-left: 3em;
+  order: 0;
+}
+
+.editButtonWhite {
+  background-color: var(--black);
+  width: 32px;
+  height: 32px;
+}
+
+.editButtonRed {
+  background-color: var(--white);
+  width: 32px;
+  height: 32px;
+}
+
+.editButtonBlue {
+  background-color: var(--white);
+  width: 32px;
+  height: 32px;
+}
+
+#editButtonGreenBackground {
+  background-color: var(--turquoise);
+}
+
+#userGoals {
+  width: 100vw;
+}
+
+#userGoals h2 {
+  margin-left: 20px;
+  margin-top: 1em;
+}
+
+#userGoals div {
+  width: 100vw;
+}
+
+#userGoals div {
+  height: 96px;
+  padding-left: 20px;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: 500;
+  border-radius: 32px 32px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#userGoals div:first-of-type {
+  background-color: var(--blue);
+  color: var(--white);
+  padding-bottom: 2em;
+}
+
+#userGoals div:nth-child(3) {
+  background-color: var(--red);
+  color: var(--white);
+  margin-top: -32px;
+  padding-bottom: 2em;
+}
+
+#userGoals div:nth-child(4) {
+  background-color: var(--white);
+  color: var(--black);
+  margin-top: -32px;
+  padding-bottom: 2em;
+}
+
+#userGoals img {
+  margin-right: 20px;
+}
+
+#weekProgressOverview {
+  margin-top: 2em;
+  margin-bottom: 0em;
 }
