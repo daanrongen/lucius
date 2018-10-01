@@ -320,7 +320,10 @@ main > a img {
 }
 
 .adviceContainer ul li span,
-#userInformation span {
+#userInformation span,
+#buoyConnection span,
+#buoyInformation span,
+#doNotDisturb span {
   font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.125em;
   font-weight: 500;
@@ -539,4 +542,42 @@ main > a img {
 #weekProgressOverview {
   margin-top: 2em;
   margin-bottom: 0em;
+}
+
+#buoyConnection #connectionIndicator {
+  width: 8px;
+  height: 8px;
+  background-color: var(--green);
+}
+
+#buoyConnection ul:first-of-type {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#buoyConnection ul:first-of-type li:first-child {
+  flex-basis: 100%;
+}
+
+#buoyConnection ul:first-of-type li:nth-child(2) {
+  flex-basis: 30%;
+}
+
+#buoyConnection ul:first-of-type li:nth-child(3) {
+  flex-basis: 60%;
+}
+
+#buoyConnection ul:first-of-type span {
+  text-transform: capitalize;
+}
+
+#buoyInformation {
+  display: flex;
+  flex-direction: row;
+}
+
+#buoyInformation ul:nth-child(1) {
+  width: 60%;
 }
