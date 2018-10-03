@@ -54,27 +54,55 @@ Met dank aan: Govert Flint, Nick Rovroy en Niels de Keizer
 | De student kan zijn werk verdedigen en verantwoorden. |  |
 
 
-## Presentatie Fonk
+## Presentatie Groenlicht
 
-Waar heb ik mij het afgelopen halfjaar mee bezig gehouden?
+Hoe kijk ik naar het afstudeerproject?
 -> Een meesterproef van design, development, onderzoek en ontwerp-ondernemerschap.
 
 Wat is mijn afstudeerproject?
--> Healthy Workers, opdracht, stakeholders, context
+-> Healthy Workers, opdracht, stakeholders (overeenkomsten en conflict), fysiek welzijn, ergonomie
 
 Waarom is de opdracht zo complex?
--> Zitcultuur, gedragsverandering, intrinsieke interventie.
+-> Zitcultuur: 'scientific management', Taylorism, post-fordisme (diensten)
+-> Gedrag en omgeving: activerend meubilair, dynamisch werken
 
-Wat is uiteindelijk mijn oplossing geworden?
--> IoT-kruk, meten en verbeteren, webapp, quantified self
+Hoe kunnen we dit in een design challenge formuleren?
+-> Design Challenge
+
+Hoe kun je kantoormedewerkers **leren dynamisch te werken** (1) door middel van een **IoT-toepassing** (2) waarbij **fysieke activiteit in de stoel** (3) wordt gestimuleerd en ergonomische informatie wordt vergaard zodat de gebruiker **bewustzijn** (4) creëert op basis van deze inzichten.
+
+Gedragsontwerp (1)
+-> ASE-model, quantified self, mediale interventie, intrinsieke motivatie als interventie, voorbeeld FitBit
+
+Momentum (2)
+-> Een slimme kruk die meet hoeveel je zit, beweegt en wat je zithouding is, feedback wanneer het ergonomische gedrag ondermaats wordt.
+
+De Buoy (3)
+-> Activerende kruk die opstaan, in-chair movement, en een goede zithouding stimuleert, Enrichers
+
+De web-app (4)
+-> quantified self, actionable data, quick view en in-depth bewustzijn, tailored voor de workflow van kantoormedewerkers.
+
+Hoe ziet de flow van de gebruiker er uit?
+-> detail momentum, schermen, werking
+-> resultaten validatie-test Armand, Dag van 09:00 tot 18:00, moment van slechte zit-sta variatie, moment van slechte zithouding
+
+Wat zijn de belangrijkste validatiepunten van Momentum?
+-> verschil observatie Ben en Armand (zit-sta variatie en ritme)
+-> Het faciliteren van in-chair movement in de buoy, activerend meubilair
+-> quantified self, bewustzijn, intrinsieke motivatie
+-> de lamp als sociaal-culturele bemiddelaar, elkaar attenderen, sociale norm
+
+De lessen die ik wil meegeven adhv mijn onderzoek:
+-> Wees kritisch over standaarden: je bent vrij in het bepalen hoe je je werk verricht, laat je omgeving dit niet voor je bepalen.
+-> Wees bewust van zitcultuur: De ontwikkeling van een sedentaire levensstijl is een 'slippery slope'.
+-> Neem betere ergonomie aan in de cultuur van je bedrijf: Maak er een norm van om op te staan tegen de zitcultuur.
 
 Waarom ik niet zal impliceren dat dit dé oplossing op het probleem is
--> Bagatelliseren van zitcultuur, paradigm-shift van de manier waarop we arbeid verrichten.
+-> Bagatelliseren van zitcultuur, paradigm-shift van de manier waarop we arbeid verrichten, Taylorism verdrijven uit onze werkwijzen, een natuurlijke relatie tussen het menselijk lichaam en 'intellectuele' arbeid
+-> Aanbevelingen: Enrichers exoskeleton, Organical User Interface.
 
-Wat is de les die ik Fonk wil meegeven?
-->   denk na over HOE je je arbeid verricht, laat je werkprocessen niet normaliseren aan de hand van 'Scientific management', bepaal zelf je werkwijze en -methoden en het gebruik van conventies, wees bewust van de zitcultuur en herken deze in je omgeving.
-
-Wat wil ik van Fonk vragen?
--> Een testpersoon die ik deze werkweek, met ingang van vandaag, mag bestuderen op zijn/haar zitgedrag (zitduur, zitbeweging, zithouding). Ik vraag je om elke werkdag te beginnen met werken op de Buoy, als je wilt wisselen van zitmeubel sta je daar vrij in maar dan zou ik het waardevol vinden om een reden te horen. Ik speel de 'lamp' en als je ernaar vraagt zal ik je vertellen of de lamp aan of uit staat, uiteraard mag je zelf weten wat je doet met deze informatie. Je mag op elk moment de inzichten-schermen van de webapp opvragen. Aan het einde van elke werkdag bekijken we de inzichten gezamenlijk, dit zal ongeveer 10 minuten duren.
-
-Hoe kun je kantoormedewerkers leren dynamisch te werken door middel van een IoT-toepassing waarbij fysieke activiteit in de stoel wordt gestimuleerd en ergonomische informatie wordt vergaard zodat de gebruiker bewustzijn creëert op basis van deze inzichten.
+Laatste stappen voor eindpresentatie
+-> dataverkeer tussen kruk en React web-app
+-> design-rationale
+-> voorbereiding Dutch Design Week
