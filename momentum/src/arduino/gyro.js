@@ -1,23 +1,18 @@
 var five = require("johnny-five");
 var board = new five.Board();
 
+let inChairMovement = false;
+
 board.on("ready", function() {
-  var accelerometer = new five.IMU({
-    controller: "MPU6050"
+  let imu = new five.IMU({
+    controller: "MPU6050",
+    address: 0x68 // optional
   });
 
-  accelerometer.on("calibrated", function(err, data) {
-    console.log("ik ben gecalibreerd");
-  });
-
-  accelerometer.on("data", function(err, data) {
-    console.log(
-      "Accelerometer: %d, %d, %d",
-      this.accelerometer.x,
-      this.accelerometer.z,
-      this.accelerometer.z
-    );
-    console.log("Gyro: %d, %d, %d", this.gyro.x, this.gyro.z, this.gyro.z);
-    console.log("Temperature: %d", this.temperature.celsius);
+  imu.on("data", function() {
+    if (this.gyro.yaw.rate <= 0) {
+      this.gyro.yaw.rate * -1;
+    }
+    console.log(this.gyro.yaw.rate);
   });
 });
