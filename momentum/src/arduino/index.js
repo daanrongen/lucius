@@ -6,7 +6,7 @@ let presence = false;
 let inChairMovement = false;
 
 new five.Board().on("ready", function() {
-  fsr = new five.Sensor({
+  let fsr = new five.Sensor({
     pin: "A1",
     freq: 1000
   });
@@ -16,13 +16,18 @@ new five.Board().on("ready", function() {
     address: 0x68 // optional
   });
 
-  let time = Math.floor(new Date() / 1000);
+  let led = new five.Led(2);
+  this.repl.inject({
+    led: led
+  });
+  led.off();
 
   fsr.scale([0, 255]).on("data", function() {
     if (this.value > 20) {
       presence = true;
     } else {
       presence = false;
+      inChairMovement = null;
     }
   });
 
@@ -30,16 +35,19 @@ new five.Board().on("ready", function() {
     if (presence) {
       if (this.gyro.yaw.rate > 10 || this.gyro.yaw.rate < -10) {
         inChairMovement = true;
+        led.off();
       } else {
         inChairMovement = false;
+        led.on();
       }
     }
+    let time = Math.floor(new Date() / 1000);
     console.log(
       "time: ",
       time,
       "presence: ",
       presence,
-      "inchairmovement: ",
+      "in-chair movement: ",
       inChairMovement
     );
   });
