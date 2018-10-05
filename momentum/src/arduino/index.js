@@ -25,23 +25,22 @@ new five.Board().on("ready", function() {
   fsr.scale([0, 255]).on("data", function() {
     if (this.value > 20) {
       presence = true;
+
+      imu.on("data", function() {
+        if (this.gyro.yaw.rate > 10 || this.gyro.yaw.rate < -10) {
+          inChairMovement = true;
+        } else {
+          inChairMovement = false;
+          led.on();
+        }
+      });
     } else {
       presence = false;
-      inChairMovement = null;
+      inChairMovement = false;
     }
-  });
 
-  imu.on("data", function() {
-    if (presence) {
-      if (this.gyro.yaw.rate > 10 || this.gyro.yaw.rate < -10) {
-        inChairMovement = true;
-        led.off();
-      } else {
-        inChairMovement = false;
-        led.on();
-      }
-    }
     let time = Math.floor(new Date() / 1000);
+
     console.log(
       "time: ",
       time,
@@ -49,6 +48,14 @@ new five.Board().on("ready", function() {
       presence,
       "in-chair movement: ",
       inChairMovement
+    );
+    dataFile.write(
+      time.toString() +
+        "," +
+        presence.toString() +
+        "," +
+        inChairMovement.toString() +
+        "\n"
     );
   });
 });
