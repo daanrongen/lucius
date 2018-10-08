@@ -1,7 +1,8 @@
 let fs = require("fs");
-let dataFile = fs.createWriteStream("data.csv");
 let five = require("johnny-five");
+let csv = require("csv");
 
+let dataFile = fs.createWriteStream("data.csv");
 let presence = false;
 let inChairMovement = false;
 
@@ -20,7 +21,6 @@ new five.Board().on("ready", function() {
   this.repl.inject({
     led: led
   });
-  led.off();
 
   fsr.scale([0, 255]).on("data", function() {
     if (this.value > 20) {
@@ -31,7 +31,6 @@ new five.Board().on("ready", function() {
           inChairMovement = true;
         } else {
           inChairMovement = false;
-          led.on();
         }
       });
     } else {
@@ -49,6 +48,7 @@ new five.Board().on("ready", function() {
       "in-chair movement: ",
       inChairMovement
     );
+
     dataFile.write(
       time.toString() +
         "," +
@@ -57,5 +57,11 @@ new five.Board().on("ready", function() {
         inChairMovement.toString() +
         "\n"
     );
+
+    if (presence && !inChairMovement) {
+      led.on();
+    } else {
+      led.off();
+    }
   });
 });

@@ -1,4 +1,11 @@
-import TimeFormat from "hh-mm-ss";
+let TimeFormat = require("hh-mm-ss");
+let Papa = require("papaparse");
+
+Papa.parse("./arduino/data.csv", {
+  complete: function(results) {
+    console.log(results);
+  }
+});
 
 const data = {
   username: "Daan Rongen",

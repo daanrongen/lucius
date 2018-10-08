@@ -7,7 +7,7 @@ minor Intelligent Environments, focus op IoT-design en design-ethiek.
 
 Onder begeleiding van: Harold Konickx
 In samenwerking met: Healthy Workers
-Met dank aan: Govert Flint, Nick Rovroy en Niels de Keizer
+Met dank aan: Govert Flint & Nick Rovroy
 ```
 
 ---
@@ -26,7 +26,7 @@ In het begin van de 20ste eeuw werd voor het eerst lean management toegepast om 
 Healthy Workers zet zich in om werknemerswelzijn te meten en te verbeteren bij grote corporate bedrijven. Naast het management bestaat het team uit developers, designers, onderzoekers en psychologen. Healthy Workers is nog jong, maar de start-up ondergaat een sterke groei. Door sensoren in kantoorruimtes te hangen verricht Healthy Workers objectieve metingen over de fysieke werkomgeving. Denk hierbij aan metingen over de binnentemperatuur, luchtkwaliteit en geluidsniveaus. Ook heeft Healthy Workers een web-app ontwikkelt die middels vragenlijsten subjectieve input van elke kantoormedewerker vraagt over hoe zij de werkomgeving ervaren. Denk hierbij aan vragen over hun relaties met collega's, of ze hun persoonlijke leerdoelen behalen en of ze zich op hun plek voelen bij het bedrijf. Healthy Workers noemt zichzelf een bedrijfs-'thermometer'. Ze verrichten metingen, analyseren de resultaten, delen de inzichten met het management en doen suggesties voor hoe de werkomgeving verbeterd kan worden waardoor het werknemerswelzijn zal stijgen. Ook is Healthy Workers vervolgens aangesloten bij interventiepartijen die deze verbeteringen kunnen implementeren. De interventies worden gevalideerd op haar rendabiliteit. Dit proces wordt herhaald totdat het personeelsbestand aantoonbaar meer bevlogen is. De voornaamste doelen van Healthy Workers zijn het laten stijgen van bevlogenheid en productiviteit van werknemers, bedrijven aantrekkelijk maken voor talenten en deze ook binnen houden en het verminderen van ziekteverzuim en gezondheidsklachten.
 
 ### Opdracht en Stakeholders
-Healthy Workers verricht objectieve en subjectieve metingen en biedt interventie-mogelijkheden ter verbetering van het werknemerswelzijn. In maart 2018 benaderden ze mij met de opdracht om een technologie te ontwerpen om fysiek welzijn in kantooromgevingen zowel te meten als te verbeteren. Bij interventies in kantooromgevingen zijn er twee stakeholders van groot belang: de kantoormedewerkers en de directie. 
+Healthy Workers verricht objectieve en subjectieve metingen en biedt interventie-mogelijkheden ter verbetering van het werknemerswelzijn. In maart 2018 benaderden ze mij met de opdracht om een technologie te ontwerpen om fysiek welzijn in kantooromgevingen zowel te meten als te verbeteren. Bij interventies in kantooromgevingen zijn er twee stakeholders van groot belang: de kantoormedewerkers en de directie.
 
 #### Kantoormedewerkers
 Kantoortuinen zijn funest voor de gezondheid. In Nederland werken ruim 2.3 miljoen mensen in een kantooromgeving (Stijnenbosch, 2015 [^Dhr Stijnenbosch, M. H. (2015), Ontwikkelingen op de Kantorenmarkt in Nederland]). Dat is bijna eenderde van de complete beroepsbevolking van Nederland (CBS, 2015). Deze kantoormedewerkers kampen met informatie-vervuiling die voor een groot deel onbewust wordt veroorzaakt door omgevingsstressoren (Smid, 2016 [^Smid, E, 6-06-2016, Stress in relatie tot de fysieke werkomgeving]). Omgevingsstressoren zijn alle prikkels uit de fysieke omgeving die het vrijkomen van het stresshormoon bevorderen (Ontsressen.net, n.d. [^Ontstressen.net, n.d. Wat zijn stressoren?]). "Stress is beroepsziekte nummer één" en skeletvergroeiingen door een langdurige sedentaire houding is het grootste werkgerelateerde letsel op de arbeidsvloer. De gezondheidsklachten die ontstaan door en tijdens het werk op het kantoor kunnen zelfs na de carrière van de kantoormedewerker nog nare consequenties met zich meebrengen. Het is van groot belang voor de gezondheid van de kantoormedewerker dat er interventies plaatsvinden die het welzijn centraal stellen.
@@ -37,9 +37,9 @@ Door alle impulsen die kantoormedewerkers op zich af krijgen in de vorm van omge
 ### Context
 Steeds meer werkenden verrichten hun werk zittend, voornamelijk in kantooromgevingen. Door te lang in een ergonomisch-onverantwoordelijke houding te zitten ontwikkelen mensen musculoskeletale aandoeningen, ook wel skeletvergroeiingen. Musculoskeletale aandoeningen vormen de grooste categorie van werkgerelateerd letsel. In 1995 was het percentage werkers met een musculoskeletale aandoeningen 21%, in 2000 was dit 35% en in 2015 48% (Middlesworth, n.d [^Middlesworth, M, n.d. The Definition and Causes of MSDs]). Ook is er een significante correlatie tussen sedentair werk en de ontwikkeling van hart- en vaatziekten (Pandey, Usman, & Sushil, 2016 [^Pandey, A, Usman, S, % Sushil, G, 01-08-2016 Continuous Dose-Response Association Between Sedentary Time and Risk for Cardiovascular Disease]). De Schotse epidemioloog Jerry Morris onderzocht de correlatie tussen sedentair werk en de ontwikkeling van dodelijke hart- en vaatziekten. Bij een onderzoek naar de doodsoorzaken van 3.800 Britse mannen die het grootste deel van hun leven full-time werkten, ontdekte Morris een significante correlatie tussen vermindering of absentie van fysieke activiteit en de ontwikkeling van gezondheidsproblemen (Morris, 1958 [^Morris, J.N, 20-12-1958, Coronary Heart Disease and Physical Activity of Work]). Langdurig zitten reduceert de fysieke activiteit van het individu tot het minimum, dit heeft invloed op de bloedsomloop. Om het fysiek welzijn van kantoormedewerkers te verbeteren dient dus fysieke activiteit gestimuleerd te worden.
 
-Er dient een interventie toegepast te worden die de fysieke activiteit van de kantoormedewerker laat toenemen. Het management zal eisen dat deze interventie geen negatieve invloed zal hebben op de productiviteit van de werknemer. Een fitness-apparaat, bijvoorbeeld, als interventie zal daarom niet snel de voorkeur krijgen. De interventie dient naadloos geïmplementeerd te kunnen worden in de werkplek van de kantoormedewerker: zogenaamd activerend meubilair. Er zijn inmiddels veel voorbeelden van activerend meubilair, zo komen de zit-sta bureaus steeds vaker voor in kantooromgevingen. Ook zitmeubel-interventies zoals de zitbal en de deskbike zijn inmiddels bekend voor een groot deel van de Nederlandse kantoormedewerkers. Om te kunnen valideren of deze interventies goed geïmplementeerd kunnen worden in de werkomgeving dient de werkdag van de kantoormedewerker geschetst te worden. De relatie die de kantoormedewerker heeft met haar zitmeubel is erg simpel: het zitmeubel voorziet de kantoormedewerker van langdurig zitcomfort zodat de medewerker geconcentreerd kan werken. Een conventionele bureaustoel is exact op dit beeld ontworpen: langdurig comfort ten behoeve van productiviteit. Het probleem is echter dat fysieke activiteit niet of nauwelijks wordt gestimuleerd in de stoel. Een deskbike daarentegen is wel bevordelijk voor de fysieke activiteit, maar levert weer in op langdurig zitcomfort. Idealiter beschikt een activerend zitmeubel over drie kwaliteiten: het stimuleren van fysieke activiteit, het bieden van comfort en het faciliteren van productiviteit. 
+Er dient een interventie toegepast te worden die de fysieke activiteit van de kantoormedewerker laat toenemen. Het management zal eisen dat deze interventie geen negatieve invloed zal hebben op de productiviteit van de werknemer. Een fitness-apparaat, bijvoorbeeld, als interventie zal daarom niet snel de voorkeur krijgen. De interventie dient naadloos geïmplementeerd te kunnen worden in de werkplek van de kantoormedewerker: zogenaamd activerend meubilair. Er zijn inmiddels veel voorbeelden van activerend meubilair, zo komen de zit-sta bureaus steeds vaker voor in kantooromgevingen. Ook zitmeubel-interventies zoals de zitbal en de deskbike zijn inmiddels bekend voor een groot deel van de Nederlandse kantoormedewerkers. Om te kunnen valideren of deze interventies goed geïmplementeerd kunnen worden in de werkomgeving dient de werkdag van de kantoormedewerker geschetst te worden. De relatie die de kantoormedewerker heeft met haar zitmeubel is erg simpel: het zitmeubel voorziet de kantoormedewerker van langdurig zitcomfort zodat de medewerker geconcentreerd kan werken. Een conventionele bureaustoel is exact op dit beeld ontworpen: langdurig comfort ten behoeve van productiviteit. Het probleem is echter dat fysieke activiteit niet of nauwelijks wordt gestimuleerd in de stoel. Een deskbike daarentegen is wel bevordelijk voor de fysieke activiteit, maar levert weer in op langdurig zitcomfort. Idealiter beschikt een activerend zitmeubel over drie kwaliteiten: het stimuleren van fysieke activiteit, het bieden van comfort en het faciliteren van productiviteit.
 
-Met alleen activerend zitmeubilair is het probleem echter nog niet opgelost. Om de zitcultuur tegen te gaan zou een zitmeubel ontwikkelen waar hypothetisch oneindig op gezeten zou kunnen worden natuurlijk niet de oplossing zijn. Volgens mensendieck-deskundigen ligt de oplossing op de zitcultuur bij dynamisch werken: een frequente en efficiënte afwisseling tussen zitten, staan en bewegen (Van De Kaa, M. 2018 [^Van De Kaa, M. (2018) Interview met Mariska van de Kaa over de zitcultuur in moderne kantooromgevingen]). Dit vergt een gedragsverandering. Kantoormedewerkers dienen aan te leren om regelmatig op te staan en in ritmes te werken. Volgens de wetten van psychologie is gedrag niets anders dan het voortzetten van geconditioneerde processen: iets dat is aangeleerd. Hoe leert men iets aan? In de gedragspsychologie schijnt het ASE-model daarvoor de hedendaagse standaard te zijn. Het ASE-model van De Vries is gebaseerd op de Theory of Planned Behavior (Ajzen, 1985) en de Social Learning Theory (Bandura, 1986). De gedragspsycholoog stelt dat als een individu een positieve houding (Attitude) heeft jegens het gewenste gedrag, dit gedrag tevens een sociale norm is (Social Influence) en het gedrag behaald kan worden door vertrouwen in krachtdadigheid (Efficacy), de intentie omgezet kan worden in gedrag (Kenniscentrum Sport, 2015 [^Kenniscentrum Sport (2015). ASE-model: van attitude, sociale invloed en eigen-effectiviteit naar intentie tot gedrag. https://www.allesoversport.nl/artikel/ase-model-van-attitude-sociale-invloed-en-eigen-effectiviteit-naar-intentie-tot-gedrag/]). Attitude, Social Influence en Efficacy zijn dus de drie elementen in het realiseren van een gedragsverandering waarbij kantoormedewerkers een betere ergonomie omarmen in hun werkomgeving. 
+Met alleen activerend zitmeubilair is het probleem echter nog niet opgelost. Om de zitcultuur tegen te gaan zou een zitmeubel ontwikkelen waar hypothetisch oneindig op gezeten zou kunnen worden natuurlijk niet de oplossing zijn. Volgens mensendieck-deskundigen ligt de oplossing op de zitcultuur bij dynamisch werken: een frequente en efficiënte afwisseling tussen zitten, staan en bewegen (Van De Kaa, M. 2018 [^Van De Kaa, M. (2018) Interview met Mariska van de Kaa over de zitcultuur in moderne kantooromgevingen]). Dit vergt een gedragsverandering. Kantoormedewerkers dienen aan te leren om regelmatig op te staan en in ritmes te werken. Volgens de wetten van psychologie is gedrag niets anders dan het voortzetten van geconditioneerde processen: iets dat is aangeleerd. Hoe leert men iets aan? In de gedragspsychologie schijnt het ASE-model daarvoor de hedendaagse standaard te zijn. Het ASE-model van De Vries is gebaseerd op de Theory of Planned Behavior (Ajzen, 1985) en de Social Learning Theory (Bandura, 1986). De gedragspsycholoog stelt dat als een individu een positieve houding (Attitude) heeft jegens het gewenste gedrag, dit gedrag tevens een sociale norm is (Social Influence) en het gedrag behaald kan worden door vertrouwen in krachtdadigheid (Efficacy), de intentie omgezet kan worden in gedrag (Kenniscentrum Sport, 2015 [^Kenniscentrum Sport (2015). ASE-model: van attitude, sociale invloed en eigen-effectiviteit naar intentie tot gedrag. https://www.allesoversport.nl/artikel/ase-model-van-attitude-sociale-invloed-en-eigen-effectiviteit-naar-intentie-tot-gedrag/]). Attitude, Social Influence en Efficacy zijn dus de drie elementen in het realiseren van een gedragsverandering waarbij kantoormedewerkers een betere ergonomie omarmen in hun werkomgeving.
 
 Een houding naar gedrag staat voor een groot deel op bewustzijn. Het individu dient zich bewust te zijn dat het nu slecht gedrag vertoond en het nieuwe gedrag beter is. Deze vorm van zelf-reflectie op eigen gedrag is niet nieuw in de wereld van digitale technologie. De *Quantified Self*-trend komt veel voor in onze hedendaagse apparaten. Het kwantificeren van eigen gedrag is een mediale interventie. Een mediale interventie meet en toont gedrag, maar de verbetering moet vanuit intrinsieke motivatie van de gebruiker komen. In deze vorm van gedragsinterventie zal dus door middel van digitale technologie gedrag gekwantificeerd worden ter bevordering van bewustzijn van de gebruiker (Rosenberger, 2016 [^Rosenberger, M.E, Buman, M.P, Haskell, W.L, McConell, M.V, Carstensen, L.L, 03-03-2016 24 Hours of Sleep, Sedentary Behavior, and Physical Activity with Nine Wearable Devices]). Dit vervult ook gelijk een tweede doelstelling: de krachtdadigheid van de interventie. Door deze informatie op de lange termijn te tonen kan de gebruiker trends inzien en haar progressie bestuderen.
 
@@ -61,7 +61,7 @@ Om de ontwerpvraag op te delen in losse praktische uitdagingen heb ik de volgend
 
 ### Marktanalyse
 Allereerst heb ik op basis van het onderzoek een marktanalyse verricht. Bij deze analyse heb ik fysieke en digitale producten onderzocht die een oplossing kunnen bieden op het probleem omtrent verminderde fysieke activiteit in kantooromgevingen.
- 
+
 #### FitBit
 Het product van FitBit is een combinatie van een smartphone applicatie en een "tracker”. Het is een wearable fitness-polsband uitgerust met sensoren. De polsband meet onder andere de hartslag, het aantal stappen, verschillende sport-activiteiten en slaap-ritmes van de gebruiker. Deze data wordt real-time naar de smartphone van de gebruiker gestuurd via Bluetooth. In de app ziet de gebruiker vervolgens inzichten in een dashboard-interface. De gebruiker kan in zijn FitBit app vrienden toevoegen via het contactenboek of via Facebook. FitBit biedt de gebruiker fitness-uitdagingen aan, waarbij de gebruiker vrienden kan uitnodigen om deze uitdaging aan te gaan.
 
@@ -84,7 +84,7 @@ Herman Miller is een grote partij in het ontwerpen van kantoormeubilair. Ze ontw
 (-) Het voornaamste minpunt is dat er een eenrichtingsverkeer plaatsvindt waarbij de data van werknemers naar werkgevers gaat. De werkgevers kunnen in een dashboard alle data van werknemers bekijken. Het creëert een panopticon-effect en dit draagt niet bij aan de intrinsieke motivatie voor gedragsverandering.
 
 #### BMA Ergonomics: Axia Smart Active
-BMA Ergonomics ontwikkelde de Axia Smart Active bureaustoel met hetzelfde doel: het stimuleren van dynamisch werken bij kantoormedewerkers. De stoel registreert zittijd en is gekoppeld aan de smartphone van de gebruiker om notificaties te geven wanneer de gebruiker te lang zit. Aan het einde van de dag ontvangt de gebruiker een overzicht waarin de totale zittijd zit. De applicatie toont hoeveel minuten er gezeten is, hoeveel minuten er gestaan is en hoe veel pauzes er hebben plaatsgevonden op de werkdag. 
+BMA Ergonomics ontwikkelde de Axia Smart Active bureaustoel met hetzelfde doel: het stimuleren van dynamisch werken bij kantoormedewerkers. De stoel registreert zittijd en is gekoppeld aan de smartphone van de gebruiker om notificaties te geven wanneer de gebruiker te lang zit. Aan het einde van de dag ontvangt de gebruiker een overzicht waarin de totale zittijd zit. De applicatie toont hoeveel minuten er gezeten is, hoeveel minuten er gestaan is en hoe veel pauzes er hebben plaatsgevonden op de werkdag.
 
 (+) De stoel gebruikt smartphone-notificaties om zitritmes van de gebruiker te doorbreken. Ook heeft de smartphone-app een reward-systeem waarbij complimenten worden gegeven als de gebruiker ergonomisch-verantwoord gedrag vertoond.
 
@@ -98,12 +98,12 @@ Een zitmeubel dat een frequente en efficiënte afwisseling tussen zitten en niet
 ### De kantooromgeving en haar zitcultuur
 In het begin van de twintigste eeuw werd er steeds meer nagedacht over economische efficiëntie. Onder de term 'wetenschappelijke bedrijfsvoering' introduceerde Frederick Taylor het Taylorisme (Chevez & Huppatz, 2017 [^Chevez, A., Huppatz, DJ. (2017). A short history of the office, the Conversation: http://theconversation.com/a-short-history-of-the-office-82000]). Taylor wilde door arbeidsstudies en -observaties prestatieverbeteringen bereiken. Aanhangers van deze stroming, vaak eigenaren van fabrieken en grote bedrijven, menen dat arbeid puur analytisch benaderd zou moeten worden. Ditzelfde principe werd voortgezet in het Fordisme, een door Taylorisme-geïnspireerde massaproductie management-theorie (Hounshell, D. 1984 [^Hounshell, David A. (1984), From the American System to Mass Production: The Development of Manufacturing Technology in the United States]). Door arbeidscomplexiteit en arbeidsintensiviteit te minimaliseren, stijgt de arbeidsproductiviteit en de productie-capaciteit. Ook werden destijds juist laag-opgeleide werkers aangenomen die voor hun simpele werk niet veel betaald zouden hoeven worden (Encyclopædia Brytannica, n.d. [^Encyclopædia Brytannica, n.d. Fordism: Economic History https://www.britannica.com/topic/Fordism]). Hierdoor was de productie bijzonder efficiënt. In 1917 schreef William Henry Leffingwell zijn boek "Scientific Office Management", waarin hij kantoortaken rationaliseerde en normaliseerde, tevens met het doel om arbeidsproductiviteit te doen stijgen (Leffingwell, 1917 [^Leffingwell, W. (1917). Scientific Office Management: https://books.google.com.au/books/about/Scientific_Office_Management.html?id=cSYKAAAAIAAJ&redir_esc=y]). Dit boek vormde vervolgens een fundament voor de toen-sterk-groeiende diensten-economie.
 
-De vergelijking tussen een fabriek en een kantooromgeving lijkt in eerste instantie krom, maar zodra je de kantooromgeving abstraheert worden de overeenkomsten plotseling erg zichtbaar. Met de komst van de kantoren werd er een onderscheid gemaakt tussen de 'blue collar workers' in de primaire, of productie-economie en de 'white collar workers' in de tertiaire, of diensten-economie. Deze diensten-economie is echter niets anders dan intellectuele productie. De theorieën van Ford en Taylor zijn daarom evenveel van toepassing op de arbeidsprocessen in kantooromgevingen. In de Verenigde Staten werden dan ook de eerste verzekerings-, overheids-, commerciële kantooromgevingen ontworpen met als blauwdruk een Taylorisme-doordrongen ontwerp met orde, functie en eenvoud. Elke medewerker kreeg een werkplek toegewezen met een bureau, bureaustoel en benodigd werkgerij om de intellectuele productie mee te realiseren (Cagnol, R. 2013 [^Cagnol, R. (2013). A Brief History of the Office. Deskmag: http://www.deskmag.com/en/a-brief-history-of-the-workspace-coworking-Chicago-Architecture]). 
+De vergelijking tussen een fabriek en een kantooromgeving lijkt in eerste instantie krom, maar zodra je de kantooromgeving abstraheert worden de overeenkomsten plotseling erg zichtbaar. Met de komst van de kantoren werd er een onderscheid gemaakt tussen de 'blue collar workers' in de primaire, of productie-economie en de 'white collar workers' in de tertiaire, of diensten-economie. Deze diensten-economie is echter niets anders dan intellectuele productie. De theorieën van Ford en Taylor zijn daarom evenveel van toepassing op de arbeidsprocessen in kantooromgevingen. In de Verenigde Staten werden dan ook de eerste verzekerings-, overheids-, commerciële kantooromgevingen ontworpen met als blauwdruk een Taylorisme-doordrongen ontwerp met orde, functie en eenvoud. Elke medewerker kreeg een werkplek toegewezen met een bureau, bureaustoel en benodigd werkgerij om de intellectuele productie mee te realiseren (Cagnol, R. 2013 [^Cagnol, R. (2013). A Brief History of the Office. Deskmag: http://www.deskmag.com/en/a-brief-history-of-the-workspace-coworking-Chicago-Architecture]).
 
 Met de komst van het digitale tijdperk vervormde de fysiek-intensieve machinale arbeid van het Fordisme in technisch- en sociaal-geschoolde arbeid in het zogeheten Post-Fordisme. In het Post-Fordisme zijn de 'machines' micro-elektronica-gebaseerde informatie- en communicatie-technologieën, of computers (Jessop, n.d. [^Jessop, Bob. (n.d.) Post-Fordism and the State. https://www.cddc.vt.edu/digitalfordism/fordism_materials/jessop3.htm]). De kantooromgeving is veranderd in hoe wij die vandaag kennen: een ruimte met bureaus en computers. De omgeving van een individu heeft een grote invloed op het gedrag dat we vertonen. Het grootste deel van de taken die verricht worden in een kantooromgeving zijn computer-gerelateerd. Deze computer staat op een laag bureau en het is dan vanzelfsprekend dat een kantoormedewerker zittend aan het werk gaat. Zodra alle kantoormedewerkers zittend werken, wordt dit een norm en zodra dit een norm wordt gaan kantoormedewerkers meer zitten.
 
 ### Het doorbreken van de zitcultuur
-Zitten is de norm en kantoormedewerkers doen het automatisch en onbewust. In de eerste helft van de twintigste eeuw is er veel onderzoek gedaan naar een ergonomisch-verantwoorde zithouding. Deze zag er als volgt uit: een rechte rug en nek, de knieën in een hoek van 90 graden en beide voeten plat op de vloer. Dit remt wel de ontwikkeling van skeletvergroeiingen, maar voedt weer een volgend probleem. Door langdurig in dezelfde positie te zitten op een stoel, worden de bloedwegen aan de achterkant van de bovenbenen afgekneld door het zitoppervlak. Hierdoor neemt de druk op de bloedvaten toe, wat vervolgens kan leiden tot hart- en vaatziekten (Pandey, Usman, & Sushil, 2016 [^Pandey, A, Usman, S, % Sushil, G, 01-08-2016 Continuous Dose-Response Association Between Sedentary Time and Risk for Cardiovascular Disease]). De ergonomisch-verantwoorde zithouding van eerder is dan ook deels gerectificeerd: ergonomisch zitten is goed, dynamisch zitten is beter. "The best posture is the next posture", is een bekende leus die werd geïntroduceerd in het begin van dit decennium. 
+Zitten is de norm en kantoormedewerkers doen het automatisch en onbewust. In de eerste helft van de twintigste eeuw is er veel onderzoek gedaan naar een ergonomisch-verantwoorde zithouding. Deze zag er als volgt uit: een rechte rug en nek, de knieën in een hoek van 90 graden en beide voeten plat op de vloer. Dit remt wel de ontwikkeling van skeletvergroeiingen, maar voedt weer een volgend probleem. Door langdurig in dezelfde positie te zitten op een stoel, worden de bloedwegen aan de achterkant van de bovenbenen afgekneld door het zitoppervlak. Hierdoor neemt de druk op de bloedvaten toe, wat vervolgens kan leiden tot hart- en vaatziekten (Pandey, Usman, & Sushil, 2016 [^Pandey, A, Usman, S, % Sushil, G, 01-08-2016 Continuous Dose-Response Association Between Sedentary Time and Risk for Cardiovascular Disease]). De ergonomisch-verantwoorde zithouding van eerder is dan ook deels gerectificeerd: ergonomisch zitten is goed, dynamisch zitten is beter. "The best posture is the next posture", is een bekende leus die werd geïntroduceerd in het begin van dit decennium.
 
 Het gezondste zitgedrag dat je kunt vertonen is continu in beweging blijven en een statische zithouding vermijden (Lumo Body Tech, 2013 [^Lumo Body Tech (2013) Your Best Posture is Your Next Posture: https://www.lumobodytech.com/blog/your-best-posture-is-your-next-posture/]). Tevens wordt geadviseerd om voor elk gewerkt uur in een kantoor minimaal vijftien minuten te staan (Schulte, 2015 [^Schulte, B. (2015) Health experts have figured out how much time you should sit each day, the Washington Post: https://www.washingtonpost.com/news/wonk/wp/2015/06/02/medical-researchers-have-figured-out-how-much-time-is-okay-to-spend-sitting-each-day/?utm_term=.3d633dc6e103]). Het ideale zitgedrag is hiermee gelijk in kaart gebracht. Allereerst is het van belang om niet langer dan 45 minuten zittend te werken. Als dit het geval is, wissel het dan af met éénderde van de gezeten tijd en houd het zitgedrag ritmisch. Als er gezeten wordt, probeer dan aan zoveel mogelijk *In-chair movement* te komen en voorkom een statische zithouding. Bij sprake van een statische zithouding, behoud dan een ergonomisch-verantwoorde zithouding zodat er geen skeletvergroeiingen kunnen optreden.
 
@@ -167,7 +167,7 @@ In zowel het onderzoek van de Design Brief als het interview met Mariska van de 
 *(Afbeelding 2: het ASE-model in de FitBit app, de afbeeldingen zijn screenshots die ik heb gemaakt van de FitBit App.)*
 
 ### Job Stories
-Tot 2015 werd er in het landschap van UX Design veel gebruik gemaakt van User Stories. Die zien er ongeveer zo uit:  
+Tot 2015 werd er in het landschap van UX Design veel gebruik gemaakt van User Stories. Die zien er ongeveer zo uit:
 
 > **As a _____, I want to ____, So that ____**
 
@@ -197,7 +197,7 @@ Alle informatie die in het bovenstaande format ingevuld zal worden zou volgens K
 3. Wanneer ik in een slechte zithouding zit, wil ik informatie over mijn zithouding, zodat ik weet waar ik deze moet aanpassen.
 4. Wanneer ik mijn zitgedrag laat bestuderen, wil ik dat er rekening wordt gehouden met mijn werkrooster, zodat het accuraat maatwerk kan leveren.
 5. Wanneer ik mijn zitgedrag bekijk en niet te veel tijd wil spenderen, wil ik een samenvatting zien van mijn ergonomische status, zodat ik een vluchtig beeld krijg.
-6. Wanneer ik mijn zitgedrag bekijk en de tijd hiervoor heb, wil ik een uitgebreide analyse zien van mijn ergonomische status, zodat ik specifiek en doelgericht pijnpunten kan bestuderen.  
+6. Wanneer ik mijn zitgedrag bekijk en de tijd hiervoor heb, wil ik een uitgebreide analyse zien van mijn ergonomische status, zodat ik specifiek en doelgericht pijnpunten kan bestuderen.
 
 #### Productiviteit (5)
 1. Wanneer ik aan het werk ben, wil ik niet gestoord worden, zodat ik geconcentreerd kan doorwerken.
@@ -223,7 +223,7 @@ De Quality Function Deployment (QFD) is een methode om klantenwensen en marktvra
 2. De interventie mag het primaire doel van de kantoormedewerker, werken, niet in de weg staan.
 4. De interventie mag geen feedback in de vorm van trillingen of geluid verzenden, want dit zal de workflow van de kantoormedewerker verstoren.
 5. De metingen dienen rekening te houden met de werktijden van de kantoormedewerker, aangezien kantoormedewerkers onder verschillende contracten in dienst kunnen treden.
-6. De interventie dient het zitgedrag in zowel een 'quick view' als een 'in-depth analyse' kunnen toen, zodat de gebruiker zelf kan bepalen hoe veel tijd er in de inzichten geïnvesteerd zal worden. 
+6. De interventie dient het zitgedrag in zowel een 'quick view' als een 'in-depth analyse' kunnen toen, zodat de gebruiker zelf kan bepalen hoe veel tijd er in de inzichten geïnvesteerd zal worden.
 7. De interventie dient in-chair movement te stimuleren.
 8. De interventie dient een goede zithouding te stimuleren.
 9. De interventie dient een signaal van ergonomisch gedrag uit te zenden, zodat de gebruiker geattendeerd kan worden op haar zitgedrag wanneer deze onverantwoord begint te worden.
@@ -238,7 +238,7 @@ De Quality Function Deployment (QFD) is een methode om klantenwensen en marktvra
 5. De interventie dient een signaal af te geven wanneer het zitgedrag onverantwoord begint te worden dat sterk genoeg is dat de gebruiker en/of omliggende kantoormedewerkers het kunnen ervaren.
 6. De interventie dient een signaal af te geven wanneer het zitgedrag onverantwoord begint te worden dat eenvoudig leesbaar is en de belangrijkste informatie visualiseert.
 7. De interventie dient individueel te meten en de informatie persoonlijk te kunnen teruggeven, hierbij geldt een relatie van één werknemer op één zitmeubel.
-8. De interventie dient zitcomfort te faciliteren voor minimaal een periode van 60 minuten. 
+8. De interventie dient zitcomfort te faciliteren voor minimaal een periode van 60 minuten.
 
 ##### Development Eisen
 1. De interventie dient schaalbaar ge-upscaled kunnen worden naarmate het werknemersbestand toeneemt.
@@ -247,7 +247,7 @@ De Quality Function Deployment (QFD) is een methode om klantenwensen en marktvra
 4. De interventie dient opgebouwd te zijn uit modulaire componenten.
 
 ## Productontwikkeling
-Aan de hand van mijn onderzoek ging ik aan de slag met het vertalen van mijn inzichten naar een toepassing. Het was al een gegeven dat de interventie tweedelig zou zijn: een IoT-zitmeubel (1), gekoppeld aan een web-applicatie (2). 
+Aan de hand van mijn onderzoek ging ik aan de slag met het vertalen van mijn inzichten naar een toepassing. Het was al een gegeven dat de interventie tweedelig zou zijn: een IoT-zitmeubel (1), gekoppeld aan een web-applicatie (2).
 Allereerst ben ik gaan zoeken naar activerend zitmeubilair waarbij een goede zithouding en in-chair movement wordt gestimuleerd. De Buoy van de Enrichers is een kruk waarvan het onderstel bol is, waardoor de gebruiker met een rechte rug en nek balans  behoudt tijdens het zitten. Gelijkertijd moedigt de bolling in het onderstel beweging in het onderlichaam aan, wat in-chair movement bevordert, zie de kruk in afbeelding 2.
 
 /library/images/figuur3.png
@@ -259,7 +259,7 @@ In mijn eerste productschets wilde ik de volgende punten naar voren brengen:
 
 De web-applicatie:
 
-- Een web-applicatie die toont hoeveel de gebruiker statisch zit, dynamisch zit, staat en beweegt. 
+- Een web-applicatie die toont hoeveel de gebruiker statisch zit, dynamisch zit, staat en beweegt.
 
 - De visualisatie van de data toont 'zit- en sta-ritmes'.
 
@@ -277,7 +277,7 @@ Het fysieke product:
 *(Afbeelding 4: reeks schermen uit het eerste ontwerp)*
 
 #### Toelichting
-In het eerste scherm is te zien hoe de gebruiker aangeeft op welke dagen hij/zij werkt, hoe laat de werkdag begint en eindigt. Zodra de gebruiker deze instellingen heeft bevestigd en de Buoy is gekoppeld aan de web-app kunnen de metingen getoond worden. De gebruiker arriveert op een 'Overview'-pagina waar berichten klaarstaan over de zit-progressie. In dit voorbeeld is te zien hoe de gebruiker wordt gecomplimenteerd op het behalen van een stijging in de dynamische zit-tijd. Onder 'Sitting Behaviour' ziet de gebruiker drie ringen, deze staan voor dynamisch zitten (1), staan (2) en bewegen (3). Momenteel heeft de gebruiker een score van 70 punten behaald, dit is een kwantificatie van het zitgedrag. In de grafiek is het zitgedrag van de gebruiker te zien tussen het moment dat hij voor het eerst ging zitten (09:12) tot nu (17:32). Onder de grafiek staan percentages van hoeveel elke houding is voorgekomen over de werkdag heen, de gebruiker heeft dus 27% van de werkdag statisch gezeten. Het zitgedrag kan gevisualiseerd worden over verschillende tijdseenheden: dag, week, maand en jaar. Hiermee kan een stijgende of dalende trend gezien worden in de reis naar een beter zitgedrag. Tot slot is er een scherm waarin de gebruiker de in-chair movement ziet van zijn huidige 'zit-sessie', hierbij staat groen voor voldoende beweging, rood voor onvoldoende beweging, wit voor de gemiddelde zit-tijd van de gebruiker en geel voor de gemiddelde zit-tijd van zijn collega's. Onderaan het scherm kan de gebruiker ervoor kiezen om de LED's in de Buoy tijdelijk uit te zetten met een slider-switch. 
+In het eerste scherm is te zien hoe de gebruiker aangeeft op welke dagen hij/zij werkt, hoe laat de werkdag begint en eindigt. Zodra de gebruiker deze instellingen heeft bevestigd en de Buoy is gekoppeld aan de web-app kunnen de metingen getoond worden. De gebruiker arriveert op een 'Overview'-pagina waar berichten klaarstaan over de zit-progressie. In dit voorbeeld is te zien hoe de gebruiker wordt gecomplimenteerd op het behalen van een stijging in de dynamische zit-tijd. Onder 'Sitting Behaviour' ziet de gebruiker drie ringen, deze staan voor dynamisch zitten (1), staan (2) en bewegen (3). Momenteel heeft de gebruiker een score van 70 punten behaald, dit is een kwantificatie van het zitgedrag. In de grafiek is het zitgedrag van de gebruiker te zien tussen het moment dat hij voor het eerst ging zitten (09:12) tot nu (17:32). Onder de grafiek staan percentages van hoeveel elke houding is voorgekomen over de werkdag heen, de gebruiker heeft dus 27% van de werkdag statisch gezeten. Het zitgedrag kan gevisualiseerd worden over verschillende tijdseenheden: dag, week, maand en jaar. Hiermee kan een stijgende of dalende trend gezien worden in de reis naar een beter zitgedrag. Tot slot is er een scherm waarin de gebruiker de in-chair movement ziet van zijn huidige 'zit-sessie', hierbij staat groen voor voldoende beweging, rood voor onvoldoende beweging, wit voor de gemiddelde zit-tijd van de gebruiker en geel voor de gemiddelde zit-tijd van zijn collega's. Onderaan het scherm kan de gebruiker ervoor kiezen om de LED's in de Buoy tijdelijk uit te zetten met een slider-switch.
 
 #### Feedback Frenzy
 ##### Guus
@@ -306,7 +306,7 @@ In het eerste scherm is te zien hoe de gebruiker aangeeft op welke dagen hij/zij
 
 
 #### Beoordeling
-(+) De gebruiker wordt bij binnenkomst op de web-app al direct gegroet met vooruitgang en progressie, ondersteund met een animatie van confetti. Emotie en aandacht, twee belangrijke factoren die gebruikt worden in het aantrekkelijk maken van een digitaal product, zijn gepaard aan kleur en animatie (Hamblin, et al 2016 [^James Hamblin, Nicolas Pollock, Jaclyn Skurie (Apr 28, 2016), To Break a Phone Addiction, Turn Your Screen Gray, the Atlantic]). Elementen als confetti zijn patronen die onder andere door Facebook gebruikt worden om producten aantrekkelijk te maken voor veelvoudig gebruik. 
+(+) De gebruiker wordt bij binnenkomst op de web-app al direct gegroet met vooruitgang en progressie, ondersteund met een animatie van confetti. Emotie en aandacht, twee belangrijke factoren die gebruikt worden in het aantrekkelijk maken van een digitaal product, zijn gepaard aan kleur en animatie (Hamblin, et al 2016 [^James Hamblin, Nicolas Pollock, Jaclyn Skurie (Apr 28, 2016), To Break a Phone Addiction, Turn Your Screen Gray, the Atlantic]). Elementen als confetti zijn patronen die onder andere door Facebook gebruikt worden om producten aantrekkelijk te maken voor veelvoudig gebruik.
 
 (+) In de grafiek wordt met kleur aangegeven welke waarden gezonder zijn en de voorkeur krijgen. Zo is statisch zitten rood, dynamisch zitten oranje, staan geel en bewegen groen.
 
@@ -358,9 +358,9 @@ Vervolgens ziet de gebruiker 'seated inclination', dit is de zithoek waarin de g
 
 ```
 Stand up for your health:
-When you sit, blood flows slower and muscles burn 
-less fat, which makes it easier for fatty acids to clog 
-your heart. Make sure you stand up every once in a 
+When you sit, blood flows slower and muscles burn
+less fat, which makes it easier for fatty acids to clog
+your heart. Make sure you stand up every once in a
 while, preferably every hour.
 ```
 
@@ -435,7 +435,7 @@ De web-applicatie:
 
 - De zithouding wordt beter gevisualiseerd zodat de gebruiker duidelijker kan opmaken of hij te veel naar voor, achter, links of rechts leunt.
 
-Het fysieke product: 
+Het fysieke product:
 
 - De Enrichers ontwerpt naast activerend meubilair ook technologisch-bewapende producten. Zo zijn ze bezig met de ontwikkeling van een sensor die gewichtsverdeling kan registreren. In het zitoppervlakte van de Buoy zal dus een meer gedetailleerde druk-sensor geplaatst worden.
 
@@ -491,7 +491,7 @@ front-left
 
 (-) Zodra de gebruiker een los overhemd, jurk of rok draagt en op de Buoy gaat zitten, bedekt de kleding de LED-strip, waardoor de ergonomische informatie niet meer afgelezen kan worden door de omgeving.
 
-(-) De LED-strip om het zitoppervlakte van de Buoy heen toont overbodige informatie. De in-chair movement en zittijd, gevisualiseerd met LEDs, tonen niet de belangrijkste informatie om te delen met de omgeving. Sterker nog, dit is redelijk privacy-gevoelige informatie. 
+(-) De LED-strip om het zitoppervlakte van de Buoy heen toont overbodige informatie. De in-chair movement en zittijd, gevisualiseerd met LEDs, tonen niet de belangrijkste informatie om te delen met de omgeving. Sterker nog, dit is redelijk privacy-gevoelige informatie.
 
 (-) Het zitoppervlakte van de Buoy is rond en de LED-strip zou hier rond omheen gaan. De visualisatie van in-chair movement is echter chronologisch: het toont hoe lang de gebruiker zit en in welke minuten hij voldoende heeft bewogen. Een ronde kruk heeft geen voorkant, noch achterkant. Hierdoor is de kans heel groot dat de collega's van de gebruiker nooit direct een inzicht kunnen halen uit de visualisatie omdat de LED-strip-informatie net gedraaid zit of zich volledig aan de andere kant van de kruk afspeelt.
 
@@ -506,7 +506,7 @@ De web-applicatie:
 
 - De gebruiker kan doelen stellen en bijhouden of deze doelen behaald zijn.
 
-Het fysieke product: 
+Het fysieke product:
 
 - Om het fysieke product te ontwerpen heb ik de hulp ingeschakeld van product-ontwerper Nick Rovroy. We zijn tot een ontwerp gekomen waarbij er een sensor-case vastgeschroefd kan worden onderaan het trapeziumdraad. In deze sensor-case zit de Arduino, gyroscoop en powerbank, maar ook een krachtige *COB LED* die een lichtsignaal projecteert in de koepel van het onderstel van de Buoy.  Ook geeft de lamp de IoT-kruk nog meer karakteristieke eigenschappen van een boei in het water. De functie van een boei is om (bij nacht) schepen te waarschuwen voor een kustlijn. Het lichtsignaal van een boei is daarom ook een signaal dat 'gevaar' en 'het behouden van afstand' uitstraalt. Het is de bedoeling dat kantoormedewerkers een waarschuwingssignaal van hun zitmeubel krijgen en dat de boei tijdelijk 'rood-gloeiend' is en indiceert dat er tijdelijk niet gezeten mag worden wanneer de ergonomische status onverantwoord is.
 
@@ -568,11 +568,11 @@ detected sufficient movement
 Op deze pagina staat de tijdlijn met daarin In-Chair movement van de huidige zitsessie met daaronder tevens een advies. De derde en laatste kaart gaan in op `Sitting Posture`, bij het openen leest de gebruiker:
 
 ```
-During the moments of 
-insufficient movement, you 
-maintain a great sitting 
+During the moments of
+insufficient movement, you
+maintain a great sitting
 posture.
-``` 
+```
 
 De visualisatie toont gewichtsverdeling op het zitkussen en is meegenomen vanuit het vorige ontwerp.
 
@@ -581,9 +581,9 @@ Het licht in de Buoy springt aan zodra de uitkomst van de som van deze drie peil
 ```JavaScript
 // sittingTime = aantal minuten zittend
 // totalSittingTime = percentage gezeten tijd t.o.v. gehele werkdag
-// inChairMovement = het percentage van de gezeten tijd waarbij de gyroscoop 
+// inChairMovement = het percentage van de gezeten tijd waarbij de gyroscoop
 voldoende beweging detecteerde in een tijdseenheid (5 minuten)
-// sittingPosture = het aantal drukpunten waar de gebruiker op zit dat binnen de 
+// sittingPosture = het aantal drukpunten waar de gebruiker op zit dat binnen de
 schaal van de meest centraal gelegen 64 drukpunten ligt.
 
 
@@ -616,7 +616,7 @@ if (sitStandVariety === false || inChairMovementStatus === false || sittingPostu
 #### Beoordeling
 (+) De gebruiker ontvangt een gefaseerd overzicht over de status van de Buoy. De gehele applicatie is ontworpen om altijd de gewenste informatie te tonen, of de gebruiker nou (gehaast) een snel overzicht wilt, of geconcentreerd een diepte-analyse wilt bestuderen.
 
-(+) De combinatie van grafieken, adviezen, teksten en ondersteunende afbeeldingen zorgen ervoor dat de gebruiker leert hoe ideaal zitgedrag eruit ziet en zijn eigen data kan relatieveren aan deze voorbeelden. 
+(+) De combinatie van grafieken, adviezen, teksten en ondersteunende afbeeldingen zorgen ervoor dat de gebruiker leert hoe ideaal zitgedrag eruit ziet en zijn eigen data kan relatieveren aan deze voorbeelden.
 
 (+) De visuele hiërarchie zorgt ervoor dat het zicht van de gebruiker reist in een verhalende volgorde. De call-to-action onderaan elk scherm is consistent en biedt elke keer een verdieping in de analyse.
 
@@ -677,7 +677,7 @@ Jasper van Bunschoten is een UX-design-lead bij digital design agency Fonk. Ik v
 > De volgorde van de kaarten is logisch en de relaties tussen de peilers zijn duidelijk. Pas op met het gebruik van gekleurde teksten op gekleurde achtergronden. In dit ontwerp zou je bij `in-chair movement` bijvoorbeeld slechte waarden niet met rood kunnen weergeven, want dan vallen ze volledig weg tegen de achtergrond. Wat gebeurt er als kantoormedewerkers niet geattendeerd willen worden op hun zitgedrag door collega's? Is er een mogelijkheid om je (tijdelijk) af te zonderen van de sociaal-culturele aspecten van het ontwerp? Let er ook goed op dat als je de gebruiker zitdoelen laat stellen, je een duidelijk format ontwerpt waarin de progressie van het behalen van deze doelen te zien is. Doelen moeten simpel en duidelijk zijn. De leerdoelen van dit product zijn best complex aangezien je wilt bijhouden hoeveel iemand zit, beweegt en hoe het persoon zit. Dit soort doelen zijn moeilijk om eenvoudig en simplistisch in een overzicht te plaatsen. Dat is een uitdaging.
 
 #### Expert Review Govert Flint
-Govert Flint is de founder van de Enrichers. De Enrichers combineren wetenschap, product-ontwerp en industrieel ontwerp om tot omgevingsverrijkende producten te komen. Govert Flint is veel bezig met het stimuleren van menselijke bewegingen en relatie tussen mens en machine. 
+Govert Flint is de founder van de Enrichers. De Enrichers combineren wetenschap, product-ontwerp en industrieel ontwerp om tot omgevingsverrijkende producten te komen. Govert Flint is veel bezig met het stimuleren van menselijke bewegingen en relatie tussen mens en machine.
 
 > [ wordt nog geschreven door Govert ]
 
@@ -703,7 +703,7 @@ De opstarttijd van de technologie is ook niet mogelijk om aan te geven in de bov
 
 ###### 6.2: Wanneer mijn zitgedrag onverantwoord begint te worden en me hier niet bewust van ben, wil ik hierop geattendeerd worden, zodat ik hierop kan reageren.
 Dit is een sociale interactie die buiten de web-app plaatsneemt. Het is een sociaal-culturele code die 'afgesproken' dient te worden binnen het bedrijf waarbij collega's elkaar attenderen als ze op een rood-gloeiende Buoy zitten te werken.
- 
+
 ###### 7.1: Wanneer ik geconcentreerd aan het werk ben, wil ik (onbewust) bewegen, zodat ik aan fysieke activiteit toekom tijdens mijn werk.
 De ronde koepel in het onderstel van de Buoy bevordert fysieke activiteit in de stoel. Dit zou onbewust moeten plaatsvinden.
 
