@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Router } from '@reach/router'
 
+import { HasData } from './components/HasData.js'
 import { Menu } from './components/Menu.js'
 import { Summary } from './components/Summary.js'
 import { SitStandVariety } from './components/SitStandVariety.js'
@@ -18,14 +19,14 @@ class App extends React.Component {
 	render() {
 		return (
 			<Router>
-				<Summary path="/" />
-				<Menu path="/menu" />
-				<SitStandVariety path="/sit-stand-variety" />
-				<InChairMovement path="/in-chair-movement" />
-				<SittingPosture path="/sitting-posture" />
-				<Overview path="/profile" />
-				<BuoySettings path="/buoy-settings" />
-				<About path="/about" />
+				<HasData path="/" component={Summary} />
+				<HasData path="/menu" component={Menu} />
+				<HasData path="/sit-stand-variety" component={SitStandVariety} />
+				<HasData path="/in-chair-movement" component={InChairMovement} />
+				<HasData path="/sitting-posture" component={SittingPosture} />
+				<HasData path="/profile" component={Overview} />
+				<HasData path="/buoy-settings" component={BuoySettings} />
+				<HasData path="/about" component={About} />
 			</Router>
 		)
 	}

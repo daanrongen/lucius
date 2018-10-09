@@ -1,23 +1,24 @@
 {
-  "name": "momentum",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@ibm/plex": "^1.1.6",
-    "@reach/router": "^1.1.1",
-    "papaparse": "^4.6.1",
-    "react": "^16.5.0",
-    "react-dom": "^16.5.0",
-    "react-scripts": "1.1.5"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "xo && react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "hh-mm-ss": "^1.2.0",
-    "johnny-five": "^1.0.0"
-  }
+	"name": "momentum",
+	"version": "0.1.0",
+	"decription": "Socio-cultural IoT-application to help you stand up against sitting culture",
+	"private": true,
+	"dependencies": {
+		"@ibm/plex": "^1.1.6",
+		"@reach/router": "^1.1.1",
+		"papaparse": "^4.6.1",
+		"react": "^16.5.0",
+		"react-dom": "^16.5.0",
+		"react-scripts": "1.1.5"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "xo && react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	},
+	"devDependencies": {
+		"hh-mm-ss": "^1.2.0",
+		"johnny-five": "^1.0.0"
+	}
 }

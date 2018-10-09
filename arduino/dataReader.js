@@ -1,25 +1,9 @@
-const TimeFormat = require('hh-mm-ss')
 const fs = require('fs')
-let csv = require('csv')
 
-// function MyCSV(Fone, Ftwo, Fthree) {
-// 	this.FieldOne = Fone
-// 	this.FieldTwo = Ftwo
-// 	this.FieldThree = Fthree
-// }
+const file = fs.readFileSync('../momentum/src/assets/data.csv', 'utf8')
+parse(file)
 
-// let MyData = []
-
-// csv()
-// 	.from.path('./assets/data.csv')
-// 	.to.array(function(data) {
-// 		for (var index = 0; index < data.length; index++) {
-// 			MyData.push(new MyCSV(data[index][0], data[index][1], data[index][2]))
-// 		}
-// 		let elapsedMillis = MyData[data.length - 1].FieldOne - MyData[0].FieldOne
-// 		let elapsedTime = TimeFormat.fromMs(elapsedMillis * 10)
-// 		console.log('Elapsed Time: ', elapsedTime)
-// 	})
+console.log(v)
 
 const data = {
 	username: 'Daan Rongen',
@@ -29,7 +13,7 @@ const data = {
 	battery: 80,
 	doNotDisturbMode: 'deactivated',
 	arrivedAtWork: '09:00',
-	timePassed: '02:00',
+	timePassed: TimeFormat.fromS(100),
 	timeSeated: TimeFormat.fromS(272),
 	percentageSeated: 78,
 	currentSittingTime: TimeFormat.fromS(84),
@@ -47,6 +31,25 @@ const data = {
 	userGoalOne: 'Sit less than 70% of the workday',
 	userGoalTwo: 'Have an in-chair movement up from 70%',
 	userGoalThree: 'Maintain a good sitting posture'
+}
+
+async function parse(file) {
+	const result = await parseCsv(file)
+	console.log(result)
+	return result
+}
+
+function parseCsv(file) {
+	return new Promise((resolve, reject) => {
+		pp.parse(file, {
+			complete: results => {
+				resolve(results)
+			},
+			error: err => {
+				reject(err)
+			}
+		})
+	})
 }
 
 module.exports = data

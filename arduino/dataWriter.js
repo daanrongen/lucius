@@ -1,43 +1,43 @@
-const fs = require('fs');
-const five = require('johnny-five');
+const fs = require('fs')
+const five = require('johnny-five')
 
-const dataFile = fs.createWriteStream('../assets/data.csv');
-let presence = false;
-let inChairMovement = false;
+const dataFile = fs.createWriteStream('../momentum/assets/data.csv')
+let presence = false
+let inChairMovement = false
 
 new five.Board().on('ready', function() {
 	const fsr = new five.Sensor({
 		pin: 'A1',
 		freq: 1000
-	});
+	})
 
 	const imu = new five.IMU({
 		controller: 'MPU6050',
 		address: 0x68 // optional
-	});
+	})
 
-	const led = new five.Led(2);
+	const led = new five.Led(2)
 	this.repl.inject({
 		led
-	});
+	})
 
 	fsr.scale([0, 255]).on('data', function() {
 		if (this.value > 20) {
-			presence = true;
+			presence = true
 
 			imu.on('data', function() {
 				if (this.gyro.yaw.rate > 10 || this.gyro.yaw.rate < -10) {
-					inChairMovement = true;
+					inChairMovement = true
 				} else {
-					inChairMovement = false;
+					inChairMovement = false
 				}
-			});
+			})
 		} else {
-			presence = false;
-			inChairMovement = false;
+			presence = false
+			inChairMovement = false
 		}
 
-		const time = Math.floor(new Date() / 1000);
+		const time = Math.floor(new Date() / 1000)
 
 		console.log(
 			'time: ',
@@ -46,7 +46,7 @@ new five.Board().on('ready', function() {
 			presence,
 			'in-chair movement: ',
 			inChairMovement
-		);
+		)
 
 		dataFile.write(
 			time.toString() +
@@ -55,12 +55,12 @@ new five.Board().on('ready', function() {
 				',' +
 				inChairMovement.toString() +
 				'\n'
-		);
+		)
 
 		if (presence && !inChairMovement) {
-			led.on();
+			led.on()
 		} else {
-			led.off();
+			led.off()
 		}
-	});
-});
+	})
+})

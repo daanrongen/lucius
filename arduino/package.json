@@ -1,0 +1,16 @@
+{
+	"name": "arduino",
+	"version": "1.0.0",
+	"description": "Socio-cultural IoT-application to help you stand up against sitting culture",
+	"main": "dataWriter.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "../"
+	},
+	"author": "Daan Rongen",
+	"license": "ISC",
+	"dependencies": {}
+}
