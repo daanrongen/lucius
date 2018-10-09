@@ -1,15 +1,16 @@
-var five = require("johnny-five");
-var board = new five.Board();
+const five = require('johnny-five')
 
-board.on("ready", function() {
-  var led = new five.Led(2);
+const board = new five.Board()
 
-  // This will grant access to the led instance
-  // from within the REPL that's created when
-  // running this program.
-  this.repl.inject({
-    led: led
-  });
+board.on('ready', function() {
+	const led = new five.Led(2)
 
-  led.blink(1000);
-});
+	// This will grant access to the led instance
+	// from within the REPL that's created when
+	// running this program.
+	this.repl.inject({
+		led
+	})
+
+	led.blink(1000)
+})
