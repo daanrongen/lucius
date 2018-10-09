@@ -1,4 +1,4 @@
-import React from 'react'
+const React = require('react')
 const TimeFormat = require('hh-mm-ss')
 
 export class HasData extends React.Component {

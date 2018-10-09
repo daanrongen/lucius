@@ -2,14 +2,12 @@ import React from 'react'
 import { Link } from '@reach/router'
 import { Breadcrumb } from './Breadcrumb.js'
 
-// import data from '../../../arduino/dataReader.js'
 import profilePicture from '../img/profile-picture.jpg'
 import weekProgress from '../img/week-progress.svg'
 import editButtonWhite from '../img/edit-button-white.svg'
 import editButtonRed from '../img/edit-button-red.svg'
 import editButtonBlue from '../img/edit-button-blue.svg'
 
-const data = {}
 export class Overview extends React.Component {
 	render() {
 		return (
@@ -24,16 +22,16 @@ export class Overview extends React.Component {
 						<ul>
 							<li>
 								<h2>name</h2>
-								<span>{data.username}</span>
+								<span>{this.props.data.username}</span>
 							</li>
 							<li>
 								<h2>workweek</h2>
-								<span>{data.workweek}</span>
+								<span>{this.props.data.workweek}</span>
 							</li>
 						</ul>
 						<img
 							src={editButtonWhite}
-							class="editButtonWhite"
+							className="editButtonWhite"
 							alt="edit button"
 						/>
 					</div>
@@ -41,38 +39,38 @@ export class Overview extends React.Component {
 				<div id="userGoals">
 					<h2>your goals</h2>
 					<div>
-						{data.userGoalOne}{' '}
+						{this.props.data.userGoalOne}{' '}
 						<Link to="goal-setings">
 							<img
 								src={editButtonBlue}
-								class="editButtonBlue"
+								className="editButtonBlue"
 								alt="edit button"
 							/>
 						</Link>
 					</div>
 					<div>
-						{data.userGoalTwo}
+						{this.props.data.userGoalTwo}
 						<Link to="goal-setings">
 							<img
 								src={editButtonRed}
-								class="editButtonRed"
+								className="editButtonRed"
 								alt="edit button"
 							/>
 						</Link>
 					</div>
 					<div>
-						{data.userGoalThree}
+						{this.props.data.userGoalThree}
 						<Link to="goal-setings">
 							<img
 								src={editButtonWhite}
-								class="editButtonWhite"
+								className="editButtonWhite"
 								id="editButtonGreenBackground"
 								alt="edit button"
 							/>
 						</Link>
 					</div>
 				</div>
-				<div class="weekProgress" id="weekProgressOverview">
+				<div className="weekProgress" id="weekProgressOverview">
 					<h2>this week's progress</h2>
 					<img src={weekProgress} alt="weekProgress" />
 				</div>
