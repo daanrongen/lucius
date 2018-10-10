@@ -1,9 +1,12 @@
 const fs = require('fs')
 const five = require('johnny-five')
 
-const dataFile = fs.createWriteStream('../momentum/assets/data.csv')
+const dataFile = fs.createWriteStream('../momentum/public/data.csv')
 let presence = false
 let inChairMovement = false
+let cobStatus = false
+
+dataFile.write('timestamp,presence,icm,cob' + '\n')
 
 new five.Board().on('ready', function() {
 	const fsr = new five.Sensor({
@@ -13,12 +16,17 @@ new five.Board().on('ready', function() {
 
 	const imu = new five.IMU({
 		controller: 'MPU6050',
-		address: 0x68 // optional
+		address: 0x68
 	})
 
 	const led = new five.Led(2)
 	this.repl.inject({
 		led
+	})
+
+	const relay = new five.Relay({
+		pin: 10,
+		type: 'NO'
 	})
 
 	fsr.scale([0, 255]).on('data', function() {
@@ -58,9 +66,15 @@ new five.Board().on('ready', function() {
 		)
 
 		if (presence && !inChairMovement) {
-			led.on()
+			relay.on()
 		} else {
-			led.off()
+			relay.off()
+		}
+	})
+
+	this.repl.inject({
+		on: function() {
+			relay.on()
 		}
 	})
 })

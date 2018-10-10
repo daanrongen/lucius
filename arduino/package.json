@@ -12,5 +12,8 @@
 	},
 	"author": "Daan Rongen",
 	"license": "ISC",
-	"dependencies": {}
+	"dependencies": {
+		"hh-mm-ss": "^1.2.0",
+		"johnny-five": "^1.0.0"
+	}
 }
