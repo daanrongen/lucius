@@ -6,7 +6,7 @@ let presence = false
 let inChairMovement = false
 let cobStatus = false
 
-dataFile.write('timestamp,presence,icm,cob' + '\n')
+dataFile.write('timestamp,presence,icm' + '\n')
 
 new five.Board().on('ready', function() {
 	const fsr = new five.Sensor({
@@ -34,11 +34,12 @@ new five.Board().on('ready', function() {
 			presence = true
 
 			imu.on('data', function() {
-				if (this.gyro.yaw.rate > 10 || this.gyro.yaw.rate < -10) {
+				if (this.gyro.yaw.rate > 2 || this.gyro.yaw.rate < -2) {
 					inChairMovement = true
 				} else {
 					inChairMovement = false
 				}
+				// console.log(this.gyro.yaw.rate)
 			})
 		} else {
 			presence = false

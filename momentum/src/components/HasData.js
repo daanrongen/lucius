@@ -49,14 +49,11 @@ export class HasData extends React.Component {
 					firstEntryTimestamp = currentEntryTimestamp
 				}
 			}
-			console.log(timeArray)
-			console.log(boolArray)
 
 			for (let i = 0; i < boolArray.length; i++) {
 				if (boolArray[i]) {
 					let intToAdd = TimeFormat.toS(timeArray[i])
 					totalTrue += intToAdd
-					console.log(timeArray[timeArray.length - 1])
 				}
 
 				if (!boolArray[i]) {
@@ -64,7 +61,6 @@ export class HasData extends React.Component {
 					totalFalse += intToAdd
 				}
 			}
-			console.log(totalTrue)
 			let seatedPercentage = ((totalTrue / length) * 100).toFixed(0)
 			console.log('Seated percentage', seatedPercentage, '%')
 
