@@ -1,4 +1,4 @@
-# Productbiografie
+# Productbiografie Momentum
 
 ```
 Daan Rongen:
@@ -10,7 +10,7 @@ In samenwerking met: Healthy Workers
 Met dank aan: Govert Flint & Nick Rovroy
 ```
 
----
+/documents/fotos-luc/LW_ProjectDaan_019.jpg
 
 ## Inhoudsopgave
 
@@ -91,7 +91,7 @@ BMA Ergonomics ontwikkelde de Axia Smart Active bureaustoel met hetzelfde doel: 
 (-) De smartphone-notificaties zijn wellicht niet omnipresent genoeg en breekt daardoor de workflow van de kantoormedewerker. Ook ontbreekt er een sociaal element waardoor er niet wordt gewerkt naar de vermindering van de zitcultuur in de kantooromgeving.
 
 ### Productvisie
-Een zitmeubel dat een frequente en efficiënte afwisseling tussen zitten en niet-zitten aanmoedigt. Het zitmeubel dient zowel een ergonomisch-verantwoorde zithouding aan te moedigen als in-chair movement te stimuleren. Op deze manier worden zowel musculoskeletale aandoeningen als hart- en vaatziekten afgeremd in het activerend zitmeubel. In het zitoppervlakte van het zitmeubel zit een druksensor. Deze data registreert de zitduur. Onder de zitting van het meubelstuk zit een gyroscoopsensor, deze registreert in-chair movement. Het zitmeubel meet dus hoe lang er op een werkdag wordt gezeten en of er tijdens het zitten voldoende wordt beweging plaatsvindt. De data is zichtbaar in een web-app. Hierop kan de gebruiker het zitgedrag over de werkdag bekijken. De inzichten dienen bewustzijn te stimuleren. Tot slot dient de interventie een sociaal aspect te bevatten waardoor het belang van ergonomisch-verantwoord gedrag wordt opgenomen in de sociaal-culturele code van het bedrijf.
+Een zitmeubel dat een frequente en efficiënte afwisseling tussen zitten en niet-zitten aanmoedigt. Het zitmeubel dient zowel een ergonomisch-verantwoorde zithouding aan te moedigen als in-chair movement te stimuleren. Op deze manier worden zowel musculoskeletale aandoeningen als hart- en vaatziekten afgeremd in het activerend zitmeubel. In het zitoppervlakte van het zitmeubel zit een druksensor. Deze data registreert de zitduur. Onder de zitting van het meubelstuk zit een gyroscoopsensor, deze registreert in-chair movement. Het zitmeubel meet dus hoe lang er op een werkdag wordt gezeten en of er tijdens het zitten voldoende beweging plaatsvindt. De data is zichtbaar in een web-app. Hierop kan de gebruiker het zitgedrag over de werkdag bekijken. De inzichten dienen bewustzijn te stimuleren. Tot slot dient de interventie een sociaal aspect te bevatten waardoor het belang van ergonomisch-verantwoord gedrag wordt opgenomen in de sociaal-culturele code van het bedrijf.
 
 ## Onderzoek
 
@@ -110,7 +110,7 @@ Het gezondste zitgedrag dat je kunt vertonen is continu in beweging blijven en e
 In een onderzoek waarbij zittijden van kantoormedewerkers werden bijgehouden en getoond om bewustzijn te creëeren, is aangetoond dat het bieden van deze inzichten significant bijdraagt aan het verminderen van zittijd. (Hadgraft, et al, 2016 [^Nyssa T. Hadgraft, Genevieve N. Healy, Neville Owen, Elisabeth A.H. Winkler, Brigid M. Lynch, Parneet Sethi, Elizabeth G. Eakin, Marj Moodie, Anthony D. LaMontagne, Glen Wiesner, Lisa Willenberg, David W. Dunstan, Office workers' objectively assessed total and prolonged sitting time: Individual-level correlates and worksite variations]). Tevens is aangetoond dat activerend meubilair zowel de in-chair movement als het aantal opsta-momenten van kantoormedewerkers kan verhogen. Alhoewel de bewegingsintensiteit nog steeds lager is dan bij een staande houding, is het alsnog een lichtpuntje aan de horizon voor kantoormedewerkers (Grooten, et al, 2017 [^Wilhelmus Grooten, Äng Björn, Maria Hagstromer, David Conradsson, Håkan Nero, Erika Franszen (2017). Does a dynamic chair increase office workers' movements? – Results from a combined laboratory and field study. https://www.sciencedirect.com/science/article/pii/S0003687016302198#bib7]).
 
 
-### Interview Mariska van de Kaa
+### Interview Mariska van de Kaa (Mensendieck-expert)
 Mensendieck-deskundige Mariska van de Kaa bestudeert zitgedrag en ergonomie in moderne kantooromgevingen. De Nederlandse kantoormedewerker zit gemiddeld 10,1 uur op een werkdag. 8 op de 10 kantoormedewerkers ontwikkelt vroeg of laat nek-, schouder-, rug- of armklachten. Dit probleem is moeilijk op te lossen omdat er een zitcultuur heerst in kantooromgevingen. Gedrag en omgeving gaan hand-in-hand en de kantooromgeving is ontworpen om zittend werk te verrichten. Medewerkers in fysiek-intensieve sectoren hebben dynamische belasting op hun lichaam, in tegenstelling tot kantoormedewerkers die statische belasting ondergaan. Bij statische belasting worden de spieren evengoed belast maar worden niet bewogen. De kantoormedewerker moet niet dynamisch zitten, dat bevordert het blijven zitten alleen maar. De oplossing ligt in het aanleren van dynamisch werken, waarbij op een efficiënte manier zitten, staan en bewegen voortdurend wordt afgewisseld over de werkdag. Staan, op zich, is namelijk ook heel statisch. Het voordeel dat staand werken met zich meebrengt is dat je gemakkelijker kunt overgaan naar een beweging dan dat je dit vanuit een zittende houding doet. Mariska adviseert zelf om tussen de 4 en 6 zituren op een werkdag aan te houden, afgewisseld met 2 tot 4 uur aan beweging. De ergonomische metingen dienen verricht te worden tussen het begin van de werkdag en het einde van de werkdag, hier valt veel de meeste winst te behalen. Door te letten op de duur van elke activiteit of inactiviteit kun je uiteindelijk patronen herkennen. De inzichten moeten individueel naar de medewerker gecommuniceerd worden. Bij het werken naar een oplossing moet er kritisch gekeken worden naar of er een gedragsverandering plaatsvindt. De gedragsverandering kan 'ontworpen' worden middels het ASE-model.  Allereerst heb je de intentie om ander gedrag te vertonen. De sociale omgeving geeft ook aan dat dat gedrag wenselijk is. Het persoon denkt zelf ook dat het mogelijk is om de gedragsverandering te realiseren. Deze drie factoren vormen de start van gedragsverandering, intentie. Vervolgens komt het persoon in aanraking met mogelijke barrières en het wel of niet beheersen van benodigde vaardigheden, dit is competentie. Als dit is geslaagd zal het persoon het gewenste nieuwe gedrag vertonen, maar dan is het nog de vraag hoe lang hij/zij dit zal volhouden. Dat hangt af van beloningen of straffen. Het zou namelijk zo kunnen zijn dat het nieuwe gedrag niet rendabel genoeg is.
 
 Notitie: Het volledige interview met Mariska van de Kaa is te lezen als bijlage 1.
@@ -183,7 +183,7 @@ Alle informatie die in het bovenstaande format ingevuld zal worden zou volgens K
 #### Leren (2)
 1. Wanneer ik me verdiep in mijn zitgedrag, wil ik adviezen ontvangen over mijn zitgedrag, zodat ik leer hoe ik beter kan zitten.
 2. Wanneer ik bezig ben met leren hoe ik mijn zitgedrag kan verbeteren, wil ik mijn progressie kunnen inzien, zodat ik kan zien of mijn zitgedrag verbetert.
-3. Wanneer ik me verdiep in mijn zitgedrag, wil ik voorbeelden zien van hoe goed zitgedrag eruit ziet, zodat ik mijn zitgedrag hieraan kan relativeren.
+3. Wanneer ik me verdiep in mijn zitgedrag, wil ik voorbeelden zien van hoe goed zitgedrag eruit ziet, zodat ik mijn zitgedrag hieraan kan relateren.
 4. Wanneer ik een signaal krijg dat mijn zitgedrag onverantwoord begint te worden, wil ik een eenvoudige verklaring zien van mijn zitgedrag, zodat ik begrijp waarom deze onverantwoord is.
 5. Wanneer ik me verdiep in mijn zitgedrag, wil ik achtergrondinformatie over ergonomie lezen, zodat ik deze informatie mee kan nemen in mijn poging tot beter zitgedrag.
 
@@ -616,7 +616,7 @@ if (sitStandVariety === false || inChairMovementStatus === false || sittingPostu
 #### Beoordeling
 (+) De gebruiker ontvangt een gefaseerd overzicht over de status van de Buoy. De gehele applicatie is ontworpen om altijd de gewenste informatie te tonen, of de gebruiker nou (gehaast) een snel overzicht wilt, of geconcentreerd een diepte-analyse wilt bestuderen.
 
-(+) De combinatie van grafieken, adviezen, teksten en ondersteunende afbeeldingen zorgen ervoor dat de gebruiker leert hoe ideaal zitgedrag eruit ziet en zijn eigen data kan relatieveren aan deze voorbeelden.
+(+) De combinatie van grafieken, adviezen, teksten en ondersteunende afbeeldingen zorgen ervoor dat de gebruiker leert hoe ideaal zitgedrag eruit ziet en zijn eigen data kan relateren aan deze voorbeelden.
 
 (+) De visuele hiërarchie zorgt ervoor dat het zicht van de gebruiker reist in een verhalende volgorde. De call-to-action onderaan elk scherm is consistent en biedt elke keer een verdieping in de analyse.
 
@@ -712,6 +712,8 @@ De ronde koepel in het onderstel van de Buoy vereist dat de gebruiker enigszins 
 
 ###### 7.3: Wanneer ik van plan ben te gaan staan, wil ik dat mijn zitmeubel het opstaan bemiddelt, zodat ik makkelijker kan afwisselen tussen zitten en staan.
 De kruk is relatief hoog en bevat een luchtkussen waardoor het opstaan en plaatsnemen bijzonder makkelijk en efficiënt verloopt, in tegenstelling tot een zitbal, waarbij praktisch een *squad*-beweging verricht moet worden om op te kunnen staan.
+
+/documents/fotos-luc/LW_ProjectDaan_071.jpg
 
 ## Bijlagen
 
