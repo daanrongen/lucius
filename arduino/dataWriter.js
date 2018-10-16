@@ -67,7 +67,9 @@ new five.Board().on('ready', function() {
 		)
 
 		if (presence && !inChairMovement) {
+			// this.wait(1000, function() {
 			relay.on()
+			// })
 		} else {
 			relay.off()
 		}
