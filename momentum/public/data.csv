@@ -42,7 +42,7 @@ timestamp,presence,icm
 1539684693,true,true
 1539684694,true,false
 1539684695,true,false
-1539684696,true,false
+1539684696,false,false
 1539684697,true,false
 1539684698,true,false
 1539684699,true,false
@@ -50,5 +50,5 @@ timestamp,presence,icm
 1539684701,true,false
 1539684702,true,false
 1539684703,true,false
-1539684704,false,false
+1539684704,true,false
 1539684705,false,false

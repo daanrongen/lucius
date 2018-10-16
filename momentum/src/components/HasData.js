@@ -23,46 +23,47 @@ export class HasData extends React.Component {
 			)
 			console.log('Total time: ', timePassed)
 
-			let totalTrue = 0
-			let totalFalse = 0
-			let firstEntryPresence = result[0].presence
-			let currentEntryPresence = false
-			let timeArray = []
-			let boolArray = []
+			let entriesTotal = result.length - 1
 
-			for (let i = 0; i < result.length; i++) {
-				currentEntryPresence = result[i].presence
-				if (firstEntryPresence !== currentEntryPresence) {
-					let currentEntryTimestamp = parseInt(result[i].timestamp)
-					let difference = TimeFormat.fromS(
-						currentEntryTimestamp - firstEntryTimestamp
-					)
+			let entriesPresenceTrue = result.filter(
+				entry => entry.presence === 'true'
+			)
 
-					timeArray.push(difference)
-					if (currentEntryPresence === 'true') {
-						boolArray.push(true)
-					} else {
-						boolArray.push(false)
-					}
+			let entriesIcmTrue = entriesPresenceTrue.filter(
+				entry => entry.icm === 'true'
+			)
 
-					firstEntryPresence = currentEntryPresence
-					firstEntryTimestamp = currentEntryTimestamp
+			let icmPercentage = (
+				(entriesIcmTrue.length / entriesPresenceTrue.length) *
+				100
+			).toFixed(0)
+
+			let seatedPercentage = (
+				(entriesPresenceTrue.length / entriesTotal) *
+				100
+			).toFixed(0)
+
+			let resultsReversed = result.reverse()
+			let latestPresenceEntryTimestamp = 0
+			let latestSitSessionTimestamp = 0
+
+			for (const [index, el] of resultsReversed.entries()) {
+				if (el.presence === 'false') {
+					break
 				}
+
+				if (index === 0) {
+					latestPresenceEntryTimestamp = el.timestamp
+				}
+
+				latestSitSessionTimestamp = el.timestamp
 			}
 
-			for (let i = 0; i < boolArray.length; i++) {
-				if (boolArray[i]) {
-					let intToAdd = TimeFormat.toS(timeArray[i])
-					totalTrue += intToAdd
-				}
+			let timeSeatedInSeconds =
+				latestPresenceEntryTimestamp - latestSitSessionTimestamp
 
-				if (!boolArray[i]) {
-					let intToAdd = TimeFormat.toS(timeArray[i])
-					totalFalse += intToAdd
-				}
-			}
-			let seatedPercentage = ((totalTrue / length) * 100).toFixed(0)
-			console.log('Seated percentage', seatedPercentage, '%')
+			console.log('Seated percentage: ', seatedPercentage, '%')
+			console.log('In chair movement: ', icmPercentage, '%')
 
 			const data = {
 				username: 'Daan Rongen',
@@ -75,7 +76,7 @@ export class HasData extends React.Component {
 				timePassed: timePassed,
 				timeSeated: TimeFormat.fromS(272),
 				percentageSeated: seatedPercentage,
-				currentSittingTime: TimeFormat.fromS(84),
+				currentSittingTime: TimeFormat.fromS(timeSeatedInSeconds, 'hh:mm:ss'),
 				summaryAdvice: 'Stand up for 5 minutes',
 				timeStanding: TimeFormat.fromS(54),
 				sitStandVarietyAdvice: 'Try to work in 50 min. sets',
