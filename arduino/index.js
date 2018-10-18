@@ -4,7 +4,6 @@ const five = require('johnny-five')
 const dataFile = fs.createWriteStream('../momentum/public/data.csv')
 let presence = false
 let inChairMovement = false
-let cobStatus = false
 
 dataFile.write('timestamp,presence,icm' + '\n')
 
@@ -30,16 +29,18 @@ new five.Board().on('ready', function() {
 	})
 
 	fsr.scale([0, 255]).on('data', function() {
+		console.log(this.id)
+
 		if (this.value > 20) {
 			presence = true
 
 			imu.on('data', function() {
 				if (this.gyro.yaw.rate > 2 || this.gyro.yaw.rate < -2) {
+					console.log(this.gyro.yaw.rate)
 					inChairMovement = true
 				} else {
 					inChairMovement = false
 				}
-				// console.log(this.gyro.yaw.rate)
 			})
 		} else {
 			presence = false
@@ -65,6 +66,8 @@ new five.Board().on('ready', function() {
 				inChairMovement.toString() +
 				'\n'
 		)
+
+		// let icmArray = []
 
 		if (presence && !inChairMovement) {
 			// this.wait(1000, function() {

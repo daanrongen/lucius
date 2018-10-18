@@ -62,6 +62,15 @@ export class HasData extends React.Component {
 			let timeSeatedInSeconds =
 				latestPresenceEntryTimestamp - latestSitSessionTimestamp
 
+			let inChairMovementStatus
+			if (icmPercentage > 50) {
+				inChairMovementStatus = 'a lot'
+			} else if (icmPercentage > 35) {
+				inChairMovementStatus = 'enough'
+			} else {
+				inChairMovementStatus = 'a little'
+			}
+
 			console.log('Seated percentage: ', seatedPercentage, '%')
 			console.log('In chair movement: ', icmPercentage, '%')
 
@@ -81,7 +90,7 @@ export class HasData extends React.Component {
 				timeStanding: TimeFormat.fromS(54),
 				sitStandVarietyAdvice: 'Try to work in 50 min. sets',
 				inChairMovement: 82,
-				inChairMovementStatus: 'a lot',
+				inChairMovementStatus: inChairMovementStatus,
 				inChairMovementAdvice: 'Keep both feet placed on the floor',
 				totalStaticSittingTime: TimeFormat.fromS(52),
 				postureDeviation: 'front-left',
