@@ -22,24 +22,59 @@ export class Summary extends React.Component {
 							<h1>{cardName}</h1>
 						</nav>
 						<div id="quickStatusWrapper">
-							<div id="quickStatusOne" />
-							<div id="quickStatusTwo" />
-							<div id="quickStatusThree" />
+							<div
+								id={
+									this.props.data.percentageSeated > 70
+										? 'quickStatusOneInsufficient'
+										: 'quickStatusOneSufficient'
+								}
+							/>
+							<div
+								id={
+									this.props.data.inChairMovementStatus === 'a little'
+										? 'quickStatusTwoInsufficient'
+										: 'quickStatusTwoSufficient'
+								}
+							/>
+							<div
+								id={
+									this.props.data.sittingPostureStatus !== 'great'
+										? 'quickStatusThreeInsufficient'
+										: 'quickStatusThreeSufficient'
+								}
+							/>
 						</div>
 						<p id="summaryMain">
 							You’ve spent{' '}
-							<span className="statusOne">
+							<span
+								className={
+									this.props.data.percentageSeated > 70
+										? 'statusOneInsufficient'
+										: 'statusOneSufficient'
+								}
+							>
 								{this.props.data.percentageSeated}%
 							</span>{' '}
 							of today’s time seated, while sitting you’ve moved{' '}
-							<span className="statusTwo">
+							<span
+								className={
+									this.props.data.inChairMovementStatus === 'a little'
+										? 'statusTwoInsufficient'
+										: 'statusTwoSufficient'
+								}
+							>
 								{this.props.data.inChairMovementStatus}
 							</span>
 							, your sitting posture is{' '}
-							<span className="statusThree">
+							<span
+								className={
+									this.props.data.sittingPostureStatus !== 'great'
+										? 'statusThreeInsufficient'
+										: 'statusThreeSufficient'
+								}
+							>
 								{this.props.data.sittingPostureStatus}
 							</span>
-							.
 						</p>
 						<div className="adviceContainer">
 							<ul>

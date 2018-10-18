@@ -19,11 +19,12 @@ export class HasData extends React.Component {
 			let firstEntryTimestamp = parseInt(result[0].timestamp)
 			let lastEntryTimestamp = parseInt(result[length].timestamp)
 			let timePassed = TimeFormat.fromS(
-				lastEntryTimestamp - firstEntryTimestamp
+				lastEntryTimestamp - firstEntryTimestamp,
+				'hh:mm:ss'
 			)
 			console.log('Total time: ', timePassed)
 
-			let entriesTotal = result.length - 1
+			let entriesTotal = result.length
 
 			let entriesPresenceTrue = result.filter(
 				entry => entry.presence === 'true'
@@ -83,7 +84,7 @@ export class HasData extends React.Component {
 				doNotDisturbMode: 'deactivated',
 				arrivedAtWork: '09:00',
 				timePassed: timePassed,
-				timeSeated: TimeFormat.fromS(272),
+				timeSeated: TimeFormat.fromS(30),
 				percentageSeated: seatedPercentage,
 				currentSittingTime: TimeFormat.fromS(timeSeatedInSeconds, 'hh:mm:ss'),
 				summaryAdvice: 'Stand up for 5 minutes',

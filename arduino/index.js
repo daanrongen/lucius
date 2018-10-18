@@ -4,6 +4,8 @@ const five = require('johnny-five')
 const dataFile = fs.createWriteStream('../momentum/public/data.csv')
 let presence = false
 let inChairMovement = false
+let counter = 0
+let movementCounterArray = []
 
 dataFile.write('timestamp,presence,icm' + '\n')
 
@@ -28,35 +30,58 @@ new five.Board().on('ready', function() {
 		type: 'NO'
 	})
 
-	fsr.scale([0, 255]).on('data', function() {
-		console.log(this.id)
+	relay.off()
 
+	imu.on('data', function() {
+		if (presence) {
+			if (this.gyro.yaw.rate > 2 || this.gyro.yaw.rate < -2) {
+				counter++
+			}
+		}
+	})
+
+	fsr.scale([0, 255]).on('data', function() {
 		if (this.value > 20) {
 			presence = true
-
-			imu.on('data', function() {
-				if (this.gyro.yaw.rate > 2 || this.gyro.yaw.rate < -2) {
-					console.log(this.gyro.yaw.rate)
-					inChairMovement = true
-				} else {
-					inChairMovement = false
-				}
-			})
 		} else {
 			presence = false
-			inChairMovement = false
+			relay.off()
+			movementCounterArray = []
+		}
+
+		movementCounterArray.unshift(counter)
+		counter = 0
+		console.log(movementCounterArray)
+
+		if (presence) {
+			if (movementCounterArray.length > 10) {
+				movementCounterArray.pop()
+				let total = 0
+				for (let i = 0; i < 10; i++) {
+					const element = movementCounterArray[i]
+					total += element
+				}
+				console.log('icm-calculation: ' + total)
+				if (total < 200) {
+					inChairMovement = false
+					relay.on()
+				} else {
+					inChairMovement = true
+					relay.off()
+				}
+			}
 		}
 
 		const time = Math.floor(new Date() / 1000)
 
-		console.log(
-			'time: ',
-			time,
-			'presence: ',
-			presence,
-			'in-chair movement: ',
-			inChairMovement
-		)
+		// console.log(
+		// 	'time: ',
+		// 	time,
+		// 	'presence: ',
+		// 	presence,
+		// 	'in-chair movement: ',
+		// 	inChairMovement
+		// )
 
 		dataFile.write(
 			time.toString() +
@@ -66,21 +91,5 @@ new five.Board().on('ready', function() {
 				inChairMovement.toString() +
 				'\n'
 		)
-
-		// let icmArray = []
-
-		if (presence && !inChairMovement) {
-			// this.wait(1000, function() {
-			relay.on()
-			// })
-		} else {
-			relay.off()
-		}
-	})
-
-	this.repl.inject({
-		on: function() {
-			relay.on()
-		}
 	})
 })

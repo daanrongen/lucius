@@ -1,61 +1,61 @@
-@import "~@ibm/plex/css/ibm-plex.css";
+@import '~@ibm/plex/css/ibm-plex.css';
 
 :root {
-  --black: #131313;
-  --white: #fefefe;
-  --blue: #232ed1;
-  --red: #fe4a49;
-  --green: #49fe7e;
-  --turquoise: #41d3bd;
-  --yellow: #fcba04;
+	--black: #131313;
+	--white: #fefefe;
+	--blue: #232ed1;
+	--red: #fe4a49;
+	--green: #49fe7e;
+	--turquoise: #41d3bd;
+	--yellow: #fcba04;
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
+	list-style-type: none;
+	padding: 0;
 }
 
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  background-color: var(--white);
-  padding: 0;
-  margin: 0;
+	background-color: var(--white);
+	padding: 0;
+	margin: 0;
 }
 
 h1 {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: bold;
-  font-size: 1.5em;
-  text-transform: capitalize;
-  margin: 0;
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	margin: 0;
 }
 
 h2 {
-  font-family: "Avenir Next";
-  font-size: 0.625em;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  font-weight: 500;
-  opacity: 0.6;
-  margin: 0 0 1em 0;
+	font-family: 'Avenir Next';
+	font-size: 0.625em;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	font-weight: 500;
+	opacity: 0.6;
+	margin: 0 0 1em 0;
 }
 
 #menu {
-  background-color: var(--black);
-  height: 100vh;
+	background-color: var(--black);
+	height: 100vh;
 }
 
 nav a {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-  font-weight: bold;
-  font-size: 1.5em;
-  text-transform: capitalize;
-  text-decoration: none;
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	text-decoration: none;
 }
 
 #summary,
@@ -66,10 +66,10 @@ nav a {
 #about,
 #overview,
 #buoySettings {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #summary > article,
@@ -80,8 +80,8 @@ nav a {
 #about > article,
 #overview > article,
 #buoySettings > article {
-  width: calc(100vw - 40px);
-  margin: 0;
+	width: calc(100vw - 40px);
+	margin: 0;
 }
 
 #summary nav a,
@@ -89,27 +89,27 @@ nav a {
 #about nav a,
 #overview nav a,
 #buoySettings nav a {
-  color: var(--black);
+	color: var(--black);
 }
 
 #sit-stand-variety nav a,
 #in-chair-movement nav a {
-  color: var(--white);
+	color: var(--white);
 }
 
 #menu ul {
-  padding-top: 20px;
+	padding-top: 20px;
 }
 
 #menu ul li a {
-  color: var(--white);
+	color: var(--white);
 }
 
 main article nav {
-  position: fixed;
-  width: 100%;
-  height: 128px;
-  padding-top: 20px;
+	position: fixed;
+	width: 100%;
+	height: 128px;
+	padding-top: 20px;
 }
 
 #summary,
@@ -119,62 +119,62 @@ main article nav {
 #overview,
 #overview article nav,
 #buoySettings article nav {
-  background-color: var(--white);
-  color: var(--black);
+	background-color: var(--white);
+	color: var(--black);
 }
 
 #sit-stand-variety,
 #sit-stand-variety article nav {
-  background-color: var(--blue);
-  color: var(--white);
+	background-color: var(--blue);
+	color: var(--white);
 }
 
 #in-chair-movement,
 #in-chair-movement article nav {
-  background-color: var(--red);
-  color: var(--white);
+	background-color: var(--red);
+	color: var(--white);
 }
 
 main article nav a {
-  opacity: 0.5;
-  margin-bottom: 2px;
+	opacity: 0.5;
+	margin-bottom: 2px;
 }
 
 main > a {
-  position: fixed;
-  width: 100vw;
-  height: 4em;
-  bottom: 0;
-  border-radius: 32px 32px 0 0;
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  color: var(--white);
-  text-decoration: none;
-  text-transform: capitalize;
-  padding: 20px 0 0 20px;
+	position: fixed;
+	width: 100vw;
+	height: 4em;
+	bottom: 0;
+	border-radius: 32px 32px 0 0;
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: var(--white);
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 20px 0 0 20px;
 }
 
 main > a img {
-  float: right;
-  margin-right: 20px;
+	float: right;
+	margin-right: 20px;
 }
 
 #summary > a {
-  background-color: var(--blue);
+	background-color: var(--blue);
 }
 
 #sit-stand-variety > a {
-  background-color: var(--red);
+	background-color: var(--red);
 }
 
 #in-chair-movement > a {
-  background-color: var(--white);
-  color: var(--black);
+	background-color: var(--white);
+	color: var(--black);
 }
 
 #buoyVisual {
-  max-width: 190px;
+	max-width: 190px;
 }
 
 #about #illustrationContainerOne,
@@ -184,139 +184,142 @@ main > a img {
 #sitting-posture #sittingPostureMain,
 #userInformation,
 #buoyConnection {
-  margin-top: 128px;
+	margin-top: 128px;
 }
 
 .nextCardIntroduction {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.125em;
-  color: var(--white);
-  margin-top: 2em;
-  margin-bottom: calc(96px + 1em);
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 1.125em;
+	color: var(--white);
+	margin-top: 2em;
+	margin-bottom: calc(96px + 1em);
 }
 
 #sitting-posture .nextCardIntroduction {
-  color: var(--black);
-  margin-bottom: 1em;
+	color: var(--black);
+	margin-bottom: 1em;
 }
 
 #about .illustrationContainer {
-  flex-basis: 100%;
-  display: flex;
-  justify-content: center;
-  height: 20em;
-  margin-top: 3em;
-  background-image: -webkit-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
-  background-image: -moz-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
-  background-image: -ms-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
-  background-image: repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
-  -webkit-background-size: 12px 12px;
-  -moz-background-size: 12px 12px;
-  background-size: 12px 12px;
+	flex-basis: 100%;
+	display: flex;
+	justify-content: center;
+	height: 20em;
+	margin-top: 3em;
+	background-image: -webkit-repeating-radial-gradient(
+		center center,
+		rgba(0, 0, 0, 0.2),
+		rgba(0, 0, 0, 0.2) 1px,
+		transparent 1px,
+		transparent 100%
+	);
+	background-image: -moz-repeating-radial-gradient(
+		center center,
+		rgba(0, 0, 0, 0.2),
+		rgba(0, 0, 0, 0.2) 1px,
+		transparent 1px,
+		transparent 100%
+	);
+	background-image: -ms-repeating-radial-gradient(
+		center center,
+		rgba(0, 0, 0, 0.2),
+		rgba(0, 0, 0, 0.2) 1px,
+		transparent 1px,
+		transparent 100%
+	);
+	background-image: repeating-radial-gradient(
+		center center,
+		rgba(0, 0, 0, 0.2),
+		rgba(0, 0, 0, 0.2) 1px,
+		transparent 1px,
+		transparent 100%
+	);
+	-webkit-background-size: 12px 12px;
+	-moz-background-size: 12px 12px;
+	background-size: 12px 12px;
 }
 
 #about h1:not(:first-of-type) {
-  margin-top: 2em;
+	margin-top: 2em;
 }
 
 #about p {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-  color: var(--black);
-  font-size: 1.5em;
-  font-weight: normal;
-  width: calc(100vw - 40px);
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+	color: var(--black);
+	font-size: 1.5em;
+	font-weight: normal;
+	width: calc(100vw - 40px);
 }
 
 #quickStatusWrapper {
-  width: 5em;
-  display: flex;
-  justify-content: space-between;
+	width: 5em;
+	display: flex;
+	justify-content: space-between;
 }
 
-#quickStatusOne,
-#quickStatusTwo,
-#quickStatusThree {
-  width: 1em;
-  height: 1em;
+#quickStatusOneInsufficient,
+#quickStatusTwoInsufficient,
+#quickStatusThreeInsufficient {
+	background-color: var(--red);
+	width: 1em;
+	height: 1em;
 }
 
-#quickStatusOne {
-  background-color: var(--red);
-}
-
-#quickStatusTwo,
-#quickStatusThree {
-  background-color: var(--green);
+#quickStatusOneSufficient,
+#quickStatusTwoSufficient,
+#quickStatusThreeSufficient {
+	background-color: var(--green);
+	width: 1em;
+	height: 1em;
 }
 
 #summaryMain {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 2em;
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 2em;
 }
 
 #sitStandVarietyMain,
 #inChairMovementMain,
 #sittingPostureMain {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.5em;
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 1.5em;
 }
 
 #summaryMain span,
 #sitStandVarietyMain span,
 #inChairMovementMain span,
 #sittingPostureMain span {
-  font-weight: bold;
+	font-weight: bold;
 }
 
-.statusOne {
-  color: var(--red);
+.statusOneInsufficient,
+.statusTwoInsufficient,
+.statusThreeInsufficient {
+	color: var(--red);
 }
 
-.statusTwo,
-.statusThree {
-  color: var(--green);
+.statusOneSufficient,
+.statusTwoSufficient,
+.statusThreeSufficient {
+	color: var(--green);
 }
 
 .adviceContainer ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .adviceContainer ul li {
-  margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 .adviceContainer ul li:first-of-type {
-  flex-basis: 100%;
+	flex-basis: 100%;
 }
 
 .adviceContainer ul li:not(:first-of-type) {
-  flex-basis: 50%;
+	flex-basis: 50%;
 }
 
 .adviceContainer ul li span,
@@ -324,260 +327,260 @@ main > a img {
 #buoyConnection span,
 #buoyInformation span,
 #doNotDisturb span {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.125em;
-  font-weight: 500;
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 1.125em;
+	font-weight: 500;
 }
 
 .scientificText {
-  width: 100%;
+	width: 100%;
 }
 
 .scientificText h3,
 .scientificText p {
-  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
-  font-weight: normal;
-  font-size: 0.875em;
-  margin: 0;
+	font-family: 'Avenir Next', 'Helvetica Neue', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 0.875em;
+	margin: 0;
 }
 
 .scientificText p {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
 .goalsContainer ul {
-  flex-direction: column;
+	flex-direction: column;
 }
 
 .goalsContainer ul,
 .legendICM ul {
-  display: flex;
-  flex-wrap: nowrap;
-  margin: 0 0 1em 0;
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 0 0 1em 0;
 }
 
 .legendICM ul {
-  margin-top: 1em;
-  flex-direction: row;
+	margin-top: 1em;
+	flex-direction: row;
 }
 
 .goalsContainer ul li,
 .legendICM ul li {
-  display: flex;
-  margin-bottom: 1em;
+	display: flex;
+	margin-bottom: 1em;
 }
 
 .goalsContainer ul li p,
 .legendICM ul li p {
-  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
-  margin: 0;
-  font-size: 0.875em;
-  font-weight: 500;
+	font-family: 'Avenir Next', 'Helvetica Neue', Arial, sans-serif;
+	margin: 0;
+	font-size: 0.875em;
+	font-weight: 500;
 }
 
 .legendICM #sufficientLegend,
 .legendICM #insufficientLegend {
-  width: 8px;
-  height: 8px;
-  margin-top: 6px;
-  margin-right: 0.5em;
+	width: 8px;
+	height: 8px;
+	margin-top: 6px;
+	margin-right: 0.5em;
 }
 
 .legendICM #sufficientLegend {
-  background-color: var(--blue);
+	background-color: var(--blue);
 }
 
 .legendICM #insufficientLegend {
-  border: 2px solid var(--blue);
-  margin-left: 1em;
+	border: 2px solid var(--blue);
+	margin-left: 1em;
 }
 
 #backToTop {
-  background-color: var(--black);
-  border-radius: 0;
-  position: relative;
+	background-color: var(--black);
+	border-radius: 0;
+	position: relative;
 }
 
 .goalsContainer ul li div {
-  margin-right: 1em;
+	margin-right: 1em;
 }
 
 #goalOneCheckbox,
 #goalTwoCheckbox,
 #goalThreeCheckbox {
-  width: 1em;
-  height: 1em;
+	width: 1em;
+	height: 1em;
 }
 
 #goalOneCheckbox {
-  border: 2px solid var(--blue);
+	border: 2px solid var(--blue);
 }
 
 #goalTwoCheckbox {
-  background-color: var(--red);
+	background-color: var(--red);
 }
 
 #goalThreeCheckbox {
-  background-color: var(--turquoise);
+	background-color: var(--turquoise);
 }
 
 .weekProgress {
-  margin-bottom: calc(96px + 2em);
+	margin-bottom: calc(96px + 2em);
 }
 
 #sit-stand-variety {
-  background-color: var(--blue);
+	background-color: var(--blue);
 }
 
 #sit-stand-variety article > img {
-  margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 .scientificText > img {
-  margin-top: 1em;
+	margin-top: 1em;
 }
 
 #userInformation {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 100;
+	display: flex;
+	flex-direction: row;
+	flex-basis: 100;
 }
 
 #userInformation img:first-of-type {
-  width: 128px;
-  height: 128px;
-  border: 2px solid var(--black);
+	width: 128px;
+	height: 128px;
+	border: 2px solid var(--black);
 }
 
 #userInformation ul {
-  margin-left: 1em;
+	margin-left: 1em;
 }
 
 #userInformation li h2 {
-  margin: 0;
+	margin: 0;
 }
 
 #userInformation li {
-  margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 #userInformation .editButtonWhite {
-  margin-top: 6em;
-  margin-left: 3em;
-  order: 0;
+	margin-top: 6em;
+	margin-left: 3em;
+	order: 0;
 }
 
 .editButtonWhite {
-  background-color: var(--black);
-  width: 32px;
-  height: 32px;
+	background-color: var(--black);
+	width: 32px;
+	height: 32px;
 }
 
 .editButtonRed {
-  background-color: var(--white);
-  width: 32px;
-  height: 32px;
+	background-color: var(--white);
+	width: 32px;
+	height: 32px;
 }
 
 .editButtonBlue {
-  background-color: var(--white);
-  width: 32px;
-  height: 32px;
+	background-color: var(--white);
+	width: 32px;
+	height: 32px;
 }
 
 #editButtonGreenBackground {
-  background-color: var(--turquoise);
+	background-color: var(--turquoise);
 }
 
 #userGoals {
-  width: 100vw;
+	width: 100vw;
 }
 
 #userGoals h2 {
-  margin-left: 20px;
-  margin-top: 1em;
+	margin-left: 20px;
+	margin-top: 1em;
 }
 
 #userGoals div {
-  width: 100vw;
+	width: 100vw;
 }
 
 #userGoals div {
-  height: 96px;
-  padding-left: 20px;
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 0.875em;
-  font-weight: 500;
-  border-radius: 32px 32px 0 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+	height: 96px;
+	padding-left: 20px;
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 0.875em;
+	font-weight: 500;
+	border-radius: 32px 32px 0 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 #userGoals div:first-of-type {
-  background-color: var(--blue);
-  color: var(--white);
-  padding-bottom: 2em;
+	background-color: var(--blue);
+	color: var(--white);
+	padding-bottom: 2em;
 }
 
 #userGoals div:nth-child(3) {
-  background-color: var(--red);
-  color: var(--white);
-  margin-top: -32px;
-  padding-bottom: 2em;
+	background-color: var(--red);
+	color: var(--white);
+	margin-top: -32px;
+	padding-bottom: 2em;
 }
 
 #userGoals div:nth-child(4) {
-  background-color: var(--white);
-  color: var(--black);
-  margin-top: -32px;
-  padding-bottom: 2em;
+	background-color: var(--white);
+	color: var(--black);
+	margin-top: -32px;
+	padding-bottom: 2em;
 }
 
 #userGoals img {
-  margin-right: 20px;
+	margin-right: 20px;
 }
 
 #weekProgressOverview {
-  margin-top: 2em;
-  margin-bottom: 0em;
+	margin-top: 2em;
+	margin-bottom: 0em;
 }
 
 #buoyConnection #connectionIndicator {
-  width: 8px;
-  height: 8px;
-  background-color: var(--green);
+	width: 8px;
+	height: 8px;
+	background-color: var(--green);
 }
 
 #buoyConnection ul:first-of-type {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
 #buoyConnection ul:first-of-type li:first-child {
-  flex-basis: 100%;
+	flex-basis: 100%;
 }
 
 #buoyConnection ul:first-of-type li:nth-child(2) {
-  flex-basis: 30%;
+	flex-basis: 30%;
 }
 
 #buoyConnection ul:first-of-type li:nth-child(3) {
-  flex-basis: 60%;
+	flex-basis: 60%;
 }
 
 #buoyConnection ul:first-of-type span {
-  text-transform: capitalize;
+	text-transform: capitalize;
 }
 
 #buoyInformation {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 #buoyInformation ul:nth-child(1) {
-  width: 60%;
+	width: 60%;
 }
